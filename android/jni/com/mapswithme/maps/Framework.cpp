@@ -61,7 +61,7 @@ enum MultiTouchAction
 
 Framework::Framework()
  : m_lastCompass(0.0)
- , m_currentMode(location::MODE_UNKNOWN_POSITION)
+ , m_currentMode(::Framework::DrapeCreationParams::NoInitialPosition)
 {
   ASSERT_EQUAL ( g_framework, 0, () );
   g_framework = this;
@@ -461,12 +461,15 @@ void Framework::SetMyPositionModeListener(location::TMyPositionModeChanged const
 
 location::EMyPositionMode Framework::GetMyPositionMode() const
 {
-  return m_currentMode;
+  if (m_currentMode < 0)
+    return location::MODE_UNKNOWN_POSITION;
+
+  return static_cast<location::EMyPositionMode>(m_currentMode);
 }
 
 void Framework::SetMyPositionMode(location::EMyPositionMode mode)
 {
-  m_currentMode = mode;
+  m_currentMode = static_cast<int>(mode);
 }
 
 void Framework::SetupWidget(gui::EWidget widget, float x, float y, dp::Anchor anchor)

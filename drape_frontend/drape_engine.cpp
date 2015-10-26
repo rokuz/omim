@@ -50,9 +50,12 @@ DrapeEngine::DrapeEngine(Params && params)
   m_textureManager = make_unique_dp<dp::TextureManager>();
   m_threadCommutator = make_unique_dp<ThreadsCommutator>();
 
-  int modeValue = 0;
-  if (!Settings::Get(LocationStateMode, modeValue))
-    modeValue = location::MODE_FOLLOW;
+  int modeValue = params.m_initialMyPositionMode;
+  if (modeValue < 0)
+  {
+    if (!Settings::Get(LocationStateMode, modeValue))
+      modeValue = location::MODE_FOLLOW;
+  }
 
   FrontendRenderer::Params frParams(make_ref(m_threadCommutator), params.m_factory,
                                     make_ref(m_textureManager), m_viewport,
@@ -193,9 +196,9 @@ void DrapeEngine::ModelViewChangedGuiThread(ScreenBase const & screen)
 
 void DrapeEngine::MyPositionModeChanged(location::EMyPositionMode mode)
 {
+  Settings::Set(LocationStateMode, static_cast<int>(mode));
   GetPlatform().RunOnGuiThread([this, mode]()
   {
-    Settings::Set(LocationStateMode, static_cast<int>(mode));
     if (m_myPositionModeChanged != nullptr)
       m_myPositionModeChanged(mode);
   });
@@ -287,13 +290,6 @@ void DrapeEngine::InvalidateMyPosition()
 {
   m_threadCommutator->PostMessage(ThreadsCommutator::RenderThread,
                                   make_unique_dp<ChangeMyPositionModeMessage>(ChangeMyPositionModeMessage::TYPE_INVALIDATE),
-                                  MessagePriority::High);
-}
-
-void DrapeEngine::SetupMyPositionMode(location::EMyPositionMode mode)
-{
-  m_threadCommutator->PostMessage(ThreadsCommutator::RenderThread,
-                                  make_unique_dp<ChangeMyPositionModeMessage>(ChangeMyPositionModeMessage::TYPE_SETUP, -1, mode),
                                   MessagePriority::High);
 }
 
