@@ -72,6 +72,8 @@ public:
 
   void SetSelectionMode(bool mode);
 
+  void RefreshDrawingRules();
+
   static void SetDefaultSurfaceFormat(bool apiOpenGLES3);
 
 protected:
