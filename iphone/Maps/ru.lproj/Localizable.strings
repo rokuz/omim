@@ -1230,7 +1230,8 @@
 
 "search_without_internet_advertisement" = "Для поиска мест и построения маршрутов скачайте карту, и интернет вам больше не понадобится.";
 
-"search_select_map" = "Выбрать карту ";
+"search_select_map" = "Выбрать карту
+";
 
 "search_select_other_map" = "Выбрать другую карту";
 

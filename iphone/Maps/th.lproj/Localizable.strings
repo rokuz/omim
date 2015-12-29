@@ -504,6 +504,7 @@
 /* «Map style» entry value */
 "pref_map_style_night" = "Night";
 
+<<<<<<< b4238751bc1e890b838e60e359c175b15f6551f8
 /* Settings «Map» category: «Perspective view» title */
 "pref_map_3d_title" = "Perspective view";
 
@@ -512,6 +513,10 @@
 
 /* Settings «Map» category: «3D buildings» summary */
 "pref_map_3d_buildings_subtitle" = "Increase battery usage";
+=======
+/* «Map style» entry value */
+"pref_map_style_auto" = "Auto";
+>>>>>>> [android] add: Generated strings.
 
 /* Settings «Route» category: «Tts enabled» title */
 "pref_tts_enable_title" = "คำแนะนำด้วยเสียง";
