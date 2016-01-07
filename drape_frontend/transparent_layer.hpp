@@ -2,6 +2,8 @@
 
 #include "drape/pointers.hpp"
 
+#include "geometry/point2d.hpp"
+
 #include "std/vector.hpp"
 
 namespace dp
@@ -21,7 +23,7 @@ public:
   TransparentLayer();
   ~TransparentLayer();
 
-  void Render(uint32_t textureId, ref_ptr<dp::GpuProgramManager> mng);
+  void Render(uint32_t textureId, m2::PointF const & pixelSize, ref_ptr<dp::GpuProgramManager> mng);
 
 private:
   void Build(ref_ptr<dp::GpuProgram> prg);

@@ -45,7 +45,7 @@ void TransparentLayer::Build(ref_ptr<dp::GpuProgram> prg)
   GLFunctions::glBindBuffer(0, gl_const::GLArrayBuffer);
 }
 
-void TransparentLayer::Render(uint32_t textureId, ref_ptr<dp::GpuProgramManager> mng)
+void TransparentLayer::Render(uint32_t textureId, m2::PointF const & pixelSize, ref_ptr<dp::GpuProgramManager> mng)
 {
   // Unbind current VAO, because glVertexAttributePointer and glEnableVertexAttribute can affect it.
   GLFunctions::glBindVertexArray(0);
@@ -55,6 +55,10 @@ void TransparentLayer::Render(uint32_t textureId, ref_ptr<dp::GpuProgramManager>
 
   if (m_bufferId == 0)
     Build(prg);
+
+  dp::UniformValuesStorage uniforms;
+  uniforms.SetFloatValue("u_pixelSize", pixelSize.x, pixelSize.y);
+  dp::ApplyUniforms(uniforms, prg);
 
   GLFunctions::glActiveTexture(gl_const::GLTexture0);
   GLFunctions::glBindTexture(textureId);

@@ -103,4 +103,10 @@ uint32_t Framebuffer::GetTextureId() const
 {
   return m_colorTextureId;
 }
+
+m2::PointF Framebuffer::GetPixelSize() const
+{
+  return m2::PointF(1.0f / m_width, 1.0f / m_height);
+}
+
 }  // namespace df

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "stdint.h"
+#include "geometry/point2d.hpp"
 
 namespace dp
 {
@@ -25,6 +25,8 @@ public:
   void Disable();
 
   uint32_t GetTextureId() const;
+
+  m2::PointF GetPixelSize() const;
 
 private:
   void Destroy();

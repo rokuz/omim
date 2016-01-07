@@ -838,7 +838,8 @@ void FrontendRenderer::RenderScene(ScreenBase const & modelView)
     m_framebuffer->Disable();
 
     GLFunctions::glDisable(gl_const::GLDepthTest);
-    m_transparentLayer->Render(m_framebuffer->GetTextureId(), make_ref(m_gpuProgramManager));
+    m_transparentLayer->Render(m_framebuffer->GetTextureId(), m_framebuffer->GetPixelSize(),
+                               make_ref(m_gpuProgramManager));
   }
 
   if (hasSelectedPOI)
