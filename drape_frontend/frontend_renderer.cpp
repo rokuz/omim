@@ -719,7 +719,7 @@ void FrontendRenderer::AcceptMessage(ref_ptr<Message> message)
 
   case Message::Invalidate:
     {
-      // Do nothing here, new frame will be rendered because of this message processing.
+      m_myPositionController->ResetRoutingNotFollowTimer();
       break;
     }
 
@@ -1408,6 +1408,11 @@ void FrontendRenderer::OnScaleEnded()
 void FrontendRenderer::OnAnimationStarted(ref_ptr<Animation> anim)
 {
   m_myPositionController->AnimationStarted(anim);
+}
+
+void FrontendRenderer::OnTouchMapAction()
+{
+  m_myPositionController->ResetRoutingNotFollowTimer();
 }
 
 TTilesCollection FrontendRenderer::ResolveTileKeys(ScreenBase const & screen)

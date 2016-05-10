@@ -258,6 +258,8 @@ public:
     virtual void OnScaleEnded() = 0;
 
     virtual void OnAnimationStarted(ref_ptr<Animation> anim) = 0;
+
+    virtual void OnTouchMapAction() = 0;
   };
 
   UserEventStream();
