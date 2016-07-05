@@ -3,7 +3,6 @@
 #include "base/gmtime.hpp"
 #include "base/logging.hpp"
 
-#include "std/chrono.hpp"
 #include "std/iostream.hpp"
 #include "std/sstream.hpp"
 
@@ -98,6 +97,16 @@ void BookingApi::GetMinPrice(string const & hotelId, string const & currency,
   };
 
   m_request.reset(downloader::HttpRequest::Get(url, callback));
+}
+
+void BookingApi::GetBookingDetails(function<void(vector<Details> details)> const & fn)
+{
+  //TODO: implement after server works, a mock for a while
+  system_clock::time_point arrival = system_clock::from_time_t(time(nullptr));
+  system_clock::time_point departure = system_clock::from_time_t(system_clock::to_time_t(arrival + hours(48)));
+  if (fn != nullptr)
+    fn({ Details("1424281", m2::PointD(37.557893526240377, 67.521223481902666), arrival, departure),
+         Details("1504419", m2::PointD(37.53679526997206, 67.527473028953921), arrival, departure)});
 }
 
 string BookingApi::MakeApiUrl(string const & func,

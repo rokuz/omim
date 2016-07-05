@@ -66,6 +66,7 @@
 #include "geometry/rect2d.hpp"
 #include "geometry/triangle2d.hpp"
 
+#include "base/gmtime.hpp"
 #include "base/logging.hpp"
 #include "base/math.hpp"
 #include "base/scope_guard.hpp"
@@ -331,6 +332,10 @@ Framework::Framework()
   m_stringsBundle.SetDefaultString("routing_failed_cross_mwm_building", "Routes can only be created that are fully contained within a single map.");
   m_stringsBundle.SetDefaultString("routing_failed_route_not_found", "There is no route found between the selected origin and destination.Please select a different start or end point.");
   m_stringsBundle.SetDefaultString("routing_failed_internal_error", "Internal error occurred. Please try to delete and download the map again. If problem persist please contact us at support@maps.me.");
+
+  m_stringsBundle.SetDefaultString("booking_category", "Booked hotels");
+  m_stringsBundle.SetDefaultString("booking_title", "Booking");
+  m_stringsBundle.SetDefaultString("booking_desc", "Arrival: %s\nDeparture: %s");
 
   m_model.InitClassificator();
   m_model.SetOnMapDeregisteredCallback(bind(&Framework::OnMapDeregistered, this, _1));
@@ -830,6 +835,84 @@ void Framework::ShowTrack(Track const & track)
 void Framework::ClearBookmarks()
 {
   m_bmManager.ClearItems();
+}
+
+void Framework::UpdateBookings()
+{
+  m_bookingApi.GetBookingDetails([this](vector<BookingApi::Details> details)
+  {
+    UpdateBookingsOnUiThread(move(details));
+  });
+}
+
+void Framework::UpdateBookingsOnUiThread(vector<BookingApi::Details> details)
+{
+  GetPlatform().RunOnGuiThread([this, details]()
+  {
+    UpdateBookingBookmarks(move(details));
+  });
+}
+
+void Framework::UpdateBookingBookmarks(vector<BookingApi::Details> details)
+{
+  if (details.empty())
+    return;
+
+  // Find or create category.
+  string categoryName = m_stringsBundle.GetString("booking_category");
+  int categoryIndex = -1;
+  ASSERT_LESS_OR_EQUAL(GetBmCategoriesCount(), numeric_limits<int>::max(), ());
+  for (size_t i = 0; i < GetBmCategoriesCount(); ++i)
+  {
+    if (GetBmCategory(i)->GetName() == categoryName)
+    {
+      categoryIndex = static_cast<int>(i);
+      break;
+    }
+  }
+  if (categoryIndex == -1)
+    categoryIndex = AddCategory(categoryName);
+
+  // Find new bookings.
+  vector<BookingApi::Details> newBookings;
+  newBookings.reserve(details.size());
+  {
+    BookmarkCategory * cat = GetBmCategory(categoryIndex);
+    BookmarkCategory::Guard guard(*cat);
+    double const kEps = 1e-5;
+    for (BookingApi::Details & bookingDetails : details)
+    {
+      for (size_t i = 0; i < guard.m_controller.GetUserMarkCount(); ++i)
+      {
+        UserMark const * bookmark = guard.m_controller.GetUserMark(i);
+        if (bookmark->GetPivot().EqualDxDy(bookingDetails.m_point, kEps))
+        {
+          newBookings.push_back(move(bookingDetails));
+          break;
+        }
+      }
+    }
+  }
+
+  // Create bookmarks.
+  for (BookingApi::Details & bookingDetails : newBookings)
+  {
+    int constexpr kDateBufferSize = 12;
+    char dateArrival[kDateBufferSize]{};
+    char dateDeparture[kDateBufferSize]{};
+    tm arrival = my::GmTime(system_clock::to_time_t(bookingDetails.m_arrivalDate));
+    tm departure = my::GmTime(system_clock::to_time_t(bookingDetails.m_departureDate));
+    strftime(dateArrival, sizeof(dateArrival), "%Y-%m-%d", &arrival);
+    strftime(dateDeparture, sizeof(dateDeparture), "%Y-%m-%d", &departure);
+
+    int constexpr kBufferSize = 1024;
+    char buffer[kBufferSize];
+    snprintf(buffer, kBufferSize, m_stringsBundle.GetString("booking_desc").c_str(),
+             dateArrival, dateDeparture);
+    string const kBookmarkType = "placemark-blue";
+    BookmarkData bm(m_stringsBundle.GetString("booking_title"), kBookmarkType, string(buffer));
+    AddBookmark(categoryIndex, bookingDetails.m_point, bm);
+  }
 }
 
 namespace

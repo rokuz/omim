@@ -269,11 +269,18 @@ public:
   BookmarkAndCategory FindBookmark(UserMark const * mark) const;
   BookmarkManager & GetBookmarkManager() { return m_bmManager; }
 
+  /// Create/update bookmarks for booked hotels.
+  void UpdateBookings();
+
 private:
   void ActivateMapSelection(bool needAnimation,
                             df::SelectionShape::ESelectedObject selectionType,
                             place_page::Info const & info);
   void InvalidateUserMarks();
+
+  void UpdateBookingsOnUiThread(vector<BookingApi::Details> details);
+  void UpdateBookingBookmarks(vector<BookingApi::Details> details);
+
 public:
   void DeactivateMapSelection(bool notifyUI);
   /// Used to "refresh" UI in some cases (e.g. feature editing).
