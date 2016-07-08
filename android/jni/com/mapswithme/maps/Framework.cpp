@@ -1053,4 +1053,10 @@ Java_com_mapswithme_maps_Framework_nativeGetActiveObjectFormattedCuisine(JNIEnv 
   return jni::ToJavaString(env, g_framework->GetPlacePageInfo().FormatCuisines());
 }
 
+JNIEXPORT void JNICALL
+Java_com_mapswithme_maps_Framework_nativeTryToBookHotel(JNIEnv * env, jclass, jstring jHotelId)
+{
+  frm()->GetBookingCollector().TryToBookHotel(jni::ToNativeString(env, jHotelId));
+}
+
 } // extern "C"

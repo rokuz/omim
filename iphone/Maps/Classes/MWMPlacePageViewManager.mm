@@ -230,6 +230,8 @@ extern NSString * const kBookmarksChangedNotification;
         withParameters:stat
             atLocation:[MWMLocationManager lastLocation]];
 
+  GetFramework().GetBookingCollector().TryToBookHotel(string(en.hotelId.UTF8String));
+
   UIViewController * vc = static_cast<UIViewController *>([MapViewController controller]);
   NSURL * url =
       isDescription

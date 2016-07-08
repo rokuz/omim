@@ -13,6 +13,7 @@ include($$ROOT_DIR/common.pri)
 HEADERS += \
     api_mark_point.hpp \
     booking_api.hpp \
+    booking_collector.hpp \
     bookmark.hpp \
     bookmark_manager.hpp \
     feature_vec_model.hpp \
@@ -35,6 +36,7 @@ SOURCES += \
     address_finder.cpp \
     api_mark_point.cpp \
     booking_api.cpp \
+    booking_collector.cpp \
     bookmark.cpp \
     bookmark_manager.cpp \
     feature_vec_model.cpp \

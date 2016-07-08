@@ -334,8 +334,7 @@ Framework::Framework()
   m_stringsBundle.SetDefaultString("routing_failed_internal_error", "Internal error occurred. Please try to delete and download the map again. If problem persist please contact us at support@maps.me.");
 
   m_stringsBundle.SetDefaultString("booking_category", "Booked hotels");
-  m_stringsBundle.SetDefaultString("booking_title", "Booking");
-  m_stringsBundle.SetDefaultString("booking_desc", "Arrival: %s\nDeparture: %s");
+  //m_stringsBundle.SetDefaultString("booking_desc", "Arrival: %s\nDeparture: %s");
 
   m_model.InitClassificator();
   m_model.SetOnMapDeregisteredCallback(bind(&Framework::OnMapDeregistered, this, _1));
@@ -839,21 +838,30 @@ void Framework::ClearBookmarks()
 
 void Framework::UpdateBookings()
 {
-  m_bookingApi.GetBookingDetails([this](vector<BookingApi::Details> details)
+  BookingCollector::Data data = m_bookingCollector.CollectData();
+  if (data.m_hotelIds.empty())
+    return;
+
+  m_bookingApi.GetBookingDetails(data.m_timestampBegin, data.m_timestampEnd, data.m_hotelIds,
+                                 [this, data](vector<BookingApi::Details> const & details, bool success)
   {
-    UpdateBookingsOnUiThread(move(details));
+    UpdateBookingsOnUiThread(details, data, success);
   });
 }
 
-void Framework::UpdateBookingsOnUiThread(vector<BookingApi::Details> details)
+void Framework::UpdateBookingsOnUiThread(vector<BookingApi::Details> const & details,
+                                         BookingCollector::Data const & data, bool success)
 {
-  GetPlatform().RunOnGuiThread([this, details]()
+  GetPlatform().RunOnGuiThread([this, details, data, success]()
   {
-    UpdateBookingBookmarks(move(details));
+    if (success)
+      UpdateBookingBookmarks(details);
+    else
+      m_bookingCollector.RestoreData(data);
   });
 }
 
-void Framework::UpdateBookingBookmarks(vector<BookingApi::Details> details)
+void Framework::UpdateBookingBookmarks(vector<BookingApi::Details> const & details)
 {
   if (details.empty())
     return;
@@ -880,39 +888,64 @@ void Framework::UpdateBookingBookmarks(vector<BookingApi::Details> details)
     BookmarkCategory * cat = GetBmCategory(categoryIndex);
     BookmarkCategory::Guard guard(*cat);
     double const kEps = 1e-5;
-    for (BookingApi::Details & bookingDetails : details)
+    for (BookingApi::Details const & bookingDetails : details)
     {
+      bool isNewBooking = true;
       for (size_t i = 0; i < guard.m_controller.GetUserMarkCount(); ++i)
       {
         UserMark const * bookmark = guard.m_controller.GetUserMark(i);
         if (bookmark->GetPivot().EqualDxDy(bookingDetails.m_point, kEps))
         {
-          newBookings.push_back(move(bookingDetails));
+          isNewBooking = false;
           break;
         }
       }
+      if (isNewBooking)
+        newBookings.push_back(bookingDetails);
     }
   }
 
   // Create bookmarks.
-  for (BookingApi::Details & bookingDetails : newBookings)
+  for (BookingApi::Details const & bookingDetails : newBookings)
   {
-    int constexpr kDateBufferSize = 12;
-    char dateArrival[kDateBufferSize]{};
-    char dateDeparture[kDateBufferSize]{};
-    tm arrival = my::GmTime(system_clock::to_time_t(bookingDetails.m_arrivalDate));
-    tm departure = my::GmTime(system_clock::to_time_t(bookingDetails.m_departureDate));
-    strftime(dateArrival, sizeof(dateArrival), "%Y-%m-%d", &arrival);
-    strftime(dateDeparture, sizeof(dateDeparture), "%Y-%m-%d", &departure);
+    // TODO: Now we do not show additional information, because we aren't able to
+    // determine user's booking precisely.
+    string desc;
+    //int constexpr kDateBufferSize = 12;
+    //string const kFormat = "%Y-%m-%d";
+    //string const dateArrival = strings::FromTimePoint<kDateBufferSize>(bookingDetails.m_arrivalDate, kFormat);
+    //string const dateDeparture = strings::FromTimePoint<kDateBufferSize>(bookingDetails.m_departureDate, kFormat);
 
-    int constexpr kBufferSize = 1024;
-    char buffer[kBufferSize];
-    snprintf(buffer, kBufferSize, m_stringsBundle.GetString("booking_desc").c_str(),
-             dateArrival, dateDeparture);
-    string const kBookmarkType = "placemark-blue";
-    BookmarkData bm(m_stringsBundle.GetString("booking_title"), kBookmarkType, string(buffer));
+    //int constexpr kBufferSize = 1024;
+    //char buffer[kBufferSize];
+    //snprintf(buffer, kBufferSize, m_stringsBundle.GetString("booking_desc").c_str(),
+    //         dateArrival.c_str(), dateDeparture.c_str());
+    //desc = buffer;
+
+    string bookmarkTitle = GetBookingBookmarkTitle(bookingDetails.m_point);
+    if (bookmarkTitle.empty())
+      continue;
+    string const kBookmarkType = "placemark-hotel";
+    BookmarkData bm(bookmarkTitle, kBookmarkType, desc);
     AddBookmark(categoryIndex, bookingDetails.m_point, bm);
   }
+}
+
+string Framework::GetBookingBookmarkTitle(m2::PointD const & pt)
+{
+  string result;
+  constexpr int kScale = scales::GetUpperScale();
+  constexpr double kSelectRectWidthInMeters = 1.0;
+  m2::RectD const rect = MercatorBounds::RectByCenterXYAndSizeInMeters(pt, kSelectRectWidthInMeters);
+  int8_t langCode = StringUtf8Multilang::GetLangIndex(languages::GetCurrentNorm());
+  if (langCode == StringUtf8Multilang::kUnsupportedLanguageCode)
+    langCode = StringUtf8Multilang::kDefaultCode;
+  m_model.ForEachFeature(rect, [&](FeatureType & ft)
+  {
+    if (result.empty() && ftypes::IsBookingChecker::Instance()(ft))
+      ft.GetName(langCode, result);
+  }, kScale);
+  return result;
 }
 
 namespace
@@ -1326,6 +1359,8 @@ void Framework::EnterBackground()
 
   SaveViewport();
 
+  m_bookingCollector.Serialize();
+
   ms::LatLon const ll = MercatorBounds::ToLatLon(GetViewportCenter());
   alohalytics::Stats::Instance().LogEvent("Framework::EnterBackground", {{"zoom", strings::to_string(GetDrawScale())},
                                           {"foregroundSeconds", strings::to_string(
@@ -1341,6 +1376,9 @@ void Framework::EnterBackground()
 
 void Framework::EnterForeground()
 {
+  m_bookingCollector.Deserialize();
+  UpdateBookings();
+
   m_startForegroundTime = my::Timer::LocalTime();
   double const time = m_startForegroundTime - m_startBackgroundTime;
   CallDrapeFunction(bind(&df::DrapeEngine::SetTimeInBackground, _1, time));
