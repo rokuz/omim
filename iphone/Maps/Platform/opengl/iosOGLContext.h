@@ -33,9 +33,13 @@ private:
   bool m_hasBuffers;
 
   GLuint m_renderBufferId;
+  GLuint m_msaaRenderBufferId;
   GLuint m_depthBufferId;
   GLuint m_frameBufferId;
+  GLuint m_msaaFrameBufferId;
   //@} buffers
+  
+  bool m_msaaEnabled;
   
   atomic<bool> m_presentAvailable;
 };
