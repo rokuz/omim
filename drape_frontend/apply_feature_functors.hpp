@@ -163,4 +163,6 @@ private:
 #endif
 };
 
+extern dp::Color ToDrapeColor(uint32_t src);
+
 } // namespace df

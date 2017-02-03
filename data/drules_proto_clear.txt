@@ -75951,3 +75951,169 @@ cont {
     }
   }
 }
+colors {
+  colors {
+    name: "RoadShieldGreenText"
+    color: 16777215
+  }
+  colors {
+    name: "TrackUnknownDistance"
+    color: 6381921
+  }
+  colors {
+    name: "MyPositionAccuracy"
+    color: 3942645760
+  }
+  colors {
+    name: "GuiText"
+    color: 609045837
+  }
+  colors {
+    name: "PoiHotelTextOutline"
+    color: 1728053247
+  }
+  colors {
+    name: "RoadShieldAddText"
+    color: 0
+  }
+  colors {
+    name: "RoadShieldAddTextOutline"
+    color: 16777215
+  }
+  colors {
+    name: "PoiDeletedMask"
+    color: 3019898879
+  }
+  colors {
+    name: "RoadShieldBlueBackground"
+    color: 3043273
+  }
+  colors {
+    name: "TrackHumanSpeed"
+    color: 1913758
+  }
+  colors {
+    name: "RoadShieldUSInterstateText"
+    color: 16777215
+  }
+  colors {
+    name: "TrafficArrowDark"
+    color: 7033108
+  }
+  colors {
+    name: "RoadShieldBlueText"
+    color: 16777215
+  }
+  colors {
+    name: "RoutePedestrian"
+    color: 857551774
+  }
+  colors {
+    name: "Arrow3DOutline"
+    color: 16777215
+  }
+  colors {
+    name: "RouteTrafficG0"
+    color: 10167040
+  }
+  colors {
+    name: "Arrow3DShadow"
+    color: 3258727484
+  }
+  colors {
+    name: "Route"
+    color: 34815
+  }
+  colors {
+    name: "RouteOutline"
+    color: 352205
+  }
+  colors {
+    name: "RoadShieldUSHighwayText"
+    color: 0
+  }
+  colors {
+    name: "TrackPlaneSpeed"
+    color: 705791
+  }
+  colors {
+    name: "TrafficG0"
+    color: 10167045
+  }
+  colors {
+    name: "Arrow3D"
+    color: 5286655
+  }
+  colors {
+    name: "TrafficG3"
+    color: 2163913763
+  }
+  colors {
+    name: "TrafficG2"
+    color: 15088695
+  }
+  colors {
+    name: "TrafficG1"
+    color: 15088695
+  }
+  colors {
+    name: "TrackCarSpeed"
+    color: 1407476
+  }
+  colors {
+    name: "TrafficTempBlock"
+    color: 4605510
+  }
+  colors {
+    name: "TrafficG5"
+    color: 4622165
+  }
+  colors {
+    name: "Selection"
+    color: 1545508592
+  }
+  colors {
+    name: "Arrow3DObsolete"
+    color: 1216522952
+  }
+  colors {
+    name: "TrafficUnknown"
+    color: 4278190080
+  }
+  colors {
+    name: "TrafficG4"
+    color: 10202935
+  }
+  colors {
+    name: "RoadShieldGreenBackground"
+    color: 2257467
+  }
+  colors {
+    name: "TrafficArrowLight"
+    color: 16777215
+  }
+  colors {
+    name: "RouteTrafficG1"
+    color: 15744010
+  }
+  colors {
+    name: "RoadShieldUKGreenText"
+    color: 16764006
+  }
+  colors {
+    name: "RouteTrafficG3"
+    color: 2163595048
+  }
+  colors {
+    name: "RouteTrafficG2"
+    color: 15744010
+  }
+  colors {
+    name: "RouteBicycle"
+    color: 865871792
+  }
+  colors {
+    name: "TrafficOutline"
+    color: 16777215
+  }
+}
