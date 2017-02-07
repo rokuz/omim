@@ -656,7 +656,7 @@ void MainWindow::OnBuildStyle()
       QMainWindow::close();
     }
   }
-  catch (exception & e)
+  catch (std::exception & e)
   {
     QMessageBox msgBox;
     msgBox.setWindowTitle("Error");
@@ -682,7 +682,7 @@ void MainWindow::OnRecalculateGeomIndex()
       QMainWindow::close();
     }
   }
-  catch (exception & e)
+  catch (std::exception & e)
   {
     QMessageBox msgBox;
     msgBox.setWindowTitle("Error");
@@ -708,7 +708,7 @@ void MainWindow::OnGetStatistics()
     InfoDialog dlg(QString("Style statistics"), text, NULL);
     dlg.exec();
   }
-  catch (exception & e)
+  catch (std::exception & e)
   {
     QMessageBox msgBox;
     msgBox.setWindowTitle("Error");
@@ -727,7 +727,7 @@ void MainWindow::OnRunTests()
     InfoDialog dlg(QString("Style tests: ") + (res.first ? "OK" : "FAILED"), res.second, NULL);
     dlg.exec();
   }
-  catch (exception & e)
+  catch (std::exception & e)
   {
     QMessageBox msgBox;
     msgBox.setWindowTitle("Error");
