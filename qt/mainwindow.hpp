@@ -37,11 +37,6 @@ namespace qt
     QAction * m_trafficEnableAction;
     QAction * m_saveTrafficSampleAction;
     QAction * m_quitTrafficModeAction;
-    QAction * m_pBuildStyleAction;
-    QAction * m_pRecalculateGeomIndex;
-    QAction * m_pDrawDebugRectAction;
-    QAction * m_pGetStatisticsAction;
-    QAction * m_pRunTestsAction;
     DrawWidget * m_pDrawWidget;
 
     // TODO(mgsergio): Make indexing more informative.
@@ -56,9 +51,17 @@ namespace qt
 
     // This object is managed by Qt memory system.
     TrafficMode * m_trafficMode = nullptr;
-    QString const m_mapcssFilePath;
 
-    Q_OBJECT
+#ifdef BUILD_DESIGNER
+    QString const m_mapcssFilePath;
+    QAction * m_pBuildStyleAction;
+    QAction * m_pRecalculateGeomIndex;
+    QAction * m_pDrawDebugRectAction;
+    QAction * m_pGetStatisticsAction;
+    QAction * m_pRunTestsAction;
+#endif
+
+Q_OBJECT
 
   public:
     MainWindow(Framework & framework, bool apiOpenGLES3, QString const & mapcssFilePath = QString());
@@ -70,8 +73,6 @@ namespace qt
     static void SetDefaultSurfaceFormat(bool apiOpenGLES3);
 
   protected:
-    string GetIniFile();
-
     void LocationStateModeChanged(location::EMyPositionMode mode);
 
   protected:
