@@ -59,6 +59,7 @@ namespace qt
     QAction * m_pDrawDebugRectAction;
     QAction * m_pGetStatisticsAction;
     QAction * m_pRunTestsAction;
+    QAction * m_pBuildPhonePackAction;
 #endif
 
 Q_OBJECT
@@ -124,6 +125,7 @@ Q_OBJECT
     void OnDebugStyle();
     void OnGetStatistics();
     void OnRunTests();
+    void OnBuildPhonePackage();
 #endif // BUILD_DESIGNER
   };
 }
