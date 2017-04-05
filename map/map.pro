@@ -28,6 +28,7 @@ HEADERS += \
     gps_track_storage.hpp \
     gps_tracker.hpp \
     local_ads_manager.hpp \
+    local_ads_statistics.hpp \
     mwm_url.hpp \
     place_page_info.hpp \
     reachable_by_taxi_checker.hpp \
@@ -55,6 +56,7 @@ SOURCES += \
     gps_track_storage.cpp \
     gps_tracker.cpp \
     local_ads_manager.cpp \
+    local_ads_statistics.cpp \
     mwm_url.cpp \
     place_page_info.cpp \
     reachable_by_taxi_checker.cpp \

@@ -45,6 +45,8 @@ set(
   gps_tracker.hpp
   local_ads_manager.cpp
   local_ads_manager.hpp
+  local_ads_statistics.cpp
+  local_ads_statistics.hpp
   mwm_url.cpp
   mwm_url.hpp
   place_page_info.cpp

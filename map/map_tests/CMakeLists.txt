@@ -14,6 +14,7 @@ set(
   gps_track_storage_test.cpp
   gps_track_test.cpp
   kmz_unarchive_test.cpp
+  local_ads_statistics_tests.cpp
   mwm_url_tests.cpp
   working_time_tests.cpp
 )

@@ -14,9 +14,9 @@ struct OverlayShowEvent
 {
   FeatureID m_feature;
   int m_zoomLevel;
-  std::chrono::system_clock::time_point m_timestamp;
+  std::chrono::steady_clock::time_point m_timestamp;
   OverlayShowEvent(FeatureID const & feature, int zoomLevel,
-                   std::chrono::system_clock::time_point const & timestamp)
+                   std::chrono::steady_clock::time_point const & timestamp)
     : m_feature(feature)
     , m_zoomLevel(zoomLevel)
     , m_timestamp(timestamp)

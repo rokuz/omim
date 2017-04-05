@@ -37,7 +37,7 @@ void OverlaysTracker::Track(FeatureID const & fid)
   if (it->second.m_status == OverlayStatus::Invisible)
   {
     it->second.m_status = OverlayStatus::Visible;
-    m_events.emplace_back(it->first, m_zoomLevel, std::chrono::system_clock::now());
+    m_events.emplace_back(it->first, m_zoomLevel, std::chrono::steady_clock::now());
   }
 }
 
