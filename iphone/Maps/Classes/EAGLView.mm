@@ -59,10 +59,22 @@ double getExactDPI(double contentScaleFactor)
   return self;
 }
 
+- (dp::ApiVersion)getSupportedApiVersion
+{
+  dp::ApiVersion apiVersion = dp::ApiVersion::OpenGLES2;
+  EAGLContext * tempContext = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES3];
+  if (tempContext != nil)
+  {
+    tempContext = nil;
+    apiVersion = dp::ApiVersion::OpenGLES3;
+  }
+  return apiVersion;
+}
+
 - (void)initialize
 {
   lastViewSize = CGRectZero;
-  m_apiVersion = dp::ApiVersion::OpenGLES2; //TODO: check supported version
+  m_apiVersion = [self getSupportedApiVersion];
 
   // Setup Layer Properties
   CAEAGLLayer * eaglLayer = (CAEAGLLayer *)self.layer;

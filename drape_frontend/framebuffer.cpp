@@ -58,7 +58,7 @@ void Framebuffer::SetSize(uint32_t width, uint32_t height)
 
   m_colorTextureId = GLFunctions::glGenTexture();
   GLFunctions::glBindTexture(m_colorTextureId);
-  GLFunctions::glTexImage2D(m_width, m_height, gl_const::GLRGBA, gl_const::GLUnsignedByteType, NULL);
+  GLFunctions::glTexImage2D(m_width, m_height, gl_const::GLRGBA, gl_const::GLUnsignedByteType, nullptr);
   GLFunctions::glTexParameter(gl_const::GLMagFilter, gl_const::GLLinear);
   GLFunctions::glTexParameter(gl_const::GLMinFilter, gl_const::GLLinear);
   GLFunctions::glTexParameter(gl_const::GLWrapT, gl_const::GLClampToEdge);
@@ -66,8 +66,15 @@ void Framebuffer::SetSize(uint32_t width, uint32_t height)
 
   m_depthTextureId = GLFunctions::glGenTexture();
   GLFunctions::glBindTexture(m_depthTextureId);
-  GLFunctions::glTexImage2D(m_width, m_height, gl_const::GLDepthComponent, gl_const::GLUnsignedIntType, NULL);
-
+  GLFunctions::glTexImage2D(m_width, m_height, gl_const::GLDepthComponent, gl_const::GLUnsignedIntType, nullptr);
+  if (GLFunctions::CurrentApiVersion == dp::ApiVersion::OpenGLES3)
+  {
+    GLFunctions::glTexParameter(gl_const::GLMagFilter, gl_const::GLNearest);
+    GLFunctions::glTexParameter(gl_const::GLMinFilter, gl_const::GLNearest);
+    GLFunctions::glTexParameter(gl_const::GLWrapT, gl_const::GLClampToEdge);
+    GLFunctions::glTexParameter(gl_const::GLWrapS, gl_const::GLClampToEdge);
+  }
+  
   GLFunctions::glBindTexture(0);
 
   GLFunctions::glGenFramebuffer(&m_framebufferId);

@@ -6,7 +6,8 @@
 
 iosOGLContext::iosOGLContext(CAEAGLLayer * layer, dp::ApiVersion apiVersion,
                              iosOGLContext * contextToShareWith, bool needBuffers)
-  : m_layer(layer)
+  : m_apiVersion(apiVersion)
+  , m_layer(layer)
   , m_nativeContext(NULL)
   , m_needBuffers(needBuffers)
   , m_hasBuffers(false)
@@ -16,7 +17,7 @@ iosOGLContext::iosOGLContext(CAEAGLLayer * layer, dp::ApiVersion apiVersion,
   , m_presentAvailable(true)
 {
   EAGLRenderingAPI api;
-  if (apiVersion == dp::ApiVersion::OpenGLES3)
+  if (m_apiVersion == dp::ApiVersion::OpenGLES3)
     api = kEAGLRenderingAPIOpenGLES3;
   else
     api = kEAGLRenderingAPIOpenGLES2;
@@ -54,14 +55,20 @@ void iosOGLContext::present()
   ASSERT(m_nativeContext != NULL, ());
   ASSERT(m_renderBufferId, ());
   GLenum const discards[] = { GL_DEPTH_ATTACHMENT, GL_COLOR_ATTACHMENT0 };
-  GLCHECK(glDiscardFramebufferEXT(GL_FRAMEBUFFER, 1, discards));
+  if (m_apiVersion == dp::ApiVersion::OpenGLES3)
+    GLCHECK(glInvalidateFramebuffer(GL_FRAMEBUFFER, 1, discards));
+  else
+    GLCHECK(glDiscardFramebufferEXT(GL_FRAMEBUFFER, 1, discards));
 
   glBindRenderbuffer(GL_RENDERBUFFER, m_renderBufferId);
   
   if (m_presentAvailable)
     [m_nativeContext presentRenderbuffer: GL_RENDERBUFFER];
 
-  GLCHECK(glDiscardFramebufferEXT(GL_FRAMEBUFFER, 1, discards + 1));
+  if (m_apiVersion == dp::ApiVersion::OpenGLES3)
+    GLCHECK(glInvalidateFramebuffer(GL_FRAMEBUFFER, 1, discards + 1));
+  else
+    GLCHECK(glDiscardFramebufferEXT(GL_FRAMEBUFFER, 1, discards + 1));
 }
 
 void iosOGLContext::setDefaultFramebuffer()

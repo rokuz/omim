@@ -191,7 +191,7 @@ TglGetStringiFn glGetStringiFn = nullptr;
   #define GL_NUM_EXTENSIONS 0x821D
 #endif
 
-threads::Mutex s_mutex;
+std::mutex s_mutex;
 bool s_inited = false;
 
 class GLFunctionsCache
@@ -352,7 +352,7 @@ GLFunctionsCache s_cache;
 
 #ifdef OMIM_OS_WINDOWS
 template <typename TFunc>
-TFunc LoadExtension(string const & ext)
+TFunc LoadExtension(std::string const & ext)
 {
   TFunc func = reinterpret_cast<TFunc>(wglGetProcAddress(ext.c_str()));
   if (func == nullptr)
@@ -370,7 +370,7 @@ TFunc LoadExtension(string const & ext)
 
 void GLFunctions::Init(dp::ApiVersion apiVersion)
 {
-  threads::MutexGuard g(s_mutex);
+  std::lock_guard<std::mutex> lock(s_mutex);
   if (s_inited)
     return;
 
@@ -391,7 +391,7 @@ void GLFunctions::Init(dp::ApiVersion apiVersion)
   glMapBufferFn = &::glMapBuffer;
   glUnmapBufferFn = &::glUnmapBuffer;
 #elif defined(OMIM_OS_ANDROID)
-  if (apiVersion == dp::ApiVersion::OpenGLES2)
+  if (CurrentApiVersion == dp::ApiVersion::OpenGLES2)
   {
     glGenVertexArraysFn = (TglGenVertexArraysFn)eglGetProcAddress("glGenVertexArraysOES");
     glBindVertexArrayFn = (TglBindVertexArrayFn)eglGetProcAddress("glBindVertexArrayOES");
@@ -402,7 +402,7 @@ void GLFunctions::Init(dp::ApiVersion apiVersion)
     glFlushMappedBufferRangeFn =
         (TglFlushMappedBufferRangeFn)eglGetProcAddress("glFlushMappedBufferRangeEXT");
   }
-  else if (apiVersion == dp::ApiVersion::OpenGLES3)
+  else if (CurrentApiVersion == dp::ApiVersion::OpenGLES3)
   {
     glGenVertexArraysFn = ::glGenVertexArrays;
     glBindVertexArrayFn = ::glBindVertexArray;
@@ -417,7 +417,7 @@ void GLFunctions::Init(dp::ApiVersion apiVersion)
     ASSERT(false, ("Unknown Graphics API"));
   }
 #elif defined(OMIM_OS_MOBILE)
-  if (apiVersion == dp::ApiVersion::OpenGLES2)
+  if (CurrentApiVersion == dp::ApiVersion::OpenGLES2)
   {
     glGenVertexArraysFn = &glGenVertexArraysOES;
     glBindVertexArrayFn = &glBindVertexArrayOES;
@@ -427,7 +427,7 @@ void GLFunctions::Init(dp::ApiVersion apiVersion)
     glMapBufferRangeFn = &::glMapBufferRangeEXT;
     glFlushMappedBufferRangeFn = &::glFlushMappedBufferRangeEXT;
   }
-  else if (apiVersion == dp::ApiVersion::OpenGLES3)
+  else if (CurrentApiVersion == dp::ApiVersion::OpenGLES3)
   {
     glGenVertexArraysFn = &::glGenVertexArrays;
     glBindVertexArrayFn = &::glBindVertexArray;
@@ -441,7 +441,6 @@ void GLFunctions::Init(dp::ApiVersion apiVersion)
   {
     ASSERT(false, ("Unknown Graphics API"));
   }
-}
 #elif defined(OMIM_OS_WINDOWS)
   if (dp::GLExtensionsList::Instance().IsSupported(dp::GLExtensionsList::VertexArrayObject))
   {
@@ -524,7 +523,7 @@ void GLFunctions::Init(dp::ApiVersion apiVersion)
 }
 
 void GLFunctions::AttachCache(std::thread::id const & threadId) { s_cache.SetThread(threadId); }
-bool GLFunctions::glHasExtension(string const & name)
+bool GLFunctions::glHasExtension(std::string const & name)
 {
   if (CurrentApiVersion == dp::ApiVersion::OpenGLES2)
   {
@@ -611,14 +610,14 @@ int32_t GLFunctions::glGetInteger(glConst pname)
   return (int32_t)value;
 }
 
-string GLFunctions::glGetString(glConst pname)
+std::string GLFunctions::glGetString(glConst pname)
 {
   char const * str = reinterpret_cast<char const *>(::glGetString(pname));
   GLCHECKCALL();
   if (str == nullptr)
     return "";
 
-  return string(str);
+  return std::string(str);
 }
 
 int32_t GLFunctions::glGetMaxLineWidth()
@@ -763,13 +762,26 @@ uint32_t GLFunctions::glCreateShader(glConst type)
   return result;
 }
 
-void GLFunctions::glShaderSource(uint32_t shaderID, string const & src, string const & defines)
+void GLFunctions::glShaderSource(uint32_t shaderID, std::string const & src, std::string const & defines)
 {
   ASSERT(glShaderSourceFn != nullptr, ());
-  GLchar const * source[2] = {defines.c_str(), src.c_str()};
-
-  GLint lengths[2] = {static_cast<GLint>(defines.size()), static_cast<GLint>(src.size())};
-  GLCHECK(glShaderSourceFn(shaderID, 2, source, lengths));
+  
+  std::string fullSrc;
+  if (src.find("#version") != std::string::npos)
+  {
+    auto pos = src.find('\n');
+    ASSERT_NOT_EQUAL(pos, std::string::npos, ());
+    fullSrc = src;
+    fullSrc.insert(pos + 1, defines);
+  }
+  else
+  {
+    fullSrc = defines + src;
+  }
+  
+  GLchar const * source[1] = {fullSrc.c_str()};
+  GLint lengths[1] = {static_cast<GLint>(fullSrc.size())};
+  GLCHECK(glShaderSourceFn(shaderID, 1, source, lengths));
 }
 
 bool GLFunctions::glCompileShader(uint32_t shaderID, std::string & errorLog)
@@ -844,7 +856,7 @@ void GLFunctions::glDeleteProgram(uint32_t programID)
 }
 
 void GLFunctions::glUseProgram(uint32_t programID) { s_cache.glUseProgram(programID); }
-int8_t GLFunctions::glGetAttribLocation(uint32_t programID, string const & name)
+int8_t GLFunctions::glGetAttribLocation(uint32_t programID, std::string const & name)
 {
   ASSERT(glGetAttribLocationFn != nullptr, ());
   int result = glGetAttribLocationFn(programID, name.c_str());
@@ -853,7 +865,7 @@ int8_t GLFunctions::glGetAttribLocation(uint32_t programID, string const & name)
   return static_cast<int8_t>(result);
 }
 
-void GLFunctions::glBindAttribLocation(uint32_t programID, uint8_t index, string const & name)
+void GLFunctions::glBindAttribLocation(uint32_t programID, uint8_t index, std::string const & name)
 {
   ASSERT(glBindAttribLocationFn != nullptr, ());
   GLCHECK(glBindAttribLocationFn(programID, index, name.c_str()));
@@ -874,7 +886,7 @@ void GLFunctions::glVertexAttributePointer(int attrLocation, uint32_t count, glC
 }
 
 void GLFunctions::glGetActiveUniform(uint32_t programID, uint32_t uniformIndex,
-                                     int32_t * uniformSize, glConst * type, string & name)
+                                     int32_t * uniformSize, glConst * type, std::string & name)
 {
   ASSERT(glGetActiveUniformFn != nullptr, ());
   GLchar buff[256];
@@ -883,7 +895,7 @@ void GLFunctions::glGetActiveUniform(uint32_t programID, uint32_t uniformIndex,
   name = buff;
 }
 
-int8_t GLFunctions::glGetUniformLocation(uint32_t programID, string const & name)
+int8_t GLFunctions::glGetUniformLocation(uint32_t programID, std::string const & name)
 {
   ASSERT(glGetUniformLocationFn != nullptr, ());
   int result = glGetUniformLocationFn(programID, name.c_str());
@@ -994,9 +1006,29 @@ void GLFunctions::glBindTexture(uint32_t textureID) { s_cache.glBindTexture(text
 void GLFunctions::glTexImage2D(int width, int height, glConst layout, glConst pixelType,
                                void const * data)
 {
-  // NOTE we can't create unsized GL_RED texture on OpenGL ES 3, so we use GL_R8 as workaround.
-  GLCHECK(::glTexImage2D(GL_TEXTURE_2D, 0, layout == gl_const::GLRed ? GL_R8 : layout, width,
-                         height, 0, layout, pixelType, data));
+  // In OpenGL ES3:
+  // - we can't create unsized GL_RED texture, so we use GL_R8;
+  // - we can't create unsized GL_DEPTH_COMPONENT texture, so we use GL_DEPTH_COMPONENT16
+  //   or GL_DEPTH_COMPONENT24 or GL_DEPTH_COMPONENT32F.
+  glConst internalFormat = layout;
+  if (CurrentApiVersion == dp::ApiVersion::OpenGLES3)
+  {
+    if (layout == gl_const::GLRed)
+    {
+      internalFormat = GL_R8;
+    }
+    else if (layout == gl_const::GLDepthComponent)
+    {
+      internalFormat = GL_DEPTH_COMPONENT16;
+      if (pixelType == gl_const::GLUnsignedIntType)
+        internalFormat = GL_DEPTH_COMPONENT24;
+      else if (pixelType == gl_const::GLFloatType)
+        internalFormat = GL_DEPTH_COMPONENT32F;
+    }
+  }
+
+  GLCHECK(
+      ::glTexImage2D(GL_TEXTURE_2D, 0, internalFormat, width, height, 0, layout, pixelType, data));
 }
 
 void GLFunctions::glTexSubImage2D(int x, int y, int width, int height, glConst layout,
@@ -1058,7 +1090,7 @@ uint32_t GLFunctions::glCheckFramebufferStatus()
 void GLFunctions::glLineWidth(uint32_t value) { s_cache.glLineWidth(value); }
 namespace
 {
-string GetGLError(GLenum error)
+std::string GetGLError(GLenum error)
 {
   switch (error)
   {

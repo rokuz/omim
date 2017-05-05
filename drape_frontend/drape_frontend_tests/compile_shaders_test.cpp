@@ -27,14 +27,6 @@ std::string const kCompilerOpenGLES3 = "GLSLESCompiler_Series6.mac";
 std::string const kCompilerMaliOpenGLES3 = kMaliCompilerOpenGLES3Dir + "/malisc";
 
 std::string DebugPrint(QString const & s) { return s.toStdString(); }
-std::string DebugPrint(dp::ApiVersion apiVersion)
-{
-  if (apiVersion == dp::OpenGLES2)
-    return "OpenGLES2";
-  else if (apiVersion == dp::OpenGLES3)
-    return "OpenGLES3";
-  return "Unknown";
-}
 
 namespace
 {
@@ -139,7 +131,8 @@ UNIT_TEST(CompileShaders_Test)
       args << fileName << fileName + ".bin" << shaderType;
     };
 
-    string defines = "";
+    std::string const defines =
+        compiler.m_apiVersion == dp::ApiVersion::OpenGLES3 ? "#define GLES3\n" : "";
     ForEachShader(compiler.m_apiVersion, defines, gpu::GetVertexShaders(compiler.m_apiVersion),
                   compilerPath, [](QProcess const &) {}, argsPrepareFn, successComparator, ss);
     shaderType = "-f";
@@ -148,27 +141,27 @@ UNIT_TEST(CompileShaders_Test)
 
     TEST_EQUAL(errorLog.isEmpty(), true, ("PVR without defines :", errorLog));
 
-    defines = "#define ENABLE_VTF\n";
+    std::string const defines2 = defines + "#define ENABLE_VTF\n";
     errorLog.clear();
     shaderType = "-v";
-    ForEachShader(compiler.m_apiVersion, defines, gpu::GetVertexShaders(compiler.m_apiVersion),
+    ForEachShader(compiler.m_apiVersion, defines2, gpu::GetVertexShaders(compiler.m_apiVersion),
                   compilerPath, [](QProcess const &) {}, argsPrepareFn, successComparator, ss);
     shaderType = "-f";
-    ForEachShader(compiler.m_apiVersion, defines, gpu::GetFragmentShaders(compiler.m_apiVersion),
+    ForEachShader(compiler.m_apiVersion, defines2, gpu::GetFragmentShaders(compiler.m_apiVersion),
                   compilerPath, [](QProcess const &) {}, argsPrepareFn, successComparator, ss);
 
-    TEST_EQUAL(errorLog.isEmpty(), true, ("PVR with defines : ", defines, "\n", errorLog));
+    TEST_EQUAL(errorLog.isEmpty(), true, ("PVR with defines : ", defines2, "\n", errorLog));
 
-    defines = "#define SAMSUNG_GOOGLE_NEXUS\n";
+    std::string const defines3 = defines + "#define SAMSUNG_GOOGLE_NEXUS\n";
     errorLog.clear();
     shaderType = "-v";
-    ForEachShader(compiler.m_apiVersion, defines, gpu::GetVertexShaders(compiler.m_apiVersion),
+    ForEachShader(compiler.m_apiVersion, defines3, gpu::GetVertexShaders(compiler.m_apiVersion),
                   compilerPath, [](QProcess const &) {}, argsPrepareFn, successComparator, ss);
     shaderType = "-f";
-    ForEachShader(compiler.m_apiVersion, defines, gpu::GetFragmentShaders(compiler.m_apiVersion),
+    ForEachShader(compiler.m_apiVersion, defines3, gpu::GetFragmentShaders(compiler.m_apiVersion),
                   compilerPath, [](QProcess const &) {}, argsPrepareFn, successComparator, ss);
 
-    TEST_EQUAL(errorLog.isEmpty(), true, ("PVR with defines : ", defines, "\n", errorLog));
+    TEST_EQUAL(errorLog.isEmpty(), true, ("PVR with defines : ", defines3, "\n", errorLog));
   }
 }
 
@@ -262,7 +255,8 @@ UNIT_TEST(MALI_CompileShaders_Test)
                << "-r" << version.second << "-c" << version.first << "-d" << set.m_driverName
                << fileName;
         };
-        std::string defines = "";
+        std::string const defines =
+            compiler.m_apiVersion == dp::ApiVersion::OpenGLES3 ? "#define GLES3\n" : "";
         QString const compilerPath = QString::fromStdString(compiler.m_compilerPath);
         ForEachShader(compiler.m_apiVersion, defines, gpu::GetVertexShaders(compiler.m_apiVersion),
                       compilerPath, procPrepare, argForming, successComparator, ss);

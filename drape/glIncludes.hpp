@@ -3,8 +3,8 @@
 #include "std/target_os.hpp"
 
 #if defined(OMIM_OS_IPHONE)
-  #include <OpenGLES/ES3/gl.h>
   #include <OpenGLES/ES2/glext.h>
+  #include <OpenGLES/ES3/gl.h>
 #elif defined(OMIM_OS_MAC)
   #include <OpenGL/gl.h>
   #include <OpenGL/glext.h>
