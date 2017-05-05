@@ -35,19 +35,20 @@ public:
 
   struct Params : BaseRenderer::Params
   {
-    Params(ref_ptr<ThreadsCommutator> commutator, ref_ptr<dp::OGLContextFactory> factory,
-           ref_ptr<dp::TextureManager> texMng, MapDataProvider const & model,
-           TUpdateCurrentCountryFn const & updateCurrentCountryFn,
-           ref_ptr<RequestedTiles> requestedTiles, bool allow3dBuildings,
-           bool trafficEnabled, bool simplifiedTrafficColors)
-      : BaseRenderer::Params(commutator, factory, texMng)
+    Params(dp::ApiVersion apiVersion, ref_ptr<ThreadsCommutator> commutator,
+           ref_ptr<dp::OGLContextFactory> factory, ref_ptr<dp::TextureManager> texMng,
+           MapDataProvider const & model, TUpdateCurrentCountryFn const & updateCurrentCountryFn,
+           ref_ptr<RequestedTiles> requestedTiles, bool allow3dBuildings, bool trafficEnabled,
+           bool simplifiedTrafficColors)
+      : BaseRenderer::Params(apiVersion, commutator, factory, texMng)
       , m_model(model)
       , m_updateCurrentCountryFn(updateCurrentCountryFn)
       , m_requestedTiles(requestedTiles)
       , m_allow3dBuildings(allow3dBuildings)
       , m_trafficEnabled(trafficEnabled)
       , m_simplifiedTrafficColors(simplifiedTrafficColors)
-    {}
+    {
+    }
 
     MapDataProvider const & m_model;
     TUpdateCurrentCountryFn m_updateCurrentCountryFn;

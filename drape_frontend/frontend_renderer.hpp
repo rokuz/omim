@@ -69,7 +69,8 @@ public:
 
   struct Params : BaseRenderer::Params
   {
-    Params(ref_ptr<ThreadsCommutator> commutator,
+    Params(dp::ApiVersion apiVersion,
+           ref_ptr<ThreadsCommutator> commutator,
            ref_ptr<dp::OGLContextFactory> factory,
            ref_ptr<dp::TextureManager> texMng,
            MyPositionController::Params && myPositionParams,
@@ -82,7 +83,7 @@ public:
            bool allow3dBuildings,
            bool trafficEnabled,
            bool blockTapEvents)
-      : BaseRenderer::Params(commutator, factory, texMng)
+      : BaseRenderer::Params(apiVersion, commutator, factory, texMng)
       , m_myPositionParams(move(myPositionParams))
       , m_viewport(viewport)
       , m_modelViewChangedFn(modelViewChangedFn)

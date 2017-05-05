@@ -41,7 +41,8 @@ class DrapeEngine
 public:
   struct Params
   {
-    Params(ref_ptr<dp::OGLContextFactory> factory,
+    Params(dp::ApiVersion apiVersion,
+           ref_ptr<dp::OGLContextFactory> factory,
            ref_ptr<StringsBundle> stringBundle,
            Viewport const & viewport,
            MapDataProvider const & model,
@@ -60,7 +61,8 @@ public:
            bool isAutozoomEnabled,
            bool simplifiedTrafficColors,
            OverlaysShowStatsCallback && overlaysShowStatsCallback)
-      : m_factory(factory)
+      : m_apiVersion(apiVersion)
+      , m_factory(factory)
       , m_stringsBundle(stringBundle)
       , m_viewport(viewport)
       , m_model(model)
@@ -81,6 +83,7 @@ public:
       , m_overlaysShowStatsCallback(move(overlaysShowStatsCallback))
     {}
 
+    dp::ApiVersion m_apiVersion;
     ref_ptr<dp::OGLContextFactory> m_factory;
     ref_ptr<StringsBundle> m_stringsBundle;
     Viewport m_viewport;

@@ -178,7 +178,7 @@ UNIT_TEST(UniformValueTest)
   }
 
   drape_ptr<GpuProgramManager> manager = make_unique_dp<GpuProgramManager>();
-  manager->Init(make_unique_dp<TestShaderMapper>(dp::ApiVersion::OpenGLES2));
+  manager->Init(make_unique_dp<TestShaderMapper>());
   ref_ptr<GpuProgram> program = manager->GetProgram(0);
 
   program->Bind();

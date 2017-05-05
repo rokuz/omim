@@ -4,7 +4,8 @@
 
 #import "drape/glfunctions.hpp"
 
-iosOGLContext::iosOGLContext(CAEAGLLayer * layer, iosOGLContext * contextToShareWith, bool needBuffers)
+iosOGLContext::iosOGLContext(CAEAGLLayer * layer, dp::ApiVersion apiVersion,
+                             iosOGLContext * contextToShareWith, bool needBuffers)
   : m_layer(layer)
   , m_nativeContext(NULL)
   , m_needBuffers(needBuffers)
@@ -14,13 +15,19 @@ iosOGLContext::iosOGLContext(CAEAGLLayer * layer, iosOGLContext * contextToShare
   , m_frameBufferId(0)
   , m_presentAvailable(true)
 {
+  EAGLRenderingAPI api;
+  if (apiVersion == dp::ApiVersion::OpenGLES3)
+    api = kEAGLRenderingAPIOpenGLES3;
+  else
+    api = kEAGLRenderingAPIOpenGLES2;
+  
   if (contextToShareWith != NULL)
   {
-    m_nativeContext = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2
+    m_nativeContext = [[EAGLContext alloc] initWithAPI:api
                                            sharegroup: contextToShareWith->m_nativeContext.sharegroup];
   }
   else
-    m_nativeContext = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
+    m_nativeContext = [[EAGLContext alloc] initWithAPI:api];
 }
 
 iosOGLContext::~iosOGLContext()

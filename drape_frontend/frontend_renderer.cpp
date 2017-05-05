@@ -1676,7 +1676,7 @@ void FrontendRenderer::OnContextCreate()
   dp::OGLContext * context = m_contextFactory->getDrawContext();
   context->makeCurrent();
 
-  GLFunctions::Init();
+  GLFunctions::Init(m_apiVersion);
   GLFunctions::AttachCache(this_thread::get_id());
 
   GLFunctions::glPixelStore(gl_const::GLUnpackAlignment, 1);
@@ -1693,7 +1693,7 @@ void FrontendRenderer::OnContextCreate()
   dp::SupportManager::Instance().Init();
 
   m_gpuProgramManager = make_unique_dp<dp::GpuProgramManager>();
-  m_gpuProgramManager->Init(make_unique_dp<gpu::ShaderMapper>(dp::ApiVersion::OpenGLES2));
+  m_gpuProgramManager->Init(make_unique_dp<gpu::ShaderMapper>(m_apiVersion));
 
   dp::BlendingParams blendingParams;
   blendingParams.Apply();

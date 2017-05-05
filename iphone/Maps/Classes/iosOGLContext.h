@@ -1,6 +1,7 @@
 #pragma once
 
 #import "drape/oglcontext.hpp"
+#import "drape/drape_global.hpp"
 
 #import <QuartzCore/CAEAGLLayer.h>
 #import <OpenGLES/ES2/gl.h>
@@ -11,7 +12,8 @@
 class iosOGLContext : public dp::OGLContext
 {
 public:
-  iosOGLContext(CAEAGLLayer * layer, iosOGLContext * contextToShareWith, bool needBuffers = false);
+  iosOGLContext(CAEAGLLayer * layer, dp::ApiVersion apiVersion,
+                iosOGLContext * contextToShareWith, bool needBuffers = false);
   ~iosOGLContext();
 
   virtual void makeCurrent();

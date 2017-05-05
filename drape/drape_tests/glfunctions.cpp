@@ -7,6 +7,8 @@
 
 using namespace emul;
 
+dp::ApiVersion GLFunctions::CurrentApiVersion = dp::ApiVersion::OpenGLES2;
+
 #define MOCK_CALL(f) GLMockFunctions::Instance().f;
 
 void GLFunctions::glFlush()
