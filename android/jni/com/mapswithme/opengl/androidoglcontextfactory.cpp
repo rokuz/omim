@@ -3,6 +3,7 @@
 
 #include "base/assert.hpp"
 #include "base/logging.hpp"
+#include "base/src_point.hpp"
 
 #include "std/algorithm.hpp"
 
@@ -10,10 +11,12 @@
 #include <android/native_window_jni.h>
 #include <android/native_window.h>
 
+#define EGL_OPENGL_ES3_BIT 0x00000040
+
 namespace android
 {
 
-static EGLint * getConfigAttributesListRGB8()
+static EGLint * getConfigAttributesListRGB8(bool supportedES3)
 {
   static EGLint attr_list[] = {
     EGL_RED_SIZE, 8,
@@ -26,10 +29,21 @@ static EGLint * getConfigAttributesListRGB8()
     EGL_SURFACE_TYPE, EGL_PBUFFER_BIT | EGL_WINDOW_BIT,
     EGL_NONE
   };
-  return attr_list;
+  static EGLint attr_list_es3[] = {
+    EGL_RED_SIZE, 8,
+    EGL_GREEN_SIZE, 8,
+    EGL_BLUE_SIZE, 8,
+    EGL_ALPHA_SIZE, 0,
+    EGL_STENCIL_SIZE, 0,
+    EGL_DEPTH_SIZE, 16,
+    EGL_RENDERABLE_TYPE, EGL_OPENGL_ES3_BIT,
+    EGL_SURFACE_TYPE, EGL_PBUFFER_BIT | EGL_WINDOW_BIT,
+    EGL_NONE
+  };
+  return supportedES3 ? attr_list_es3 : attr_list;
 }
 
-static EGLint * getConfigAttributesListR5G6B5()
+static EGLint * getConfigAttributesListR5G6B5(bool supportedES3)
 {
   static EGLint attr_list[] = {
     EGL_RED_SIZE, 5,
@@ -41,7 +55,17 @@ static EGLint * getConfigAttributesListR5G6B5()
     EGL_SURFACE_TYPE, EGL_PBUFFER_BIT | EGL_WINDOW_BIT,
     EGL_NONE
   };
-  return attr_list;
+  static EGLint attr_list_es3[] = {
+    EGL_RED_SIZE, 5,
+    EGL_GREEN_SIZE, 6,
+    EGL_BLUE_SIZE, 5,
+    EGL_STENCIL_SIZE, 0,
+    EGL_DEPTH_SIZE, 16,
+    EGL_RENDERABLE_TYPE, EGL_OPENGL_ES3_BIT,
+    EGL_SURFACE_TYPE, EGL_PBUFFER_BIT | EGL_WINDOW_BIT,
+    EGL_NONE
+  };
+  return supportedES3 ? attr_list_es3 : attr_list;
 }
 
 AndroidOGLContextFactory::AndroidOGLContextFactory(JNIEnv * env, jobject jsurface)
@@ -55,7 +79,10 @@ AndroidOGLContextFactory::AndroidOGLContextFactory(JNIEnv * env, jobject jsurfac
   , m_surfaceWidth(0)
   , m_surfaceHeight(0)
   , m_windowSurfaceValid(false)
+  , m_supportedES3(false)
 {
+  m_supportedES3 = gl3stubInit();
+
   m_display = eglGetDisplay(EGL_DEFAULT_DISPLAY);
   if (m_display == EGL_NO_DISPLAY)
   {
@@ -202,7 +229,10 @@ dp::OGLContext * AndroidOGLContextFactory::getDrawContext()
   ASSERT(IsValid(), ());
   ASSERT(m_windowSurface != EGL_NO_SURFACE, ());
   if (m_drawContext == nullptr)
-    m_drawContext = new AndroidOGLContext(m_display, m_windowSurface, m_config, m_uploadContext);
+  {
+    m_drawContext = new AndroidOGLContext(m_supportedES3, m_display, m_windowSurface,
+                                          m_config, m_uploadContext);
+  }
   return m_drawContext;
 }
 
@@ -211,7 +241,10 @@ dp::OGLContext * AndroidOGLContextFactory::getResourcesUploadContext()
   ASSERT(IsValid(), ());
   ASSERT(m_pixelbufferSurface != EGL_NO_SURFACE, ());
   if (m_uploadContext == nullptr)
-    m_uploadContext = new AndroidOGLContext(m_display, m_pixelbufferSurface, m_config, m_drawContext);
+  {
+    m_uploadContext = new AndroidOGLContext(m_supportedES3, m_display, m_pixelbufferSurface,
+                                            m_config, m_drawContext);
+  }
   return m_uploadContext;
 }
 
@@ -230,9 +263,11 @@ bool AndroidOGLContextFactory::createWindowSurface()
   int const kMaxConfigCount = 40;
   EGLConfig configs[kMaxConfigCount];
   int count = 0;
-  if (eglChooseConfig(m_display, getConfigAttributesListRGB8(), configs, kMaxConfigCount, &count) != EGL_TRUE)
+  if (eglChooseConfig(m_display, getConfigAttributesListRGB8(m_supportedES3), configs,
+                      kMaxConfigCount, &count) != EGL_TRUE)
   {
-    VERIFY(eglChooseConfig(m_display, getConfigAttributesListR5G6B5(), configs, kMaxConfigCount, &count) == EGL_TRUE, ());
+    VERIFY(eglChooseConfig(m_display, getConfigAttributesListR5G6B5(m_supportedES3), configs,
+                                      kMaxConfigCount, &count) == EGL_TRUE, ());
     LOG(LDEBUG, ("Backbuffer format: R5G6B5"));
   }
   else

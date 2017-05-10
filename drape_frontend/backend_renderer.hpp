@@ -9,21 +9,18 @@
 #include "drape_frontend/overlay_batcher.hpp"
 #include "drape_frontend/requested_tiles.hpp"
 #include "drape_frontend/traffic_generator.hpp"
-#include "drape_frontend/viewport.hpp"
 
 #include "drape/pointers.hpp"
+#include "drape/viewport.hpp"
 
 namespace dp
 {
-
 class OGLContextFactory;
 class TextureManager;
-
-}
+}  // namespace dp
 
 namespace df
 {
-
 class Message;
 class ReadManager;
 class RouteBuilder;
