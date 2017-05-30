@@ -1,4 +1,4 @@
-#include "skin_generator.hpp"
+#include "generator.hpp"
 
 #include "base/logging.hpp"
 #include <iostream>

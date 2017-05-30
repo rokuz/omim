@@ -159,8 +159,10 @@ MainWindow::MainWindow(Framework & framework, bool apiOpenGLES3, QString const &
   CreateSearchBarAndPanel();
 
   QString caption = qAppName();
+#ifdef BUILD_DESIGNER
   if (!m_mapcssFilePath.isEmpty())
     caption += QString(" - ") + m_mapcssFilePath;
+#endif
 
   setWindowTitle(caption);
   setWindowIcon(QIcon(":/ui/logo.png"));

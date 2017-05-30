@@ -94,6 +94,8 @@ Platform::Platform()
     }
   }
 
+  if (m_resourcesDir.empty())
+    m_resourcesDir = ".";
   m_resourcesDir = my::AddSlashIfNeeded(m_resourcesDir);
   m_writableDir = my::AddSlashIfNeeded(m_writableDir);
 

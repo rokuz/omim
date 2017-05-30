@@ -7,8 +7,11 @@
 QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.9
 
 CONFIG(map_designer) {
-  DEFINES *= STANDALONE_APP
   DEFINES *= BUILD_DESIGNER
+}
+
+CONFIG(map_designer_standalone) {
+  DEFINES *= STANDALONE_APP
 }
 
 # our own version variables
