@@ -5,10 +5,15 @@
 
 #include "geometry/spline.hpp"
 
+namespace dp
+{
+class OverlayHandle;
+}  // namespace dp
+
 namespace df
 {
-
 class PathTextLayout;
+class SharedTextLayout;
 
 class PathTextShape : public MapShape
 {
@@ -19,7 +24,8 @@ public:
   MapShapeType GetType() const override { return MapShapeType::OverlayType; }
 
 private:
-  uint64_t GetOverlayPriority(uint32_t textIndex, bool followingMode) const;
+  uint64_t GetOverlayPriority(uint32_t textIndex, size_t textLength,
+                              bool mainText, bool followingMode) const;
 
   void DrawPathTextPlain(ref_ptr<dp::TextureManager> textures,
                          ref_ptr<dp::Batcher> batcher,
@@ -29,11 +35,13 @@ private:
                             ref_ptr<dp::Batcher> batcher,
                             unique_ptr<PathTextLayout> && layout,
                             vector<float> const & offsets) const;
+  drape_ptr<dp::OverlayHandle> CreateOverlayHandle(SharedTextLayout const & layoutPtr,
+                                                   uint32_t textIndex, float offset,
+                                                   ref_ptr<dp::TextureManager> textures) const;
 
   m2::SharedSpline m_spline;
   PathTextViewParams m_params;
   m2::PointI const m_tileCoords;
   uint32_t const m_baseTextIndex;
 };
-
-} // namespace df
+}  // namespace df

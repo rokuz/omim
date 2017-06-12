@@ -511,21 +511,21 @@ void ApplyPointFeature::Finish(ref_ptr<dp::TextureManager> texMng, CustomSymbols
     params.m_prioritized = prioritized || m_createdByEditor;
     params.m_obsoleteInEditor = m_obsoleteInEditor;
 
-    m_insertShape(make_unique_dp<PoiSymbolShape>(m_centerPoint, params, m_tileKey, 0 /* text index */,
-                                               specialDisplacementMode, specialModePriority));
+    //m_insertShape(make_unique_dp<PoiSymbolShape>(m_centerPoint, params, m_tileKey, 0 /* text index */,
+    //                                           specialDisplacementMode, specialModePriority));
 
     dp::TextureManager::SymbolRegion region;
     texMng->GetSymbolRegion(params.m_symbolName, region);
     symbolSize = region.GetPixelSize();
   }
 
-  for (auto const & textParams : m_textParams)
-  {
-    m_insertShape(make_unique_dp<TextShape>(m_centerPoint, textParams, m_tileKey,
-                                            hasPOI, symbolSize, 0 /* textIndex */,
-                                            true /* affectedByZoomPriority */,
-                                            specialDisplacementMode, specialModePriority));
-  }
+//  for (auto const & textParams : m_textParams)
+//  {
+//    m_insertShape(make_unique_dp<TextShape>(m_centerPoint, textParams, m_tileKey,
+//                                            hasPOI, symbolSize, 0 /* textIndex */,
+//                                            true /* affectedByZoomPriority */,
+//                                            specialDisplacementMode, specialModePriority));
+//  }
 }
 
 ApplyAreaFeature::ApplyAreaFeature(TileKey const & tileKey, TInsertShapeFn const & insertShape,
@@ -809,8 +809,8 @@ void ApplyLineFeatureGeometry::ProcessRule(Stylist::TRuleWrapper const & rule)
     params.m_step = static_cast<float>(symRule.step() * mainScale);
     params.m_baseGtoPScale = m_currentScaleGtoP;
 
-    for (auto const & spline : m_clippedSplines)
-      m_insertShape(make_unique_dp<PathSymbolShape>(spline, params));
+    //for (auto const & spline : m_clippedSplines)
+    //  m_insertShape(make_unique_dp<PathSymbolShape>(spline, params));
   }
   else
   {
@@ -868,7 +868,7 @@ void ApplyLineFeatureAdditional::ProcessRule(Stylist::TRuleWrapper const & rule)
     return;
 
   CaptionDefProto const * pCaptionRule = pRule->GetCaption(0);
-  if (pCaptionRule == nullptr || pCaptionRule->height() <= 2 || m_captions.GetPathName().empty())
+  if (pCaptionRule == nullptr || pCaptionRule->height() <= 2 || m_captions.GetMainText().empty())
     return;
 
   dp::FontDecl fontDecl;
@@ -879,7 +879,8 @@ void ApplyLineFeatureAdditional::ProcessRule(Stylist::TRuleWrapper const & rule)
   params.m_depth = depth;
   params.m_minVisibleScale = m_minVisibleScale;
   params.m_rank = m_rank;
-  params.m_text = m_captions.GetPathName();
+  params.m_mainText = m_captions.GetMainText();
+  params.m_auxText = m_captions.GetAuxText();
   params.m_textFont = fontDecl;
   params.m_baseGtoPScale = m_currentScaleGtoP;
 

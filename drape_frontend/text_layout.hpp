@@ -86,7 +86,8 @@ class PathTextLayout : public TextLayout
   using TBase = TextLayout;
 public:
   PathTextLayout(m2::PointD const & tileCenter, strings::UniString const & text,
-                 float fontSize, bool isSdf, ref_ptr<dp::TextureManager> textures);
+                 bool isMainText, float fontSize, bool isSdf,
+                 ref_ptr<dp::TextureManager> textures);
 
   void CacheStaticGeometry(dp::TextureManager::ColorRegion const & colorRegion,
                            dp::TextureManager::ColorRegion const & outlineRegion,
@@ -103,13 +104,18 @@ public:
   static bool CalculatePerspectivePosition(float splineLength, float textPixelLength,
                                            float & offset);
 
-  static void CalculatePositions(vector<float> & offsets, float splineLength,
-                                 float splineScaleToPixel, float textPixelLength);
+  static void CalculatePositions(float splineLength, float splineScaleToPixel,
+                                 float mainTextPixelLength, float auxTextPixelLength,
+                                 std::vector<float> & mainOffsets,
+                                 std::vector<float> & auxOffsets);
+
+  bool IsMainText() const { return m_isMainText; }
 
 private:
   static float CalculateTextLength(float textPixelLength);
 
   m2::PointD m_tileCenter;
+  bool m_isMainText;
 };
 
 class SharedTextLayout

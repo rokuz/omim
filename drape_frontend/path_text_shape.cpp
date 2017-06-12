@@ -25,7 +25,6 @@ using m2::Spline;
 
 namespace
 {
-
 class PathTextHandle : public df::TextHandle
 {
 public:
@@ -214,12 +213,10 @@ private:
   float const m_depth;
   uint64_t const m_priorityFollowingMode;
 };
-
-}
+}  // namespace
 
 namespace df
 {
-
 PathTextShape::PathTextShape(m2::SharedSpline const & spline, PathTextViewParams const & params,
                              TileKey const & tileKey, uint32_t baseTextIndex)
   : m_spline(spline)
@@ -228,7 +225,8 @@ PathTextShape::PathTextShape(m2::SharedSpline const & spline, PathTextViewParams
   , m_baseTextIndex(baseTextIndex)
 {}
 
-uint64_t PathTextShape::GetOverlayPriority(uint32_t textIndex, bool followingMode) const
+uint64_t PathTextShape::GetOverlayPriority(uint32_t textIndex, size_t textLength,
+                                           bool mainText, bool followingMode) const
 {
   // Overlay priority for path text shapes considers length of the text and index of text.
   // Greater text length has more priority, because smaller texts have more chances to be shown along the road.
@@ -238,7 +236,9 @@ uint64_t PathTextShape::GetOverlayPriority(uint32_t textIndex, bool followingMod
   if (!followingMode)
     priority = dp::CalculateOverlayPriority(m_params.m_minVisibleScale, m_params.m_rank, m_params.m_depth);
   priority &= kMask;
-  priority |= (static_cast<uint8_t>(m_params.m_text.size()) << 8);
+  // Main text has more priority than auxiliary.
+  if (mainText)
+    priority |= (static_cast<uint8_t>(textLength) << 8);
   priority |= static_cast<uint8_t>(textIndex);
 
   return priority;
@@ -252,8 +252,10 @@ void PathTextShape::DrawPathTextPlain(ref_ptr<dp::TextureManager> textures,
   dp::TextureManager::ColorRegion color;
   textures->GetColorRegion(m_params.m_textFont.m_color, color);
 
-  dp::GLState state(layout->GetFixedHeight() > 0 ? gpu::TEXT_FIXED_PROGRAM : gpu::TEXT_PROGRAM, dp::GLState::OverlayLayer);
-  state.SetProgram3dIndex(layout->GetFixedHeight() > 0 ? gpu::TEXT_FIXED_BILLBOARD_PROGRAM : gpu::TEXT_BILLBOARD_PROGRAM);
+  dp::GLState state(layout->GetFixedHeight() > 0 ? gpu::TEXT_FIXED_PROGRAM : gpu::TEXT_PROGRAM,
+                    dp::GLState::OverlayLayer);
+  state.SetProgram3dIndex(layout->GetFixedHeight() > 0 ? gpu::TEXT_FIXED_BILLBOARD_PROGRAM :
+                                                         gpu::TEXT_BILLBOARD_PROGRAM);
   state.SetColorTexture(color.GetTexture());
   state.SetMaskTexture(layout->GetMaskTexture());
 
@@ -263,7 +265,7 @@ void PathTextShape::DrawPathTextPlain(ref_ptr<dp::TextureManager> textures,
   SharedTextLayout layoutPtr(layout.release());
   for (uint32_t textIndex = 0; textIndex < static_cast<uint32_t>(offsets.size()); ++textIndex)
   {
-    float offset = offsets[textIndex];
+    float const offset = offsets[textIndex];
     staticBuffer.clear();
     dynBuffer.clear();
 
@@ -271,17 +273,12 @@ void PathTextShape::DrawPathTextPlain(ref_ptr<dp::TextureManager> textures,
     dynBuffer.resize(staticBuffer.size());
 
     dp::AttributeProvider provider(2, static_cast<uint32_t>(staticBuffer.size()));
-    provider.InitStream(0, gpu::TextStaticVertex::GetBindingInfo(), make_ref(staticBuffer.data()));
-    provider.InitStream(1, gpu::TextDynamicVertex::GetBindingInfo(), make_ref(dynBuffer.data()));
-
-    dp::OverlayID const overlayId = dp::OverlayID(m_params.m_featureID, m_tileCoords, m_baseTextIndex + textIndex);
-    drape_ptr<dp::OverlayHandle> handle = make_unique_dp<PathTextHandle>(overlayId, m_spline,
-                                                                         layoutPtr, offset, m_params.m_depth, textIndex,
-                                                                         GetOverlayPriority(textIndex, false /* followingMode */),
-                                                                         GetOverlayPriority(textIndex, true /* followingMode */),
-                                                                         layoutPtr->GetFixedHeight(),
-                                                                         textures, true);
-    batcher->InsertListOfStrip(state, make_ref(&provider), move(handle), 4);
+    provider.InitStream(0, gpu::TextStaticVertex::GetBindingInfo(),
+                        make_ref(staticBuffer.data()));
+    provider.InitStream(1, gpu::TextDynamicVertex::GetBindingInfo(),
+                        make_ref(dynBuffer.data()));
+    batcher->InsertListOfStrip(state, make_ref(&provider),
+                               CreateOverlayHandle(layoutPtr, textIndex, offset, textures), 4);
   }
 }
 
@@ -306,7 +303,7 @@ void PathTextShape::DrawPathTextOutlined(ref_ptr<dp::TextureManager> textures,
   SharedTextLayout layoutPtr(layout.release());
   for (uint32_t textIndex = 0; textIndex < static_cast<uint32_t>(offsets.size()); ++textIndex)
   {
-    float offset = offsets[textIndex];
+    float const offset = offsets[textIndex];
     staticBuffer.clear();
     dynBuffer.clear();
 
@@ -314,39 +311,70 @@ void PathTextShape::DrawPathTextOutlined(ref_ptr<dp::TextureManager> textures,
     dynBuffer.resize(staticBuffer.size());
 
     dp::AttributeProvider provider(2, static_cast<uint32_t>(staticBuffer.size()));
-    provider.InitStream(0, gpu::TextOutlinedStaticVertex::GetBindingInfo(), make_ref(staticBuffer.data()));
-    provider.InitStream(1, gpu::TextDynamicVertex::GetBindingInfo(), make_ref(dynBuffer.data()));
-
-    dp::OverlayID const overlayId = dp::OverlayID(m_params.m_featureID, m_tileCoords, m_baseTextIndex + textIndex);
-    drape_ptr<dp::OverlayHandle> handle = make_unique_dp<PathTextHandle>(overlayId, m_spline, layoutPtr, offset,
-                                                                         m_params.m_depth, textIndex,
-                                                                         GetOverlayPriority(textIndex, false /* followingMode */),
-                                                                         GetOverlayPriority(textIndex, true /* followingMode */),
-                                                                         layoutPtr->GetFixedHeight(),
-                                                                         textures, true);
-    batcher->InsertListOfStrip(state, make_ref(&provider), move(handle), 4);
+    provider.InitStream(0, gpu::TextOutlinedStaticVertex::GetBindingInfo(),
+                        make_ref(staticBuffer.data()));
+    provider.InitStream(1, gpu::TextDynamicVertex::GetBindingInfo(),
+                        make_ref(dynBuffer.data()));
+    batcher->InsertListOfStrip(state, make_ref(&provider),
+                               CreateOverlayHandle(layoutPtr, textIndex, offset, textures), 4);
   }
+}
+
+drape_ptr<dp::OverlayHandle> PathTextShape::CreateOverlayHandle(SharedTextLayout const & layoutPtr,
+                                                                uint32_t textIndex, float offset,
+                                                                ref_ptr<dp::TextureManager> textures) const
+{
+  dp::OverlayID const overlayId = dp::OverlayID(m_params.m_featureID, m_tileCoords, m_baseTextIndex + textIndex);
+  auto const priority = GetOverlayPriority(textIndex, layoutPtr->GetText().size(), layoutPtr->IsMainText(),
+                                           false /* followingMode */);
+  auto const followPriority = GetOverlayPriority(textIndex, layoutPtr->GetText().size(), layoutPtr->IsMainText(),
+                                                 true /* followingMode */);
+  return make_unique_dp<PathTextHandle>(overlayId, m_spline, layoutPtr, offset, m_params.m_depth,
+                                        textIndex, priority, followPriority, layoutPtr->GetFixedHeight(),
+                                        textures, true /* isBillboard */);
 }
 
 void PathTextShape::Draw(ref_ptr<dp::Batcher> batcher, ref_ptr<dp::TextureManager> textures) const
 {
-  auto layout = make_unique<PathTextLayout>(m_params.m_tileCenter, strings::MakeUniString(m_params.m_text),
-                                            m_params.m_textFont.m_size,  m_params.m_textFont.m_isSdf, textures);
-
+  auto layout = my::make_unique<PathTextLayout>(m_params.m_tileCenter,
+                                                strings::MakeUniString(m_params.m_mainText),
+                                                true /* main text */,
+                                                m_params.m_textFont.m_size,
+                                                m_params.m_textFont.m_isSdf, textures);
   uint32_t glyphCount = layout->GetGlyphCount();
   if (glyphCount == 0)
     return;
 
-  vector<float> offsets;
-  PathTextLayout::CalculatePositions(offsets, m_spline->GetLength(), m_params.m_baseGtoPScale,
-                                     layout->GetPixelLength());
-  if (offsets.empty())
+  std::unique_ptr<PathTextLayout> auxLayout;
+  if (!m_params.m_auxText.empty())
+  {
+    auxLayout = my::make_unique<PathTextLayout>(m_params.m_tileCenter,
+                                                strings::MakeUniString(m_params.m_auxText),
+                                                false /* main text */,
+                                                m_params.m_textFont.m_size,
+                                                m_params.m_textFont.m_isSdf, textures);
+  }
+
+  std::vector<float> mainOffsets;
+  std::vector<float> auxOffsets;
+  PathTextLayout::CalculatePositions(m_spline->GetLength(), m_params.m_baseGtoPScale,
+                                     layout->GetPixelLength(),
+                                     auxLayout != nullptr ? auxLayout->GetPixelLength() : 0.0f,
+                                     mainOffsets, auxOffsets);
+  if (mainOffsets.empty())
     return;
 
   if (m_params.m_textFont.m_outlineColor == dp::Color::Transparent())
-    DrawPathTextPlain(textures, batcher, move(layout), offsets);
+  {
+    DrawPathTextPlain(textures, batcher, std::move(layout), mainOffsets);
+    if (!auxOffsets.empty())
+      DrawPathTextPlain(textures, batcher, std::move(auxLayout), auxOffsets);
+  }
   else
-    DrawPathTextOutlined(textures, batcher, move(layout), offsets);
+  {
+    DrawPathTextOutlined(textures, batcher, std::move(layout), mainOffsets);
+    if (!auxOffsets.empty())
+      DrawPathTextOutlined(textures, batcher, std::move(auxLayout), auxOffsets);
+  }
 }
-
-}
+}  // namespace df

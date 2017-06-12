@@ -11,14 +11,11 @@
 #include "std/iterator.hpp"
 #include "std/numeric.hpp"
 
-
 namespace df
 {
-
 namespace
 {
-
-float const kValidSplineTurn = 0.96f;
+float const kValidSplineTurn = 0.5f;
 
 class TextGeometryGenerator
 {
@@ -27,8 +24,7 @@ public:
                         gpu::TTextStaticVertexBuffer & buffer)
     : m_colorCoord(glsl::ToVec2(color.GetTexRect().Center()))
     , m_buffer(buffer)
-  {
-  }
+  {}
 
   void operator() (dp::TextureManager::GlyphRegion const & glyph)
   {
@@ -104,8 +100,7 @@ public:
     : m_colorCoord(glsl::ToVec2(color.GetTexRect().Center()))
     , m_outlineCoord(glsl::ToVec2(outline.GetTexRect().Center()))
     , m_buffer(buffer)
-  {
-  }
+  {}
 
   void operator() (dp::TextureManager::GlyphRegion const & glyph)
   {
@@ -122,7 +117,6 @@ protected:
   gpu::TTextOutlinedStaticVertexBuffer & m_buffer;
 };
 
-///Old code
 void SplitText(strings::UniString & visText,
                buffer_vector<size_t, 2> & delimIndexes)
 {
@@ -189,8 +183,7 @@ class XLayouter
 public:
   XLayouter(dp::Anchor anchor)
     : m_anchor(anchor)
-  {
-  }
+  {}
 
   float operator()(float currentLength, float maxLength)
   {
@@ -284,8 +277,7 @@ void CalculateOffsets(dp::Anchor anchor, float textRatio,
 
   pixelSize = m2::PointF(maxLength, summaryHeight);
 }
-
-} // namespace
+}  // namespace
 
 void TextLayout::Init(strings::UniString const & text, float fontSize, bool isSdf,
                       ref_ptr<dp::TextureManager> textures)
@@ -390,8 +382,10 @@ void StraightTextLayout::Cache(glm::vec4 const & pivot, glm::vec2 const & pixelO
 }
 
 PathTextLayout::PathTextLayout(m2::PointD const & tileCenter, strings::UniString const & text,
-                               float fontSize, bool isSdf, ref_ptr<dp::TextureManager> textures)
+                               bool isMainText, float fontSize, bool isSdf,
+                               ref_ptr<dp::TextureManager> textures)
   : m_tileCenter(tileCenter)
+  , m_isMainText(isMainText)
 {
   Init(bidi::log2vis(text), fontSize, isSdf, textures);
 }
@@ -475,8 +469,7 @@ bool PathTextLayout::CacheDynamicGeometry(m2::Spline::iterator const & iter, flo
 
 float PathTextLayout::CalculateTextLength(float textPixelLength)
 {
-  //we leave a little space on either side of the text that would
-  //remove the comparison for equality of spline portions
+  // We leave a little space on each side of the text.
   float const kTextBorder = 4.0f;
   return kTextBorder + textPixelLength;
 }
@@ -491,41 +484,60 @@ bool PathTextLayout::CalculatePerspectivePosition(float splineLength, float text
   return true;
 }
 
-void PathTextLayout::CalculatePositions(vector<float> & offsets, float splineLength,
-                                       float splineScaleToPixel, float textPixelLength)
+void PathTextLayout::CalculatePositions(float splineLength, float splineScaleToPixel,
+                                        float mainTextPixelLength, float auxTextPixelLength,
+                                        std::vector<float> & mainOffsets,
+                                        std::vector<float> & auxOffsets)
 {
-  float const textLength = CalculateTextLength(textPixelLength);
+  float const mainTextLength = CalculateTextLength(mainTextPixelLength);
+  float const auxTextLength = CalculateTextLength(auxTextPixelLength);
 
-  // on next readable scale m_scaleGtoP will be twice
-  if (textLength > splineLength * 2.0f * splineScaleToPixel)
+  // On the next scale m_scaleGtoP will be twice.
+  if (mainTextLength > splineLength * 2.0f * splineScaleToPixel)
     return;
 
   float const kPathLengthScalar = 0.75;
   float const pathLength = kPathLengthScalar * splineScaleToPixel * splineLength;
 
-  float const etalonEmpty = max(300 * df::VisualParams::Instance().GetVisualScale(), (double)textLength);
-  float const minPeriodSize = etalonEmpty + textLength;
-  float const twoTextAndEmpty = minPeriodSize + textLength;
+  float const vs = static_cast<float>(df::VisualParams::Instance().GetVisualScale());
+  float const etalonEmpty = std::max(300.0f * vs, std::max(mainTextLength, auxTextLength));
+  float const twoTextsAndEmpty = mainTextLength + etalonEmpty + auxTextLength;
 
-  if (pathLength < twoTextAndEmpty)
+  if (pathLength < twoTextsAndEmpty)
   {
-    // if we can't place 2 text and empty part on path
-    // we place only one text on center of path
-    offsets.push_back(splineLength * 0.5f);
+    // If we can't place 2 texts and empty part along the path,
+    // we place only one text at the center of the path.
+    mainOffsets.push_back(splineLength * 0.5f);
   }
   else
   {
-    double const textCount = max(floor(static_cast<double>(pathLength / minPeriodSize)), 1.0);
-    double const glbTextLen = splineLength / textCount;
-    for (double offset = 0.5 * glbTextLen; offset < splineLength; offset += glbTextLen)
-      offsets.push_back(offset);
+    float const textCount = std::max(std::floor(pathLength / twoTextsAndEmpty), 1.0f);
+    float const glbTextLen = splineLength / textCount;
+
+    float startOffset = (glbTextLen - mainTextLength - auxTextLength);
+    if (auxTextPixelLength > 0.0f)
+      startOffset /= 3.0f;
+    else
+      startOffset /= 2.0f;
+
+    mainOffsets.reserve(static_cast<size_t>(textCount));
+    float offset = startOffset + 0.5f * mainTextLength;
+    for (; offset < splineLength; offset += glbTextLen)
+      mainOffsets.push_back(offset);
+
+    if (auxTextPixelLength > 0.0f)
+    {
+      auxOffsets.reserve(static_cast<size_t>(textCount));
+      offset = 2.0f * startOffset + mainTextLength + 0.5f * auxTextLength;
+      for (; offset < splineLength; offset += glbTextLen)
+        auxOffsets.push_back(offset);
+    }
   }
 }
 
 SharedTextLayout::SharedTextLayout(PathTextLayout * layout)
   : m_layout(layout)
-{
-}
+{}
 
 bool SharedTextLayout::IsNull() const
 {
@@ -551,5 +563,4 @@ PathTextLayout const * SharedTextLayout::operator->() const
 {
   return m_layout.get();
 }
-
-} // namespace df
+}  // namespace df

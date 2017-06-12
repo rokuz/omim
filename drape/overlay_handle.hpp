@@ -141,6 +141,9 @@ public:
 
   void SetCachingEnable(bool enable);
 
+  void SetReady(bool isReady) { m_isReady = isReady; }
+  bool IsReady() const { return m_isReady; }
+
 #ifdef DEBUG_OVERLAYS_OUTPUT
   virtual string GetOverlayDebugInfo() { return ""; }
 #endif
@@ -182,6 +185,8 @@ private:
   mutable bool m_extendedShapeDirty;
   mutable m2::RectD m_extendedRectCache;
   mutable bool m_extendedRectDirty;
+
+  bool m_isReady = false;
 };
 
 class SquareHandle : public OverlayHandle

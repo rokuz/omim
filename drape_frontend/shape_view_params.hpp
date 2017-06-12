@@ -84,7 +84,8 @@ struct PathTextViewParams : CommonViewParams
 {
   FeatureID m_featureID;
   dp::FontDecl m_textFont;
-  string m_text;
+  std::string m_mainText;
+  std::string m_auxText;
   float m_baseGtoPScale = 1.0f;
 };
 
