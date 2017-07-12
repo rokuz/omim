@@ -11,6 +11,7 @@
 #import "MWMRouter.h"
 #import "MWMSearch.h"
 #import "MapViewController.h"
+#import "Statistics.h"
 #import "SwiftBridge.h"
 #import "UIImageView+Coloring.h"
 
@@ -59,8 +60,10 @@ BOOL defaultOrientation(CGSize const & size)
 @interface MWMNavigationInfoView ()<MWMLocationObserver>
 
 @property(weak, nonatomic) IBOutlet UIView * streetNameView;
+@property(weak, nonatomic) IBOutlet NSLayoutConstraint * streetNameViewHideOffset;
 @property(weak, nonatomic) IBOutlet UILabel * streetNameLabel;
 @property(weak, nonatomic) IBOutlet UIView * turnsView;
+@property(weak, nonatomic) IBOutlet NSLayoutConstraint * turnsViewHideOffset;
 @property(weak, nonatomic) IBOutlet UIImageView * nextTurnImageView;
 @property(weak, nonatomic) IBOutlet UILabel * roundTurnLabel;
 @property(weak, nonatomic) IBOutlet UILabel * distanceToNextTurnLabel;
@@ -146,26 +149,57 @@ BOOL defaultOrientation(CGSize const & size)
 
   if (hasStart)
   {
-    [toastView configWithText:L(@"routing_add_finish_point") withActionButton:NO];
+    [toastView configWithText:L(@"routing_add_finish_point") withLocationButton:NO];
     return;
   }
 
   if (hasFinish)
   {
-    [toastView configWithText:L(@"routing_add_start_point") withActionButton:self.hasLocation];
+    [toastView configWithText:L(@"routing_add_start_point") withLocationButton:self.hasLocation];
     return;
   }
 
   if (self.hasLocation)
-    [toastView configWithText:L(@"routing_add_finish_point") withActionButton:NO];
+    [toastView configWithText:L(@"routing_add_finish_point") withLocationButton:NO];
   else
-    [toastView configWithText:L(@"routing_add_start_point") withActionButton:NO];
+    [toastView configWithText:L(@"routing_add_start_point") withLocationButton:NO];
+}
+
+- (IBAction)openSearch
+{
+  BOOL const isStart = ([MWMRouter startPoint] == nil);
+  auto const type = isStart ? kStatRoutingPointTypeStart : kStatRoutingPointTypeFinish;
+  [Statistics logEvent:kStatRoutingTooltipClicked withParameters:@{kStatRoutingPointType : type}];
+  [MWMMapViewControlsManager manager].searchHidden = NO;
+}
+
+- (IBAction)addLocationRoutePoint
+{
+  NSAssert(![MWMRouter startPoint], @"Action button is active while start point is available");
+  NSAssert([MWMLocationManager lastLocation],
+           @"Action button is active while my location is not available");
+
+  [Statistics logEvent:kStatRoutingAddPoint
+        withParameters:@{
+          kStatRoutingPointType : kStatRoutingPointTypeStart,
+          kStatRoutingPointValue : kStatRoutingPointValueMyPosition,
+          kStatRoutingPointMethod : kStatRoutingPointMethodPlanning,
+          kStatRoutingMode : kStatRoutingModePlanning
+        }];
+  [MWMRouter
+      buildFromPoint:[[MWMRoutePoint alloc] initWithLastLocationAndType:MWMRoutePointTypeStart]
+          bestRouter:NO];
 }
 
 #pragma mark - Search
 
 - (IBAction)searchMainButtonTouchUpInside
 {
+  BOOL const isOnRoute = (self.state == MWMNavigationInfoViewStateNavigation);
+  [Statistics logEvent:kStatRoutingSearchClicked
+        withParameters:@{
+          kStatRoutingMode : (isOnRoute ? kStatRoutingModeOnRoute : kStatRoutingModePlanning)
+        }];
   switch (self.searchState)
   {
   case NavigationSearchState::Maximized:
@@ -217,7 +251,16 @@ BOOL defaultOrientation(CGSize const & size)
     body(NavigationSearchState::MinimizedATM);
 }
 
-- (IBAction)bookmarksButtonTouchUpInside { [[MapViewController controller] openBookmarks]; }
+- (IBAction)bookmarksButtonTouchUpInside
+{
+  BOOL const isOnRoute = (self.state == MWMNavigationInfoViewStateNavigation);
+  [Statistics logEvent:kStatRoutingBookmarksClicked
+        withParameters:@{
+          kStatRoutingMode : (isOnRoute ? kStatRoutingModeOnRoute : kStatRoutingModePlanning)
+        }];
+  [[MapViewController controller] openBookmarks];
+}
+
 - (void)collapseSearchOnTimer
 {
   [self setSearchState:NavigationSearchState::MinimizedNormal animated:YES];
@@ -232,16 +275,16 @@ BOOL defaultOrientation(CGSize const & size)
     return;
   if (info.streetName.length != 0)
   {
-    self.streetNameView.hidden = NO;
+    [self setStreetNameVisible:YES];
     self.streetNameLabel.text = info.streetName;
   }
   else
   {
-    self.streetNameView.hidden = YES;
+    [self setStreetNameVisible:NO];
   }
   if (info.turnImage)
   {
-    self.turnsView.hidden = NO;
+    [self setTurnsViewVisible:YES];
     self.nextTurnImageView.image = info.turnImage;
     self.nextTurnImageView.mwm_coloring = MWMImageColoringWhite;
 
@@ -286,9 +329,8 @@ BOOL defaultOrientation(CGSize const & size)
   }
   else
   {
-    self.turnsView.hidden = YES;
+    [self setTurnsViewVisible:NO];
   }
-  self.hidden = self.streetNameView.hidden && self.turnsView.hidden;
   [self setNeedsLayout];
 }
 
@@ -450,10 +492,24 @@ BOOL defaultOrientation(CGSize const & size)
     break;
   case MWMNavigationInfoViewStatePrepare:
     self.isVisible = YES;
-    self.streetNameView.hidden = YES;
-    self.turnsView.hidden = YES;
+    [self setStreetNameVisible:NO];
+    [self setTurnsViewVisible:NO];
     break;
   }
+}
+
+- (void)setStreetNameVisible:(BOOL)isVisible
+{
+  self.streetNameView.hidden = !isVisible;
+  self.streetNameViewHideOffset.priority =
+      isVisible ? UILayoutPriorityDefaultLow : UILayoutPriorityDefaultHigh;
+}
+
+- (void)setTurnsViewVisible:(BOOL)isVisible
+{
+  self.turnsView.hidden = !isVisible;
+  self.turnsViewHideOffset.priority =
+      isVisible ? UILayoutPriorityDefaultLow : UILayoutPriorityDefaultHigh;
 }
 
 - (void)setIsVisible:(BOOL)isVisible

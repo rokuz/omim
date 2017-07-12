@@ -6,14 +6,15 @@
 - (void)shouldDestroyLayout;
 - (void)shouldClose;
 
+- (BOOL)isExpandedOnShow;
+- (void)onExpanded;
+
 @end
 
 @protocol MWMPlacePageLayoutDataSource<NSObject>
 
 - (NSString *)distanceToObject;
 - (void)downloadSelectedArea;
-- (CGFloat)leftBound;
-- (CGFloat)topBound;
 
 @end
 
@@ -28,7 +29,6 @@
                                       MWMActionBarProtocol>)delegate
                        dataSource:(id<MWMPlacePageLayoutDataSource>)dataSource;
 
-- (void)layoutWithSize:(CGSize const &)size;
 - (void)showWithData:(MWMPlacePageData *)data;
 - (void)close;
 
@@ -45,10 +45,8 @@
 - (void)processDownloaderEventWithStatus:(storage::NodeStatus)status progress:(CGFloat)progress;
 
 - (void)checkCellsVisible;
-#pragma mark - iPad only
 
-- (void)updateTopBound;
-- (void)updateLeftBound;
+- (void)updateAvailableArea:(CGRect)frame;
 
 @end
 

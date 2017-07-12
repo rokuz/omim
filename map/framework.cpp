@@ -271,10 +271,10 @@ LocalAdsManager & Framework::GetLocalAdsManager()
   return m_localAdsManager;
 }
 
-void Framework::OnUserPositionChanged(m2::PointD const & position)
+void Framework::OnUserPositionChanged(m2::PointD const & position, bool hasPosition)
 {
   MyPositionMarkPoint * myPosition = UserMarkContainer::UserMarkForMyPostion();
-  myPosition->SetUserPosition(position);
+  myPosition->SetUserPosition(position, hasPosition);
   m_routingManager.SetUserCurrentPosition(position);
   m_trafficManager.UpdateMyPosition(TrafficManager::MyPosition(position));
 }
@@ -902,7 +902,7 @@ void Framework::FillInfoFromFeatureType(FeatureType const & ft, place_page::Info
   {
     info.m_sponsoredType = SponsoredType::Viator;
     auto const & sponsoredId = info.GetMetadata().Get(feature::Metadata::FMD_SPONSORED_ID);
-    info.m_sponsoredUrl = viator::Api::GetCityUrl(sponsoredId, info.GetDefaultName());
+    info.m_sponsoredUrl = viator::Api::GetCityUrl(sponsoredId);
   }
   else if (ftypes::IsHotelChecker::Instance()(ft))
   {
@@ -1897,9 +1897,11 @@ void Framework::CreateDrapeEngine(ref_ptr<dp::OGLContextFactory> contextFactory,
       OnTapEvent({tapInfo, TapEvent::Source::User});
     });
   });
-  m_drapeEngine->SetUserPositionListener([this](m2::PointD const & position)
+  m_drapeEngine->SetUserPositionListener([this](m2::PointD const & position, bool hasPosition)
   {
-    GetPlatform().RunOnGuiThread([this, position](){ OnUserPositionChanged(position); });
+    GetPlatform().RunOnGuiThread([this, position, hasPosition](){
+      OnUserPositionChanged(position, hasPosition);
+    });
   });
 
   OnSize(params.m_surfaceWidth, params.m_surfaceHeight);

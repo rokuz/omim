@@ -25,6 +25,7 @@
 #include "geometry/point2d.hpp"
 
 #include "platform/measurement_utils.hpp"
+#include "platform/platform.hpp"
 
 extern NSString * const kBookmarkDeletedNotification;
 extern NSString * const kBookmarkCategoryDeletedNotification;
@@ -56,6 +57,33 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
 
   [Statistics logEvent:eventName withParameters:stat atLocation:[MWMLocationManager lastLocation]];
 }
+
+void logPointEvent(MWMRoutePoint * pt, NSString * eventType)
+{
+  if (pt == nullptr)
+    return;
+  
+  NSString * pointTypeStr = @"";
+  switch (pt.type)
+  {
+  case MWMRoutePointTypeStart: pointTypeStr = kStatRoutingPointTypeStart; break;
+  case MWMRoutePointTypeIntermediate: pointTypeStr = kStatRoutingPointTypeIntermediate; break;
+  case MWMRoutePointTypeFinish: pointTypeStr = kStatRoutingPointTypeFinish; break;
+  }
+  BOOL const isPlanning =
+      [MWMNavigationDashboardManager manager].state != MWMNavigationDashboardStateHidden;
+  BOOL const isOnRoute =
+      [MWMNavigationDashboardManager manager].state != MWMNavigationDashboardStateNavigation;
+  [Statistics logEvent:eventType
+        withParameters:@{
+          kStatRoutingPointType : pointTypeStr,
+          kStatRoutingPointValue :
+              (pt.isMyPosition ? kStatRoutingPointValueMyPosition : kStatRoutingPointValuePoint),
+          kStatRoutingPointMethod :
+              (isPlanning ? kStatRoutingPointMethodPlanning : kStatRoutingPointMethodNoPlanning),
+          kStatRoutingMode : (isOnRoute ? kStatRoutingModeOnRoute : kStatRoutingModePlanning)
+        }];
+}
 }  // namespace
 
 @interface MWMPlacePageManager ()<MWMFrameworkStorageObserver, MWMPlacePageLayoutDelegate,
@@ -66,12 +94,15 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
 
 @property(nonatomic) storage::NodeStatus currentDownloaderStatus;
 
+@property(nonatomic) BOOL isSponsoredOpenLogged;
+
 @end
 
 @implementation MWMPlacePageManager
 
 - (void)show:(place_page::Info const &)info
 {
+  self.isSponsoredOpenLogged = NO;
   self.currentDownloaderStatus = storage::NodeStatus::Undefined;
   [MWMFrameworkListener addObserver:self];
 
@@ -219,7 +250,7 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
                               progress:static_cast<CGFloat>(progress.first) / progress.second];
 }
 
-#pragma mark - MWMPlacePageLayout
+#pragma mark - MWMPlacePageLayoutDelegate
 
 - (void)onPlacePageTopBoundChanged:(CGFloat)bound
 {
@@ -230,6 +261,31 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
 
 - (void)shouldDestroyLayout { self.layout = nil; }
 - (void)shouldClose { GetFramework().DeactivateMapSelection(true); }
+- (BOOL)isExpandedOnShow { return self.data.isViator; }
+- (void)onExpanded
+{
+  if (self.isSponsoredOpenLogged)
+    return;
+  self.isSponsoredOpenLogged = YES;
+  auto data = self.data;
+  if (!data)
+    return;
+  NSMutableDictionary * parameters = [@{} mutableCopy];
+  if (data.isViator)
+    parameters[kStatSponsor] = kStatViator;
+  else if (data.isBooking)
+    parameters[kStatSponsor] = kStatBooking;
+  switch (Platform::ConnectionStatus())
+  {
+  case Platform::EConnectionType::CONNECTION_NONE:
+    parameters[kStatConnection] = kStatOffline;
+    break;
+  case Platform::EConnectionType::CONNECTION_WIFI: parameters[kStatConnection] = kStatWifi; break;
+  case Platform::EConnectionType::CONNECTION_WWAN: parameters[kStatConnection] = kStatMobile; break;
+  }
+  [Statistics logEvent:kStatPlacepageSponsoredOpen withParameters:parameters];
+}
+
 #pragma mark - MWMLocationObserver
 
 - (void)onHeadingUpdate:(location::CompassInfo const &)info
@@ -265,7 +321,10 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
 {
   [Statistics logEvent:kStatEventName(kStatPlacePage, kStatBuildRoute)
         withParameters:@{kStatValue : kStatSource}];
-  [MWMRouter buildFromPoint:[self routePointWithType:MWMRoutePointTypeStart] bestRouter:YES];
+
+  MWMRoutePoint * pt = [self routePointWithType:MWMRoutePointTypeStart];
+  logPointEvent(pt, kStatRoutingAddPoint);
+  [MWMRouter buildFromPoint:pt bestRouter:YES];
   [self close];
 }
 
@@ -273,14 +332,18 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
 {
   [Statistics logEvent:kStatEventName(kStatPlacePage, kStatBuildRoute)
         withParameters:@{kStatValue : kStatDestination}];
-  [MWMRouter buildToPoint:[self routePointWithType:MWMRoutePointTypeFinish] bestRouter:YES];
+
+  MWMRoutePoint * pt = [self routePointWithType:MWMRoutePointTypeFinish];
+  logPointEvent(pt, kStatRoutingAddPoint);
+  [MWMRouter buildToPoint:pt bestRouter:YES];
   [self close];
 }
 
 - (void)addStop
 {
-  [MWMRouter addIntermediatePointAndRebuild:[self routePointWithType:MWMRoutePointTypeIntermediate]
-                          intermediateIndex:0];
+  MWMRoutePoint * pt = [self routePointWithType:MWMRoutePointTypeIntermediate];
+  logPointEvent(pt, kStatRoutingAddPoint);
+  [MWMRouter addIntermediatePointAndRebuild:pt intermediateIndex:0];
   [self shouldClose];
 }
 
@@ -289,9 +352,16 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
   auto data = self.data;
   switch (data.routeMarkType)
   {
-  case RouteMarkType::Start: [MWMRouter removeStartPointAndRebuild:data.intermediateIndex]; break;
-  case RouteMarkType::Finish: [MWMRouter removeFinishPointAndRebuild:data.intermediateIndex]; break;
+  case RouteMarkType::Start:
+    logPointEvent([self routePointWithType:MWMRoutePointTypeStart], kStatRoutingRemovePoint);
+    [MWMRouter removeStartPointAndRebuild:data.intermediateIndex];
+    break;
+  case RouteMarkType::Finish:
+    logPointEvent([self routePointWithType:MWMRoutePointTypeFinish], kStatRoutingRemovePoint);
+    [MWMRouter removeFinishPointAndRebuild:data.intermediateIndex];
+    break;
   case RouteMarkType::Intermediate:
+    logPointEvent([self routePointWithType:MWMRoutePointTypeIntermediate], kStatRoutingRemovePoint);
     [MWMRouter removeIntermediatePointAndRebuild:data.intermediateIndex];
     break;
   }
@@ -529,15 +599,13 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
     [self.ownerViewController openUrl:u];
 }
 
-- (void)viewWillTransitionToSize:(CGSize)size
-       withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+#pragma mark - AvailableArea / PlacePageArea
+
+- (void)updateAvailableArea:(CGRect)frame
 {
-  [coordinator
-      animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
-        [self.layout layoutWithSize:size];
-      }
-                      completion:^(id<UIViewControllerTransitionCoordinatorContext> context){
-                      }];
+  auto data = self.data;
+  if (data)
+    [self.layout updateAvailableArea:frame];
 }
 
 #pragma mark - MWMFeatureHolder
@@ -553,26 +621,4 @@ void logSponsoredEvent(MWMPlacePageData * data, NSString * eventName)
 
 - (MapViewController *)ownerViewController { return [MapViewController controller]; }
 
-#pragma mark - Deprecated
-
-@synthesize leftBound = _leftBound;
-@synthesize topBound = _topBound;
-
-- (void)setTopBound:(CGFloat)topBound
-{
-  if (_topBound == topBound)
-    return;
-
-  _topBound = topBound;
-  [self.layout updateTopBound];
-}
-
-- (void)setLeftBound:(CGFloat)leftBound
-{
-  if (_leftBound == leftBound)
-    return;
-
-  _leftBound = leftBound;
-  [self.layout updateLeftBound];
-}
 @end
