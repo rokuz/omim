@@ -167,8 +167,7 @@ uint64_t PoiSymbolShape::GetOverlayPriority() const
   // Special displacement mode.
   if (m_params.m_specialDisplacement == SpecialDisplacement::SpecialMode)
     return dp::CalculateSpecialModePriority(m_params.m_specialPriority);
-
-  if (m_params.m_specialDisplacement == SpecialDisplacement::UserMark)
+  else if (m_params.m_specialDisplacement == SpecialDisplacement::UserMark)
     return dp::CalculateUserMarkPriority(m_params.m_minVisibleScale, m_params.m_specialPriority);
 
   // Set up minimal priority for shapes which belong to areas.

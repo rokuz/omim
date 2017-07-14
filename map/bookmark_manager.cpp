@@ -1,5 +1,6 @@
 #include "map/bookmark_manager.hpp"
 #include "map/framework.hpp"
+#include "map/local_ads_mark.hpp"
 #include "map/routing_mark.hpp"
 #include "map/user_mark.hpp"
 
@@ -25,6 +26,7 @@ BookmarkManager::BookmarkManager(Framework & f)
   m_userMarkLayers.emplace_back(new ApiUserMarkContainer(0.0 /* activePinDepth */, m_framework));
   m_userMarkLayers.emplace_back(new DebugUserMarkContainer(0.0 /* debugDepth */, m_framework));
   m_userMarkLayers.emplace_back(new RouteUserMarkContainer(0.0 /* activePinDepth */, m_framework));
+  m_userMarkLayers.emplace_back(new LocalAdsMarkContainer(0.0 /* activePinDepth */, m_framework));
   UserMarkContainer::InitStaticMarks(FindUserMarksContainer(UserMarkType::SEARCH_MARK));
 }
 

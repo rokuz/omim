@@ -785,10 +785,10 @@ void FrontendRenderer::AcceptMessage(ref_ptr<Message> message)
       break;
     }
 
-  case Message::UpdateCustomSymbols:
+  case Message::UpdateCustomFeatures:
     {
-      ref_ptr<UpdateCustomSymbolsMessage> msg = message;
-      m_overlaysTracker->SetTrackedOverlaysFeatures(msg->AcceptSymbolsFeatures());
+      ref_ptr<UpdateCustomFeaturesMessage> msg = message;
+      m_overlaysTracker->SetTrackedOverlaysFeatures(msg->AcceptFeatures());
       m_forceUpdateScene = true;
       break;
     }
@@ -2051,6 +2051,7 @@ FrontendRenderer::RenderLayer::RenderLayerID FrontendRenderer::RenderLayer::GetL
   case dp::GLState::UserLineLayer: return UserLineID;
   case dp::GLState::RoutingMarkLayer: return RoutingMarkID;
   case dp::GLState::NavigationLayer: return NavigationID;
+  default: break;
   }
 
   if (state.GetProgram3dIndex() == gpu::AREA_3D_PROGRAM ||

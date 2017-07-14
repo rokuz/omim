@@ -13,7 +13,6 @@
 #include "std/unique_ptr.hpp"
 #include "std/utility.hpp"
 
-
 class UserMarkContainer;
 class UserMarkCopy;
 
@@ -29,6 +28,7 @@ public:
     BOOKMARK,
     MY_POSITION,
     ROUTING,
+    LOCAL_ADS,
     DEBUG_MARK
   };
 
@@ -46,10 +46,11 @@ public:
   dp::GLState::DepthLayer GetDepthLayer() const override;
   bool HasCreationAnimation() const override;
   drape_ptr<dp::TitleDecl> GetTitleDecl() const override { return nullptr; }
-  uint16_t GetProirity() const override { return 0xFFFF; }
-  bool SymbolHasPriority() const override { return false; }
-  bool TitleHasPriority() const override { return false; }
+  uint16_t GetPriority() const override { return 0xFFFF; }
+  bool HasSymbolPriority() const override { return false; }
+  bool HasTitlePriority() const override { return false; }
   int GetMinZoom() const override { return 1; }
+  FeatureID GetFeatureID() const override { return FeatureID(); }
 
   UserMarkContainer const * GetContainer() const;
   ms::LatLon GetLatLon() const;
