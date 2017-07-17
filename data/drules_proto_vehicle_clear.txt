@@ -40492,8 +40492,8 @@ colors {
     y: 0
   }
   value {
-    name: "GuiText"
-    color: 609045837
+    name: "TrafficArrowLight"
+    color: 16777215
     x: 0
     y: 0
   }
@@ -40506,6 +40506,12 @@ colors {
   value {
     name: "PoiDeletedMask"
     color: 3019898879
+    x: 0
+    y: 0
+  }
+  value {
+    name: "LocalAdsPrimaryText"
+    color: 0
     x: 0
     y: 0
   }
@@ -40570,6 +40576,12 @@ colors {
     y: 0
   }
   value {
+    name: "LocalAdsSecondaryText"
+    color: 0
+    x: 0
+    y: 0
+  }
+  value {
     name: "Route"
     color: 34815
     x: 0
@@ -40588,14 +40600,20 @@ colors {
     y: 0
   }
   value {
-    name: "TrackCarSpeed"
-    color: 8163038
+    name: "TrafficG0"
+    color: 8263442
     x: 0
     y: 0
   }
   value {
     name: "RoutePreview"
     color: 3003121664
+    x: 0
+    y: 0
+  }
+  value {
+    name: "LocalAdsSecondaryTextOutline"
+    color: 16777215
     x: 0
     y: 0
   }
@@ -40624,8 +40642,8 @@ colors {
     y: 0
   }
   value {
-    name: "TrafficG0"
-    color: 8263442
+    name: "TrackCarSpeed"
+    color: 8163038
     x: 0
     y: 0
   }
@@ -40672,8 +40690,8 @@ colors {
     y: 0
   }
   value {
-    name: "TrafficArrowLight"
-    color: 16777215
+    name: "GuiText"
+    color: 609045837
     x: 0
     y: 0
   }
@@ -40698,6 +40716,12 @@ colors {
   value {
     name: "RouteTrafficG2"
     color: 15214341
+    x: 0
+    y: 0
+  }
+  value {
+    name: "LocalAdsPrimaryTextOutline"
+    color: 16777215
     x: 0
     y: 0
   }
