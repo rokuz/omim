@@ -71,4 +71,8 @@ colors
   PoiDeletedMask-color: #FFFFFF;
   PoiDeletedMask-opacity: 0.3;
   DefaultTrackColor-color: #1E96F0;
+  LocalAdsPrimaryText-color: #000000;
+  LocalAdsPrimaryTextOutline-color: #FFFFFF;
+  LocalAdsSecondaryText-color: #000000;
+  LocalAdsSecondaryTextOutline-color: #FFFFFF;
 }
