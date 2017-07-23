@@ -65,6 +65,8 @@ public:
 protected:
   unique_ptr<threads::IRoutine> CreateRoutine() override;
 
+  void OnRenderingEnabled() override {}
+  void OnRenderingDisabled() override {}
   void OnContextCreate() override;
   void OnContextDestroy() override;
 

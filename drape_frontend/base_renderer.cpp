@@ -106,6 +106,8 @@ void BaseRenderer::CheckRenderingEnabled()
   {
     dp::OGLContext * context = nullptr;
 
+    OnRenderingDisabled();
+
     if (m_wasContextReset)
     {
       using namespace std::placeholders;
@@ -133,6 +135,8 @@ void BaseRenderer::CheckRenderingEnabled()
     {
       // here rendering is enabled again
       m_isEnabled = true;
+
+      OnRenderingEnabled();
 
       if (m_wasContextReset)
       {

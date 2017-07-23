@@ -61,6 +61,7 @@ public:
 
   void UpdateDistanceFromBegin(double distanceFromBegin);
   void SetFollowingEnabled(bool enabled);
+  bool GetFollowingEnabled() const;
 
   void AddPreviewSegment(dp::DrapeID id, PreviewInfo && info);
   void RemovePreviewSegment(dp::DrapeID id);

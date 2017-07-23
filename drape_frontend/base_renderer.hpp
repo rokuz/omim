@@ -61,6 +61,8 @@ protected:
 
   virtual unique_ptr<threads::IRoutine> CreateRoutine() = 0;
 
+  virtual void OnRenderingEnabled() = 0;
+  virtual void OnRenderingDisabled() = 0;
   virtual void OnContextCreate() = 0;
   virtual void OnContextDestroy() = 0;
 

@@ -131,6 +131,8 @@ public:
 protected:
   void AcceptMessage(ref_ptr<Message> message) override;
   unique_ptr<threads::IRoutine> CreateRoutine() override;
+  void OnRenderingEnabled() override;
+  void OnRenderingDisabled() override;
   void OnContextCreate() override;
   void OnContextDestroy() override;
 
@@ -174,6 +176,8 @@ private:
   void RenderUserMarksLayer(ScreenBase const & modelView, RenderLayer::RenderLayerID layerId);
   void RenderUserLinesLayer(ScreenBase const & modelView);
   void RenderTrafficAndRouteLayer(ScreenBase const & modelView);
+
+  void ClearLayersGraphics();
 
   ScreenBase const & ProcessEvents(bool & modelViewChanged, bool & viewportChanged);
   void PrepareScene(ScreenBase const & modelView);
@@ -334,6 +338,8 @@ private:
   bool m_firstTilesReady = false;
   bool m_firstLaunchAnimationTriggered = false;
   bool m_firstLaunchAnimationInterrupted = false;
+
+  bool m_memorySavingMode = false;
 
 #ifdef DEBUG
   bool m_isTeardowned;

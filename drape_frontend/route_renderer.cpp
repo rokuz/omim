@@ -584,6 +584,11 @@ void RouteRenderer::SetFollowingEnabled(bool enabled)
   m_followingEnabled = enabled;
 }
 
+bool RouteRenderer::GetFollowingEnabled() const
+{
+  return m_followingEnabled;
+}
+
 void RouteRenderer::AddPreviewSegment(dp::DrapeID id, PreviewInfo && info)
 {
   if (m_previewSegments.empty())

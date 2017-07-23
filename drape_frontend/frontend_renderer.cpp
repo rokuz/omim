@@ -548,11 +548,7 @@ void FrontendRenderer::AcceptMessage(ref_ptr<Message> message)
 #endif // BUILD_DESIGNER
 
       // Clear all graphics.
-      for (RenderLayer & layer : m_layers)
-      {
-        layer.m_renderGroups.clear();
-        layer.m_isDirty = false;
-      }
+      ClearLayersGraphics();
 
       // Invalidate read manager.
       {
@@ -1693,16 +1689,39 @@ TTilesCollection FrontendRenderer::ResolveTileKeys(ScreenBase const & screen)
   return tiles;
 }
 
-void FrontendRenderer::OnContextDestroy()
+void FrontendRenderer::ClearLayersGraphics()
 {
-  LOG(LINFO, ("On context destroy."));
-
-  // Clear all graphics.
   for (RenderLayer & layer : m_layers)
   {
     layer.m_renderGroups.clear();
     layer.m_isDirty = false;
   }
+}
+
+void FrontendRenderer::OnRenderingEnabled()
+{
+  if (!m_memorySavingMode)
+    return;
+  
+  m_memorySavingMode = false;
+  m_forceUpdateScene = true;
+}
+
+void FrontendRenderer::OnRenderingDisabled()
+{
+  if (!m_routeRenderer->GetFollowingEnabled())
+    return;
+  
+  m_memorySavingMode = true;
+  ClearLayersGraphics();
+}
+
+void FrontendRenderer::OnContextDestroy()
+{
+  LOG(LINFO, ("On context destroy."));
+
+  // Clear all graphics.
+  ClearLayersGraphics();
 
   m_selectObjectMessage.reset();
   m_overlayTree->SetSelectedFeature(FeatureID());
@@ -1890,8 +1909,7 @@ void FrontendRenderer::Routine::Do()
 
 void FrontendRenderer::ReleaseResources()
 {
-  for (RenderLayer & layer : m_layers)
-    layer.m_renderGroups.clear();
+  ClearLayersGraphics();
 
   m_guiRenderer.reset();
   m_myPositionController.reset();
