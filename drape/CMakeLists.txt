@@ -87,6 +87,7 @@ set(
   ${DRAPE_ROOT}/shader.hpp
   ${DRAPE_ROOT}/static_texture.cpp
   ${DRAPE_ROOT}/static_texture.hpp
+  ${DRAPE_ROOT}/static_quad_tree.hpp
   ${DRAPE_ROOT}/stipple_pen_resource.cpp
   ${DRAPE_ROOT}/stipple_pen_resource.hpp
   ${DRAPE_ROOT}/support_manager.cpp

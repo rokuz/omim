@@ -66,6 +66,7 @@ OverlayTree::OverlayTree(double visualScale)
   , m_isDisplacementEnabled(true)
 {
   m_traits.SetVisualScale(visualScale);
+  m_quadTree.SetTraits(&m_traits);
   for (size_t i = 0; i < m_handles.size(); i++)
     m_handles[i].reserve(kAverageHandlesCount[i]);
 }
@@ -73,7 +74,7 @@ OverlayTree::OverlayTree(double visualScale)
 void OverlayTree::Clear()
 {
   m_frameCounter = kInvalidFrame;
-  TBase::Clear();
+  m_quadTree.Clear();
   m_handlesCache.clear();
   for (auto & handles : m_handles)
     handles.clear();
@@ -100,7 +101,7 @@ bool OverlayTree::IsNeedUpdate() const
 void OverlayTree::StartOverlayPlacing(ScreenBase const & screen)
 {
   ASSERT(IsNeedUpdate(), ());
-  TBase::Clear();
+  m_quadTree.Clear();
   m_handlesCache.clear();
   m_traits.SetModelView(screen);
   m_displacementInfo.clear();
@@ -172,7 +173,7 @@ void OverlayTree::InsertHandle(ref_ptr<OverlayHandle> handle, int currentRank,
   if (!m_isDisplacementEnabled)
   {
     m_handlesCache.insert(handle);
-    TBase::Add(handle, pixelRect);
+    m_quadTree.Add(handle);
     return;
   }
 
@@ -181,7 +182,7 @@ void OverlayTree::InsertHandle(ref_ptr<OverlayHandle> handle, int currentRank,
 
   // Find elements that already on OverlayTree and it's pixel rect
   // intersect with handle pixel rect ("Intersected elements").
-  ForEachInRect(pixelRect, [&] (ref_ptr<OverlayHandle> const & h)
+  m_quadTree.ForEachInRect(pixelRect, [&] (ref_ptr<OverlayHandle> const & h)
   {
     bool const isParent = (h == parentOverlay) ||
                           (h->GetOverlayID() == handle->GetOverlayID() &&
@@ -242,7 +243,7 @@ void OverlayTree::InsertHandle(ref_ptr<OverlayHandle> handle, int currentRank,
       {
         if ((*it)->GetOverlayID() == rivalHandle->GetOverlayID())
         {
-          Erase(*it);
+          m_quadTree.Erase(*it);
           StoreDisplacementInfo(2 /* case index */, handle, *it);
           it = m_handlesCache.erase(it);
         }
@@ -260,7 +261,7 @@ void OverlayTree::InsertHandle(ref_ptr<OverlayHandle> handle, int currentRank,
   }
 
   m_handlesCache.insert(handle);
-  TBase::Add(handle, pixelRect);
+  m_quadTree.Add(handle);
 }
 
 void OverlayTree::EndOverlayPlacing()
@@ -335,7 +336,7 @@ void OverlayTree::DeleteHandle(ref_ptr<OverlayHandle> const & handle)
 {
   size_t const deletedCount = m_handlesCache.erase(handle);
   if (deletedCount != 0)
-    Erase(handle);
+    m_quadTree.Erase(handle);
 }
 
 void OverlayTree::DeleteHandleWithParents(ref_ptr<OverlayHandle> handle, int currentRank)
@@ -387,7 +388,7 @@ void OverlayTree::Select(m2::PointD const & glbPoint, TOverlayContainer & result
 void OverlayTree::Select(m2::RectD const & rect, TOverlayContainer & result) const
 {
   ScreenBase screen = GetModelView();
-  ForEachInRect(rect, [&](ref_ptr<OverlayHandle> const & h)
+  m_quadTree.ForEachInRect(rect, [&](ref_ptr<OverlayHandle> const & h)
   {
     if (!h->HasLinearFeatureShape() && h->IsVisible() && h->GetOverlayID().m_featureId.IsValid())
     {
@@ -443,12 +444,12 @@ void OverlayTree::StoreDisplacementInfo(int caseIndex, ref_ptr<OverlayHandle> di
                                   dp::Color(0, 0, 255, 255));
 }
 
-void detail::OverlayTraits::SetVisualScale(double visualScale)
+void OverlayTraits::SetVisualScale(double visualScale)
 {
   m_visualScale = visualScale;
 }
 
-void detail::OverlayTraits::SetModelView(ScreenBase const & modelView)
+void OverlayTraits::SetModelView(ScreenBase const & modelView)
 {
   m_modelView = modelView;
 
