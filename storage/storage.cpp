@@ -229,7 +229,7 @@ void Storage::Clear()
   SaveDownloadQueue();
 }
 
-void Storage::RegisterAllLocalMaps()
+void Storage::RegisterAllLocalMaps(bool enableDiffs)
 {
   ASSERT_THREAD_CHECKER(m_threadChecker, ());
 
@@ -276,7 +276,9 @@ void Storage::RegisterAllLocalMaps()
 
     i = j;
   }
-  LoadDiffScheme();
+
+  if (enableDiffs)
+    LoadDiffScheme();
   RestoreDownloadQueue();
 }
 
