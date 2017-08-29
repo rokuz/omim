@@ -9,6 +9,7 @@
 #include "drape/uniform_values_storage.hpp"
 
 #include "base/assert.hpp"
+#include "base/logging.hpp"
 
 namespace df
 {
@@ -141,6 +142,77 @@ private:
   uint32_t m_blendingWeightTextureId = 0;
 };
 
+class FXAARendererContext : public SMAABaseRendererContext
+{
+public:
+  int GetGpuProgram() const override { return gpu::FXAA_PROGRAM; }
+
+  void PreRender(ref_ptr<dp::GpuProgram> prg) override
+  {
+    GLFunctions::glClear(gl_const::GLColorBit);
+
+    BindTexture(m_colorTextureId, prg, "u_colorTex", 0 /* slotIndex */,
+                gl_const::GLLinear, gl_const::GLClampToEdge);
+    ApplyFramebufferMetrics(prg);
+
+    GLFunctions::glDisable(gl_const::GLDepthTest);
+    GLFunctions::glDisable(gl_const::GLBlending);
+  }
+
+  void PostRender() override
+  {
+    GLFunctions::glActiveTexture(gl_const::GLTexture0);
+    GLFunctions::glBindTexture(0);
+  }
+
+  void SetParams(uint32_t colorTextureId, uint32_t width, uint32_t height)
+  {
+    m_colorTextureId = colorTextureId;
+    m_width = static_cast<float>(width);
+    m_height = static_cast<float>(height);
+  }
+
+private:
+  uint32_t m_colorTextureId = 0;
+};
+
+class FXAAFinalRendererContext : public SMAABaseRendererContext
+{
+public:
+  int GetGpuProgram() const override { return gpu::FXAA_FINAL_PROGRAM; }
+
+  void PreRender(ref_ptr<dp::GpuProgram> prg) override
+  {
+    GLFunctions::glClear(gl_const::GLColorBit);
+
+    BindTexture(m_colorTextureId, prg, "u_colorTex", 0 /* slotIndex */,
+                gl_const::GLLinear, gl_const::GLClampToEdge);
+    BindTexture(m_fxaaTextureId, prg, "u_fxaaTex", 1 /* slotIndex */,
+                gl_const::GLLinear, gl_const::GLClampToEdge);
+
+    GLFunctions::glDisable(gl_const::GLDepthTest);
+    GLFunctions::glDisable(gl_const::GLBlending);
+  }
+
+  void PostRender() override
+  {
+    GLFunctions::glActiveTexture(gl_const::GLTexture0 + 1);
+    GLFunctions::glBindTexture(0);
+    GLFunctions::glActiveTexture(gl_const::GLTexture0);
+    GLFunctions::glBindTexture(0);
+  }
+
+  void SetParams(uint32_t colorTextureId, uint32_t fxaaTextureId)
+  {
+    m_colorTextureId = colorTextureId;
+    m_fxaaTextureId = fxaaTextureId;
+  }
+
+private:
+  uint32_t m_colorTextureId = 0;
+  uint32_t m_fxaaTextureId = 0;
+};
+
 void InitFramebuffer(drape_ptr<dp::Framebuffer> & framebuffer, uint32_t width, uint32_t height)
 {
   if (framebuffer == nullptr)
@@ -172,7 +244,10 @@ PostprocessRenderer::PostprocessRenderer()
   , m_edgesRendererContext(make_unique_dp<EdgesRendererContext>())
   , m_bwRendererContext(make_unique_dp<BlendingWeightRendererContext>())
   , m_smaaFinalRendererContext(make_unique_dp<SMAAFinalRendererContext>())
+  , m_fxaaRendererContext(make_unique_dp<FXAARendererContext>())
+  , m_fxaaFinalRendererContext(make_unique_dp<FXAAFinalRendererContext>())
   , m_frameStarted(false)
+  , m_isActiveFrame(true)
 {}
 
 PostprocessRenderer::~PostprocessRenderer()
@@ -252,8 +327,9 @@ bool PostprocessRenderer::IsEffectEnabled(Effect effect) const
   return (m_effects & static_cast<uint32_t>(effect)) > 0;
 }
 
-void PostprocessRenderer::BeginFrame()
+void PostprocessRenderer::BeginFrame(bool isActiveFrame)
 {
+  m_isActiveFrame = isActiveFrame;
   if (!IsEnabled())
   {
     m_framebufferFallback();
@@ -297,47 +373,73 @@ void PostprocessRenderer::EndFrame(ref_ptr<dp::GpuProgramManager> gpuProgramMana
     GLFunctions::glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
     GLFunctions::glEnable(gl_const::GLStencilTest);
 
-    // Render edges to texture.
+    if (m_isActiveFrame)
     {
-      m_edgesFramebuffer->Enable();
-
-      GLFunctions::glStencilFuncSeparate(gl_const::GLFrontAndBack, gl_const::GLNotEqual, 1, 1);
-      GLFunctions::glStencilOpSeparate(gl_const::GLFrontAndBack, gl_const::GLZero,
-                                       gl_const::GLZero, gl_const::GLReplace);
-
-      ASSERT(dynamic_cast<EdgesRendererContext *>(m_edgesRendererContext.get()) != nullptr, ());
-      auto context = static_cast<EdgesRendererContext *>(m_edgesRendererContext.get());
-      context->SetParams(m_mainFramebuffer->GetTextureId(), m_width, m_height);
-      m_screenQuadRenderer->Render(gpuProgramManager, make_ref(m_edgesRendererContext));
-    }
-
-    // Render blending weight to texture.
-    {
+      // On active frames we render simplified AA.
       m_blendingWeightFramebuffer->Enable();
 
-      GLFunctions::glStencilFuncSeparate(gl_const::GLFrontAndBack, gl_const::GLEqual, 1, 1);
+      GLFunctions::glStencilFuncSeparate(gl_const::GLFrontAndBack, gl_const::GLNotEqual, 1, 1);
       GLFunctions::glStencilOpSeparate(gl_const::GLFrontAndBack, gl_const::GLKeep,
                                        gl_const::GLKeep, gl_const::GLKeep);
 
-      ASSERT(dynamic_cast<BlendingWeightRendererContext *>(m_bwRendererContext.get()) != nullptr, ());
-      auto context = static_cast<BlendingWeightRendererContext *>(m_bwRendererContext.get());
-      context->SetParams(m_edgesFramebuffer->GetTextureId(),
-                         m_staticTextures->m_smaaAreaTexture->GetID(),
-                         m_staticTextures->m_smaaSearchTexture->GetID(),
-                         m_width, m_height);
-      m_screenQuadRenderer->Render(gpuProgramManager, make_ref(m_bwRendererContext));
-    }
+      ASSERT(dynamic_cast<FXAARendererContext *>(m_fxaaRendererContext.get()) != nullptr, ());
+      auto fxaaContext = static_cast<FXAARendererContext *>(m_fxaaRendererContext.get());
+      fxaaContext->SetParams(m_mainFramebuffer->GetTextureId(), m_width, m_height);
+      m_screenQuadRenderer->Render(gpuProgramManager, make_ref(m_fxaaRendererContext));
 
-    // SMAA final pass.
-    GLFunctions::glDisable(gl_const::GLStencilTest);
-    {
+      GLFunctions::glDisable(gl_const::GLStencilTest);
+
       m_framebufferFallback();
-      ASSERT(dynamic_cast<SMAAFinalRendererContext *>(m_smaaFinalRendererContext.get()) != nullptr, ());
-      auto context = static_cast<SMAAFinalRendererContext *>(m_smaaFinalRendererContext.get());
-      context->SetParams(m_mainFramebuffer->GetTextureId(),
-                         m_blendingWeightFramebuffer->GetTextureId(),
-                         m_width, m_height);
-      m_screenQuadRenderer->Render(gpuProgramManager, make_ref(m_smaaFinalRendererContext));
+
+      ASSERT(dynamic_cast<FXAAFinalRendererContext *>(m_fxaaFinalRendererContext.get()) != nullptr, ());
+      auto fxaaFinalContext = static_cast<FXAAFinalRendererContext *>(m_fxaaFinalRendererContext.get());
+      fxaaFinalContext->SetParams(m_mainFramebuffer->GetTextureId(), m_blendingWeightFramebuffer->GetTextureId());
+      m_screenQuadRenderer->Render(gpuProgramManager, make_ref(m_fxaaFinalRendererContext));
+    }
+    else
+    {
+      // Render edges to texture.
+      {
+        m_edgesFramebuffer->Enable();
+
+        GLFunctions::glStencilFuncSeparate(gl_const::GLFrontAndBack, gl_const::GLNotEqual, 1, 1);
+        GLFunctions::glStencilOpSeparate(gl_const::GLFrontAndBack, gl_const::GLZero,
+                                         gl_const::GLZero, gl_const::GLReplace);
+
+        ASSERT(dynamic_cast<EdgesRendererContext *>(m_edgesRendererContext.get()) != nullptr, ());
+        auto context = static_cast<EdgesRendererContext *>(m_edgesRendererContext.get());
+        context->SetParams(m_mainFramebuffer->GetTextureId(), m_width, m_height);
+        m_screenQuadRenderer->Render(gpuProgramManager, make_ref(m_edgesRendererContext));
+      }
+
+      // Render blending weight to texture.
+      {
+        m_blendingWeightFramebuffer->Enable();
+
+        GLFunctions::glStencilFuncSeparate(gl_const::GLFrontAndBack, gl_const::GLEqual, 1, 1);
+        GLFunctions::glStencilOpSeparate(gl_const::GLFrontAndBack, gl_const::GLKeep,
+                                         gl_const::GLKeep, gl_const::GLKeep);
+
+        ASSERT(dynamic_cast<BlendingWeightRendererContext *>(m_bwRendererContext.get()) != nullptr, ());
+        auto context = static_cast<BlendingWeightRendererContext *>(m_bwRendererContext.get());
+        context->SetParams(m_edgesFramebuffer->GetTextureId(),
+                           m_staticTextures->m_smaaAreaTexture->GetID(),
+                           m_staticTextures->m_smaaSearchTexture->GetID(),
+                           m_width, m_height);
+        m_screenQuadRenderer->Render(gpuProgramManager, make_ref(m_bwRendererContext));
+      }
+
+      // SMAA final pass.
+      GLFunctions::glDisable(gl_const::GLStencilTest);
+      {
+        m_framebufferFallback();
+        ASSERT(dynamic_cast<SMAAFinalRendererContext *>(m_smaaFinalRendererContext.get()) != nullptr, ());
+        auto context = static_cast<SMAAFinalRendererContext *>(m_smaaFinalRendererContext.get());
+        context->SetParams(m_mainFramebuffer->GetTextureId(),
+                           m_blendingWeightFramebuffer->GetTextureId(),
+                           m_width, m_height);
+        m_screenQuadRenderer->Render(gpuProgramManager, make_ref(m_smaaFinalRendererContext));
+      }
     }
   }
 

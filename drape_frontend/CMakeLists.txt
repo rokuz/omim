@@ -241,6 +241,10 @@ set(
   shaders/debug_rect.fsh.glsl
   shaders/debug_rect.vsh.glsl
   shaders/discarded_texturing.fsh.glsl
+  shaders/fxaa.fsh.glsl
+  shaders/fxaa.vsh.glsl
+  shaders/fxaa_final.fsh.glsl
+  shaders/fxaa_final.vsh.glsl
   shaders/hatching_area.fsh.glsl
   shaders/hatching_area.vsh.glsl
   shaders/line.fsh.glsl

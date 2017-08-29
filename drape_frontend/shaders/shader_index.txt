@@ -42,3 +42,5 @@ TRAFFIC_LINE_PROGRAM traffic_line.vsh.glsl traffic_line.fsh.glsl
 SMAA_EDGES_PROGRAM smaa_edges.vsh.glsl smaa_edges.fsh.glsl
 SMAA_BLENDING_WEIGHT_PROGRAM smaa_blending_weight.vsh.glsl smaa_blending_weight.fsh.glsl
 SMAA_FINAL_PROGRAM smaa_final.vsh.glsl smaa_final.fsh.glsl
+FXAA_PROGRAM fxaa.vsh.glsl fxaa.fsh.glsl
+FXAA_FINAL_PROGRAM fxaa_final.vsh.glsl fxaa_final.fsh.glsl

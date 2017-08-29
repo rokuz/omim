@@ -43,7 +43,7 @@ public:
 
   void OnFramebufferFallback();
 
-  void BeginFrame();
+  void BeginFrame(bool isActiveFrame);
   void EndFrame(ref_ptr<dp::GpuProgramManager> gpuProgramManager);
 
   void EnableWritingToStencil() const;
@@ -69,7 +69,11 @@ private:
   drape_ptr<RendererContext> m_bwRendererContext;
   drape_ptr<RendererContext> m_smaaFinalRendererContext;
 
+  drape_ptr<RendererContext> m_fxaaRendererContext;
+  drape_ptr<RendererContext> m_fxaaFinalRendererContext;
+
   bool m_frameStarted;
+  bool m_isActiveFrame;
 };
 
 class StencilWriterGuard
