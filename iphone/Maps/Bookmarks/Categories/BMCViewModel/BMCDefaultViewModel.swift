@@ -63,7 +63,7 @@ final class BMCDefaultViewModel: NSObject {
   private func loadData() {
     sections = []
 
-    sections.append(.permissions)
+    //    sections.append(.permissions)
     setPermissions()
 
     if MWMBookmarksManager.areBookmarksLoaded() {
