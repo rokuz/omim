@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Brooke Bond Москва</name>
+<visibility>1</visibility>
+
+      <Style id="placemark-blue">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-blue">
+        <LineStyle>
+          <color>ffee9922</color>
+        </LineStyle>
+      </Style>
+
+      <Style id="placemark-brown">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-brown">
+        <LineStyle>
+          <color>ff005577</color>
+        </LineStyle>
+      </Style>
+
+      <Style id="placemark-green">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-green.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-green">
+        <LineStyle>
+          <color>ff559911</color>
+        </LineStyle>
+      </Style>
+
+      <Style id="placemark-orange">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-orange">
+        <LineStyle>
+          <color>ff0077ff</color>
+        </LineStyle>
+      </Style>
+
+      <Style id="placemark-pink">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-pink">
+        <LineStyle>
+          <color>ffaa77ff</color>
+        </LineStyle>
+      </Style>
+
+      <Style id="placemark-purple">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-purple">
+        <LineStyle>
+          <color>ff882299</color>
+        </LineStyle>
+      </Style>
+
+      <Style id="placemark-red">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-red.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-red">
+        <LineStyle>
+          <color>ff2211ee</color>
+        </LineStyle>
+      </Style>
+
+      <Style id="placemark-yellow">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-yellow">
+        <LineStyle>
+          <color>ff22ddff</color>
+        </LineStyle>
+      </Style>
+
+      <Style id="placemark-black">
+        <IconStyle>
+          <Icon>
+            <href>http://mapswith.me/placemarks/placemark-black.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Style id="line-black">
+        <LineStyle>
+          <color>ff000000</color>
+        </LineStyle>
+      </Style>
+
+      <Placemark>
+        <name>Город-вдохновение</name>
+        <styleUrl>#line-blue</styleUrl>
+        <LineString><coordinates>
+37.60001062274,55.7214183155,0
+37.59932397723,55.72178691633,0
+37.59847639918,55.72235491734,0
+37.59733914256,55.7229652071,0
+37.59664176822,55.7236721645,0
+37.59648083568,55.72421596917,0
+37.59428142965,55.7252189638,0
+37.59585856855,55.72708592092,0
+37.59835838199,55.72967776497,0
+37.59967802882,55.72928507284,0
+37.60012863994,55.72839696993,0
+37.60109423518,55.72804655642,0
+37.60095476031,55.72786530682,0
+37.60122298121,55.72778676506,0
+37.60123371005,55.7281371809,0
+37.60183452487,55.72866884031,0
+37.60125516772,55.72862654949,0
+37.60053633571,55.72891654279,0
+37.6009225738,55.72923069977,0
+37.60139464259,55.72904341419,0
+37.60264991641,55.73010065976,0
+37.60467766643,55.72935152871,0
+37.60624407649,55.73073499337,0
+37.60605095744,55.7309947651,0
+37.60545014262,55.73123037054,0
+37.60514973521,55.73117600018,0
+37.6045811069,55.73074707581,0
+37.603658427,55.73110350625,0
+37.60451673388,55.73174386463,0
+37.6063942802,55.73118204133,0
+37.60657667041,55.73123037054,0
+37.61158703685,55.72956901985,0
+37.61162995219,55.72924278268,0
+37.61162995756,55.72901924522,0
+37.61094331205,55.72859331793,0
+</coordinates></LineString></Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «Улица академика Петровского»</name>
+    <description>Начать вдохновляющее путешествие по городу можно с остановки «Улица академика Петровского». Здесь останавливаются автобусы 111, 144, 196, м1; троллейбусы 4, 7, м4, м4к, которые оборудованы для людей с ограниченными возможностями.  &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>37.5999304,55.7213227</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Парк Горького. Фонтан «Девушка с кувшином»</name>
+    <description>Режим работы: круглосуточно.&lt;br /&gt;Наш путь лежит в Парк Культуры и Отдыха имени Горького - один из главных культурных центров столицы. Это место наполнено контрастами: здесь в одно и то же время можно окунуться в атмосферу шумного праздника или остаться наедине с собой в тихой парковой зоне. Одно из таких немноголюдных мест - фонтан «Девушка с кувшином» у бокового входа в парк, со стороны Пушкинского моста. Изящная фигура юной гречанки в центре композиции по вечерам красиво подсвечивается, как и тонкие струи воды вокруг нее. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/park-gorkogo.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>37.5972871,55.7229565</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Пушкинская набережная</name>
+    <description>Режим работы: круглосуточно.&lt;br /&gt;Двигайтесь дальше вдоль Пушкинской набережной так, чтобы справа от вас оставался парк, а слева - река Москва. Насладитесь видом на Пушкинский и Крымский мосты, понаблюдайте за проходящими мимо теплоходами, остановитесь отдохнуть в одной из романтичных беседок с белыми колоннами. Только представьте: почти два столетия назад по этим же местам гулял Александр Пушкин с невестой Натальей Гончаровой.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/pushkinskaja.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>37.5950371,55.7262815</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Музей «Гараж»</name>
+    <description>Режим работы: 11:00 – 22:00.&lt;br /&gt;В глубине парка расположился «Гараж» - музей современного искусства и культурный центр, в котором круглый год проходят выставки, лекции, дискуссии, кинопоказы, мастер-классы и семинары, посвященные актуальному творчеству и стилю жизни. На территории музея также работает библиотека с более чем 20 тысячами книг и журналов о живописи, архитектуре, дизайне, моде и фотографии.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/garazh.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>37.6016368,55.7278188</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Пионерский пруд</name>
+    <description>Режим работы: круглосуточно.&lt;br /&gt;Прямо напротив музея находится уютный и тихий Пионерский пруд. До революции он назывался «Малым» и принадлежал Мещанскому училищу. Зимой здесь любил кататься на коньках Федор Шаляпин, а актер Михаил Чехов частенько приходил сюда порыбачить. В наши дни замерзший Пионерский пруд – место проведения конкурсов ледяных скульптур, а летом здесь работает лодочная станция.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/prud.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>37.6052549,55.7305018</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Brooke Bond</name>
+    <description>Режим работы: 09:00 – 03:00.&lt;br /&gt;Советуем остановиться в Burger King, отдохнуть и насладиться чашкой чая Brookе Bond, которая вдохновит на дальнейшие прогулки.&lt;br /&gt;&lt;br /&gt;Обращайтесь за бесплатной чашкой Brooke Bond к директору ресторана. Просто покажите ему точку Brooke Bond на маршруте в приложении. Сроки проведения дегустации: с 16 октября по 30 ноября 2017 года.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/logotip.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>37.6111274,55.7296959</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «ст. метро Октябрьская»</name>
+    <description>Наш маршрут заканчиваем на автобусной остановке «ст. метро Октябрьская», где останавливаются автобусы М1, 144, троллейбусы 4, м4, м4к, оборудованные для людей с ограниченными возможностями.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>37.6110522,55.7285773</coordinates></Point>
+  </Placemark>
+
+      <Placemark>
+        <name>Город-легенда</name>
+        <styleUrl>#line-red</styleUrl>
+        <LineString><coordinates>
+37.61152803361,55.75287885259,0
+37.61234342515,55.75438223487,0
+37.61335730016,55.75420714514,0
+37.61267065465,55.7528396069,0
+37.61381327569,55.7527007372,0
+37.61452137887,55.75395960314,0
+37.61518656671,55.75500108022,0
+37.61537432134,55.7549648554,0
+37.61590539873,55.75533313953,0
+37.61662423074,55.75561387838,0
+37.61754154623,55.75597913773,0
+37.61828720033,55.7555142616,0
+37.62060462892,55.75431582162,0
+37.62011646688,55.75399884771,0
+37.61852859914,55.75480184328,0
+37.62226759851,55.75694811496,0
+37.6241397804,55.75837889713,0
+37.62285768449,55.75901578961,0
+37.62279867589,55.75914256317,0
+37.61997162759,55.75867168785,0
+37.61975168645,55.75903993699,0
+37.62168287694,55.75935083314,0
+37.62460112036,55.75972209422,0
+37.62453138292,55.7599786547,0
+37.6245260185,55.75976133299,0
+37.6216399616,55.75938705389,0
+37.61975705087,55.75907917644,0
+37.61939227045,55.75919085776,0
+37.61940299928,55.75932970435,0
+37.61909186304,55.7593810171,0
+37.61891483724,55.75965870843,0
+37.61835693777,55.75953797331,0
+37.61871098936,55.75886486816,0
+37.61814236104,55.75873809369,0
+37.61756836832,55.7586445218,0
+37.61743425786,55.75877431501,0
+37.61724650323,55.75869885389,0
+37.61732160509,55.75858415271,0
+37.61512219369,55.75730430614,0
+37.61498808324,55.75733147313,0
+37.61334657133,55.75821891776,0
+37.61247217119,55.75901578961,0
+37.61179625452,55.75881959161,0
+37.61215030611,55.75837889713,0
+37.6129710567,55.75775407135,0
+37.61456965863,55.7569209477,0
+37.61348604083,55.75607573769,0
+37.61209666192,55.75472637448,0
+37.61053561628,55.75517616639,0
+</coordinates></LineString></Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «Библиотека им. Ленина»</name>
+    <description>Маршрут начинаем от остановки автобуса М6 «Библиотека им. Ленина». Напомним, что этот автобус отвечает всем правилам перевозки пассажиров с ограниченными возможностями.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.6115674,55.752885</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Манеж</name>
+    <description>Режим работы: 12:00–22:00 (вход посетителей до 21:30). Выходной день: понедельник. Бесплатное посещение: каждое третье воскресенье месяца.&lt;br /&gt;История Манежа началась с огня. Его построили на месте выгоревших в дни наполеоновского нашествия купеческих лавок. Манеж стал памятником победы над французами, а заодно - пространством для упражнений российских пехотных войск. В советское время здесь был гараж для правительственных машин, а после смерти Сталина здание превратилось в грандиозный выставочный комплекс. В 1941 году здание Манежа пережило бомбардировку, в 2004 - пожар, но выстояло. Обязательно загляните внутрь: теперь в Манеже проходят выставки, лекции и кинопоказы.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/manezh.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.6124263,55.7534809</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Исторический музей</name>
+    <description>Режим работы: 10:00 - 18:00 (по пятницам и субботам до 21:00). Выходной день: вторник. &lt;br /&gt;От Манежа проследуйте вдоль кремлевских стен до Красной площади. Здесь расположился Исторический музей, в залах которого можно увидеть разнообразные археологические находки, старинные костюмы, летописи, роскошные кареты и другие артефакты, в которых оживает история города и страны. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/istoricheskij-muzej.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.6177339,55.7553182</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Красная Площадь</name>
+    <description>Режим работы: круглосуточно.&lt;br /&gt;Красная площадь - обязательная остановка исторического маршрута по Москве. Прогуляйтесь по старинной брусчатке, полюбуйтесь на Спасскую, Никольскую и Сенатскую Башни, Храм Василия Блаженного и Казанский собор, Мавзолей Ленина и памятник Минину и Пожарскому, ГУМ и лобное место.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/krasnaja-ploschad.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.6200551,55.754157</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>ЦДМ</name>
+    <description>Режим работы: 10:00 – 22:00.&lt;br /&gt;Еще одно легендарное место столицы - Центральный Детский Магазин на Лубянской площади. В эпоху СССР сюда за импортной одеждой, редкими игрушками и вкуснейшим мороженым ехала вся страна. Сегодня ЦДМ - это развлекательный центр с аттракционами, магазинами и кафе в обновленном интерьере, не уступающем старому в красоте и атмосфере радости и сказки. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/tsdm.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.6250342,55.7601488</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Brooke Bond</name>
+    <description>В ЦДМ расположено множество кафе и ресторанов. Загляните в Burger King, где подают ароматный чай Brookе Bond. Спокойное чаепитие поможет привести мысли в порядок и даст силы для новых исследований. &lt;br /&gt;&lt;br /&gt;Обращайтесь за бесплатной чашкой Brooke Bond к директору ресторана. Просто покажите ему точку Brooke Bond на маршруте в приложении. Сроки проведения дегустации: с 16 октября по 30 ноября 2017 года.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/logotip.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.6244058,55.76029</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Большой театр</name>
+    <description>Режим работы: открыт на время проведения спектаклей.&lt;br /&gt;От ЦДМ довольно быстро можно добраться до Большого театра. Постарайтесь купить билет на историческую сцену – это можно сделать на сайте Большого за пару месяцев до желаемой даты. Здесь каждая деталь, будь то люстра, потолок или кресло в зрительном зале, - настоящее произведение искусства. А благодаря художественным руководителям - Владимиру Урину, Махару Вазиеву и Маквале Касрашвили - на сцене Большого помимо легендарных классических постановок появились и яркие современные спектакли.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/bolshoj.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.618556,55.7602406</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «Моховая улица»</name>
+    <description>Завершаем прогулку на остановке автобуса М6 «Моховая улица». Автобус полностью оборудован для людей с ограниченными возможностями.  &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.6105682,55.7551857</coordinates></Point>
+  </Placemark>
+
+      <Placemark>
+        <name>Город-любовь</name>
+        <styleUrl>#line-purple</styleUrl>
+        <LineString><coordinates>
+37.61693805188,55.79352673985,0
+37.61703997582,55.79354181861,0
+37.61703192651,55.79395648358,0
+37.61698901385,55.79435304699,0
+37.6171177572,55.79483404768,0
+37.61680125654,55.79485214157,0
+37.61661886632,55.79435757203,0
+37.61654376447,55.79376649287,0
+37.61644720495,55.79311207333,0
+37.61662423074,55.79274716181,0
+37.61668323934,55.79147145252,0
+37.6168978107,55.78842225058,0
+37.61701582789,55.78698050578,0
+37.61701582789,55.786353119,0
+37.6155888927,55.78384347083,0
+37.61544941783,55.78331256301,0
+37.61578201175,55.7826187521,0
+37.61668323398,55.78255238693,0
+37.6192796123,55.78364438125,0
+37.62323855281,55.78217832659,0
+37.62230514407,55.78147846212,0
+37.62014864802,55.78236535721,0
+37.61962293506,55.78212402721,0
+37.61911867976,55.78245585557,0
+37.61861442447,55.78254635373,0
+37.61804579616,55.78229295837,0
+37.61691926837,55.78273941575,0
+37.61578201711,55.78226882237,0
+37.6157176441,55.78235630434,0
+37.61519193113,55.78239552034,0
+37.6147681421,55.78239552034,0
+37.61406540335,55.78210215359,0
+37.613932634,55.78197771716,0
+37.61426791012,55.78182990124,0
+37.61434167088,55.78163985138,0
+37.61412039131,55.78155915381,0
+</coordinates></LineString></Placemark>
+
+  <Placemark>
+    <name>Станция метро «Марьина Роща»</name>
+    <description>Романтический маршрут начинается от станции метро «Марьина Роща», оборудованной лифтом для людей с ограниченными возможностями. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/stantsija-metro-marina-roscha.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>37.6169266,55.7935248</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>ТЦ Райкин Плаза</name>
+    <description>Режим работы: 10:00 – 22:00.&lt;br /&gt;Прогуляйтесь по торговому центру, ведь совместный шоппинг - это весело и полезно. Подчеркните свой стиль или кардинально смените имидж, примерьте что-то невероятное или снимите видеоблог о моде - пусть поход по магазинам станет приятной частью свидания. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/tts-rajkin-plaza.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>37.6170311,55.7954498</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Кинотеатр Синема Стар</name>
+    <description>Режим работы: 10:00 – 01:00.&lt;br /&gt;Классическое свидание нередко начинается в кино: полумрак зала, красивая музыка, поцелуи на последнем ряду. Герои фильма за пару часов становятся вашими общими друзьями, а события на экране - совместным ярким опытом, делающим вас ближе. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/sinema-star.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>37.6168829,55.7947368</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Brooke Bond</name>
+    <description>Режим работы: 10:00 - 22:00. Когда утомитесь, отправляйтесь в Burger King. Чашка горячего чая Brooke Bond подарит тепло и поможет начать разговор по душам.  &lt;br /&gt;&lt;br /&gt;Обращайтесь за бесплатной чашкой Brooke Bond к директору ресторана. Просто покажите ему точку Brooke Bond на маршруте в приложении. Сроки проведения дегустации: с 16 октября по 30 ноября 2017 года.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/logotip.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>37.6173644,55.7946202</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Екатерининский парк</name>
+    <description>Режим работы: 7:00-23:00.&lt;br /&gt;Чтобы обсудить кино и развеяться, отправляйтесь в Екатерининский парк. Изящные мостики, веранды и причалы – прогуляйтесь вокруг большого пруда. А на концертной площадке можно застать выступление оркестра или местных групп. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/ekaterininskij-park-moskva.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>37.619677,55.7841475</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Станция метро «Достоевская»</name>
+    <description>Идеальное свидание завершаем на станции метро «Достоевская», оборудованной лифтом для людей с ограниченными возможностями. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/stantsija-metro-dostoevskaja.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>37.6140678,55.7815566</coordinates></Point>
+  </Placemark>
+
+      <Placemark>
+        <name>Город-мечта</name>
+        <styleUrl>#line-orange</styleUrl>
+        <LineString><coordinates>
+37.57667540967,55.76076643573,0
+37.57872461736,55.76051893535,0
+37.57898210943,55.76068796017,0
+37.58038758695,55.76038914795,0
+37.58095621526,55.76004505831,0
+37.58113324106,55.76012957184,0
+37.58216320932,55.75957721227,0
+37.58443235815,55.75917576571,0
+37.58563398242,55.76102601062,0
+37.58429287791,55.76130972673,0
+37.58550523639,55.76100186447,0
+37.58440016627,55.75922708167,0
+37.58219002604,55.75960136232,0
+37.5792610538,55.76118296021,0
+37.57893383235,55.76119804696,0
+37.57881581515,55.76102600609,0
+37.57834642857,55.76126293937,0
+37.57853149831,55.76146667217,0
+37.57861196458,55.76260151142,0
+37.57623552203,55.7641890267,0
+37.57516263843,55.76384497059,0
+37.57480858684,55.76415281041,0
+37.57447599292,55.76399587277,0
+37.57476567149,55.76336811588,0
+37.57526992679,55.76332586265,0
+37.57602094531,55.76272827635,0
+37.57643936992,55.76167795095,0
+37.57662176013,55.76127954426,0
+37.57797359347,55.76112863158,0
+37.57826327205,55.76119503323,0
+37.57871388316,55.76096564522,0
+37.57811306834,55.76091735283,0
+37.57260917544,55.76155722208,0
+37.57077454448,55.76185904356,0
+</coordinates></LineString></Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «Станция метро Краснопресненская»</name>
+    <description>Маршрут начинается с остановки «Станция метро Краснопресненская», где останавливается автобус М6, адаптированный для людей с ограниченными возможностями. От этой остановки двигаемся к Московскому Планетарию.  &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>37.5766431,55.7607838</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Московский Планетарий</name>
+    <description>Режим работы: 10:00 - 21:00. Выходной день: вторник.&lt;br /&gt;Под куполом Планетария вас ждут 9 тысяч звезд, уникальная коллекция метеоритов, настоящий телескоп и многое другое. Здесь вы узнаете тайны Вселенной, почувствуете себя пилотом космолета, познакомитесь с удивительными природными явлениями и изобретениями ученых, а еще -  загадаете желание, глядя на звездопад. Только не задерживайтесь - у нас впереди следующая остановка! &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/moskovskij-planetarij.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>37.5836608,55.7614474</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Московский Зоопарк</name>
+    <description>Режим работы: 07.30 - 20.00 (кассы открыты до 19.00).&lt;br /&gt;Возвращаемся на Землю: от планетария до зоопарка рукой подать. Здесь живет более тысячи животных со всех уголков планеты. Саванны, прерии, заполярье – буквально за пару часов можно совершить настоящую кругосветку, изучить микромир насекомых, увидеть десятки видов экзотических животных. Среди вольеров с дикими и прекрасными животными так приятно мечтать о дальних странах. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/moskovskij-zoopark.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>37.5784585,55.7611603</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Пруд желаний</name>
+    <description>Режим работы: 07.30 - 20.00 (кассы открыты до 19.00).&lt;br /&gt;По одной из городских легенд большой пруд сразу за главным входом в зоопарк исполняет заветные желания. А еще в нем обитают редкие птицы, включая диких оранжевых уток, черных лебедей и розовых фламинго. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/prud-zhelanij.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>37.5773364,55.7619473</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Brooke Bond</name>
+    <description>Режим работы: 08:00 – 03:00. &lt;br /&gt;Чтобы восстановить силы после долгого пути, сделайте остановку в Burger King и выпейте чашку чая Brooke Bond совершенно бесплатно. С первым же глотком вы почувствуете прилив сил, а волшебный аромат чая поможет отвлечься от реальности и немного помечтать.  &lt;br /&gt;&lt;br /&gt;Обращайтесь за бесплатной чашкой Brooke Bond к директору ресторана. Просто покажите ему точку Brooke Bond на маршруте в приложении. Сроки проведения дегустации: с 16 октября по 30 ноября 2017 года.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/logotip.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>37.5757927,55.7612382</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «1905 года»</name>
+    <description>Прогулка завершается на остановке «Улица 1905 года». Сюда приезжает тот же оборудованный пандусами автобус М6, на котором мы ехали в Планетарий. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>37.5707314,55.7618008</coordinates></Point>
+  </Placemark>
+
+      <Placemark>
+        <name>Город-сад</name>
+        <styleUrl>#line-green</styleUrl>
+        <LineString><coordinates>
+37.67795293987,55.79133121242,0
+37.67767130792,55.79183336011,0
+37.67818092227,55.79193288712,0
+37.67780541301,55.79264462709,0
+37.6771187675,55.7937001497,0
+37.67637847781,55.79370618118,0
+37.6755416286,55.79387506211,0
+37.67469405055,55.79446613963,0
+37.67454384685,55.79494261395,0
+37.6671516788,55.79600410541,0
+37.66694783092,55.79659515061,0
+37.66547798038,55.79838632465,0
+37.66612171054,55.798494878,0
+37.66841768146,55.79773499817,0
+37.67085312724,55.79894718039,0
+37.6767325294,55.80011108104,0
+37.67735480726,55.80117242861,0
+37.67670034826,55.8001955047,0
+37.6757615751,55.80002062067,0
+37.67576693416,55.79978543359,0
+37.67567037463,55.79950199748,0
+37.67586349368,55.79856724674,0
+37.67526267886,55.79803653956,0
+37.67508028865,55.7975239178,0
+37.67596005321,55.79581110911,0
+37.67628191829,55.79499086419,0
+37.67691491961,55.79494261395,0
+37.67702220798,55.7947496124,0
+37.6769685638,55.79441185737,0
+37.67717241168,55.79389315646,0
+37.67706512332,55.79350111048,0
+37.67792879999,55.7921198679,0
+37.67801463068,55.79194193173,0
+37.67753183305,55.79185748716,0
+37.67773299872,55.79156796153,0
+37.67779469222,55.79157549979,0
+</coordinates></LineString></Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «Сокольники»</name>
+    <description>Наш «зеленый» маршрут начинается на остановке «Сокольники», c автобусов 40, 122 или 140, оборудованных для людей с ограниченными возможностями.  &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6778158,55.7915781</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Главная аллея </name>
+    <description>Режим работы: круглосуточно.&lt;br /&gt;В 16-м веке здесь были охотничьи угодья русских царей, в 18-м - Сокольническая застава, в советское время проходили маёвки, а сейчас – проводятся мастер-классы, концерты и выставки. Направляйтесь по главной аллее вглубь парка: чем дальше от входа, тем ближе к природе. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/sokolniki.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6773642,55.7932734</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Орнитарий</name>
+    <description>Режим работы: 11:00 – наступление темноты. Выходной день: понедельник. &lt;br /&gt;Свободный полет хищных птиц вы увидите только в Сокольническом Орнитарии. За орлами, соколами и коршунами здесь можно не только наблюдать: во время интерактивной экскурсии вам разрешат подержать мощных хищников на руке и самостоятельно их покормить. Кроме того, вы познакомитесь более чем с 20 видами редких птиц, а если повезет, - станете свидетелем того, как некоторых из них отпускают на волю после лечения и восстановления.  &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/ornitarij.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6672673,55.7957715</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Золотой пруд</name>
+    <description>Режим работы: круглосуточно.&lt;br /&gt;Между Первым и Вторым Лучевыми просеками расположился Золотой пруд. Этот просторный искусственный водоем - идеальное место для пляжного отдыха в черте города. Осенью пруд особенно оправдывает свое название, ведь золотые кроны деревьев отражаются в пруду, и возникает ощущение настоящей сказки. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/prud.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6646051,55.7982437</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Сиреневый сад</name>
+    <description>Режим работы: круглосуточно.&lt;br /&gt;В глубине парка разбит Сиреневый сад, где растет более 30 видов сирени. Но это место интересно не только в мае, когда кусты усыпаны цветами. Сад создан для неспешной прогулки, уединения и слияния с природой, полон редких растений, украшен статуями и цветочными клумбами. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/siren.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6773563,55.8008538</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «Станция метро Сокольники»</name>
+    <description>После прогулки в парке направляемся на остановку автобуса 122 «Станция метро Сокольники», откуда доезжаем до остановки «Улица Гаврикова». &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6779545,55.7913305</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «Улица Гаврикова»</name>
+    <description>От остановки «Улица Гаврикова» двигаемся в сторону ТК Тройка.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6649896,55.784591</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>ТК Тройка</name>
+    <description>Режим работы: 8:30 – 23:00.&lt;br /&gt;У остановки «Улица Гаврикова» расположился Торговый Комплекс Тройка. Сюда можно отправиться сразу после прогулки, чтобы согреться и перекусить. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/tts.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6652664,55.7856326</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Brooke Bond</name>
+    <description>Режим работы: 8:30 – 23:00. В Burger King угоститесь чашкой чая Brookе Bond: этот натуральный напиток наполнит вас силой природы и повысит иммунитет. &lt;br /&gt;&lt;br /&gt;Обращайтесь за бесплатной чашкой Brooke Bond к директору ресторана. Просто покажите ему точку Brooke Bond на маршруте в приложении. Сроки проведения дегустации: с 16 октября по 30 ноября 2017 года.&lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/logotip.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6649584,55.7859199</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Автобусная остановка «Улица Гаврикова»</name>
+    <description>Завершаем прогулку у остановки автобуса 122 «Улица Гаврикова». Автобусы оборудованы для проезда людей с ограниченными возможностями. &lt;br&gt;&lt;br&gt;&lt;img src="https://maps.me/specials/brookebond/images/avtobusnaja-ostanovka.jpg" width="320"&gt;</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>37.6649896,55.784591</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
