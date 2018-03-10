@@ -7,7 +7,9 @@ set(
   serdes.hpp
   serdes_binary.cpp
   serdes_binary.hpp
+  type_utils.hpp
   types.hpp
+  visitors.hpp
 )
 
 add_library(${PROJECT_NAME} ${SRC})

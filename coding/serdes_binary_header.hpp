@@ -1,7 +1,6 @@
 #pragma once
 
 #include "coding/reader.hpp"
-#include "coding/serder_binary_header.hpp"
 #include "coding/write_to_sink.hpp"
 
 #include <cstdint>

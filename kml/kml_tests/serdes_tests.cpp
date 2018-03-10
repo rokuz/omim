@@ -3,6 +3,8 @@
 #include "kml/serdes.hpp"
 #include "kml/serdes_binary.hpp"
 
+#include "coding/file_reader.hpp"
+#include "coding/file_writer.hpp"
 #include "coding/reader.hpp"
 #include "coding/writer.hpp"
 
@@ -114,6 +116,7 @@ char const * kKmlSrc =
 }  // namespace
 
 using KmlMemoryDeserializer = kml::DeserializerKml<MemReader>;
+using KmlFileDeserializer = kml::DeserializerKml<FileReader>;
 
 UNIT_TEST(Kml_Deserialization)
 {
@@ -123,17 +126,83 @@ UNIT_TEST(Kml_Deserialization)
     KmlMemoryDeserializer des(kKmlSrc, strlen(kKmlSrc));
     des(data);
   }
-  catch (KmlMemoryDeserializer::DeserializeException & exc)
+  catch (KmlMemoryDeserializer::DeserializeException &exc)
   {
     TEST(false, ("Exception raised", exc.what()));
   }
 
-  /*std::vector<uint8_t> buffer;
-  using Sink = MemWriter<decltype(buffer)>;
+  std::vector<uint8_t> buffer;
   {
+    using Sink = MemWriter<decltype(buffer)>;
     Sink sink(buffer);
-    kml::binary::SerializerKml ser(move(holder.m_ugcs));
-    TEST_EQUAL(GetExpectedTranslationKeys(), ser.GetTranslationKeys(), ());
+    kml::binary::SerializerKml ser(data, {});
     ser.Serialize(sink);
-  }*/
+  }
+
+  kml::CategoryData data2;
+  {
+    MemReader reader(buffer.data(), buffer.size());
+    kml::binary::DeserializerKml des(data2, {});
+    des.Deserialize(reader);
+  }
+
+  TEST_EQUAL(data, data2, ());
+}
+
+UNIT_TEST(Kml_File_Deserialization)
+{
+  kml::CategoryData data;
+  try
+  {
+    KmlFileDeserializer des("/Users/romankuznetsov/Dev/Projects/omim/data/big_test.kml");
+    des(data);
+  }
+  catch (KmlMemoryDeserializer::DeserializeException &exc)
+  {
+    TEST(false, ("Exception raised", exc.what()));
+  }
+
+  std::vector<uint8_t> buffer;
+  {
+    using Sink = MemWriter<decltype(buffer)>;
+    Sink sink(buffer);
+    kml::binary::SerializerKml ser(data, {});
+    ser.Serialize(sink);
+  }
+
+  {
+    FileWriter file("/Users/romankuznetsov/Dev/Projects/omim/data/big_test.kmb");
+    file.Write(buffer.data(), buffer.size());
+  }
+
+  kml::CategoryData data2;
+  {
+    MemReader reader(buffer.data(), buffer.size());
+    kml::binary::DeserializerKml des(data2, {});
+    des.Deserialize(reader);
+  }
+
+  TEST_EQUAL(data, data2, ());
+}
+
+UNIT_TEST(Kml_Speed_Text)
+{
+  kml::CategoryData data;
+  try
+  {
+    KmlFileDeserializer des("/Users/romankuznetsov/Dev/Projects/omim/data/big_test.kml");
+    des(data);
+  }
+  catch (KmlMemoryDeserializer::DeserializeException &exc)
+  {
+    TEST(false, ("Exception raised", exc.what()));
+  }
+}
+
+UNIT_TEST(Kml_Speed_Bin)
+{
+  kml::CategoryData data;
+  FileReader reader("/Users/romankuznetsov/Dev/Projects/omim/data/big_test.kmb");
+  kml::binary::DeserializerKml des(data, {});
+  des.Deserialize(reader);
 }
