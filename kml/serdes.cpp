@@ -104,10 +104,6 @@ bool KmlParser::ParsePoint(std::string const & s, char const * delim, m2::PointD
         pt = MercatorBounds::FromLatLon(lat, lon);
         return true;
       }
-      else
-      {
-        LOG(LDEBUG, ("Invalid coordinates", s, "while loading", m_name));
-      }
     }
   }
 
@@ -363,8 +359,6 @@ void KmlParser::CharData(std::string value)
           auto const ts = my::StringToTimestamp(value);
           if (ts != my::INVALID_TIME_STAMP)
             m_timestamp = std::chrono::system_clock::from_time_t(ts);
-          else
-            LOG(LDEBUG, ("Invalid timestamp in Placemark:", value));
         }
       }
       else if (currTag == kStyleUrl)
