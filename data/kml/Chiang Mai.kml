@@ -1,0 +1,4272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Chiang Mai</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Neo Cafe</name>
+    <TimeStamp><when>2015-12-05T05:12:13Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.948805,18.820783</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Khung Sing Residence</name>
+    <TimeStamp><when>2015-12-05T05:38:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.982172,18.81546</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sirinart Garden</name>
+    <TimeStamp><when>2015-12-05T05:39:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.959511,18.78197</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2015-12-05T07:08:19Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.942291,18.757002</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Wat Suan Prick</name>
+    <TimeStamp><when>2015-12-05T09:05:36Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.907653,18.760056</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Bitter Sweet</name>
+    <TimeStamp><when>2015-12-07T03:32:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.973829,18.798018</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Kadsuankaew Shopping Centre</name>
+    <TimeStamp><when>2015-12-07T03:37:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.97569,18.795357</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Serene Lake</name>
+    <TimeStamp><when>2015-12-07T07:27:18Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.949359,18.749783</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Rim Ping Condominium</name>
+    <TimeStamp><when>2015-12-07T09:31:25Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.000578,18.794298</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Elephant Training Centre</name>
+    <TimeStamp><when>2015-12-07T14:24:18Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.96895,19.247815</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Floral Chiangmai Condominiums</name>
+    <TimeStamp><when>2015-12-08T08:05:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.005591,18.791899</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Nathon</name>
+    <TimeStamp><when>2015-12-09T00:39:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>101.05079,17.427802</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>T@31 Coffee</name>
+    <TimeStamp><when>2015-12-09T04:20:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.972927,18.794098</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sritana 2 - Markus</name>
+    <TimeStamp><when>2015-12-09T04:20:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.973025,18.796247</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Perfect Home</name>
+    <TimeStamp><when>2015-12-09T09:08:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.004403,18.809056</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Baan Suan Condo</name>
+    <TimeStamp><when>2015-12-09T10:12:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.961312,18.823522</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Resort Condominiums</name>
+    <TimeStamp><when>2015-12-09T10:13:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.963583,18.822746</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>ก๋วยเตี๋ยวเรือบวกหาด</name>
+    <TimeStamp><when>2015-12-10T14:42:43Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.980848,18.781764</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chiang Mai Gate Market</name>
+    <TimeStamp><when>2015-12-10T14:50:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.988314,18.781656</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Living Hills</name>
+    <TimeStamp><when>2015-12-11T03:26:27Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.946695,18.766183</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>B2 Premier</name>
+    <TimeStamp><when>2015-12-11T03:53:01Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.950941,18.773281</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Embassy House Condominiums</name>
+    <TimeStamp><when>2015-12-11T10:32:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.00381,18.799516</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>John's Place</name>
+    <TimeStamp><when>2015-12-12T10:52:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.992988,18.786013</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name><![CDATA[Doo Dee Pub & Restaurant]]></name>
+    <TimeStamp><when>2015-12-12T11:39:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.988315,18.779116</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Max Coffee Shop</name>
+    <TimeStamp><when>2015-12-13T08:35:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.841668,18.78332</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Tawai</name>
+    <TimeStamp><when>2015-12-13T15:18:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.947591,18.687705</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Galare Thong Condo</name>
+    <TimeStamp><when>2015-12-14T08:47:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.997283,18.765719</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Shine Condo</name>
+    <TimeStamp><when>2015-12-14T08:50:10Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.998859,18.769627</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chiang Mai Riverside Condominium</name>
+    <TimeStamp><when>2015-12-14T13:09:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.004799,18.765496</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Nakhornping Condominium</name>
+    <TimeStamp><when>2015-12-14T13:15:01Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.974456,18.798676</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Nakhornping Condominium</name>
+    <TimeStamp><when>2015-12-14T13:15:36Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.974343,18.798547</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Green Hill Place</name>
+    <TimeStamp><when>2015-12-14T13:20:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.967342,18.804264</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Nest Condo</name>
+    <TimeStamp><when>2015-12-14T13:47:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.971312,18.795874</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Yed Jod</name>
+    <TimeStamp><when>2015-12-15T10:18:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.966962,18.810124</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Coffee Monster</name>
+    <TimeStamp><when>2015-12-16T02:55:20Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.963462,18.820526</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Walter Fenske</name>
+    <TimeStamp><when>2015-12-16T05:51:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.934667,19.061431</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>FIG Hotel</name>
+    <description>Tel 055741725
+0882808213
+Bht 550</description>
+    <TimeStamp><when>2015-12-17T11:05:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.545673,16.479644</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>PTT</name>
+    <TimeStamp><when>2015-12-18T02:29:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.12454,15.576656</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>PTT</name>
+    <TimeStamp><when>2015-12-18T02:29:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.12561,15.577273</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Building C</name>
+    <TimeStamp><when>2015-12-18T02:30:34Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.86247,12.927131</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sheryle's</name>
+    <description>Owner Arie from Holland</description>
+    <TimeStamp><when>2016-01-11T15:47:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.99117,18.790535</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>La Pillow</name>
+    <TimeStamp><when>2016-01-12T14:38:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.989037,18.786589</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sop Kai</name>
+    <TimeStamp><when>2016-01-14T01:04:36Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.78362,19.235234</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Mueang Khong</name>
+    <TimeStamp><when>2016-01-14T01:05:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.714668,19.383696</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-14T06:02:57Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.607127,19.516194</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-14T06:03:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.582109,19.508289</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-14T06:03:08Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.570274,19.509734</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-14T06:03:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.595468,19.518142</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-14T06:03:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.624347,19.518161</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>My Position</name>
+    <TimeStamp><when>2016-01-14T06:28:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.725739,19.376208</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant</name>
+    <TimeStamp><when>2016-01-14T06:28:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.725739,19.376208</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chinese Tea House</name>
+    <TimeStamp><when>2016-01-16T08:48:14Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.946599,19.585296</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Piya Guesthouse</name>
+    <TimeStamp><when>2016-01-16T08:49:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.966785,19.298657</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Doi Khun Coffee</name>
+    <TimeStamp><when>2016-01-17T01:31:29Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.933032,18.830072</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:36:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.93066,18.888385</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:36:52Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.871918,18.926345</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:37:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.861766,18.916967</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:37:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.833732,18.899583</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:37:24Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.814514,18.874829</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:37:34Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.855366,18.812542</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:38:23Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.896853,18.802461</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:38:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.875141,18.807861</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:38:57Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.847445,18.809139</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:39:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.824804,18.788331</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:39:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.820469,18.762552</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:39:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.824358,18.736215</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:39:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.800019,18.733708</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:39:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.834356,18.708663</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:39:48Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.84095,18.683117</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:39:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.871557,18.675379</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:40:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.892126,18.700796</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:40:23Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.858818,18.647529</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-17T01:40:29Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.853913,18.676112</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name><![CDATA[Ban Farang Guest House & Resort]]></name>
+    <TimeStamp><when>2016-01-17T11:05:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.935503,18.83207</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Yoont Guest House</name>
+    <TimeStamp><when>2016-01-17T11:45:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.934097,18.824555</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mitkhoonyoum Hotel</name>
+    <TimeStamp><when>2016-01-17T14:23:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.934014,18.825218</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name><![CDATA[Chaem Muang House B&B]]></name>
+    <description>Tel 053828398
+0819923242
+0819604901</description>
+    <TimeStamp><when>2016-01-19T02:25:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.377035,18.486939</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:46:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.179749,18.458837</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:46:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.163171,18.454657</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Yang Ru</name>
+    <TimeStamp><when>2016-01-19T02:46:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.138546,18.428384</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Yang Om Phai</name>
+    <TimeStamp><when>2016-01-19T02:46:27Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.13618,18.410046</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:52:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.455332,18.380181</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:52:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.452569,18.390782</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:52:42Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.451741,18.402346</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:52:47Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.448404,18.40913</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:52:52Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.445817,18.41911</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:52:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.447478,18.425349</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:53:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.438869,18.428871</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:53:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.432441,18.432287</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:53:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.422659,18.436348</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:53:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.416748,18.448953</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:53:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.40938,18.447108</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T02:53:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.39668,18.444703</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:30:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.484468,18.677939</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:30:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.510678,18.701031</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:31:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.534048,18.708598</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:38:31Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.808025,18.863208</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:38:42Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.808817,18.858892</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:38:48Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.814249,18.852295</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:38:57Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.820276,18.85241</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:39:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.855549,18.846825</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:40:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.863271,18.848305</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:40:12Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.865621,18.841528</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:40:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.874113,18.833786</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:40:31Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.875856,18.826366</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:41:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.848237,18.841972</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-19T15:41:53Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.829319,18.848015</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Coffee Shop With Bf</name>
+    <TimeStamp><when>2016-01-20T01:40:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.363262,18.499366</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Khun Wang</name>
+    <TimeStamp><when>2016-01-20T12:19:14Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>98.526213,18.647355</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Motorbike Sompong Charoen Yon</name>
+    <TimeStamp><when>2016-01-21T04:23:18Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.997319,18.790106</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sang Chai Panit</name>
+    <TimeStamp><when>2016-01-21T05:31:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.006097,18.79597</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name><![CDATA[Bake & Bite]]></name>
+    <TimeStamp><when>2016-01-21T06:39:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.007563,18.793493</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Twin Peaks</name>
+    <TimeStamp><when>2016-01-21T08:53:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.00053,18.778938</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Motorbike Helmet2Home</name>
+    <TimeStamp><when>2016-01-21T09:59:20Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.996944,18.781307</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chiang Mai Gate Hotel</name>
+    <TimeStamp><when>2016-02-28T10:35:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.988736,18.778748</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Smith Residence</name>
+    <TimeStamp><when>2016-02-28T10:35:24Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.988101,18.779224</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Smith Suites</name>
+    <TimeStamp><when>2016-02-28T10:35:42Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.989717,18.778889</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-02-29T06:59:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.889094,18.752224</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>cafe</name>
+    <TimeStamp><when>2016-02-29T07:01:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.893169,18.697174</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Tha Mai Lung</name>
+    <TimeStamp><when>2016-02-29T07:01:43Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.884857,18.688307</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-02-29T08:19:12Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.901034,18.70386</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Glasshouse Chiang Mai</name>
+    <TimeStamp><when>2016-03-01T10:36:31Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.989749,18.793055</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dash</name>
+    <TimeStamp><when>2016-03-01T10:53:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.991459,18.783273</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name><![CDATA[Riverside Bar & Restaurant]]></name>
+    <TimeStamp><when>2016-03-01T12:29:20Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.003982,18.789824</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Riverside Guest House</name>
+    <TimeStamp><when>2016-03-01T12:29:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.005226,18.784276</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Tree Boutique Condo And Hotel</name>
+    <TimeStamp><when>2016-03-01T14:43:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.993951,18.771158</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Lava</name>
+    <TimeStamp><when>2016-03-02T05:20:23Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.999698,18.779865</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ping Centerpiece Condo</name>
+    <TimeStamp><when>2016-03-02T05:50:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.992857,18.772919</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Log Home Boutique</name>
+    <TimeStamp><when>2016-03-02T11:23:12Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.990498,18.785972</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Tat Ton waterfall</name>
+    <TimeStamp><when>2016-03-03T07:22:19Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>102.04062,15.984064</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mor Hin Khao</name>
+    <TimeStamp><when>2016-03-03T07:23:34Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>101.96488,16.064212</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>viewpoint</name>
+    <TimeStamp><when>2016-03-03T07:23:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>101.94969,16.057852</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Bat Kong Khao Lak</name>
+    <TimeStamp><when>2016-03-03T12:52:20Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.717715,18.900606</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-03-03T12:52:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.727773,18.928776</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mae Wang</name>
+    <TimeStamp><when>2016-03-04T04:39:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.820068,18.599615</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Giant</name>
+    <TimeStamp><when>2016-03-04T12:56:51Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.351532,18.892598</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Phra Singh post office</name>
+    <TimeStamp><when>2016-08-22T02:34:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.982473,18.786394</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>honda workshop</name>
+    <TimeStamp><when>2016-08-22T05:28:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.005554,18.795658</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mae Ping Post Office</name>
+    <TimeStamp><when>2016-08-22T05:49:50Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.002827,18.788437</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Art Cafe</name>
+    <TimeStamp><when>2016-08-22T05:52:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.993937,18.787775</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Kodchasri Thani Hotel</name>
+    <TimeStamp><when>2016-08-22T12:48:25Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.990614,18.783527</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Factory Outlet Mall</name>
+    <TimeStamp><when>2016-08-22T15:14:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.930857,18.69924</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Natara</name>
+    <description>Tel 053 805300</description>
+    <TimeStamp><when>2016-08-22T15:19:20Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.950762,18.766586</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Steve Bjorge</name>
+    <TimeStamp><when>2016-08-24T14:08:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.147392,18.701698</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest Conservation Station Kuhn Huay Mae Khok</name>
+    <TimeStamp><when>2016-08-25T05:55:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.834732,19.374044</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T05:56:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.920038,19.370878</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T05:56:47Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.905723,19.376014</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T05:56:53Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.883481,19.375757</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T05:56:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.868342,19.375848</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T05:57:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.848093,19.381586</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Rai Siwavej Farm Stay</name>
+    <TimeStamp><when>2016-08-25T05:58:13Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.934483,19.365465</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mon Kiang-Dao Resort</name>
+    <TimeStamp><when>2016-08-25T05:58:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.949597,19.367922</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chiang Dao Nest 2 Restaurant</name>
+    <TimeStamp><when>2016-08-25T09:43:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.929695,19.3988</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chiang Dao hot springs</name>
+    <TimeStamp><when>2016-08-25T15:46:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.92328,19.362803</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T15:46:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.908995,19.365102</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T15:46:59Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.903402,19.367403</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Water</name>
+    <TimeStamp><when>2016-08-25T15:50:10Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.833068,19.373581</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Toilet</name>
+    <TimeStamp><when>2016-08-25T15:50:19Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.83456,19.373949</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T15:58:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.666251,19.143535</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T15:58:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.642162,19.134546</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-25T15:59:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.582223,19.134503</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T05:59:53Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.884727,19.259692</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T05:59:57Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.889458,19.263772</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T06:00:02Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.886099,19.252895</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T06:01:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.859398,19.295703</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T06:01:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.849081,19.297073</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T06:01:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.879311,19.289262</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T06:01:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.890454,19.280315</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T06:01:47Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.839047,19.29674</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Place of Worship</name>
+    <TimeStamp><when>2016-08-26T15:01:55Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.903488,19.275</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T15:02:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.902544,19.27535</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T15:02:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.899471,19.275183</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T15:02:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.897102,19.27576</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T15:02:16Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.892939,19.274618</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T15:02:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.894688,19.270584</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T15:02:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.896776,19.266895</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-08-26T15:02:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.892051,19.26542</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>La Fourchette</name>
+    <TimeStamp><when>2016-08-29T12:54:13Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.988176,18.787361</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Hideout</name>
+    <TimeStamp><when>2016-08-29T13:04:27Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.994482,18.793618</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Woo Cafe and Art Gallery</name>
+    <TimeStamp><when>2016-08-29T13:09:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.003164,18.791607</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Diverso</name>
+    <TimeStamp><when>2016-08-29T13:14:24Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.978804,18.785787</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Huen Phen</name>
+    <TimeStamp><when>2016-08-29T13:26:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.985158,18.785838</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>korn pratu</name>
+    <TimeStamp><when>2016-08-30T08:46:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.995771,18.77712</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mr. Kai Restaurant</name>
+    <TimeStamp><when>2016-08-31T10:46:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.989474,18.785619</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>YellowMango</name>
+    <TimeStamp><when>2016-09-01T08:08:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.949201,18.776442</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Wat Phratat Doikham</name>
+    <TimeStamp><when>2016-09-01T08:10:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.917926,18.759813</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Han van boldrik</name>
+    <TimeStamp><when>2016-09-02T04:38:52Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.138241,18.880568</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Clay Studio Café</name>
+    <TimeStamp><when>2016-09-02T04:50:12Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.98728,18.782161</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Tip Cafe restaurant</name>
+    <TimeStamp><when>2016-09-02T06:04:48Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.140212,18.878526</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Lert Ros</name>
+    <TimeStamp><when>2016-09-02T12:23:51Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.992451,18.788504</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cooking Love</name>
+    <TimeStamp><when>2016-09-02T12:25:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.992325,18.789118</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>d'vieng Santitham</name>
+    <TimeStamp><when>2016-09-03T02:22:20Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.981693,18.803352</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>d'vieng Santitham</name>
+    <TimeStamp><when>2016-09-03T02:22:23Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.981724,18.803584</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Rena House</name>
+    <description>0629625564
+053219218
+Nice new rooms for bht 500</description>
+    <TimeStamp><when>2016-09-03T04:32:34Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.990867,18.7947</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Yindee Guesthouse-Alexis</name>
+    <description>Corner rooms very nice on 2, 3 and 4th. Floors. Bht 1100</description>
+    <TimeStamp><when>2016-09-03T04:53:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.991384,18.791607</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Opium Serviced Apartment</name>
+    <TimeStamp><when>2016-09-03T09:20:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.980582,18.806067</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>McDonald's</name>
+    <TimeStamp><when>2016-09-03T10:06:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.991604,18.765187</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>stop</name>
+    <TimeStamp><when>2016-09-03T11:35:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.991065,18.767286</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>My Position</name>
+    <TimeStamp><when>2016-09-03T12:00:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.991419,18.768435</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ob Kahn National Park</name>
+    <TimeStamp><when>2016-09-04T05:03:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.824915,18.783158</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ob Kahn National Park</name>
+    <TimeStamp><when>2016-09-04T05:03:23Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.824977,18.783224</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-04T14:21:36Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.830459,18.752511</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-04T14:21:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.838318,18.753803</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Pa Nok Kook</name>
+    <TimeStamp><when>2016-09-05T01:19:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.831484,18.851667</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-05T01:20:10Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.871476,18.8566</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-05T01:20:18Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.870878,18.854602</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Evergreen resort</name>
+    <TimeStamp><when>2016-09-05T04:57:25Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.350762,18.892941</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Kampong Coffee</name>
+    <TimeStamp><when>2016-09-05T05:16:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.353509,18.865736</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant</name>
+    <TimeStamp><when>2016-09-05T08:58:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.217832,18.748551</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>My Position</name>
+    <TimeStamp><when>2016-09-06T04:55:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.986953,18.783288</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Museum of World Insects and Natural Wonders</name>
+    <TimeStamp><when>2016-09-06T05:13:51Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.970607,18.796124</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Jira Luxury Boutique Residence</name>
+    <TimeStamp><when>2016-09-06T13:14:25Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.004237,18.776957</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>German Beer Garden</name>
+    <TimeStamp><when>2016-09-07T06:05:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.991676,18.784154</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Wangburapa Grand Hotel</name>
+    <TimeStamp><when>2016-09-07T06:07:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.99277,18.783694</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pha-Thai House</name>
+    <TimeStamp><when>2016-09-07T06:07:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.990517,18.783179</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Nimman Condo</name>
+    <TimeStamp><when>2016-09-07T08:39:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.970323,18.797203</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Jed Yod</name>
+    <TimeStamp><when>2016-09-07T08:43:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.966883,18.810762</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Karnkanok Condominium Project 3 Jed Yod Greenery Hill</name>
+    <TimeStamp><when>2016-09-07T08:44:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.967045,18.814749</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>โรงแรมบ้านพ่อเลี้ยงหมื่น</name>
+    <TimeStamp><when>2016-09-10T14:34:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.956762,18.787338</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Om Garden Café</name>
+    <TimeStamp><when>2016-09-10T15:49:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.440927,19.357119</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Boomelicious</name>
+    <TimeStamp><when>2016-09-10T15:51:14Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.444784,19.358805</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pai Vimaan Resort</name>
+    <TimeStamp><when>2016-09-10T15:52:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.444307,19.357398</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Pai</name>
+    <TimeStamp><when>2016-09-10T15:53:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.441466,19.359706</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Treehouse Coffee</name>
+    <TimeStamp><when>2016-09-10T16:22:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.458018,19.315683</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pai Treehouse</name>
+    <description>Tel 0819113640
+Tel 0813731820</description>
+    <TimeStamp><when>2016-09-10T16:22:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.459097,19.315524</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pai Treehouse</name>
+    <TimeStamp><when>2016-09-10T16:22:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.458415,19.3152</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pai Island Resort</name>
+    <TimeStamp><when>2016-09-10T16:33:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.439031,19.366834</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Kwan Fabrication</name>
+    <TimeStamp><when>2016-09-11T04:21:23Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.01327,18.806235</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pai River Villa</name>
+    <TimeStamp><when>2016-09-12T06:02:50Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.443274,19.361135</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hyun Lai View Point จุดชมวิวทะเลหมอกหยุนไหล</name>
+    <TimeStamp><when>2016-09-12T08:52:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.394589,19.36919</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Yoma Hotel, Pai</name>
+    <TimeStamp><when>2016-09-12T11:33:20Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.439087,19.36773</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>The Land Split</name>
+    <TimeStamp><when>2016-09-12T14:55:34Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.423249,19.321409</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pam Bok Waterfall 盼布瀑布</name>
+    <TimeStamp><when>2016-09-12T15:01:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.403948,19.320847</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-12T15:01:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.328932,19.298631</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-09-13T04:53:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.435087,19.348518</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Muang Noi</name>
+    <TimeStamp><when>2016-09-14T06:22:14Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.514291,19.512289</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>cross junction to hot spring</name>
+    <TimeStamp><when>2016-09-14T06:45:55Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.381919,19.437339</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mo Paeng Waterfall</name>
+    <TimeStamp><when>2016-09-14T07:59:02Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.375452,19.379015</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Love Coffee / great view !</name>
+    <TimeStamp><when>2016-09-14T09:02:23Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.433296,19.338559</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pai Canyon</name>
+    <TimeStamp><when>2016-09-14T09:56:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.449907,19.304022</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Street</name>
+    <TimeStamp><when>2016-09-14T10:42:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.457228,19.293594</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-09-14T10:42:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.448077,19.290124</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Drummed Fuel</name>
+    <TimeStamp><when>2016-09-14T13:50:48Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.700621,19.135984</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-14T13:50:54Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.689414,19.134829</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-14T13:51:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.605032,19.139879</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Puan Pai Ville</name>
+    <TimeStamp><when>2016-09-15T14:11:47Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.435799,19.341902</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>honda crf with panniers</name>
+    <TimeStamp><when>2016-09-16T05:30:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.990124,18.783881</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Car Wash</name>
+    <TimeStamp><when>2016-09-17T04:44:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.985467,18.781843</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>ROOF 69</name>
+    <TimeStamp><when>2016-09-17T09:11:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.983519,18.789537</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Museum of Insects and Natural Wonders</name>
+    <TimeStamp><when>2016-09-17T09:16:16Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.986636,18.788151</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-19T06:13:54Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.875131,18.751376</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-19T06:13:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.872618,18.749504</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-09-19T06:14:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.869245,18.750691</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ob Kahn National Park</name>
+    <TimeStamp><when>2016-09-19T06:14:12Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.867098,18.752023</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ob Kahn National Park</name>
+    <TimeStamp><when>2016-09-19T06:14:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.866535,18.752047</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>for sale</name>
+    <TimeStamp><when>2016-09-19T09:28:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.873281,18.763864</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Max Stierling owns house</name>
+    <TimeStamp><when>2016-09-20T14:04:48Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.842274,18.783909</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Navarat Heritage Hotel</name>
+    <TimeStamp><when>2016-09-21T04:12:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.528649,16.468764</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>PTT</name>
+    <TimeStamp><when>2016-09-21T04:14:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.447035,18.243879</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Gas Station</name>
+    <TimeStamp><when>2016-09-21T04:14:54Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.427782,18.225177</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Together resto</name>
+    <TimeStamp><when>2016-09-21T11:24:48Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.527438,16.473945</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Tasty resto</name>
+    <TimeStamp><when>2016-09-21T11:25:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.527281,16.473804</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mae Sri Ruen Restaurant</name>
+    <TimeStamp><when>2016-09-28T05:35:42Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.89526,12.908894</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Kawasaki Big Bikes Chiang Mai</name>
+    <TimeStamp><when>2016-09-28T06:42:26Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.98218,18.780998</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Kawasaki Big Bikes Pattaya</name>
+    <TimeStamp><when>2016-09-30T06:16:27Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.89778,12.920924</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>rajapruek condo</name>
+    <TimeStamp><when>2016-10-26T09:02:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.934181,18.747736</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Wat Pra Jawtanjai 109</name>
+    <TimeStamp><when>2016-10-27T07:50:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.901667,18.7181</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>B2 Green Valley Exclusive Service Residence</name>
+    <TimeStamp><when>2016-10-27T15:19:31Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.96565,18.900606</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Country Retreat</name>
+    <TimeStamp><when>2016-10-27T15:53:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.918768,18.972514</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Temple</name>
+    <TimeStamp><when>2016-10-27T15:54:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.76242,19.017272</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Tiger Kingdom</name>
+    <TimeStamp><when>2016-10-29T04:40:26Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.931772,18.924374</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>siam Insect Zoo</name>
+    <TimeStamp><when>2016-10-29T04:48:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.908397,18.918354</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Jirung Health Village</name>
+    <TimeStamp><when>2016-10-29T07:20:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.934888,18.922717</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-10-29T08:23:16Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.916493,18.893965</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Urban Mae Rim</name>
+    <TimeStamp><when>2016-10-29T09:20:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.931838,18.920062</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sala Cafe</name>
+    <TimeStamp><when>2016-10-29T09:45:24Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.921492,18.90443</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sai Mok waterfall</name>
+    <TimeStamp><when>2016-10-30T14:01:13Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.824397,19.006289</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>yok bakery supplies</name>
+    <TimeStamp><when>2016-11-01T03:10:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.023105,18.791896</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>new aprmt building or hotel ?</name>
+    <TimeStamp><when>2016-11-03T04:02:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.992761,18.777568</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Raiyachaeson Resort</name>
+    <TimeStamp><when>2016-11-07T07:30:14Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.496478,18.822359</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-11-07T07:43:31Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.304169,18.713523</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>City Ratsada Apartment</name>
+    <TimeStamp><when>2016-11-07T09:45:12Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.502605,18.292412</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-11-08T03:52:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.234823,18.528044</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chris</name>
+    <TimeStamp><when>2016-11-08T08:58:51Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.272688,18.605379</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>chris land</name>
+    <TimeStamp><when>2016-11-08T09:28:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.266485,18.587029</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>condo ?</name>
+    <TimeStamp><when>2016-11-13T10:05:53Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.95425,18.846573</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Driving school</name>
+    <TimeStamp><when>2016-11-14T03:50:18Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.979598,18.787739</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Black Canyon Coffee</name>
+    <TimeStamp><when>2016-11-15T00:33:27Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.968295,18.77039</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>สกายบรีซ</name>
+    <TimeStamp><when>2016-11-15T00:39:57Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.957619,18.800268</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Queen Sirikit Botanic Garden</name>
+    <TimeStamp><when>2016-11-16T03:53:10Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.862136,18.890616</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-16T04:04:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.86625,18.874639</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-16T04:43:53Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.884698,18.855101</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-16T04:43:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.882998,18.857545</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-16T04:44:01Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.881593,18.861428</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-16T04:44:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.882448,18.866053</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Queen Sirikit Botanic Garden</name>
+    <TimeStamp><when>2016-11-16T08:33:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.865841,18.883496</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-17T07:47:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.32847,19.317232</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>hotel</name>
+    <TimeStamp><when>2016-11-17T11:13:10Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.200501,19.366543</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-17T15:52:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.371619,19.648993</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-17T15:52:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.361518,19.684147</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-11-17T15:52:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.368771,19.695766</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Cha Khuai</name>
+    <TimeStamp><when>2016-11-17T15:52:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.372681,19.695591</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-11-17T15:52:47Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.383482,19.711562</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-17T15:54:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.617594,19.869037</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Thung Yao</name>
+    <TimeStamp><when>2016-11-17T15:57:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.477743,19.607469</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Huai Hia</name>
+    <TimeStamp><when>2016-11-17T15:57:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.454097,19.593562</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Doi Ku</name>
+    <TimeStamp><when>2016-11-17T15:57:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.415401,19.584839</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-18T02:52:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.307204,19.471914</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-18T04:10:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.311764,19.439044</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-18T04:10:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.313518,19.440557</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>My Position</name>
+    <TimeStamp><when>2016-11-18T04:10:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.313619,19.44215</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-18T04:10:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.311842,19.436701</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-18T04:10:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.311179,19.43236</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-18T04:10:24Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.308572,19.430144</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-11-18T04:10:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.307898,19.427804</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Shelter</name>
+    <TimeStamp><when>2016-11-18T07:09:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.62461,19.732519</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Huai San Phatthana</name>
+    <TimeStamp><when>2016-11-18T07:09:42Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.625273,19.74624</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Huean Him Nam</name>
+    <TimeStamp><when>2016-11-18T07:10:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.65972,19.784391</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Pong Klang</name>
+    <TimeStamp><when>2016-11-18T07:10:08Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.635846,19.751648</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Jansom House</name>
+    <TimeStamp><when>2016-11-18T08:03:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.83209,19.90331</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Bamboo Nest de Chiang Rai</name>
+    <TimeStamp><when>2016-11-18T13:24:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.669907,19.952219</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chiang Rai Saddlebags</name>
+    <description>0894294562</description>
+    <TimeStamp><when>2016-11-18T15:14:17Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.812016,19.901968</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Coffee shop and resto</name>
+    <TimeStamp><when>2016-11-24T07:07:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.374823,18.494554</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pongsara Resort</name>
+    <TimeStamp><when>2016-11-24T07:08:08Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.374513,18.494825</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chez Philippe</name>
+    <description>Tel 0882516001
+Tel 053290012</description>
+    <TimeStamp><when>2016-12-29T04:14:52Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.929168,18.941271</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Baan Aew Pai</name>
+    <TimeStamp><when>2016-12-29T06:16:48Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.439063,19.362514</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pai Paradise</name>
+    <TimeStamp><when>2016-12-29T11:01:24Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.449011,19.359035</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Dang latch door shop for stainlesssWelding</name>
+    <TimeStamp><when>2016-12-30T01:45:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.995902,18.777064</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Daeng Klon Pratu (alu welding)</name>
+    <TimeStamp><when>2016-12-30T01:50:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.982125,18.767366</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Phu Langka Forest Park</name>
+    <TimeStamp><when>2016-12-30T02:14:31Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.44794,19.398722</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-12-30T02:15:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.44964,19.392215</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cave Lodge</name>
+    <TimeStamp><when>2016-12-30T05:29:47Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.280579,19.572421</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T08:59:01Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.319968,19.629544</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T08:59:08Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.303334,19.631583</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T08:59:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.298036,19.621339</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T08:59:14Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.282887,19.621664</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Huai Hang</name>
+    <TimeStamp><when>2016-12-30T08:59:19Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.272388,19.617285</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T09:01:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.310069,19.574112</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T09:01:24Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.310813,19.567038</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T09:01:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.310828,19.559487</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T09:01:32Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.309869,19.551399</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T09:01:36Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.305846,19.544332</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T09:01:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.302895,19.534494</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2016-12-30T09:01:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.298874,19.530756</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2016-12-30T09:01:55Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.269952,19.526577</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Fern Resort Mae Hong Son</name>
+    <TimeStamp><when>2016-12-31T09:11:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.990171,19.255596</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Fern Resort</name>
+    <TimeStamp><when>2016-12-31T10:37:47Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>97.989737,19.254728</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-02T00:50:57Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.166556,19.19601</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-02T00:51:04Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.179178,19.183473</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-02T00:51:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.191967,19.170347</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-02T00:51:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.21066,19.16025</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Huai Pu Loei</name>
+    <TimeStamp><when>2017-01-02T00:51:29Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.208463,19.147116</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-02T00:51:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.215257,19.118173</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Huai Tong</name>
+    <TimeStamp><when>2017-01-02T00:51:59Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.231138,19.099305</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-02T00:52:36Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.374946,19.203413</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-02T00:52:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.377681,19.196224</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-02T00:52:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.377685,19.192005</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-02T00:52:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.401064,19.180807</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-02T00:52:59Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.393852,19.181589</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Street</name>
+    <TimeStamp><when>2017-01-02T05:10:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.320186,19.223486</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-02T06:41:09Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.257909,19.214544</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-03T04:23:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.701832,19.122756</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-03T15:59:19Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.748978,18.953866</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>New condo check</name>
+    <TimeStamp><when>2017-01-07T04:55:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.959398,18.817125</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chaeson Hil Resort</name>
+    <TimeStamp><when>2017-01-07T14:57:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.486924,18.831362</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>M2 Hotel</name>
+    <TimeStamp><when>2017-01-09T08:10:53Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.901159,19.173706</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chae Son National Park</name>
+    <TimeStamp><when>2017-01-09T15:05:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.472331,18.836657</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:07:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.778088,19.060583</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Pak Bok</name>
+    <TimeStamp><when>2017-01-09T15:07:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.773135,19.050366</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:07:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.780725,19.044302</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:08:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.786141,19.033425</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:08:30Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.793801,19.015777</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:08:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.795253,19.004554</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Pha Daeng</name>
+    <TimeStamp><when>2017-01-09T15:08:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.795555,18.991567</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Mae Ngio Tai</name>
+    <TimeStamp><when>2017-01-09T15:09:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.809463,18.969115</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:09:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.800679,18.96295</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:09:48Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.795391,18.954856</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:09:52Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.792124,18.944692</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:10:36Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.797589,18.937414</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:10:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.789683,18.938939</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:11:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.805533,18.93647</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:11:46Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.814085,18.933214</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:12:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.822888,18.928765</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:12:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.826988,18.92584</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:12:10Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.831222,18.923708</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:12:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.832514,18.919686</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:12:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.830022,18.913517</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:12:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.854323,18.884507</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Mae Hang Nuea</name>
+    <TimeStamp><when>2017-01-09T15:12:59Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.854481,18.87952</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:13:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.847248,18.870283</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:13:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.843752,18.861025</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:13:13Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.863705,18.843896</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:13:18Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.883957,18.826561</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:13:23Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.91004,18.813547</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:16:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.726451,18.866074</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:16:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.682082,18.867286</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:16:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.667887,18.898814</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:16:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.662167,18.923707</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:16:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.812421,18.878838</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:17:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.831776,18.885186</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>landuse-orchard</name>
+    <TimeStamp><when>2017-01-09T15:17:44Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.796166,18.919197</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:17:52Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.794841,18.930315</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:18:01Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.792448,18.936302</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:18:18Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.824682,18.906217</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pulangka Resort</name>
+    <TimeStamp><when>2017-01-09T15:27:13Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.51001,19.357532</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:41:11Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.60392,19.381533</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:41:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.60273,19.404426</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:41:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.6035,19.423899</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:41:27Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.60687,19.433696</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:41:35Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.60241,19.43896</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:41:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.59838,19.446086</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:41:50Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.61835,19.433385</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:41:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.63569,19.43642</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:42:01Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.65463,19.438853</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:42:07Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.67334,19.432408</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Yot</name>
+    <TimeStamp><when>2017-01-09T15:43:02Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.57847,19.392981</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:43:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.51152,19.354245</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name><![CDATA[Sala & Viewpoint]]></name>
+    <TimeStamp><when>2017-01-09T15:45:08Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.47775,19.349401</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:49:41Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.18088,18.912931</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Mang</name>
+    <TimeStamp><when>2017-01-09T15:51:00Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.28613,18.890425</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:51:12Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.39217,18.844469</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:51:25Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.32235,18.851594</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-09T15:51:34Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.51314,18.874069</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>11</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Song Khwae</name>
+    <TimeStamp><when>2017-01-09T15:51:56Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.63617,18.86418</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Santisuk</name>
+    <TimeStamp><when>2017-01-09T15:53:05Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.49157,19.047106</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:58:31Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.58063,18.878283</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:58:42Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.5774,18.892858</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:58:47Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.57286,18.908531</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:58:51Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.57087,18.919942</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:59:03Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.56926,18.932729</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:59:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.57822,18.93103</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:59:16Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.60349,18.921859</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Street</name>
+    <TimeStamp><when>2017-01-09T15:59:22Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.6236,18.914964</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T15:59:35Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.64555,18.908676</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban La Bao Ya</name>
+    <TimeStamp><when>2017-01-09T15:59:39Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.66529,18.910553</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Huai Pok</name>
+    <TimeStamp><when>2017-01-09T15:59:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.68113,18.897749</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Ka Sai</name>
+    <TimeStamp><when>2017-01-09T15:59:50Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.67636,18.863861</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ban Wang Tao</name>
+    <TimeStamp><when>2017-01-09T15:59:54Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.69319,18.8375</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T16:00:01Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.70303,18.815689</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T16:00:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.75988,18.778808</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Huen Kuang Nan Guesthouse</name>
+    <TimeStamp><when>2017-01-09T16:01:06Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.77011,18.778285</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-09T16:02:13Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.67767,19.432469</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chaykwan Hotel</name>
+    <TimeStamp><when>2017-01-10T11:04:49Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.896932,19.165938</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Quality Condo Company</name>
+    <TimeStamp><when>2017-01-12T04:46:55Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.961314,18.821159</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-13T05:15:51Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.800275,18.918233</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-13T05:21:15Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.803031,18.922081</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Forest</name>
+    <TimeStamp><when>2017-01-13T05:21:21Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.79935,18.92968</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-13T05:21:27Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.807742,18.930191</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-13T05:21:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.815489,18.934675</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Viewpoint</name>
+    <TimeStamp><when>2017-01-13T06:20:18Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.7997,18.935369</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-14T01:01:38Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.958011,19.304036</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Royal Ping Garden Resort</name>
+    <TimeStamp><when>2017-01-14T01:02:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.973729,19.216715</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-14T01:02:37Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.971188,19.215594</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Gate</name>
+    <TimeStamp><when>2017-01-14T01:02:40Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.972978,19.21478</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-14T01:02:43Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.973317,19.210031</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sairung Waterfall</name>
+    <TimeStamp><when>2017-01-14T01:03:33Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.013262,19.237657</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Unknown Place</name>
+    <TimeStamp><when>2017-01-14T01:03:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.975394,19.215028</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Lying Buddah</name>
+    <TimeStamp><when>2017-01-14T01:18:53Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.066028,18.947175</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Wat Doi Thaen Phra</name>
+    <TimeStamp><when>2017-01-14T01:18:58Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.071045,18.944255</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Banana chips</name>
+    <TimeStamp><when>2017-01-14T10:24:50Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>98.997986,18.794722</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>P.Paradise Hotel</name>
+    <TimeStamp><when>2017-01-17T11:25:54Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.536285,16.47497</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Gordon place</name>
+    <description>Bht 350 up
+Tel 055 713429, 714942</description>
+    <TimeStamp><when>2017-01-17T13:37:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.538861,16.474372</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>P-Resort</name>
+    <description>Bht 350 +
+Tel 055 716233</description>
+    <TimeStamp><when>2017-01-17T13:39:28Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>99.5377,16.474379</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Big Banner - Perspex</name>
+    <description>Jimmy
+Tel 0899364800
+Tel 038420095</description>
+    <TimeStamp><when>2017-01-23T09:35:51Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>100.89935,12.928146</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Muang Fuang</name>
+    <TimeStamp><when>2017-01-24T06:11:45Z</when></TimeStamp>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>102.13171,18.720549</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Untitled Document</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Beiijing</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>116.39134,39.905905</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Xian</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>108.94244,34.260749</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chengdu</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>104.06138,30.676512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gyantse་རྩེ་</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>89.604052,28.910459</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Nutibara</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.567156,6.252401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Estación Parque Berrío</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.568135,6.250578</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La 70</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.588331,6.251104</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque de Las Luces</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.572249,6.245974</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Iglesia de La Candelaria</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.56744,6.249885</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paque de Filandia</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.658123,4.674836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Park Salento</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.569795,4.637277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Posada Aleman</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.599364,4.657076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cocora</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.480775,4.636289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Posada San Antonio</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.538555,3.448558</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Macondo Cali</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.538657,3.447792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Iglesia de La Merced Cali</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.53638,3.450585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Museo del Oro Cali</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.535699,3.450086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Caribe Cartagena</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.561555,10.39767</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Torre Del Reloj Cartagena</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.549223,10.423045</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel 3 Banderas Cartagena</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.547833,10.42739</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Juan Valdez Cartagena</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.549346,10.425324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vissersman Cartagena</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.547423,10.430436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Boca La Boquilla Bootjes</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.491787,10.48737</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Playa Paraiso La Boquilla Cartagena</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.500873,10.497872</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vulcan El Totumo Cartagena</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.241265,10.744565</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Arrecifes</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-73.950358,11.315799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Piscina Tayrona</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-73.957511,11.324102</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Pueblito</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-73.978805,11.316394</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paarden Tayrona</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-73.929915,11.305821</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Tayrona</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-73.916565,11.279157</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hangmatten Tayrona</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-73.948802,11.31267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Park Hotel Santa Marta</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.214952,11.242764</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ceviche Juanito Santa Marta</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.215618,11.241068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mirador Salento</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.566869,4.640853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Koffie Shop Salento</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.56957,4.637927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puente De Occidente</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.799305,6.577365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Santa Fe De Antioquia</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.827946,6.55667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jardín</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.8189,5.597555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jericó</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.785877,5.791672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel De Las 10</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.583476,6.215273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Estación Metrocable Santo Domingo Savio</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.541664,6.29314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Estación Acevedo</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.558455,6.300037</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sabaneta</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.615814,6.153163</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>San Andres</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.697586,12.583027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Johhny Key</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.691506,12.600689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sharm-el-Sheikh</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>34.301445,27.866911</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Luxor</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>32.646844,25.702546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Caïro</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>31.243683,30.048835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Airport Cairo</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>31.333001,29.820162</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tempel van Hatsjepsoet</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>32.607236,25.737986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Valley of the Kings</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>32.60141,25.739634</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Temple of Tuthmosis IV</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>32.607938,25.726884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sphinx avenue Luxor</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>32.644679,25.704862</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Livingston</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-88.750803,15.826966</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fronteras (Rio Dulce)</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-89.002687,15.659452</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Monterico</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-90.485061,13.891148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Antigua Guatemala</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-90.732855,14.563586</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Merced Antigua</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-90.73441,14.561263</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Leh Airport</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>77.546741,34.136133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gomang Stupa Leh</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>77.579625,34.171215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Leh Palace</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>77.586776,34.16601</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lamayuru</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>76.77396,34.282706</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Diskit</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>77.550655,34.551227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sarchu</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>77.58271,32.9068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Manali</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>77.187293,32.245462</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Keylang</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>77.034761,32.57172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>New Delhi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>77.215936,28.613896</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Amritsar</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>74.873659,31.634295</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dharamshala</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>76.322495,32.210504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>McLeod Ganj</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>76.326237,32.235266</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pema Thang Guest House</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>76.324926,32.235003</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dalai Lama temple</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>76.324255,32.232641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jaipur</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>75.820415,26.916123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Udaipur</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>73.686234,24.578722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jodhpur</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>73.033406,26.298939</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bikaner</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>73.317119,28.015945</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Varanasi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>83.00762,25.335632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fatehpur</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>80.809109,25.925882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agra</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>78.00811,27.176491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Taj Mahal</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>78.042163,27.175002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mehtabh Bagh</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>78.042099,27.17972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agra Fort</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>78.02149,27.179253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Orcha</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>78.640246,25.35287</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Thiruvananthapuram</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>76.957414,8.505799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chennai</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>80.281808,13.08042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puducherry</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>79.830639,11.934058</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Madurai</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>78.114111,9.926096</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Auroville</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>79.8111,12.00542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Maitri Mandir</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>79.810244,12.007007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hassan II-moskee</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-7.632745,33.608444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>مطار Airport Casablanca‎</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-7.582152,33.369292</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Maamoura Casablanca</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-7.61316,33.592528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kasbah Rabat</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-6.82427,34.005583</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kashbah Rabat</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-6.837751,34.030284</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Musée des Oudayas Rabat</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-6.835901,34.030408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tajin Rabat</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-6.83385,34.026867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Majestic Meknes</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.546166,33.89888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Moulay Idriss Zahroun</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.521841,34.055477</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>‎Volubilis</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.552249,34.071839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Airport Marrakech</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-8.025908,31.602259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Djemaa el Fna Plein Marrakesh</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-7.989025,31.626035</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jardin Majorelle Marrakech</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-8.002864,31.641464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel 3 Palmiers Marrakech</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-8.010202,31.635722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Argan Cooperative</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.489197,31.539073</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Diabat</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.765538,31.479236</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Il Mare Essaouira</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.771975,31.514923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Riad Chakir Essaouira</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.768841,31.513175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hammam Essaouira</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.76671,31.515113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Haven Essaouira</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.774037,31.509501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lunchplek bij meer Midelt</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.007743,33.074398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Midelt</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-4.714324,32.680003</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Merzouga</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-4.013514,31.099081</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Erg Chebi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-3.995486,31.036127</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kampement</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-3.994298,31.21578</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Desert Camp Erg Chebi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-3.974445,31.19857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Zagora زاكورة</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.837153,30.328049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>M'Hamid El Ghizlane امحاميد الغزلان</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.72291,29.829061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Safi آسفي</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.239533,32.299423</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fès فاس</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.01335,34.034118</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quartier des tanneurs Fes</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-4.970934,34.065934</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Roof view leatherworks Fes</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-4.973815,34.064469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mosque Al-Andalous Fes</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-4.968217,34.063227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Todra Kloof</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.594569,31.588654</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Erfoud</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-4.232077,31.432606</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ifrane</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.107407,33.527604</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agadir</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.583019,30.417021</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Boumalne Dades</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.986026,31.374143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Xaluca</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-5.982615,31.374194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ouarzazate</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-6.901805,30.920618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ait Ben (Moulay Aissa Ben Driss)</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-6.710437,32.110445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ciudad del Carmen International Airport</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-91.8004,18.651304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Campeche</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-90.536217,19.84425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Playa del Carmen</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-87.075652,20.628228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cancún</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-86.840304,21.170908</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Villahermosa</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-92.917503,17.995695</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto Escondido</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-97.071623,15.862425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Oaxaca</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-96.725339,17.060459</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puebla</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-98.198709,19.043684</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mexico-stad</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-99.133191,19.432542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cuernavaca</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-99.234128,18.921249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Acapulco de Juárez</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-99.876828,16.860305</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ensenada</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-116.62484,31.860741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Huisje Inge</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>5.552597,52.140999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gert Thuis</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>5.466879,52.177664</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Huis Carmenza</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>6.05683,52.52724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Airport Kathmandu</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>85.357058,27.700344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Thamel</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>85.311257,27.717026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kodari</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>85.962545,27.972334</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Masqat</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.593807,23.612345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ras Al Had Turtle Beach</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.796456,22.533987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sur</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.53,22.569999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>نزوىNizwa</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.529463,22.931582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Grensovergang Oman - Dubai</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.994397,24.856041</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Al-Bustan Palace</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.615622,23.567217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Muscat Marina</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.604767,23.581146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Al-Mirani</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.593244,23.617275</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Muscat Fish Market</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.562204,23.624331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mutrah Souq</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.563842,23.619246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>The Chedi - Muscat</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.398449,23.602647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Muscat International Airport</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.285203,23.592283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Suwadi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.765699,23.768668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Misfah</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.134688,23.228125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>1000 Nights Camp</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.759053,22.102506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sinkhole</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.071999,23.035945</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Wadi Fins</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.209999,22.92</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>White Beach</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.22183,22.893454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vuurtoren Sur</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.53968,22.569021</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dhow Markaz Fath Al-Kheir</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.531631,22.561023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Turtle Beach</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.83,22.449999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tanuf</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.468368,23.051978</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Wadi ????</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.429999,23.09</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quiriat</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.920001,23.26</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Wahiba Sands</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>58.920001,21.93</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jabrin</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.249999,22.92</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Al Sawadi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.789912,23.780859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nizwa Fort</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.530055,22.933307</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nizwa Souk</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>57.531905,22.932793</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Wadi Bani Khalid</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>59.110422,22.470166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lima</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.030584,-12.045974</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Callao</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.139113,-12.052262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Moskou</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>37.618715,55.751624</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sergev Posad</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>38.136087,56.30895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pereslavl-Zalesski</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>38.846266,56.736619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rovstok</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>39.416654,57.184639</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Yaroslavl</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>39.893358,57.626395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Коstroma</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>40.926845,57.767965</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vladimir</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>40.413191,56.139684</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ivanovo</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>40.973752,56.998439</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Suzdal</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>40.448768,56.419401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Тver</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>35.920813,56.858679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Veliki Novgorod</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>31.275226,58.521239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sint-Petersburg</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>30.315381,59.939358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lhasa</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>91.13141,29.656902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Shigatseིས་ཀ་རྩེ</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>88.878654,29.268865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Zhangmu</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>85.982128,27.990436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bhaktapur</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>85.428171,27.672066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Potala Palace</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>91.116522,29.657884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tibetaanse Vrouw</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>91.13271,29.652721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Yak Hotel Lhasa</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>91.13102,29.655676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ganden Klooster</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>91.471915,29.756797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dubai</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.296192,25.268354</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Atlantis, The Palm</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.117096,25.130406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Burj Khalafi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.274221,25.19703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dubai Mall</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.269611,25.201419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jumeirah Beach Park</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.236349,25.197147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>World - United Arab Emirates</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.174929,25.227585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dubai Marina</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.145728,25.0847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Baniyas Water Taxi Station</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.311666,25.262578</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Abra Dock</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.308463,25.261868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Port Saeed</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.333673,25.245767</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dubai International Airport</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.519703,25.326524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dubai International Airport</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.368895,25.251729</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Burj al Arab</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.185379,25.141203</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Madinat Jumeirah Mina A'Salam</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.18576,25.135215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mall of the Emirates</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.200566,25.118224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ski Dubai</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.198624,25.117345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sohar</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>56.742482,24.344538</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ras Al Khaimah</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.934257,25.772207</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Abu Dhabi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>54.370593,24.47479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gateway Towers Monorail Station</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.154805,25.101428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pukalani</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-156.33667,20.836667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kahului Airport</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-156.43332,20.895292</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Maui</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-156.31052,20.758059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Los Angeles</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-118.24271,34.053676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Long Beach</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-118.18851,33.777457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Malibu</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-118.80704,34.00578</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Santa Barbara</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-119.69702,34.409799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ventura</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-119.29317,34.278335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Las Vegas</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-115.16117,36.145208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Prescott</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-112.46849,34.540026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Flagstaff</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-111.62392,35.20024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Portland</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-122.67419,45.52026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Miami</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.19366,25.774255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Boca Raton</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.08311,26.358673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Lauderdale</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.143363,26.122327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Key West</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.753118,24.568965</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jacksonville</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.655657,30.332198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Charleston</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.940288,32.787585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>New York</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-73.986599,40.730596</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>New Orleans</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-90.070113,29.949937</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Houma</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-90.719551,29.595759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Galveston</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-94.794578,29.299333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Houston</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-95.367712,29.758923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Corpus Christi</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-97.395591,27.80027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bukhara</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>64.423133,39.767553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Samarqand</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>66.975819,39.654791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tasjkent</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>69.278699,41.312327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Urganch</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>60.631385,41.551776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>ViaVia Mechelen</name>
+    <TimeStamp><when>2015-12-07T21:12:42Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>4.4866102,51.02292</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,2335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>country-PT</name>
+	<atom:author>
+	<atom:name>Hitchwiki Maps</atom:name>
+</atom:author><atom:link href="http://hitchwiki.org/maps"></atom:link>
+	<Style id="rating_1">
+		<IconStyle>
+			<color>ff00ad00</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://hitchwiki.org/maps/static/gfx/hh_place_1.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="rating_2">
+		<IconStyle>
+			<color>ff96ad00</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://hitchwiki.org/maps/static/gfx/hh_place_2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="rating_4">
+		<IconStyle>
+			<color>ffff8d00</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://hitchwiki.org/maps/static/gfx/hh_place_4.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="rating_5">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://hitchwiki.org/maps/static/gfx/hh_place_5.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="rating_3">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://hitchwiki.org/maps/static/gfx/hh_place_3.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="rating_0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://hitchwiki.org/maps/static/gfx/hh_place_0.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Hitchhiking places</name>
+		<Placemark id="668">
+			<name>a Hitchhiking spot in SacavÃ©m, Portugal</name>
+			<description><![CDATA[<p>If you want to head north of Lisbon this is the place to start! Ask to head towards Highway A1</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (18 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:50,22.222222222222,11.111111111111,16.666666666667,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|3|2|4|9|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 1h 28min (10 experiences)<br /><a href="http://hitchwiki.org/maps/?place=668">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-9.122418165206909,38.7795890112852,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="669">
+			<name>a Hitchhiking spot in Cacilhas, Portugal</name>
+			<description><![CDATA[<p>If you want to head South of Lisbon you can start here. You will depend on people stopping for you only. As far as that goes it's a great place!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:25,25,0,25,25&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|1|1|0|1|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=669">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-9.17811155319214,38.7094828124597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="670">
+			<name>a Hitchhiking spot in Amora, Portugal</name>
+			<description><![CDATA[<p>When heading South of Lisbon or towards Spain. Take the train to Foros de Amora and then cross under the highway to get at this gas station. Here you can ask people to take you. </p>
+
+<p>Ask for rides to Palmela service station, since there's loads of local  traffic around Lisbon.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (15 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:46.666666666667,13.333333333333,33.333333333333,0,6.6666666666667&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|1|0|5|2|7|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 1h 46min (12 experiences)<br /><span title="Fri, 31 Jan 14 00:02:35 +0100">Description written 31.1.2014</span><br /><a href="http://hitchwiki.org/maps/?place=670">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-9.1336727142334,38.6226711503457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1769">
+			<name>a Hitchhiking spot in Odemira, Portugal</name>
+			<description><![CDATA[<p>A little warning: Stay away from smaller roads in this general area. Locals just don't stop. I tried several times and always waited or walked for several hours.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,0,0,100&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|2|0|0|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=1769">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.384628295898439,37.6614013336152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5089">
+			<name>a Hitchhiking spot in Faro, Portugal</name>
+			<description><![CDATA[<p>folks come and go to surrounding villages from the airport. buses to faro and other places around, depends on your further way.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,50,50,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|1|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=5089">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-7.95375823974609,37.0379137332263,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3459">
+			<name>a Hitchhiking spot in Ponte, Portugal</name>
+			<description><![CDATA[<p>Last roundabout before the highway, good for both ways North (Braga, ValenÃ§a, Spain) or South (Porto, Coimbra, Lisbon) </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,50,50,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|1|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=3459">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.33308696746826,41.4404422602265,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4083">
+			<name>a Hitchhiking spot in Alcabideche, Portugal</name>
+			<description><![CDATA[<p>Even if cars pass by and they see you they'll probably not stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,0,0,100&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|2|0|0|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=4083">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-9.46905612945557,38.7299494208017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4207">
+			<name>a Hitchhiking spot in Silvalde, Portugal</name>
+			<description><![CDATA[<p>Just take the train from Sao Bento (Porto) till Silvalde Vouga, and reach this point, but don't expect something special.;) N109 is a bit narrow road but has some luck on HHiking to Coimbra or Lisbon.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=4207">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.629331588745121,40.9913499441285,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4208">
+			<name>a Hitchhiking spot in Silvalde, Portugal</name>
+			<description><![CDATA[<p>Just take the train from Sao Bento (Porto) till Silvalde Vouga, and reach this point, but don't expect something special.;) N109 is a bit narrow road but has some luck on HHiking to Coimbra or Lisbon.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=4208">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.62958908081055,40.9908154595793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4211">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<description><![CDATA[<p>If you walk 10km from Coimbra heading to Porto, just make a big sign and stand clear for the cars, there is a turn after you for cars to stop. Traffic is rather fast ;p</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=4211">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.44307899475098,40.2681311572535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4284">
+			<name>a Hitchhiking spot in Porto, Portugal</name>
+			<description><![CDATA[<p>Lots of traffic, safe place to pull over...but I waited over 2 hours for a ride...try holding  a sign for Braga, then go on from there maybe...</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,50,50,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|1|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 2h (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=4284">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.641547709703451,41.1515501201974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4383">
+			<name>a Hitchhiking spot in NazarÃ©, Portugal</name>
+			<description><![CDATA[<p>0 to 5 minutes for a short ride to nazarÃ© center </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=4383">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-9.056344628334051,39.6203092436595,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4686">
+			<name>a Hitchhiking spot in Canelas, Portugal</name>
+			<description><![CDATA[<p>Take Metro (line D; costs: 1,50 â¬) in direction to Santo OvÃ­dio. At the final station (Santo OvÃ­dio) go to the round about and take the street &quot;R.Soares dos Reis&quot;, which you follow untill you already can see the place where a tunel enable you to cross the motorway. Right after the tunel on the left you can go up to the highway and follow the track (150m) until the gas station.</p>
+
+<p>GOOD PLACE to go south (LISBON, AVEIRO, COIMBRA...). </p>
+
+<p>The other side (untested) might be good to go north.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (18 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:27.777777777778,38.888888888889,16.666666666667,16.666666666667,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|3|3|7|5|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 1h 53min (14 experiences)<br /><span title="Thu, 14 Jun 12 03:09:56 +0200">Description written 14.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=4686">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.59954833984375,41.1015634808052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5090">
+			<name>a Hitchhiking spot in Quarteira, Portugal</name>
+			<description><![CDATA[<p>Yeah, i know, real estate is killing the local flavour. Bag pipes and german moustachios. Dirt cheap bus through the quite untrampable south to Lisboa though. Not exactly here but somewhere centre-ish.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=5090">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.11760902404785,37.0783600217913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5622">
+			<name>a Hitchhiking spot in Senhora da Hora, Portugal</name>
+			<description><![CDATA[<p>Gas station in direction North or North-East. Got a truck to Spain there in 20 minutes.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:25,50,25,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|2|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=5622">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.660659790039061,41.1824653409659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6514">
+			<name>a Hitchhiking spot in Lagos, Portugal</name>
+			<description><![CDATA[<p>Gas station, easy walk from Lagos. Cars go east to the A22.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,66.666666666667,33.333333333333,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=6514">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.673065006732941,37.1198755030162,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6513">
+			<name>a Hitchhiking spot in Tavira, Portugal</name>
+			<description><![CDATA[<p>Parking lot for visitors of the island. Every time the ferry arrives, it's easy go find somebody to take you back into the city of Tavira.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:100,0,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|0|4|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=6513">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-7.629951238632201,37.1171678282059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6512">
+			<name>a Hitchhiking spot in Tavira, Portugal</name>
+			<description><![CDATA[<p>Gas station, plus passing cars can easily pull out. Just walk here from Tavira. Found someone to LoulÃ© quickly.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:25,50,25,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|2|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=6512">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.66327500343323,37.1181003400999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6244">
+			<name>a Hitchhiking spot in Lagos, Portugal</name>
+			<description><![CDATA[<p>Just ask for the people who stop in the supermarket. In summer there's a lot.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (13 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,15.384615384615,0,7.6923076923077,76.923076923077&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|10|1|0|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=6244">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.913586735725399,37.0792116963025,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6243">
+			<name>a Hitchhiking spot in Olhão, Portugal</name>
+			<description><![CDATA[<p>It looks a good place but people simply don't stop. I tried twice waiting for 3 hours more and less. Cars goes very fast and used to be full (children, grandmother...). Maybe is better in low seasons.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,33.333333333333,66.666666666667,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|2|1|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=6243">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-7.852883040905,37.0302741226783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6242">
+			<name>a Hitchhiking spot in Sines, Portugal</name>
+			<description><![CDATA[<p>Bad place in summer because there's nowhere scape of sun! But cars have space where to stop and traffic is fluid.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=6242">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.79285246133804,37.8631082859028,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6240">
+			<name>a Hitchhiking spot in Odemira, Portugal</name>
+			<description><![CDATA[<p>Is a good place. Is a kind of alternative route to the north so the traffic is low but people often to be willing to lift hitch-hikers.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=6240">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.64464163780212,37.6001944556829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6241">
+			<name>a Hitchhiking spot in Sines, Portugal</name>
+			<description><![CDATA[<p>Cars goes simply very fast. Even having space they will not stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,33.333333333333,0,0,66.666666666667&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|2|0|0|1|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=6241">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.831124901771551,37.9710537295456,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6238">
+			<name>a Hitchhiking spot in Faro, Portugal</name>
+			<description><![CDATA[<p>Simply great. Enough space to stop cars and go to Faro down-town but you can try to go somewhere else (east or west). Less than 15 min. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:100,0,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|0|4|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=6238">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-7.969935983419419,37.0238522300051,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6239">
+			<name>a Hitchhiking spot in Odemira, Portugal</name>
+			<description><![CDATA[<p>Is a little bit dangerous but in summer there's a lot of traffic. There are some place for car stopping but you have to walk until reach one.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (8 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,37.5,50,12.5&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|1|4|3|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=6239">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.71698349714279,37.5105428607823,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6168">
+			<name>a Hitchhiking spot in Setúbal, Portugal</name>
+			<description><![CDATA[<p>Get to the last traffic lights before the highway (next to Jumbo supermarket) and be ready to get in when the cars are stopped. It is fairly easy to hitch both towards North (Lisbon) and South (Algarve).</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,75,25,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|3|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=6168">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.87420654296875,38.5360815736866,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6129">
+			<name>a Hitchhiking spot in Pragal, Portugal</name>
+			<styleUrl>#rating_0</styleUrl>
+			<Point>
+				<coordinates>-9.162485003471369,38.6666409284174,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6130">
+			<name>a Hitchhiking spot in Pragal, Portugal</name>
+			<description><![CDATA[<p>Drivers going here are probably headed to Lisbon city or to Caparica beaches. At this place cars are going slow. Cars will stop for you only, and having a cardboard with your destination can make it easier.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=6130">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-9.16237503290176,38.6668650131945,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6124">
+			<name>a Hitchhiking spot in Setúbal, Portugal</name>
+			<description><![CDATA[<p>FÃ¡brica da Portucel is a paper factory that has trucks going to all around Portugal, Spain, France, Germany etc.  You can hitch a ride to the parking lot from Setubal. If you are not afraid of waiting for hours it's possible to get a long-distance ride. I was there scouting but didn't try hitching yet.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=6124">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.807516098022459,38.4914208602985,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6122">
+			<name>a Hitchhiking spot in Lagos, Portugal</name>
+			<description><![CDATA[<p>This is the National road north to Aljezur, Sines and Lisbon. Walk out of down to the McDonalds (turn left up the hill at the round about) or just past it (N120).</p>
+
+<p>N 37Â° 06.849 W 008Â° 40.888
+29S E 528299 N 4107582</p>
+
+<p>Very bendy roads and low speeds. Many of the lifts are local and town to town but you can be lucky or unlucky. I got one direct lift from Aljezur to Sines with 20 minutes. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=6122">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.686001300811769,37.114349904239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6069">
+			<name>a Hitchhiking spot in Sines, Portugal</name>
+			<description><![CDATA[<p>This is pretty much the only spot to get to Lisbon. We waited here for three hours and no one stopped. Try hitching here on Friday afternoon or Sunday evening when people are going to/from Lisbon. Or try shorter distance (Grandola or Setubal).</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,25,50,25,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|2|1|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 2h (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=6069">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.857786059379579,37.9606435860029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6005">
+			<name>a Hitchhiking spot in Riachos, Portugal</name>
+			<description><![CDATA[<p>I had to wait over more than three hours to find a ride to Coimbra. I shouldn't know why it wouldn't work out, but probably everybody goes direction of Fatima. Bad experience and I wouldn't recommend it to anybody</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:25,25,0,50,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|2|0|1|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=6005">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.63765716552734,39.3915789278008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6843">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<description><![CDATA[<p>Works.
+Bad for german standards - but that's normal in Portugal.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Unknown <b style="font-size: 15px; color: #ffffff;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=6843">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_0</styleUrl>
+			<Point>
+				<coordinates>-8.43804180622101,40.2228615891811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6886">
+			<name>a Hitchhiking spot in Valbom, Portugal</name>
+			<description><![CDATA[<p>To head south from Porto (e.g. towards Lisbon)
+This gas station is right before the beginning of highway A1, to Lisbon. Just ask people if they're heading south and you're good to go!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (7 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:42.857142857143,14.285714285714,0,28.571428571429,14.285714285714&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|1|2|0|1|3|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 1h 8min (2 experiences)<br /><a href="http://hitchwiki.org/maps/?place=6886">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.578149676322941,41.1456404243747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7773">
+			<name>a Hitchhiking spot in REPESES, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.9506643170537,40.624594291748,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7774">
+			<name>a Hitchhiking spot in Oporto, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.6067253939213,41.115577052293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7775">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.437585293546,40.219595301899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7776">
+			<name>a Hitchhiking spot in Olival Basto, Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-9.167282938234701,38.784569779952,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13105">
+			<name>a Hitchhiking spot in Faro, Portugal</name>
+			<description><![CDATA[<p>no cars at all. very bad place to go to spain, take the national road. there is not toll, they drive very fast.
+more cars going the other way, west, may be possible/easier.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,0,50,50&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|1|1|0|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 1h (1 experience)<br /><span title="Fri, 22 Feb 13 14:28:46 +0100">Description written 22.2.2013</span><br /><a href="http://hitchwiki.org/maps/?place=13105">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-7.915651559841338,37.0956872492246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="8740">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>There is a petrol station at both sides. So you can get here either to Lisbon or the south of Portugal or to east to Spain</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (5 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,40,60,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|3|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 37min (5 experiences)<br /><span title="Wed, 28 Sep 11 23:40:52 +0200">Description written 28.9.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8740">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.925537500992499,38.585907758092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="8940">
+			<name>a Hitchhiking spot in SetÃºbal, Portugal</name>
+			<description><![CDATA[<p>At the end of Avenida Luisa Todi, this seems the indicated spot to hitch a ride into the ArrÃ¡bida Natural Park or towards Sesimbra. It might be better to stand a bit further down the road though as there's still a lot of local traffic going through here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 45min (1 experience)<br /><span title="Tue, 08 Nov 11 22:37:23 +0100">Description written 8.11.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8940">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.902987675280601,38.51991402654,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="8965">
+			<name>a Hitchhiking spot in SetÃºbal, Portugal</name>
+			<description><![CDATA[<p>Just before the Jumbo gas station. This is the exit road towards the South and a lot of Southwards bound traffic comes by here. There's plenty of time and space for cars to stop to pick you up.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 30min (1 experience)<br /><span title="Tue, 08 Nov 11 22:39:58 +0100">Description written 8.11.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8965">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.8661174774169,38.534654012646,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="8966">
+			<name>a Hitchhiking spot in GrÃ¢ndola, Portugal</name>
+			<description><![CDATA[<p>On the IC1 Southwards just after the merger of the roads. Most cars pass rather quick so it's not very easy for them to stop. You do however get all the traffic heading Southwards that comes from different directions and merges onto the IC1 here and if you got a previous ride from someone who goes in a different direction they probably won't mind letting you off around here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Tue, 08 Nov 11 22:47:28 +0100">Description written 8.11.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8966">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.576117038726499,38.176619948743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="8967">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Probably the best spot to get a long distance ride out of Albufeira in any direction. Most long distance traffic passes through here before taking either the highway or the secondary road towards either Lisbon, Lagos or Spain. There's a bus connecting it to Albufeira city and train station (different directions).</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Tue, 08 Nov 11 22:51:03 +0100">Description written 8.11.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8967">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.2469456195779,37.117363719514,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9061">
+			<name>a Hitchhiking spot in Vila do Bispo, Portugal</name>
+			<description><![CDATA[<p>After trying for a while to ask in the supermarket parking and not having much luck, I've tried here.. not a perfect spot as car do go fast but traffic was not heavy and they could see me from far and stop.. I easily got a lift south to Sagres</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Sun, 04 Dec 11 00:18:43 +0100">Description written 4.12.2011</span><br /><a href="http://hitchwiki.org/maps/?place=9061">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.9125106334753,37.07920345297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9062">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>The whole road is quite ok... cars don't go very fast and now and then there were good spots.. I was just walking towards Cabe sao Vicente and trying to hitch while walking.. at the end I didn't have to walk much... and I got a lift to see the sunset + a lift back with the same people (young tourists) till Lagos. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Sun, 04 Dec 11 00:21:46 +0100">Description written 4.12.2011</span><br /><a href="http://hitchwiki.org/maps/?place=9062">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.951155900961799,37.012667007121,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9063">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Lots of people come here for the sunset (which is by the way great).. so it shouldn't be that difficult to hitch back after the sunset. I went back with the same people who took me there... </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Unknown <b style="font-size: 15px; color: #ffffff;">&bull;</b> (0 votes)<br /><span title="Sun, 04 Dec 11 00:23:21 +0100">Description written 4.12.2011</span><br /><a href="http://hitchwiki.org/maps/?place=9063">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_0</styleUrl>
+			<Point>
+				<coordinates>-8.995938062674,37.023220820394,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9064">
+			<name>a Hitchhiking spot in Lagos, Portugal</name>
+			<description><![CDATA[<p>If you need a short lift back to Lagos you can just walk, not too far.,. but if you came here for the sunset there are quite enough people going back to the town after the sunset and you can give it a try.. I got a lift very easily.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Sun, 04 Dec 11 00:25:28 +0100">Description written 4.12.2011</span><br /><a href="http://hitchwiki.org/maps/?place=9064">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.6696956157729,37.081000925754,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9065">
+			<name>a Hitchhiking spot in Lagos, Portugal</name>
+			<description><![CDATA[<p>Somewhere around here there's a bus ere I could get a lift towards Vila do Bispo quite easily. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Sun, 04 Dec 11 00:26:58 +0100">Description written 4.12.2011</span><br /><a href="http://hitchwiki.org/maps/?place=9065">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.683133482940001,37.100513601254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9132">
+			<name>a Hitchhiking spot in Ãvora, Portugal</name>
+			<description><![CDATA[<p>Is a good place to go to the region of Algarve. There are a lot of cars and trucks that come from diferents directions. Just wait with a signal (preference Algarve).</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Sat, 17 Dec 11 19:37:51 +0100">Description written 17.12.2011</span><br /><a href="http://hitchwiki.org/maps/?place=9132">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.9040477201466,38.565643676305,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9368">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<description><![CDATA[<p>We tried our luck along this road that becomes the national. We tried the two gas stations and the roundabouts further on the street. 1 of 3 parties got a ride to Lisboa, the others took a bus in the end. Better trie the higway entrance.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:50,0,50,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|0|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 1h (1 experience)<br /><span title="Wed, 08 Feb 12 21:52:06 +0100">Description written 8.2.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9368">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.431759415436,40.201805117944,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9726">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<description><![CDATA[<p>There is a bus stop where a car can stop. Worked for us, though not that fast.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 45min (1 experience)<br /><span title="Sun, 08 Apr 12 22:14:52 +0200">Description written 8.4.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9726">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.4388378858766,40.220314169639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9727">
+			<name>a Hitchhiking spot in Mealhada, Portugal</name>
+			<description><![CDATA[<p>There is a great spot where a truck can easily stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Sun, 08 Apr 12 22:15:36 +0200">Description written 8.4.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9727">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.4494379759034,40.378238828019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9728">
+			<name>a Hitchhiking spot in Mourisca do Vouga, Portugal</name>
+			<description><![CDATA[<p>Waited for about 1h30.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 1h 30min (1 experience)<br /><span title="Sun, 08 Apr 12 22:16:51 +0200">Description written 8.4.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9728">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.4665182829121,40.605783412595,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9729">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Try asking at the petrol station whether anyone is going to Porto or Aveiro.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Sun, 08 Apr 12 22:17:57 +0200">Description written 8.4.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9729">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.470209002512201,40.681346176849,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9910">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>wow: 10 seconds waiting time. my personal record.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 1min (1 experience)<br /><span title="Sun, 29 Apr 12 00:10:35 +0200">Description written 29.4.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9910">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.8926891088826,37.186818236612,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9938">
+			<name>a Hitchhiking spot in Oporto, Portugal</name>
+			<description><![CDATA[<p>Boat hitchhiking: sometimes there are boats that moor up here, so it pays to ask! Worked for me.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:50,0,50,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|0|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><span title="Tue, 01 May 12 01:40:06 +0200">Description written 1.5.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9938">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.612843513477999,41.140419307798,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10113">
+			<name>a Hitchhiking spot in Viana do Castelo, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.817477285844801,41.702134292686,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10114">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.555827796430499,41.771109932856,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10239">
+			<name>a Hitchhiking spot in Folgosa, Portugal</name>
+			<description><![CDATA[<p>Very good spot to hitchhike north (to Braga, to Galizia [Vigo, Santiago]...). Take the train to SÃ£o Frutuoso and walk 800m to the gas station in the A3. You'll have to look for the good place to climb over the fence. Make sure no one sees you!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,50,0,50,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|0|1|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><span title="Thu, 14 Jun 12 03:28:39 +0200">Description written 14.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10239">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.5629866123239,41.263674947484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10620">
+			<name>a Hitchhiking spot in Aljezur, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.799083709716855,37.31672706999549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11090">
+			<name>a Hitchhiking spot in Guarda, Portugal</name>
+			<description><![CDATA[<p>It's a round about who connect the national road from Vilar Formoso (Border) to Guarda. That a bad place to hitchhike. People don't stop. 
+Our solution was to walk on the highway for 3km until the next petrol station.
+Take the direction of the A23, and follow the highway. During the night you will be in the dark after 500m. So be extremly carreful.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 13h 37min (1 experience)<br /><span title="Thu, 16 Aug 12 18:57:43 +0200">Description written 16.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11090">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-7.221227645873958,40.5692291184677,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11303">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Bus stop at EN1 main road to Santa Luzia, Santo Antonio, SÃ£o Roque and Piedade.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Thu, 30 Aug 12 02:52:43 +0200">Description written 30.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11303">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-28.50765144825028,38.53538532214278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11304">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>A great hitchhiking spot for going out of Horta to Flamengos or in the direction of &quot;caldeira&quot; (the crater of the highest volcano of Faial). </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Thu, 30 Aug 12 03:02:15 +0200">Description written 30.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11304">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-28.64639139175425,38.53347184130369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11305">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Hitchhiking from here to Varadouro is possible. It's a sand road.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Thu, 30 Aug 12 03:09:39 +0200">Description written 30.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11305">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-28.79018461704086,38.57112154995375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11306">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Just stop anywhere along the main road to hitchhike. This is a spot for getting closer to the Pico Volcano.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Thu, 30 Aug 12 03:15:29 +0200">Description written 30.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11306">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-28.48506724834392,38.51644969327069,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11307">
+			<name>a Hitchhiking spot in Santa Cruz das Flores, Portugal</name>
+			<description><![CDATA[<p>A great hitchhiking spot for going to most places of the island with many cars passing by.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:100,0,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|0|2|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Thu, 30 Aug 12 03:21:58 +0200">Description written 30.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11307">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-31.1310449838619,39.45035095919423,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11308">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>A good hitchhiking spot coming to or leaving Lagoa das Furnas.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Thu, 30 Aug 12 03:28:31 +0200">Description written 30.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11308">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-25.3254142999627,37.75087367102713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11316">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>A good spot to hitchhike north out of Furnas.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Thu, 30 Aug 12 13:36:11 +0200">Description written 30.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11316">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-25.30859684944151,37.77839402053255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11319">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>A good spot to hitchhike to Lagoa do Fogo.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Thu, 30 Aug 12 13:40:39 +0200">Description written 30.8.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11319">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-25.5005679130557,37.78486815796981,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11613">
+			<name>a Hitchhiking spot in Praia da Vitoria, Portugal</name>
+			<description><![CDATA[<p>Some of the people working on the airport might take you straight to Angra or Praia when going home. Just start talking a little with them.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 18 Sep 12 20:22:42 +0200">Description written 18.9.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11613">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-27.07970237732053,38.74900895595928,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11833">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>gas station on the highway; not much trafic and perhaps mainly locals</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:25,25,25,25,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|1|1|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Tue, 09 Oct 12 17:25:13 +0200">Description written 9.10.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11833">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-7.050175048217796,38.88250028825165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="12002">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-9.055536746981186,38.65646244235391,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="12004">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-9.049185276035171,38.64281304651112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="12193">
+			<name>a Hitchhiking spot in Porto, Portugal</name>
+			<description><![CDATA[<p>Perfect spot, space to park, people can see you from far, they drive slowly, but... :( Good luck !</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5h (1 experience)<br /><span title="Thu, 01 Nov 12 13:06:32 +0100">Description written 1.11.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12193">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.592399871913916,41.18043487958143,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="12465">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Logical place heading north but speed is quite high and some trucks stop there for shopping, reducing shoulder space sometimes to a minimum. A19 nov'12 had almost no traffic at all.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5h (1 experience)<br /><span title="Wed, 14 Nov 12 00:36:25 +0100">Description written 14.11.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12465">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.85705104426361,39.62200395886659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="12466">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Quite some local road traffic, just a long walk through neighbouring towns to the end of residential areas.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Wed, 14 Nov 12 00:46:10 +0100">Description written 14.11.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12466">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.966131120484404,39.54813326173902,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="12467">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Used this spot to get out of Lisbon for scenery/coastal road hh toward Ericeira. A bit of a hike though from a 
+train station (1.5e to Sintra from Lisbon).</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Wed, 14 Nov 12 00:58:03 +0100">Description written 14.11.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12467">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-9.366660028260281,38.81754268329808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="12752">
+			<name>a Hitchhiking spot in Faro, Portugal</name>
+			<description><![CDATA[<p>good spot to go to Faro (centre), cars aren't going to fast and there's more than enough space for cars stop. I used this spot several times, average time 15 min, or even less in summer. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:100,0,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|0|2|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Thu, 27 Dec 12 01:46:04 +0100">Description written 27.12.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12752">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-7.988017559051405,37.01527989774385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13107">
+			<name>a Hitchhiking spot in Lisbon, Portugal</name>
+			<description><![CDATA[<p>used this spot twice and got a ride to the gas station south within 20 minutes both times. its not illegal so the police won't make problems, unlike the parking lot nearby.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (9 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:44.444444444444,22.222222222222,22.222222222222,0,11.111111111111&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|1|0|2|2|4|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 35min (6 experiences)<br /><span title="Fri, 22 Feb 13 18:30:26 +0100">Description written 22.2.2013</span><br /><a href="http://hitchwiki.org/maps/?place=13107">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-9.174959421157251,38.70687519628589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13240">
+			<name>a Hitchhiking spot in Braga, Portugal</name>
+			<description><![CDATA[<p>Its is a very popular place to hitch hike if you want to go towards north in direction of GerÃªs, the national park.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 23min (2 experiences)<br /><span title="Sun, 10 Mar 13 23:24:45 +0100">Description written 10.3.2013</span><br /><a href="http://hitchwiki.org/maps/?place=13240">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.418533563613897,41.55950743075636,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13243">
+			<name>a Hitchhiking spot in Ferreiros, Portugal</name>
+			<description><![CDATA[<p>This is my home town :) If you want to get to Braga, this is the perfect spot. 20 mins should be enough.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Mon, 11 Mar 13 12:08:11 +0100">Description written 11.3.2013</span><br /><a href="http://hitchwiki.org/maps/?place=13243">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.370935082435544,41.62859585554766,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13475">
+			<name>a Hitchhiking spot in Lagos, Portugal</name>
+			<description><![CDATA[<p>gas station. ask drivers or stand next to the roundabout</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,100,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><span title="Wed, 03 Apr 13 18:26:39 +0200">Description written 3.4.2013</span><br /><a href="http://hitchwiki.org/maps/?place=13475">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.692874915466511,37.10184836147357,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13720">
+			<name>a Hitchhiking spot in Faro, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.931304931640607,37.03594855055694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="14404">
+			<name>a Hitchhiking spot in Porto, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.63935111141198,41.16537420401344,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="14520">
+			<name>a Hitchhiking spot in Velas, Portugal</name>
+			<description><![CDATA[<p>After you arrive to velas by boat this is the place to start hitchhiking. It's an huge hill and a lot of people passing by. If you can make it to top by foot you can hitchhike on the national road that goes around the island.Just choose the direction. people are awesome. Once I managed to do it with 13 friends, tents and surfboards to Faja de Santo Cristo with several rides of course.  </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Wed, 19 Jun 13 16:39:33 +0200">Description written 19.6.2013</span><br /><a href="http://hitchwiki.org/maps/?place=14520">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-28.2111439704907,38.68410727558124,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="14521">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<description><![CDATA[<p>I tried during 1 hour on the round-about down this one, and as soon as I arrived at this one I got a lift direct to Lisboa.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:66.666666666667,33.333333333333,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|1|2|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><span title="Wed, 19 Jun 13 20:58:34 +0200">Description written 19.6.2013</span><br /><a href="http://hitchwiki.org/maps/?place=14521">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.431544838714693,40.19147935725432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15011">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<description><![CDATA[<p>We got a ride within 15 minutes heading south towards Lisboa -- to get here you can take the 22 or 14 bus, and get off just after the bridge and roundabout.  </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,100,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|3|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><span title="Tue, 16 Jul 13 17:41:52 +0200">Description written 16.7.2013</span><br /><a href="http://hitchwiki.org/maps/?place=15011">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.446617305279865,40.21402471896462,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15012">
+			<name>a Hitchhiking spot in NazarÃ©, Portugal</name>
+			<description><![CDATA[<p>To get here, walk along the oceanside, heading south. We stopped just in front of the gas station, and had to wait for 30-45 minutes for a ride that took us to the entrance of the highway. Most people were just filling up their tanks, but a lot of cars passing with room for one.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Tue, 16 Jul 13 17:48:20 +0200">Description written 16.7.2013</span><br /><a href="http://hitchwiki.org/maps/?place=15012">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-9.071238398549008,39.58658305056627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15013">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>We waited here for a ride for about 15 minutes, easy to walk here from Obidos center, there is enough space for cars to pull over, and you can choose to hitch north via the national road or south on the highway.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Tue, 16 Jul 13 17:51:29 +0200">Description written 16.7.2013</span><br /><a href="http://hitchwiki.org/maps/?place=15013">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-9.154011368748755,39.35788384950737,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15244">
+			<name>a Hitchhiking spot in Braga, Portugal</name>
+			<description><![CDATA[<p>This is a gas station on the way to Porto and Barcelos. You can get there easily if you walk through the hidden stairs on the back of the train station. Once you get down you will see a bridge to cross the highway. The first time I went there I got a ride the first time I asked a driver! :)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Sun, 28 Jul 13 23:04:21 +0200">Description written 28.7.2013</span><br /><a href="http://hitchwiki.org/maps/?place=15244">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.440527677536117,41.54333694524054,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15245">
+			<name>a Hitchhiking spot in BraganÃ§a, Portugal</name>
+			<description><![CDATA[<p>Very difficult to get a ride. People feel afraid and do not stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 3h (1 experience)<br /><span title="Sun, 28 Jul 13 23:54:37 +0200">Description written 28.7.2013</span><br /><a href="http://hitchwiki.org/maps/?place=15245">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-6.770874023437448,41.81644550451478,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15485">
+			<name>a Hitchhiking spot in Braga, Portugal</name>
+			<styleUrl>#rating_0</styleUrl>
+			<Point>
+				<coordinates>-8.489204406738169,41.52691342078621,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15518">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_0</styleUrl>
+			<Point>
+				<coordinates>-7.195518106687661,39.82561057387556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16083">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.249693870544604,37.45887048504112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16165">
+			<name>a Hitchhiking spot in Estremoz, Portugal</name>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-7.613688468933359,38.84536102426127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16180">
+			<name>a Hitchhiking spot in Faro, Portugal</name>
+			<description><![CDATA[<p>Wait just past the traffic lights, has plenty of room to pull over. However there is a petrol station really close that was being built at the time and now maybe finished, probally your best bet.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,50,50,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|1|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 45min (1 experience)<br /><span title="Thu, 26 Sep 13 11:16:17 +0200">Description written 26.9.2013</span><br /><a href="http://hitchwiki.org/maps/?place=16180">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-7.954801082610983,37.05345211851321,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16355">
+			<name>a Hitchhiking spot in Porto, Portugal</name>
+			<description><![CDATA[<p>Really good place for hitch hiking north because a lot of people come to IKEA, I got a ride in a half hour who was going to Braga and from there I kept hitching all the way to France.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Sat, 12 Oct 13 00:53:44 +0200">Description written 12.10.2013</span><br /><a href="http://hitchwiki.org/maps/?place=16355">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.688481807708891,41.21012774892694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16808">
+			<name>a Hitchhiking spot in PortimÃ£o, Portugal</name>
+			<description><![CDATA[<p>Towads Lagoa / and Faro on small road (not motorway, but there will be also junctions to there). Loads of space at the roadside, walkable from center to here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:25,0,25,50,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|2|1|0|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Sat, 16 Nov 13 23:47:55 +0100">Description written 16.11.2013</span><br /><a href="http://hitchwiki.org/maps/?place=16808">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.528064250946183,37.13813833063077,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16977">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>The main problem of this spot seems to me to be that the kind of people driving by are doing short distance rides  and don't seem to want to stop for someone they don't know. But there are also nice and interesting persons willing to stop and, luckily, they'll get you directly to Lisbon! So it really depends on your luck. The road has many crosspoints, so be sure you're in the correct one, whether you want to go to Lisbon or the Cascais part.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Wed, 11 Dec 13 00:21:16 +0100">Description written 11.12.2013</span><br /><a href="http://hitchwiki.org/maps/?place=16977">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-9.466129302977897,38.7967288344492,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17268">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Waiting on the side of the road is a very good spot to get on the highway,much better the the one close to Tavira because it's after all tolls and all locals use it. We go to the spanish border in 5 minutes. When we were walking there, the police stayed close the roundabout and even they suggested us this spot. ;)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:66.666666666667,0,33.333333333333,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|0|2|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><span title="Fri, 17 Jan 14 11:42:04 +0100">Description written 17.1.2014</span><br /><a href="http://hitchwiki.org/maps/?place=17268">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.491680145263491,37.18448050539437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17354">
+			<name>a Hitchhiking spot in Lisbon, Portugal</name>
+			<description><![CDATA[<p>There's a big truck harbour-terminal where trucks leave to everywhere in Europe.</p>
+
+<p>I never tried hitching here, it could work!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Unknown <b style="font-size: 15px; color: #ffffff;">&bull;</b> (0 votes)<br /><span title="Fri, 31 Jan 14 00:05:43 +0100">Description written 31.1.2014</span><br /><a href="http://hitchwiki.org/maps/?place=17354">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_0</styleUrl>
+			<Point>
+				<coordinates>-9.228573203081694,38.69798803823456,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17569">
+			<name>a Hitchhiking spot in SetÃºbal, Portugal</name>
+			<description><![CDATA[<p>gas station on the way to Spain. It better, get a lift from here before dark. In the evening traffic in this place - one car on half of hour.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,100,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|2|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Fri, 21 Feb 14 23:47:47 +0100">Description written 21.2.2014</span><br /><a href="http://hitchwiki.org/maps/?place=17569">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.579994297027691,38.62069005735099,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17570">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Don't try to hitchhiking here! Very bad traffic and no lights.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><span title="Fri, 21 Feb 14 23:51:10 +0100">Description written 21.2.2014</span><br /><a href="http://hitchwiki.org/maps/?place=17570">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.673463916779015,38.59714845137822,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17850">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.986695170405904,38.72590291263443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17851">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.827329039576265,37.08617056228989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17852">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.69447386265057,37.1023191255557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17853">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.597581744196834,39.46734669776568,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17854">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.62540161609925,39.47951265823802,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17855">
+			<name>a Hitchhiking spot in Arrifana, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-7.215498447418467,40.54438377786989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18109">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>After about an hour we got a ride almost to Lisbon (we just needed a â¬3 ferry to cross the river) the cars need to pause before they turn onto the road and if it is a hot day the windows will be down and it is easy to start a conversation.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Sun, 20 Apr 14 14:19:51 +0200">Description written 20.4.2014</span><br /><a href="http://hitchwiki.org/maps/?place=18109">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.255133390426694,37.09596109302373,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18226">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>If you re going north (Coimbra, Porto etc), a friendly advice, DONT GO THERE! IF SOMEBODY OFFERS TO TAKE YOU TO A SERVICE AREA NEAR ALVERCA SAY NO! WORST PLACE EVER. I m not exaggerating, it really took me 6 hours to get a hike and it could have easily gotten me more if it werent for a nice trucker that showed mercy.
+The roundabout 1km ahead is also senseless. Really. Dont even bother. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,0,0,100&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|2|0|0|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 7h (1 experience)<br /><span title="Tue, 29 Apr 14 02:03:40 +0200">Description written 29.4.2014</span><br /><a href="http://hitchwiki.org/maps/?place=18226">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-9.053605556488865,38.88806857547905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18449">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.024856398009593,40.63065829966133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18450">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>im an italian girl. i wait for 20minute in a petrol station in A25 asking and talkiing with people . i started the trip here at 12 am and i arrived in madrid at20 with 6 hitch-hiking. and in every places i waited not more than 1 hour...the wrost was in the frontier with spain.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Sun, 18 May 14 11:57:12 +0200">Description written 18.5.2014</span><br /><a href="http://hitchwiki.org/maps/?place=18450">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.061714349375997,40.6304161077832,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18468">
+			<name>a Hitchhiking spot in Arcos de Valdevez, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.419552803039691,41.84062095534993,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18540">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.173751309281402,39.05009857306816,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18617">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.490851283073562,38.16631400484665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18858">
+			<name>a Hitchhiking spot in Lagoa, Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.452125549316516,37.14884572531546,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18859">
+			<name>a Hitchhiking spot in Lagoa, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.462081909179792,37.13611983405518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18860">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.358012199401863,37.13432366894207,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18861">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.35657453536988,37.1328867061517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18966">
+			<name>a Hitchhiking spot in UniÃ£o das freguesias de Cedofeita, St Ildefonso, SÃ© , Miragaia, S. Nicolau e VitÃ³ria, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.619543671607914,41.14495196419762,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18967">
+			<name>a Hitchhiking spot in UniÃ£o das freguesias de Cedofeita, St Ildefonso, SÃ© , Miragaia, S. Nicolau e VitÃ³ria, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.618449330329859,41.14407939159308,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19196">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Here it was really easy to find a car. The street is going right through the village so the cars are driving slowly. We got picked up in 15 minutes.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Mon, 14 Jul 14 02:02:22 +0200">Description written 14.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=19196">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.895282978662735,37.18320837244531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19419">
+			<name>a Hitchhiking spot in Lisbon, Portugal</name>
+			<description><![CDATA[<p>For me it makes more sense than the gas station itself. You get people heading to the A1 from the station as well as traffic from the bridge. Got a ride all the way to porto in an hour and a half coming from the bridge </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:33.333333333333,33.333333333333,0,33.333333333333,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|0|1|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Wed, 30 Jul 14 16:02:41 +0200">Description written 30.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=19419">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-9.122506141662322,38.78197714045722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19420">
+			<name>a Hitchhiking spot in Castro Marim, Portugal</name>
+			<description><![CDATA[<p>Not too much traffic, but enough! </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Wed, 30 Jul 14 16:12:07 +0200">Description written 30.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=19420">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-7.448821127414728,37.23212045110447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19492">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<description><![CDATA[<p>We wait around 45min to get a ride to Aveiro, however our goal was Viseu/Guarda.. Is not the best spot, but you can talk with people and some truck drivers in the gas station, maybe you'll have luck...</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Thu, 31 Jul 14 20:48:33 +0200">Description written 31.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=19492">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.441756129264693,40.25081705064689,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19493">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toward GUARDA - ESPAÃA.</p>
+
+<p>Ramp to enter in highway A-25.</p>
+
+<p>No good place to stop but possible.
+There are light if you hitchhik by night.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,100,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 40min (1 experience)<br /><span title="Fri, 20 Mar 15 16:27:57 +0100">Description written 20.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=19493">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.760925650596445,40.61735090516986,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19496">
+			<name>a Hitchhiking spot in Alenquer, Portugal</name>
+			<description><![CDATA[<p>Good spot! We hitchhike at night and get a ride in 20min along IC-2
+Direction: Rio Maior/Leiria</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Thu, 31 Jul 14 21:48:24 +0200">Description written 31.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=19496">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.999816536901514,39.06577511785767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19701">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.474269866943617,40.67512577981203,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19891">
+			<name>a Hitchhiking spot in Castelo Branco, Portugal</name>
+			<description><![CDATA[<p>Large sidewalk, in front of a gas station. DIrections Lisbon and Guarda.
+It has an hardware and gardening store really close, so the drivers can pull over at the shops entrance to pick you up.
+We were going to Nisa wich is a small village and we waited for 40 minutes max and it was already 10pm.
+I noticed it also serves the people who live in the outskirts of Castelo Branco, so probably lots of people will tell you they're staying in town.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,33.333333333333,0,66.666666666667&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|2|0|1|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 5h (1 experience)<br /><span title="Mon, 20 Jun 16 13:21:44 +0200">Description written 20.6.2016</span><br /><a href="http://hitchwiki.org/maps/?place=19891">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-7.513137817382549,39.80631515440807,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="20268">
+			<name>a Hitchhiking spot in Lordelo do Ouro e Massarelos, Portugal</name>
+			<description><![CDATA[<p>Heading to the south, a local guy told us this was a good spot. Didn't wait very long here, but I think it's a very bad place for hitchhiking. Hardly any place to pull off safely, drivers go quite fastly and cannot even see you very well... if you wanna head to the south, rather take the metro to Santo OvÃ­dio and try either there or on the highway service station a bit more southwards.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><span title="Wed, 17 Sep 14 14:00:36 +0200">Description written 17.9.2014</span><br /><a href="http://hitchwiki.org/maps/?place=20268">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.640424013137412,41.14945456400844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="20311">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.643678188326403,41.99661388528597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="20894">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.639236450196222,39.3918623895293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21143">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toll booth in Carregado. Lot of local traffic. Got a ride to SantarÃ©m service station in less than 30 minutes. IT'S ILLEGAL, but better and safer than the beginning of the highway (300 m in the direction of the town). We talked with a worker and he said he would pretend he didnÂ´t notice us.
+(June 2014)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Fri, 26 Dec 14 19:46:36 +0100">Description written 26.12.2014</span><br /><a href="http://hitchwiki.org/maps/?place=21143">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.96678781509385,39.02533541108951,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21144">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Looked like a good spot, but a worker  told us to stand on a smaller entrance quite close to this one. Be polite and pretend you donÂ´t speak Portuguese (if you do) and they shouldn't be rude.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><span title="Fri, 26 Dec 14 19:53:43 +0100">Description written 26.12.2014</span><br /><a href="http://hitchwiki.org/maps/?place=21144">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-9.047983646391835,38.89206026329838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21145">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>We were moved to there from another spot nearby. Talk to people. Lots of local traffic.
+(June 2014)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Fri, 26 Dec 14 19:54:56 +0100">Description written 26.12.2014</span><br /><a href="http://hitchwiki.org/maps/?place=21145">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-9.047790527342782,38.89258217242413,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21146">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Ãrea de ServiÃ§o do FundÃ£o (not marked here, check on satellite view). Not a huge traffic, but a fair amount. Talk with people, there might be some foreigners going out of Portugal.
+Got a ride in less than 20 minutes.
+(June 2014)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Fri, 26 Dec 14 20:24:09 +0100">Description written 26.12.2014</span><br /><a href="http://hitchwiki.org/maps/?place=21146">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.484985351562738,40.190287251341,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21305">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>First gas station after Vila Nova de Gaia on the way to Lisbon. Lots of cars going to nearby Aveiro. Asking the drivers, it took us 20 minutes to get a ride to the next service station.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:33.333333333333,66.666666666667,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|2|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (2 experiences)<br /><span title="Sat, 17 Jan 15 00:31:27 +0100">Description written 17.1.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21305">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.537108659744279,40.75600661477299,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21306">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Third gas station on the way Porto-Lisbon. Around 10 minutes of asking around and we had a direct ride to Lisbon.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Sat, 17 Jan 15 00:35:24 +0100">Description written 17.1.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21306">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.493656873703092,40.33264225470503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21655">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Towards BEJA - LISBOA</p>
+
+<p>Normal road.
+Very little and slow trafic.
+Local trafic.
+Place to stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 1h 30min (1 experience)<br /><span title="Tue, 03 Mar 15 03:08:40 +0100">Description written 3.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21655">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-7.304740905761738,37.94915994440306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21656">
+			<name>a Hitchhiking spot in Beja, Portugal</name>
+			<description><![CDATA[<p>Towads BEJA - LISBOA</p>
+
+<p>Normal road.
+Good trafic but a bit fast.
+A big place to stop.</p>
+
+<p>There is a parking just after the bridge.</p>
+
+<p>(the railway isn't working)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Tue, 03 Mar 15 03:12:42 +0100">Description written 3.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21656">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-7.655702590942473,37.98383896849754,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21673">
+			<name>a Hitchhiking spot in Beja, Portugal</name>
+			<description><![CDATA[<p>Toward OURIQUE</p>
+
+<p>Normal road, lot of place to stop. Good trafic with correct speed.</p>
+
+<p>The people don't stop here. Maybe the cars make local journey.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><span title="Fri, 06 Mar 15 10:41:26 +0100">Description written 6.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21673">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-7.867876052856161,37.99740162156469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21712">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>BP IP5 - VILAR FORMOSO
+BP A25, Castelo Mendo, Guarda</p>
+
+<p>Both directions. Takes 20m walking to cross to the petrol station on the opposite side of the highway: https://goo.gl/maps/iQ4aj</p>
+
+<p>Trucks going to Porto from north of Spain stop here. Sometimes those going to Lisbon too, althought they prefer the Spanish freeway to Badajoz as opposed to the expensive Portuguese A23 or the free but derelict and dangerous national road.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Wed, 11 Mar 15 18:21:27 +0100">Description written 11.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21712">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-6.931892395018771,40.60716404237102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21785">
+			<name>a Hitchhiking spot in Beja, Portugal</name>
+			<description><![CDATA[<p>Toward LISBOA.</p>
+
+<p>Good trafic, driver see you from away and place to stop.</p>
+
+<p>Be carefull, trafic a bit fast.</p>
+
+<p>You can come here from Beja-center by foot, following the railtruck (better by streets arround railtruck)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Tue, 17 Mar 15 14:14:22 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21785">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-7.861975193023525,38.02572797501281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21786">
+			<name>a Hitchhiking spot in Pombal, Portugal</name>
+			<description><![CDATA[<p>Toward COIMBRA.</p>
+
+<p>Good trafic, place to stop.</p>
+
+<p>Here pass the trafinc going to Coimbra by normal road and by highway.</p>
+
+<p>You can find thid place by foot from center of Pombal.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Tue, 17 Mar 15 14:21:33 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21786">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.628901898860764,39.9253854295299,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21787">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toward PORTO or COIMBRA - LISBOA or VISEU.</p>
+
+<p>To VISEU, nobody stop.
+To PORTO, COIMBRA or LISBOA : N/A</p>
+
+<p>Just a little space to stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><span title="Tue, 17 Mar 15 14:26:00 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21787">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.623990774154567,40.64802834865531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21788">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toward ANGEJA.</p>
+
+<p>Big trafic a bit fast (and a bit dangerous). </p>
+
+<p>Goos place to stop and the drivers see you from away.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Tue, 17 Mar 15 14:31:08 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21788">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.621697485446845,40.65139628870884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21789">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toward ALBERGARIA.</p>
+
+<p>Little slow and local trafic.
+Place to stop.</p>
+
+<p>NOBODY ENTER IN HIGHWAY A-25.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Tue, 17 Mar 15 14:34:51 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21789">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.558220326900317,40.68547719236882,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21792">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toward ALBERGARIA-CENTER - SOUTHERN.</p>
+
+<p>Normal road. The spot is at a bus-stop.</p>
+
+<p>Good trafic with good speed to have time to see you. And more, the drivers can see you from far away.</p>
+
+<p>Nice place to stop at the bus-stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Tue, 17 Mar 15 20:33:01 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21792">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.481999993324161,40.70303369355101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21793">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toward VISEU - GUARDA - ESPAÃA.</p>
+
+<p>Gas-station in highway. </p>
+
+<p>Little trafic and bad shop to buy something to eat.</p>
+
+<p>Don't hesite to ask to EVERYONE who stop here keeping smile and nice attitude ;)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 30min (1 experience)<br /><span title="Tue, 17 Mar 15 20:40:19 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21793">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.231768667697752,40.68631922911099,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21794">
+			<name>a Hitchhiking spot in Viseu, Portugal</name>
+			<description><![CDATA[<p>Toward GUARDA - ESPAÃA.or VISEU-CENTER.</p>
+
+<p>Gas-station in the highway. </p>
+
+<p>Good trafic.</p>
+
+<p>Hard to find a lift to GUARDA or SPAIN because very lot of people go only to VISEU-CENTER.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 1h 30min (1 experience)<br /><span title="Tue, 17 Mar 15 20:47:50 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21794">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-7.932254433631692,40.62370494541734,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21795">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toward A25 or other place in EAST of VISEAU.</p>
+
+<p>Normal road with a gas-station. Big trafic on the road, little in the gas-station.</p>
+
+<p>Cars make local journey.</p>
+
+<p>Very difficult to find a lift in ALL this road (since city-center) between 5pm and 7pm. People pass, smiling and don't stop.</p>
+
+<p>Ask to people in gass-station is easier thn wait n the road.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 2h (1 experience)<br /><span title="Tue, 17 Mar 15 21:00:15 +0100">Description written 17.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21795">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-7.863348484038979,40.64255788197252,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22106">
+			<name>a Hitchhiking spot in Odemira, Portugal</name>
+			<description><![CDATA[<p>Direction: South/Lagos. Good spot, cars are not to fast because of the bridge. There is a small gas station, it's just for the cars of the municipality so there is no people to ask for a lift, but there is space for the cars to stop. It's good to have a sign Most of the cars are't going so far, but maybe you can ask for a lift just to the Aldi supermarket, it's a better spot to going south. Or you can walk. We got a ride in this place, so for us was good.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Fri, 17 Apr 15 19:08:21 +0200">Description written 17.4.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22106">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.645083665847697,37.59616975764135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22258">
+			<name>a Hitchhiking spot in Tavira, Portugal</name>
+			<description><![CDATA[<p>Perfect spot for rides direction Spain. After 5 minutes we got a ride to Sevilla</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Mon, 27 Apr 15 16:51:18 +0200">Description written 27.4.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22258">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-7.634223461151149,37.13471711828211,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22260">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Spot in a roundabout just before the highway if you want to hh to West towards Chaves or Spain (Verin)</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Mon, 27 Apr 15 18:01:55 +0200">Description written 27.4.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22260">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.293419241905283,41.419521852026,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22273">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Seems like a good spot to enter the highway, but still a lot of waiting for a ride and not so much help from the Portuguese drivers.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Tue, 28 Apr 15 23:58:03 +0200">Description written 28.4.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22273">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-7.660766601562639,37.1246920754358,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22274">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Not a lot of traffic, but enough to keep you well occupied if you talk to the drivers. Most of the drivers going to Faro; we managed to get a ride to the next service station.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 28 Apr 15 23:59:52 +0200">Description written 28.4.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22274">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.770704984665204,37.1259923265884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22275">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Last service station before A2 going to Lisbon. High chances of finding a direct ride to the capital.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Wed, 29 Apr 15 00:01:30 +0200">Description written 29.4.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22275">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.110208272934148,37.13736429487621,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22384">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.708758158973074,39.71299193581058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22385">
+			<name>a Hitchhiking spot in Pombal, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.609217166900084,39.9158014995968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22386">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.153584957122268,39.92314950489361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22387">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.131869792937719,39.97892911224722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22409">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Toll booth before A1, direction Porto and Lisbon. There's some space before the tolls, there are only two lanes, so the drivers can easily change the lane they're on, even though the highest chances of getting a ride are from the drives coming from the direction of IC8 west who enter this part of the road just before the toll both (and, thus, don't change the lane that often from the outer to the inner one) = quite close to where you'll stand.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 12 May 15 00:56:33 +0200">Description written 12.5.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22409">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.674743533133841,39.94012178102157,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22410">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>A bus stop and a one-lane road for the direction of Pombal.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Tue, 12 May 15 01:02:11 +0200">Description written 12.5.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22410">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.555551528930756,39.88829090904232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22507">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>First decent stop on the way from Lisbon in direction Porto. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Tue, 19 May 15 00:17:39 +0200">Description written 19.5.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22507">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.907392978667955,39.12240757343923,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22935">
+			<name>a Hitchhiking spot in Lisbon, Portugal</name>
+			<description><![CDATA[<p>if you dont want to talk with drivers at the petrol station, you can also wait here. not so much traffic on this small road anyways..</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 30min (1 experience)<br /><span title="Thu, 25 Jun 15 21:11:10 +0200">Description written 25.6.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22935">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-9.122380077837363,38.78048005760943,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22987">
+			<name>a Hitchhiking spot in Lisbon, Portugal</name>
+			<description><![CDATA[<p>This spot is very nice if you are heading to leiria or Porto. Macdonalds does the trick cars can see you easily and have place to,stop. You can talk with the drivers aswell. We were 2 and found the car less than 10min</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:50,0,0,50,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|0|0|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><span title="Wed, 01 Jul 15 13:49:57 +0200">Description written 1.7.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22987">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-9.163028955459639,38.76206922397066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23004">
+			<name>a Hitchhiking spot in Loures, Portugal</name>
+			<description><![CDATA[<p>Cars are going to the highway so we were standing just next to the entrance. Not so many cars were going direction to Porto but the first car that pulled over was ours. We were two girls. Will recommend this spot in case of emergency</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Fri, 03 Jul 15 10:46:45 +0200">Description written 3.7.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23004">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-9.164380788803006,38.84044748881801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23016">
+			<name>a Hitchhiking spot in Leiria, Portugal</name>
+			<description><![CDATA[<p>I think it,is a good place for hitchhiking. People are going to Porto and there is a place for cars to pullover. We took a car in 2 hours just after we made a sign with &quot;Porto&quot; in it. I think it is worth to try</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Fri, 03 Jul 15 20:58:31 +0200">Description written 3.7.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23016">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.792637348174898,39.74120940639227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23275">
+			<name>a Hitchhiking spot in Matosinhos, Portugal</name>
+			<description><![CDATA[<p>take a bus number 500 from the city center till avenida republica and then walk though avenida da liberdade and start hitchhiking from the motorway A 28 (Took me and my gf around 1 hour to catch a ride to the north).. good luck</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 1h (1 experience)<br /><span title="Thu, 23 Jul 15 15:12:05 +0200">Description written 23.7.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23275">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.672179341316706,41.18935299487401,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23328">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.694584022663988,37.13274282647353,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23507">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.767038345337035,37.7390451933961,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23508">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.832012176513809,37.96722891395082,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23662">
+			<name>a Hitchhiking spot in Vila Real, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-7.749666440058444,41.29815198666721,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23663">
+			<name>a Hitchhiking spot in Amarante, Portugal</name>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.075828420687429,41.2646200929882,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23664">
+			<name>a Hitchhiking spot in Braga, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.440446573067648,41.53494256804967,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23665">
+			<name>a Hitchhiking spot in Viana do Castelo, Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.842721598911993,41.69553905278509,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23666">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.860520737934696,41.85114247095626,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23702">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Good. A local took us to Sines after being at the beach. Good experience!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Wed, 19 Aug 15 21:48:26 +0200">Description written 19.8.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23702">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.792229652404796,37.86870930272941,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23703">
+			<name>a Hitchhiking spot in Sines, Portugal</name>
+			<description><![CDATA[<p>Good. We hitchhiked from here to 'a nice beach'!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Wed, 19 Aug 15 21:49:40 +0200">Description written 19.8.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23703">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.861260324716442,37.94898650812808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23704">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Good. Many cars are passing. We wanted to get to Portagem. A woman living at the border picked us up and told about the area.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Wed, 19 Aug 15 21:52:27 +0200">Description written 19.8.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23704">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.444458514451743,39.40545290528583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23771">
+			<name>a Hitchhiking spot in Lisbon, Portugal</name>
+			<description><![CDATA[<p>Traffic is heavy and road connects straight to the motorway. Take the metro to the airport, easy walk to here. First we tried the others spots further up the road for 3 hours with no luck and then got picked up after 20mins here! </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 25 Aug 15 20:45:43 +0200">Description written 25.8.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23771">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-9.123809695245672,38.77046175733604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23883">
+			<name>a Hitchhiking spot in Paranhos, Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.61273622512774,41.17423296665346,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23884">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.408019304275104,41.55228179513844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23885">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.27124810218819,41.65956352807409,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23886">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.200089097023199,41.68666656002448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23887">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.162967324257105,41.72411278116738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23888">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.19693481922174,41.74976386268554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23889">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>to geres</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Wed, 02 Sep 15 00:11:25 +0200">Description written 2.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23889">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.341017723083279,41.63092546281104,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23915">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Good spot to hitchhike from Fatima to A1, directions Porto and Lisboa. Road is not so wide there for cars to stop, except the roads crossing, but when a driver is willing to stop for you he will stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 30min (1 experience)<br /><span title="Thu, 03 Sep 15 10:38:33 +0200">Description written 3.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23915">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.680006742477115,39.62771231761295,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23923">
+			<name>a Hitchhiking spot in Rendinha, Portugal</name>
+			<description><![CDATA[<p>Direction Lisbon</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Thu, 03 Sep 15 18:55:43 +0200">Description written 3.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23923">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.6002371311187,40.01517132167569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24151">
+			<name>a Hitchhiking spot in Faro, Portugal</name>
+			<description><![CDATA[<p>Only spot on the road where you can talk to drivers and ask them for a lift, we managed to find one ride after 40 minutes that took us to Portimao.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 40min (1 experience)<br /><span title="Thu, 17 Sep 15 13:42:21 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24151">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-7.947548860740228,37.03024650541308,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24152">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Stand on this straight road behind the curve, not many cars driving by, but we were lucky to get a ride from a caravan after 15 minutes, they  took us straight to Carrapateira.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Thu, 17 Sep 15 13:49:08 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24152">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.91110026283236,37.08730020622149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24153">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Doesn't seem to be a good spot, because cars drive fast with no reason to slow down, but there's no much traffic so they can see you from far away, we got picked up after 20 minutes.  From here you can even go south catching a car going north, just turn south when you meet EN120.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Thu, 17 Sep 15 13:55:40 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24153">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.834772640895769,37.21541956949076,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24154">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Perfect spot to go east and get dropped in any place in algarve, got a ride by a spanish caravan after 30 minutes to Albufeira.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 30min (1 experience)<br /><span title="Thu, 17 Sep 15 13:59:22 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24154">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.742931122016751,37.15778582549729,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24155">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>It seemed to be a good spot, plenty of room to pull over and many cars taking the ramp to the highway, but we waited for 3 idle hours. Why???!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><span title="Thu, 17 Sep 15 14:02:46 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24155">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.255976075363041,37.12702942029765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24156">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>worst spot ever, no room to pull over, we were going to seville, counted at least 20 spanish cars in 2 hours waiting, but none stopped. Rainy and windy, shitty weather and no empathetic people.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><span title="Thu, 17 Sep 15 14:05:46 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24156">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.245652252864659,37.11990673331318,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24224">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>We managed to hitch with three people (1 girl, two guys with lots of bags) to PortimÃ£o (south) in 25 mins in late September. A few people stopped for us in this time and we were able to refuse rides. Stand halfway between bus stop and pedestrian crossing.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Sat, 26 Sep 15 09:14:19 +0200">Description written 26.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24224">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.802891433239559,37.31679012242756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24231">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>We waited here for 3 hours heading direction of Faro. Just people laughing and waving. One person stopped and tried to buy my friend's mandolin to replace his broken one. Weird town.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><span title="Sun, 27 Sep 15 11:00:36 +0200">Description written 27.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24231">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_5</styleUrl>
+			<Point>
+				<coordinates>-8.495793790417478,37.15065462302982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24283">
+			<name>a Hitchhiking spot in Ãvora, Portugal</name>
+			<description><![CDATA[<p>We were 2 people waiting here for 30min and We got a rodear directly to lisbone. There is place for the cars to stop and a supermarket were u can get stuff and carton to ManÃ© a sign. You can get there walking: it's about 35 min  from the center of the city</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Fri, 02 Oct 15 20:43:27 +0200">Description written 2.10.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24283">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-7.938872525169054,38.56541224314953,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24336">
+			<name>a Hitchhiking spot in Estremoz, Portugal</name>
+			<description><![CDATA[<p>I (female) stood for less than 10 minutes here on a Monday and got picked up by a trucker. There is plenty of traffic going direction Spain, a bit hard for big trucks to stop at the speed (easy for cars), like mine did, but there is plenty of room for them to pull over!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Thu, 08 Oct 15 00:44:46 +0200">Description written 8.10.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24336">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-7.568262577056935,38.83569240104086,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24657">
+			<name>a Hitchhiking spot in Vilar Formoso, Portugal</name>
+			<description><![CDATA[<p>Good visibility and place to stop. Traffic was low and it took us some time to find a ride to the nearest gas station.
+It is forbiden to walk there but police was passing by a few times and they didn't mind.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Wed, 25 Nov 15 22:22:14 +0100">Description written 25.11.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24657">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-6.829782495695201,40.61160507835877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24658">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Gas station. Many trucks going to different directions.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Wed, 25 Nov 15 22:23:59 +0100">Description written 25.11.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24658">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-6.95262766857727,40.60519897811994,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24856">
+			<name>a Hitchhiking spot in Lordelo do Ouro e Massarelos, Portugal</name>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.648795843124496,41.15912964167441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25054">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.402644157409274,40.19303279418705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25091">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-8.292523384094372,40.1118079455144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25092">
+			<name>a Hitchhiking spot in Lisbon, Portugal</name>
+			<styleUrl>#rating_4</styleUrl>
+			<Point>
+				<coordinates>-9.099310398102421,38.7815673276089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25212">
+			<name>a Hitchhiking spot in Santa Cruz, Portugal</name>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-16.77409744262644,32.69275802653745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25213">
+			<name>a Hitchhiking spot in Funchal, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-16.91961264610269,32.6613671371554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25347">
+			<name>a Hitchhiking spot in Viana do Castelo e Meadela, Portugal</name>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.802527666091352,41.71018201382285,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25350">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Direction Condeixa/Coimbra. After traffic lights, lot of space for a car to stop. I tried this spot, so close from the town because it was the closest one from where I stayed, but there should be some place closer to the center.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 29 Mar 16 00:32:07 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25350">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.412943840028186,40.04531261097172,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25351">
+			<name>a Hitchhiking spot in Coimbra, Portugal</name>
+			<description><![CDATA[<p>Direction Montemor-o-Velho. We tried this place twice and both times got a ride quickly. Lot of space to stop the car, much better than the roundabout slightly to the south from this one, closer to the city center.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 29 Mar 16 00:35:22 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25351">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.445988655091645,40.22802667428888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25352">
+			<name>a Hitchhiking spot in Montemor-o-Velho, Portugal</name>
+			<description><![CDATA[<p>A small gas station on the way to Coimbra. Not a lot of traffic, but since the road out of Montemor didn't look very good, we decided to try our luck here and the first driver asked gave us a ride to our destination, Tentugal.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 29 Mar 16 00:43:46 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25352">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.67598271370057,40.18089419566703,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25353">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Just next to the famous cafe, O Afonso, the fist car that passed gave us a ride to Coimbra.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 1min (1 experience)<br /><span title="Tue, 29 Mar 16 00:51:21 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25353">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.585731744767592,40.2187535401135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25354">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Around 15 minutes to get a ride to Mira from here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 29 Mar 16 00:52:48 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25354">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.603777647019879,40.36746178654127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25355">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>A bus stop on the way to Vagos/Aveiro. ThereÂ´s one for the opposite direction too. Got a ride to Vagos quite quickly.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 5min (1 experience)<br /><span title="Tue, 29 Mar 16 00:56:58 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25355">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.728661298753266,40.44237904551513,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25356">
+			<name>a Hitchhiking spot in Vagos e Santo AntÃ³nio, Portugal</name>
+			<description><![CDATA[<p>A decent place with of place for the cars to stop. Got a ride to Aveiro quite quickly. Nice view too.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Tue, 29 Mar 16 00:59:08 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25356">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.682398557664461,40.56622990795533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25357">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>An alternative way to get out of Aveiro if you go towards Porto. All the space for a car to stop that you can ask for. We got a ride to Espinho from here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 25min (1 experience)<br /><span title="Tue, 29 Mar 16 01:03:46 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25357">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.617210149766544,40.65640820138192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25358">
+			<name>a Hitchhiking spot in Anta e Guetim, Portugal</name>
+			<description><![CDATA[<p>Direction Porto/Lisboa. Not a perfect place, but after the roundabut the highway starts so we didnÂ´t opt for walking past it. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Tue, 29 Mar 16 01:07:09 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25358">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.622102499009744,41.00834216326398,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25359">
+			<name>a Hitchhiking spot in Perafita, Lavra e Santa Cruz do Bispo, Portugal</name>
+			<description><![CDATA[<p>After a ride to MarShopping and a walk to get there, the three of us tried hitching a ride here but no luck. Not a lot of space to pull over. Maybe the fact that we were three also didnÂ´t help so much.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Tue, 29 Mar 16 01:48:59 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25359">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.684276103973643,41.21702026483917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25360">
+			<name>a Hitchhiking spot in Perafita, Lavra e Santa Cruz do Bispo, Portugal</name>
+			<description><![CDATA[<p>After a short walk from another spot where the three of us had no luck, here we managed to get a ride; the driver was going to Povoa de Varzim. Not many cars, but just the righ number not to block the road in case another one comes.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 29 Mar 16 01:51:23 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25360">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.689447402954332,41.22007081871078,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25361">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>The three of us got a ride to Esposende from here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 45min (1 experience)<br /><span title="Tue, 29 Mar 16 02:43:17 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25361">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.702450752258363,41.28917853985924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25362">
+			<name>a Hitchhiking spot in Esposende, Marinhas e Gandra, Portugal</name>
+			<description><![CDATA[<p>Direction Porto. On a very rainy day the three of us managed o get a ride surprisingly quickly.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 25min (1 experience)<br /><span title="Tue, 29 Mar 16 02:45:17 +0200">Description written 29.3.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25362">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.771544456481948,41.52517846761907,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25446">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.58569955825843,38.51489248614959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25447">
+			<name>a Hitchhiking spot in Portugal</name>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.255653738975772,37.10226350578672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25448">
+			<name>a Hitchhiking spot in Lagoa, Portugal</name>
+			<description><![CDATA[<p>A short walk from the city center of Lagoa; behind this spot it's not allowed to walk. Not the very best place and quite tight here if you're more than one person, but still doable.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Tue, 12 Apr 16 17:30:14 +0200">Description written 12.4.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25448">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.459641098976462,37.13526024607192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25449">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>A medium length walk from the city center to get here and a ride to Praia da Luz.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Tue, 12 Apr 16 17:33:10 +0200">Description written 12.4.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25449">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.695214152336359,37.10192122935307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25450">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>If you're going direction Lagos, then it's here or in the junction around 300m down the road in the direction to Sagres where you can hitch. By the junction the cars pass quite fast, so I decided to check this spot; it's still not perfect, but at least they have more space to pull over.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Tue, 12 Apr 16 17:40:03 +0200">Description written 12.4.2016</span><br /><a href="http://hitchwiki.org/maps/?place=25450">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.90568172931693,37.08233188409458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="26029">
+			<name>a Hitchhiking spot in Lagos, Portugal</name>
+			<styleUrl>#rating_3</styleUrl>
+			<Point>
+				<coordinates>-8.675870060921056,37.11458014966991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="26146">
+			<name>a Hitchhiking spot in GlÃ³ria e Vera Cruz, Portugal</name>
+			<description><![CDATA[<p>Good spot if you're heading to the beach. Lots of trafic, good place to stop. You can also hitch up to Porto or down to Lisbon if you don't want to walk to the outskirts.
+I've hitched a few times there. Never waited more than 20 minutes.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Mon, 20 Jun 16 13:32:56 +0200">Description written 20.6.2016</span><br /><a href="http://hitchwiki.org/maps/?place=26146">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.657861709594409,40.64169086952984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="26213">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>A lot of vans. Somebody will stop. Ukranian couple stopped even when we didnt hitch at the moment.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Sat, 25 Jun 16 17:05:19 +0200">Description written 25.6.2016</span><br /><a href="http://hitchwiki.org/maps/?place=26213">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.885321452648808,37.05753833048041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="26214">
+			<name>a Hitchhiking spot in Vila do Bispo, Portugal</name>
+			<description><![CDATA[<p>Very good place if you want to get to Lagos or Sagres. We went to both of the directions and we met some amazing people on the way.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Sat, 25 Jun 16 17:08:22 +0200">Description written 25.6.2016</span><br /><a href="http://hitchwiki.org/maps/?place=26214">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.90939696076652,37.08189314238744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="26215">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>Many serfers driving on this way. One took us with his amazing van.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Sat, 25 Jun 16 17:11:27 +0200">Description written 25.6.2016</span><br /><a href="http://hitchwiki.org/maps/?place=26215">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_2</styleUrl>
+			<Point>
+				<coordinates>-8.942280843289192,37.01269904890751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="26216">
+			<name>a Hitchhiking spot in Portugal</name>
+			<description><![CDATA[<p>You can stand up to little hill so drivers could see you from the distance. One van was so nice that it came back for us.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Sat, 25 Jun 16 17:14:52 +0200">Description written 25.6.2016</span><br /><a href="http://hitchwiki.org/maps/?place=26216">Place in Hitchwiki Maps</a><br /></small></div>]]></description>
+			<styleUrl>#rating_1</styleUrl>
+			<Point>
+				<coordinates>-8.80039198640131,37.35690813810842,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

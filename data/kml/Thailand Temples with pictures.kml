@@ -1,0 +1,1496 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Templos en Tailandia</name>
+		<Placemark>
+			<name>Angkor Thom</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/XiZ3ARIH21Lopmh-9cS0XM9uE4JiAW8UOfLTYHUUHyE2JmUhdEvyQdPV-WricdPwVrd3PwDcGHMQqX9BHQbK0MpQYVDGzePt5y-2n8lgsYW-8A" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/XiZ3ARIH21Lopmh-9cS0XM9uE4JiAW8UOfLTYHUUHyE2JmUhdEvyQdPV-WricdPwVrd3PwDcGHMQqX9BHQbK0MpQYVDGzePt5y-2n8lgsYW-8A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.8621207,13.439511700000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Angkor Wat</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/pHWOclWreX3NS5LDjVSwulWbZjm92sVQOfU4to2BvcMlpraCoxebcjEq1aq9o8lqma8mNU9Dz7ofc3YUwkmIFnoy9R-3DgEU6zDWJxj1t6-9ZdKpPg" height="200" width="auto" /><br><br>Consejos<br><br>-Amanecer: En general es mejor ver amanecer que atardecer porque el cielo suele estar más despejado. Por las tardes empiezan a aparecer nubes, hay más probabilidades de lluvia y, a veces, se levanta un poco de bruma. El mejor amanecer es, sin duda, frente al templo de Angkor Wat.<br><br>-Los mejores templos: Angkor Wat, Bayón y Ta Phrom son los tres imprescindibles. En una segunda división estarían Banteay Srei, Preah Khan y Baphuon.<br><br>-Vestimenta: Los pantalones por encima de las rodillas y las camisetas de tirantes son prendas prohibidas para subir a los niveles superiores de Angkor Wat y para entrar al Baphuon. Fuera de los templos hay puestecillos donde venden pareos y pañuelos para cubrir esas partes del cuerpo en caso de necesidad. En el resto de templos no hay requisitos de vestimenta.]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/pHWOclWreX3NS5LDjVSwulWbZjm92sVQOfU4to2BvcMlpraCoxebcjEq1aq9o8lqma8mNU9Dz7ofc3YUwkmIFnoy9R-3DgEU6zDWJxj1t6-9ZdKpPg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.86698569999999,13.4124693,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Banteay Srei</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/9k2AFZuJVQa7zl9hSRjXVHDesYzaEAiN--f2ptT1aONsDx07mpZKq49qebktLnd1gSLa6YrQWQesrLzuQ9vINSdvQzxBQUbcauwCBpg_72PSHKR7qJAxMQ" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/9k2AFZuJVQa7zl9hSRjXVHDesYzaEAiN--f2ptT1aONsDx07mpZKq49qebktLnd1gSLa6YrQWQesrLzuQ9vINSdvQzxBQUbcauwCBpg_72PSHKR7qJAxMQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.96661150000001,13.6031005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Preah Khan</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/-GZ5po1cK489uLrBzKOO67u6XdSqnvJ1MrfVhGRS_xOfcAAnZR_Zi_EfbhNHtUPWq2awwdy7uj2vz7bs8wQC-MrwDYhm72UIsCRiw-HN8XbXaAB7GPC9BTs" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/proxy/9IMUTYXtRVl2ubYSSnx9iX-azyGwt2GGf5F0mEB-N4TkI1rp1bnJwp8Vi8uwna_3yLZnQDBuvWC2uboZGCbU72mBt9SeMnl8s8cKoXwovDMDCnuxGexyYZRPWdUwAEA4Vg" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/-GZ5po1cK489uLrBzKOO67u6XdSqnvJ1MrfVhGRS_xOfcAAnZR_Zi_EfbhNHtUPWq2awwdy7uj2vz7bs8wQC-MrwDYhm72UIsCRiw-HN8XbXaAB7GPC9BTs https://lh3.googleusercontent.com/proxy/9IMUTYXtRVl2ubYSSnx9iX-azyGwt2GGf5F0mEB-N4TkI1rp1bnJwp8Vi8uwna_3yLZnQDBuvWC2uboZGCbU72mBt9SeMnl8s8cKoXwovDMDCnuxGexyYZRPWdUwAEA4Vg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.87186440000005,13.4619053,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Terraza de los Elefantes</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/kLk0mbc4rVO9wqI2qhwMPL9Hdt8Fa8Tr2lcsdTPXeScL9B_P14w0k_9oLEL4786G0jpDPIXw4H0A_iRYncX-x_jdKzzVr9hfXYBsbeYVroFsRtl9ImHEcO47hOhN1AQqYYlGxtd808Jg-IY90kUXFgA6VmWklIL2uZY" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/proxy/ZKDMW8_1EObUIZOxWX3F7YLU6Ws4ARFH1impUasD0WAHnxwlTSh6AzPXmt-752bio6ZDNvmt8SwSQXcMXGCzx8no1O3-x5JC9aBcPCKPEYuZ0OpstpInQwrD_KK8z4o2T4-hoj_bdS91J14" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/kLk0mbc4rVO9wqI2qhwMPL9Hdt8Fa8Tr2lcsdTPXeScL9B_P14w0k_9oLEL4786G0jpDPIXw4H0A_iRYncX-x_jdKzzVr9hfXYBsbeYVroFsRtl9ImHEcO47hOhN1AQqYYlGxtd808Jg-IY90kUXFgA6VmWklIL2uZY https://lh3.googleusercontent.com/proxy/ZKDMW8_1EObUIZOxWX3F7YLU6Ws4ARFH1impUasD0WAHnxwlTSh6AzPXmt-752bio6ZDNvmt8SwSQXcMXGCzx8no1O3-x5JC9aBcPCKPEYuZ0OpstpInQwrD_KK8z4o2T4-hoj_bdS91J14</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.85876389999999,13.4462325,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jayatataka</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/LDW1tb8k4Pl5v_TX0nnOAbNT4TmVDovzL-VmIcFCGNyy3wWEPF8hmTzhigcFLHXPl7OHrpZcjbkx4vrY7Oz3XMfGTGZB" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/LDW1tb8k4Pl5v_TX0nnOAbNT4TmVDovzL-VmIcFCGNyy3wWEPF8hmTzhigcFLHXPl7OHrpZcjbkx4vrY7Oz3XMfGTGZB</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.8940996,13.4631382,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prasat Bakong</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/eYG-MPEfaK5-YFGWy-PHISxcFEWPFFJ00DCfYEeh2ka9T-2TTxVvhS70pMj8E64RTHhoMLA6zLN1WiR2c95gW_D4u3XnB6BIxZBynvISY1W7hoiDjPAMpy8jPs0" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/eYG-MPEfaK5-YFGWy-PHISxcFEWPFFJ00DCfYEeh2ka9T-2TTxVvhS70pMj8E64RTHhoMLA6zLN1WiR2c95gW_D4u3XnB6BIxZBynvISY1W7hoiDjPAMpy8jPs0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.97395619999998,13.3359411,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prasat Preah Palilay</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Wcz_h3hA_E8dgHOJItSHPSjqhOQXIC2lu9CwYpiX7RN_IwPvo5SoZHjypM2ktWsyNuvm_nj_yI2CKIf1R7rS7KxJ9wOIiFY_c4nl2iFMooNL9JcEy_G1LELlno9NITJaNt5J8G6qOssg3tdBOZViI-ThacCQkurDEaydVs0kltCSGaWsJd7kDW6TfarDZAEI" height="200" width="auto" /><br><br><br><br><img src="https://lh5.googleusercontent.com/proxy/zPuk63vY8N4L31KcV1PM5Pk5GEvKGwbm_dzeik6F4Dz72NIXVscwl8sfTGaSwWQNXKIM5VRWzFQ4fjnm6okNCkKVASoypuqHrhtWfMtJbiEKExuQ26x8QizAN8o" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/Wcz_h3hA_E8dgHOJItSHPSjqhOQXIC2lu9CwYpiX7RN_IwPvo5SoZHjypM2ktWsyNuvm_nj_yI2CKIf1R7rS7KxJ9wOIiFY_c4nl2iFMooNL9JcEy_G1LELlno9NITJaNt5J8G6qOssg3tdBOZViI-ThacCQkurDEaydVs0kltCSGaWsJd7kDW6TfarDZAEI https://lh5.googleusercontent.com/proxy/zPuk63vY8N4L31KcV1PM5Pk5GEvKGwbm_dzeik6F4Dz72NIXVscwl8sfTGaSwWQNXKIM5VRWzFQ4fjnm6okNCkKVASoypuqHrhtWfMtJbiEKExuQ26x8QizAN8o</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.85524520000001,13.4489779,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prasat Bayon</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/jsp_dTuKrZuCp-y_Bmv_ZejN0_MMyorgrZjsbNJL0bOku6D0yQ6Zwj7vp_eJl3V6u8Bvv2Aherj2poUF497JubYDCbU1FZMBnERV4dJ2UjKGD5O4oHmB" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/jsp_dTuKrZuCp-y_Bmv_ZejN0_MMyorgrZjsbNJL0bOku6D0yQ6Zwj7vp_eJl3V6u8Bvv2Aherj2poUF497JubYDCbU1FZMBnERV4dJ2UjKGD5O4oHmB</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.85894510000003,13.4414581,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Preah Prom Rath</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/3zan-lQvMclexfvNyjuJjJAYy2mQZ1ogzEV18KNFWtfnIdwqTqpkOcLcCb_oGkG6uNJQQHQpbQt6M2E0Zi21Jn5cElhvJgbooujvE4kvrbbikSOJ8rByfArtTjnSAlk8baVRV0Lw8FUsfyNftnDkDpIOaLGEYEl8o95UpxiPzI3a" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/3zan-lQvMclexfvNyjuJjJAYy2mQZ1ogzEV18KNFWtfnIdwqTqpkOcLcCb_oGkG6uNJQQHQpbQt6M2E0Zi21Jn5cElhvJgbooujvE4kvrbbikSOJ8rByfArtTjnSAlk8baVRV0Lw8FUsfyNftnDkDpIOaLGEYEl8o95UpxiPzI3a</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.85658969999997,13.3549818,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Roluos</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Lcu9Cx_qmxQzwok5x4pbaHddaZpfr4aOwp8cMnmG0PuFhGvXYtLyTL337U38WpzmGQ8KtltkUXwkInJfd8atSoROP72rEI1twBFRvp6cz4r1fkgnJc0O" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/Lcu9Cx_qmxQzwok5x4pbaHddaZpfr4aOwp8cMnmG0PuFhGvXYtLyTL337U38WpzmGQ8KtltkUXwkInJfd8atSoROP72rEI1twBFRvp6cz4r1fkgnJc0O</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>104.00254189999998,13.3334348,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ta Prohm</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/mIa-lB9z0rm_FB1urg_8gqrhPiqt2BgaREVRGrmUv6z5x_BVlmgzDS9sFWrmlj7ywIViVN6AYXjJ6jIBJBZ9BZupTfelmhfVnvo6HIxndARWuA" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/mIa-lB9z0rm_FB1urg_8gqrhPiqt2BgaREVRGrmUv6z5x_BVlmgzDS9sFWrmlj7ywIViVN6AYXjJ6jIBJBZ9BZupTfelmhfVnvo6HIxndARWuA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>103.889229,13.434815,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Ratchanatda School วัดราชนัดดาราม</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/9Q3imZk5OBxDoSEOQihFyfFfI_s6NqMN760vZFripwJoJ1d-Gsi-FOhTZeRURn1PymZLKMFHVoTiTV-c67goqajBj5Mo6HavJae_-5yTbM2IfBWSxdHQXT3_" height="200" width="auto" /><br><br>Phra Nakhon, Bangkok, จังหวัด กรุงเทพมหานคร 10200, Tailandia<br>+66 2 221 0903]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/9Q3imZk5OBxDoSEOQihFyfFfI_s6NqMN760vZFripwJoJ1d-Gsi-FOhTZeRURn1PymZLKMFHVoTiTV-c67goqajBj5Mo6HavJae_-5yTbM2IfBWSxdHQXT3_</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.50384380000003,13.7554083,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Phra Borom Maha Ratcha Wang, Gran Palacio de Bangkok พระบรมมหาราชวัง</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/rGQfIHpbshyeEOv4CtgJ5OGnpflKewDGwz3b1I3MJOjVOKPS3XJPd7DsEdpeRfL2xiESeoslQ_93zNXi5mHzNADWjOz5reO01feiztSfsuDJo02wXUFFAGUUbZiajsXe8vhfTTZT" height="200" width="auto" /><br><br>Na Phra Lan Rd, Phra Nakhon, Bangkok, Khwaeng Phra Borom Maha Ratchawang, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Tailandia<br>www.grandpalacethailand.com<br>+66 2 623 5500]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/rGQfIHpbshyeEOv4CtgJ5OGnpflKewDGwz3b1I3MJOjVOKPS3XJPd7DsEdpeRfL2xiESeoslQ_93zNXi5mHzNADWjOz5reO01feiztSfsuDJo02wXUFFAGUUbZiajsXe8vhfTTZT</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.4912856,13.7500171,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Palacio Phra Tamnak Phu Phing Bhuping</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/OfN-nZ5nMp2Zy1YpwHxeazr7xJ4UUHajWOvWakaV0C17HR5Gju5-2ykF2WEj0I3v7SavM6O6CmSLdW6qaFfpuC96u0FEwWRSaOg_mxTANHfPlVUWVNyGYmzyF-EWDg" height="200" width="auto" /><br><br>อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200 ประเทศไทย<br>www.bhubingpalace.org]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/OfN-nZ5nMp2Zy1YpwHxeazr7xJ4UUHajWOvWakaV0C17HR5Gju5-2ykF2WEj0I3v7SavM6O6CmSLdW6qaFfpuC96u0FEwWRSaOg_mxTANHfPlVUWVNyGYmzyF-EWDg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.89901179999994,18.806551,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Paso de las Tres Pagodas (Dan Chedi Sam Ong), zona limítrofe con Myanmar ด่านเจดีย์สามองค์</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/02p9P7BRL8yZWG4WCyYoIiUSYdtgrKUhlcfM8b6jryVmB-OljHm02Afbzr-VOEeZJB4aHnEnfEwkDdQf-ERa2TH3DqAaeM4rDg79943Oln7LbtqycFX8rqrxi61eBBMBii1TeopAvEDXG7kYvwR9hX8-a5XSmIUI8lplUABU6a4LKr_Fva7P9YzxB3PTZrWvRt4bNNiSiSV3Dp1-9ejjRE7jSIqsSfVPPvGIr6C7TZYGx1Zyfcfl18_lNnZeVK_FswZuvPH87hP2gaM-VRO9gzZinIcnqU9hw6C3UTf87uA" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/02p9P7BRL8yZWG4WCyYoIiUSYdtgrKUhlcfM8b6jryVmB-OljHm02Afbzr-VOEeZJB4aHnEnfEwkDdQf-ERa2TH3DqAaeM4rDg79943Oln7LbtqycFX8rqrxi61eBBMBii1TeopAvEDXG7kYvwR9hX8-a5XSmIUI8lplUABU6a4LKr_Fva7P9YzxB3PTZrWvRt4bNNiSiSV3Dp1-9ejjRE7jSIqsSfVPPvGIr6C7TZYGx1Zyfcfl18_lNnZeVK_FswZuvPH87hP2gaM-VRO9gzZinIcnqU9hw6C3UTf87uA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.38671169999998,15.3016398,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parque Nacional Doi Inthanon (Twin Pagodas) 
+อุทยานแห่งชาติดอยอินทนนท์</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/83Q_Xf-fqZjkxJ9Dl1zDsG3CpxvTYCqi5E7byxFYxLWsedkeiblCtKPVJWLf73qEcpvjEfsDe0KrDRM-m3MDqlVCJJ5rI5db6NpTt9DV-3mHjiSmMCiTqHcqoH_uqkaXVWrU5PYXTirfLlbnEOcHQaT5r2Ylm1e8NkrcGXtudKc3feEFS4r2meeTIpPtlwEflR0tzHHPhDVl86W5107alr9ZjKA" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/83Q_Xf-fqZjkxJ9Dl1zDsG3CpxvTYCqi5E7byxFYxLWsedkeiblCtKPVJWLf73qEcpvjEfsDe0KrDRM-m3MDqlVCJJ5rI5db6NpTt9DV-3mHjiSmMCiTqHcqoH_uqkaXVWrU5PYXTirfLlbnEOcHQaT5r2Ylm1e8NkrcGXtudKc3feEFS4r2meeTIpPtlwEflR0tzHHPhDVl86W5107alr9ZjKA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.48671360000003,18.5897823,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Ratchabophit Sathit Maha Simaram
+วัดราชบพิธสถิตมหาสีมารามราชวรวิหาร</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/mYDSdTQx0PsU4J5lGK1ye5at7qjUKzfQTa3lMjMa7h-Kb-lnE9MmOH3kyikwZqaamKVeMQ1dU5raFk_pgt4o6gVOwnpAA45HTBb3glbVa1gwQ2klkxLxqZ86CS6QLt8WSYbAGlu6_anRyjwWMsxzsheM" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/mYDSdTQx0PsU4J5lGK1ye5at7qjUKzfQTa3lMjMa7h-Kb-lnE9MmOH3kyikwZqaamKVeMQ1dU5raFk_pgt4o6gVOwnpAA45HTBb3glbVa1gwQ2klkxLxqZ86CS6QLt8WSYbAGlu6_anRyjwWMsxzsheM</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.4973463,13.7491443,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sri Maha Mariamman (Templo Hindú), วัดพระศรีมหาอุมาเทวี</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/8V1F9xzyyn-VEyt2Wmdd564nLrx5183JYJtwdcu5KsMj-PLBOcfXcVFm2LwpAy5cxdp9awqyG86mdTZaGYx20VRflRkTqjq1TMHLV92l80fYCRZAs7rQ-A" height="200" width="auto" /><br><br>www.siamganesh.com<br>+66 2 238 4007]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/8V1F9xzyyn-VEyt2Wmdd564nLrx5183JYJtwdcu5KsMj-PLBOcfXcVFm2LwpAy5cxdp9awqyG86mdTZaGYx20VRflRkTqjq1TMHLV92l80fYCRZAs7rQ-A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.52289940000004,13.724217400000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prayurawongsawas Waraviharn, วัดประยุรวงศาวาสวรวิหาร</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/o63_ggWhoVB5Hb1jcch972-4kJHENlC8Wc5GmdlwAKwtAAJfVJsaOhhAUQrbvyN-WbucXLBpdPYohq59J4zvWsh5kqDGUhKjQmSjro6hr6_BQqhi-W0qdnT4VEK6TmszpNLtCah8_xfifm7K7KPuBNTU" height="200" width="auto" /><br><br>www.watprayoon.com<br>+66 2 456 5592]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/o63_ggWhoVB5Hb1jcch972-4kJHENlC8Wc5GmdlwAKwtAAJfVJsaOhhAUQrbvyN-WbucXLBpdPYohq59J4zvWsh5kqDGUhKjQmSjro6hr6_BQqhi-W0qdnT4VEK6TmszpNLtCah8_xfifm7K7KPuBNTU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.49536420000004,13.7373206,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tiger Cave Temple, วัดถํ้าเสือ</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/xgAHWgCem8_pFf5M29jFzrtPKkc2JHOb0J-QEd76cScyNQvfUJDRlHMtm7RTB-s31137cQJtkVlaeb-mthLvYao5u0-Jh1Vy0ByX8wKJKIuWbolPBk6oy_h5Hqi79ZL3sdjJDSzQRvH84fRh4rSu7YKmsLus8LOMBCZfLXvXpu_YS4UVf-36moeCNALRLlN4ZDZT9_E" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/xgAHWgCem8_pFf5M29jFzrtPKkc2JHOb0J-QEd76cScyNQvfUJDRlHMtm7RTB-s31137cQJtkVlaeb-mthLvYao5u0-Jh1Vy0ByX8wKJKIuWbolPBk6oy_h5Hqi79ZL3sdjJDSzQRvH84fRh4rSu7YKmsLus8LOMBCZfLXvXpu_YS4UVf-36moeCNALRLlN4ZDZT9_E</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.92513559999998,8.123954600000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chaiwatthanaram วัดไชยวัฒนาราม</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/kx0oploPpzuqOT8676zx23MO96P92H4tex-zUPs9DnSX0BRtJ95oeuPVA2S5Yc0u0xeaMBAEDG-z130JemOjrIH7dZoooLoi6daiWCB7DLwebaCCtACtokrk3-ZkDyG-9EUz9MGJdQu6Fuh_iCXvbXPTGF1eKRwEEDyVu4k" height="200" width="auto" /><br><br>HISTORIA <br><br>El templo fue construido en 1630 por el rey Prasat Thong como el primer templo de su reinado, como recuerdo de su madre, residente en esa zona. El nombre del templo significa literalmente el templo del largo y glorioso reinado. Fue diseñado en estilo Khmer Pahaprangprathan que era el estilo preponderante en la época.<br><br>Cuenta con una torre central de 35 metros de altura en la pagoda, de estilo camboyano, con cuatro pequeñas pagodas. Toda la construcción se alza sobre una plataforma rectangular.<br><br>La plataforma central está rodeada de ocho pagodas, que están conectadas con un pasaje rectangular en forma de cruz. El pasaje estaba originalmente cubierto y se abrían hacía adentro; hoy las bases de los pilares y la pared exterior siguen en pie. A lo largo de la pared, había 120 estatuas de Buda sentado, probablemente pintado en negro y oro.<br><br>Fuera de los pasajes, en el este, cerca del río estaba la sala del templo de la predicción llamada Phra Ubosot(en tailandés: พระอุโบสถ์). Al norte de Phra Ubosot había dos pagodas con doce esquinas de sangría en tailandés llamadas Chedi Mum Sib Song.<br><br>USO<br><br>Wat Chaiwatthanaram fue un templo real donde el rey celebró ceremonias budistas, se utilizaba como residencia de los reyes y para la cremación real de Chaofa Thammathibet.<br><br>SIMBOLO<br><br>La estructura Wat Chaiwatthanaram refleja la visión budista del mundo, como se describe en el Traiphum Phra Ruang, los tres mundos del Rey Ruang del siglo XlV. Prang Parthan que se encuentra en el centro símbolo, la montaña Meru (en tailandés: เขาพระสุเมรุ), que consiste en el eje central del mundo tradicional Kamaphum. A su alrededor se encuentran los cuatro continentes. En uno de los continentes llamado Chomphutawip viven los humanos. El pasaje rectangular es el borde exterior del mundo, las Montañas de Hierro.]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/kx0oploPpzuqOT8676zx23MO96P92H4tex-zUPs9DnSX0BRtJ95oeuPVA2S5Yc0u0xeaMBAEDG-z130JemOjrIH7dZoooLoi6daiWCB7DLwebaCCtACtokrk3-ZkDyG-9EUz9MGJdQu6Fuh_iCXvbXPTGF1eKRwEEDyVu4k</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.54178950000005,14.342957900000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Intharawihan (Buda Gigante) 
+วัดอินทรวิหาร</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/MPfcYBbnzoMMeNGpejKG0vcWd3okibmq3n0yfUS0s_3exj1-8myPvF6kZzlTax2v1esnVK1AKj_YXYG4_71iypL-4btLPiF27OUv1w" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/MPfcYBbnzoMMeNGpejKG0vcWd3okibmq3n0yfUS0s_3exj1-8myPvF6kZzlTax2v1esnVK1AKj_YXYG4_71iypL-4btLPiF27OUv1w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.50235999999995,13.7663085,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Na Phramen , วัดหน้าพระเมรุราชิการาม</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/9ImAAN-JYNcaubcqf7WPy7dUxZ0geXJm4n2TCNaW7O5dK2bztWXsSvNa709owbX-2PKTdeGaM4b-h0eC-o_gncs_2KPOJHG-g2sa57NpxdvjpCtwYDZ5Z6-mD0VI" height="200" width="auto" /><br><br>El templo Wat Na Phra Men es uno de los pocos templos de Ayutthaya que no fueron destruidos por los birmanos. El templo es famoso por su imagen de Buda. Se encuentra al norte de la zona del Palacio Real, pero al otro lado del río que definía el límite norte de la ciudad amurallada. Fue construido alrededor del año 1503 durante el reinado del rey Ramathibodi. A mediados del siglo XIX el templo sería renovado en un par de ocasiones.<br><br>La Sala de Ordenación es el lugar más importante, donde puede observarse un mosaico de vidrio que representa a Vishnu montado en Garuda. Dentro de la sala son importantes las formas arquitectónicas del periodo de la época y la principal imagen de Buda. Las ocho pares de columnas octogonales con brotes de loto soportan la estructura del techo. Las vigas de madera están bellamente talladas y el techo está adornado con tallas de madera que muestran las estrellas y la luna.<br><br>La Sala de Ordenación está orientada al sur y mide aproximadamente 50 x 16 metros. La ubosot, o sala de oración, tiene porches delanteros y traseros con balcones elevados que acogen a imágenes de Buda de pie. El frontón del ubosot es de madera tallada imprimida con lacado negro y cubierto con hojas doradas caracterizando a Vishnu (en Tailandia es más conocido como Phra Narai o Narayan) montado en Garuda.<br><br>Cada una de las cuatro manos de Vishnu llevan los elementos clásicos de un tridente, un disco, una concha y un bastón. El frontón del templo Wat Na Phra men es considerado una de las piezas artísticas más bellas de Ayutthaya.<br><br>En la entrada sur antes había dos puertas. La puerta grande central fue más tarde bloqueada dejando sólo una ventana. En la parte norte hay dos pequeñas puertas. Las puertas son de madera de teca y están decoradas con motivos lacados. Sobre las puertas hay placas de mármol con antiguos caracteres en jermer y números tailandeses.<br><br>Las paredes interiores de la sala de ordenación estaban cubiertas con pinturas de 80 monjes budistas con monjas detrás de ellos. La pintura fue blanqueada cuando el ubosot o sala de oración fue restaurada. Las paredes de la sala no tienen ventanas pero tiene una abertura que consiste en un corte vertical que permite la entrada de algo de aire y luz provocando un efecto muy agradable. El uso de falsas ventanas en Siam existía ya en el periodo de Ayutthaya, pero tiene su raíces mucho antes, ya que podemos ver su uso en Angkor, Camboya.<br><br>La imagen de Buda en piedra del periodo Mon está localizado en un pequeño Vihara o templo en la parte este de la Sala de Ordenación. Este Vihara fue construido alrededor del año 1835 durante el reinado de Rama III. Se cree que la figura se llevó a Ayutthaya desde Nakhon Pathom. Hay otra imagen del periodo Mon que se encuentra en el Museo Nacional de Sam Phraya Chao de Ayutthaya.<br><br>El Buda coronado<br><br>La imagen de Buda más importante de la Sala de Ordenación se llama “Phra Buddha Nimitr Vichit Maramoli Sisanpeth Boromtrailokanat”. La imagen coronada está en posición sentada y mide 6 metros de alto y 4,5 metros de ancho en el regazo. La imagen fue moldeada en metal y cubierta con pan de oro. La peculiaridad de este Buda es que está vestido con traje real completa con corona, pendientes, collar, y ornamentos en pecho y brazos.<br><br>Se dice que este Buda podría hacer referencia a Maitreya, el Buda del futuro. Otra explicación hace referencia a la leyenda que dice que Buda trató con Jambupati (rey de Jambriavipa que se negó a aceptar a Buda pero cambió de opinión cuando Buda apareció adornado con más esplendor que un rey).<br><br>En el pasado la leyenda de Jambupati era muy popular en Birmania, y mostraba a un rey presumido que fue humillado por Buda y aceptaría al final el dharma y se convertiría en monje.]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/9ImAAN-JYNcaubcqf7WPy7dUxZ0geXJm4n2TCNaW7O5dK2bztWXsSvNa709owbX-2PKTdeGaM4b-h0eC-o_gncs_2KPOJHG-g2sa57NpxdvjpCtwYDZ5Z6-mD0VI</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.55905189999999,14.362797399999998,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Muang - Big Budda, Phra Buddha Maha Nawamin พระพุทธมหานวมินทรศากยมุนีศรีวิเศษชัยชาญ 
+วัดม่วง</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/QVjdR7609TP20wnmpYp6pb59ibqe375tX6wgEwGGlPbT8JO3cUVJjgRwIF8SdLjVsRTwHwO4RQxToLBImiJ1e3iIVCZ0hz0X" height="200" width="auto" /><br><br>http://thetempletrail.com/wat-muang/<br><br>Moo 6 Tambon Hua Taphan, Ang Thong, ตำบล หัวตะพาน อำเภอ วิเศษชัยชาญ อ่างทอง 14110, Tailandia<br>www.watmuang.com<br>+66 35 631 974]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/QVjdR7609TP20wnmpYp6pb59ibqe375tX6wgEwGGlPbT8JO3cUVJjgRwIF8SdLjVsRTwHwO4RQxToLBImiJ1e3iIVCZ0hz0X</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.38031060000003,14.593614600000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Phanan Choeng Worawihan, วัดพนัญเชิง</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/hZgw5sadZcGV9GhOU0Tc-yPBFD9ruM7vbv65mwPvLDIgoAgmkmDWGiRUUcVAUy7_1stb8wpyEPqNgXC5eorDghJ0yKN8uwu5uyXN14bdF0cuVCgho4Cn2uaRYVFAxmfZSLA5KQMHZevDMFaxYJiW9t4zuuAMFeFtkYZEzunNnXqlK-erplDBSTWwVz8i1LqqyYU6Xs_IoNDs7ymspE_--VPBIV9jWVK16C57Oaw3Zfz-h6kj_SGJ7d-dUY9r5EFpUVxIXCoqxOwO8Q" height="200" width="auto" /><br><br>El templo Wat Phanan Choeng es un templo budista de Ayutthaya que se encuentra en la orilla este del río Chao Phraya, en la parte sureste de la confluencia de los ríos Chao Phraya y Pa Sak. Hoy en día, el templo forma parte del Parque Histórico de Ayutthaya, una atracción muy popular entre los turistas.<br><br>El wihan, o sala de oración, el edificio más alto dentro del complejo del templo, acoge un inmenso Buda dorado sentado de 19 metros de alto del año 1334. Esta estatua de Buda ampliamente venerada es conocida como Luang Pho Tho por los tailandeses y Sam Pao Kong por los chino-tailandeses. La estatua es considerada como la guardiana de los marineros.<br>El templo fue construido en el año 1324, unos 26 años antes de que la ciudad de Ayutthaya fuera oficialmente fundada y debe haber estar relacionado con los primeros asentamientos de la zona. En estos asentamientos había una comunidad de unos 200 refugiados de la comunidad de la dinastía china Song.<br><br>Según se dice, antes de la destrucción de Ayutthaya por los birmanos en el año 1767, las lágrimas brotaban de sus ojos sagrados y llegaban hasta su ombligo. La estatua ha sido restaurada varias veces en la historia. El rey Mongkut nombró la estatua como Phra Puttha Thrai Ratana Nayok después de su restauración en el año 1854.<br><br>El templo fue visitado en el año 1407 por Zheng He, un almirante chino musulmán eunuco de Yunnan que lideró el segundo viaje Ming imperial. Él otorgó regalos al templo en una gran ceremonia que incluía la participación de la realeza siamesa, y hoy en día es rememorado por los visitantes chinos y tailandeses quienes todavía visitan el templo en su honor]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/hZgw5sadZcGV9GhOU0Tc-yPBFD9ruM7vbv65mwPvLDIgoAgmkmDWGiRUUcVAUy7_1stb8wpyEPqNgXC5eorDghJ0yKN8uwu5uyXN14bdF0cuVCgho4Cn2uaRYVFAxmfZSLA5KQMHZevDMFaxYJiW9t4zuuAMFeFtkYZEzunNnXqlK-erplDBSTWwVz8i1LqqyYU6Xs_IoNDs7ymspE_--VPBIV9jWVK16C57Oaw3Zfz-h6kj_SGJ7d-dUY9r5EFpUVxIXCoqxOwO8Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.57896749999998,14.344222999999998,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Phutthaisawan, วัดพุทไธศวรรย์</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/YGYw5D2Rimqftf4BkPftSFU6bT4vT2Xvpn8eWf6C-GdplHztiU199hV-IwitJhhNCGW96SOBY-1MpoHBrdmlDGYHPm9in_jCivxmbTpTuI6HHMVdtVn4Ys0BXsli" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/YGYw5D2Rimqftf4BkPftSFU6bT4vT2Xvpn8eWf6C-GdplHztiU199hV-IwitJhhNCGW96SOBY-1MpoHBrdmlDGYHPm9in_jCivxmbTpTuI6HHMVdtVn4Ys0BXsli</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.55799869999998,14.3392488,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Traphang-Ngoen, 
+วัดตระพังเงิน</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/vzItNIksaR52d1vMyTiYoKnrnh886MWvfyVTCOiZ_8CTDUfV-UO8n5SnSihYcIp3jq7Up7TAPpj8DCLN_ufabUiEZnUd4_Vsuf8Ku53eKpRMcqNzCNAkU_0eVduzvXsPvYr9fImVJe0uj17p0e6O" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/vzItNIksaR52d1vMyTiYoKnrnh886MWvfyVTCOiZ_8CTDUfV-UO8n5SnSihYcIp3jq7Up7TAPpj8DCLN_ufabUiEZnUd4_Vsuf8Ku53eKpRMcqNzCNAkU_0eVduzvXsPvYr9fImVJe0uj17p0e6O</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.70023279999998,17.0158808,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Buda Reclinado Wat Yai Chaimongkhol, วัดใหญ่ชัยมงคล</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/tV03JiN1zYAQc3j75KL-1_CaEd9H2NpfYSvS11IiQ6N9EgEuNrOIBJPi97aNWyG4BdvvZ3TdhCMvw58UlO0osQnJwyZhvU_y1Uj2O7hIs8oYhXbFGBn5Lsg3X0BpBAxSmGzwx6o" height="200" width="auto" /><br><br>El templo Wat Yai Chai Mongkol, conocido también como Wat Phra Chao Phya Thai, está situado al sureste de Ayutthaya. Se trata de un magnífico y antiguo monasterio real más que un lugar de culto. La existencia de este templo transmite la sensación de poder del reino de Ayutthaya, la cual se expandió en todas las direcciones. Su gran chedi puede ser visto desde una larga distancia.<br><br>El templo fue construido en el año 1357 por el rey U-Thong, y se hizo para unos monjes que llegaron a la ciudad desde Ceilan (la actual Sri Lanka) después de estudiar con un venerado maestro. Este grupo se llamaba Grupo Pakaew. Es por ello que el monasterio se llamó en un principio Wat Pakaew.<br><br>En esa época mucha gente se hizo fiel a este grupo y prosperó rápidamente en la ciudad. Finalmente el templo se construiría en memoria del rey Naresuan el Grande por su victoria sobre los birmanos.<br><br>Según afirman algunos expertos la estupa fue construida antes de que Ayutthaya fuera fundada, debido a sus diseños arquitectónicos. Es posible que el rey Naresuan restaurara el edificio y construyó ciertas adicciones para conmemorar la victoria de la batalla contra los birmanos.<br><br>El Chedi principal del templo tiene más de 62 metros de altura y fue construido con más de 28.000 toneladas de ladrillo. Debido al gran peso del chedi, y que parte del suelo era hueco debido a las aguas subterráneas, el chedi comenzó a hundirse como puede verse en la actualidad.<br><br>El templo Wat Yai Chai Mongkol era un centro nacional de educación, y no sólo para la escolarización de los hijos del rey. Hay evidencias de que floreció en esta época la cultura y la educación con una estrecha relación con las ciencias religiosas que se ofrecían en este templo, algo que heredaron cientos de monjes y monjas. Hay un lema del templo que dice: “Aquellos con una mente clara viven una vida de perfección y alcanzarán la gloria. Aquellos con una mente inestable se lamentarán en el camino del dolor y nunca llegarán a la plenitud de la sabiduría”.]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/tV03JiN1zYAQc3j75KL-1_CaEd9H2NpfYSvS11IiQ6N9EgEuNrOIBJPi97aNWyG4BdvvZ3TdhCMvw58UlO0osQnJwyZhvU_y1Uj2O7hIs8oYhXbFGBn5Lsg3X0BpBAxSmGzwx6o</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.59236250000004,14.34560069999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vihara Phra Mongkhon Bophit</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/FccB6JVVJf-7U8suokKJyKiGJy8II1G2t_y87joJZ9gJ9d0CM_87raAdtIdMDU7nCccpJYUx0JfCW02fgN5whl0nQiC318D3krlTRRUqf3vnDuHt_k3EBqmtB1vAPkjwQBeaIQ0Yz-emaQ" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/FccB6JVVJf-7U8suokKJyKiGJy8II1G2t_y87joJZ9gJ9d0CM_87raAdtIdMDU7nCccpJYUx0JfCW02fgN5whl0nQiC318D3krlTRRUqf3vnDuHt_k3EBqmtB1vAPkjwQBeaIQ0Yz-emaQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.55782069999998,14.354957199999998,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Lokkayasutharam, วัดไชยวัฒนาราม</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/b16HVrkOtBaODUwn7Da2iNoSIg6kYbfAJVRDAO6HV1uJmZ-9cBd3CVu9Tjq86-dxmt7Ro69AUo5QHhnSTjAOoY8qroRwCfGzh0uGXJRP4wuoRsEnZs1t95n4ytzDu91nMgF0" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/b16HVrkOtBaODUwn7Da2iNoSIg6kYbfAJVRDAO6HV1uJmZ-9cBd3CVu9Tjq86-dxmt7Ro69AUo5QHhnSTjAOoY8qroRwCfGzh0uGXJRP4wuoRsEnZs1t95n4ytzDu91nMgF0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.55290939999998,14.355631000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Maha That (Cabeza de Buda en las raíces de un árbol)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/WyvZIFvavUC3DC1R1qFN99cTpphdTImqQJ5AgvbWDf0qFgthHie8WWbJFTPkay_cCQ2QVjGXOHoEcRA3TVGKMOfe_vftKIgshrONxCq6i0B3qP7nODOghV9E" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/WyvZIFvavUC3DC1R1qFN99cTpphdTImqQJ5AgvbWDf0qFgthHie8WWbJFTPkay_cCQ2QVjGXOHoEcRA3TVGKMOfe_vftKIgshrONxCq6i0B3qP7nODOghV9E</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.56750050000005,14.356965100000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Ratchaburana, วัดราชบูรณะ</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/B7Cphdi2MpaTaSkes2QAuEvk6r56uvLmvfPE64KaWBhYOCYpg1yOYjZ2UEYPH2ErLM4G0DXux9XNxXsbPr0ry_T72DygxUYDd8USPhc" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/B7Cphdi2MpaTaSkes2QAuEvk6r56uvLmvfPE64KaWBhYOCYpg1yOYjZ2UEYPH2ErLM4G0DXux9XNxXsbPr0ry_T72DygxUYDd8USPhc</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.56748679999998,14.3589745,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Ratchaburana Ratchaworawihan (Wat Liap), วัดราชบูรณะราชวรวิหาร (วัดเลียบ)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/28qn1C4IVvTZyHRUmlMOUCuLUWdo_nRW0uQc4T1rqZwHVU21GVa_7hsFT6p8gnPZ8z_EPSLtkVNVLnVUFpVN-i2GWr6vx3tOMEme0YT5Yx4HdsO4ogem6FD3LiO5dtxgRm6IQKm8SMirdVVOAIePGzGL" height="200" width="auto" /><br><br>www.watliab.com<br>+66 2 221 9544]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/28qn1C4IVvTZyHRUmlMOUCuLUWdo_nRW0uQc4T1rqZwHVU21GVa_7hsFT6p8gnPZ8z_EPSLtkVNVLnVUFpVN-i2GWr6vx3tOMEme0YT5Yx4HdsO4ogem6FD3LiO5dtxgRm6IQKm8SMirdVVOAIePGzGL</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.49907000000007,13.7424233,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Rat Praditthan</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Ffpxl4r9GTYf_B0iYoUVH5wust40QrmS9npxCZJ6INTVgviDVamaDcpX9-KzcdW0Ba7ywKS4jzImeYzltqmiOhz-rIT7YD1IJDWdAycUlv2K9D9px6yaSMt5" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/Ffpxl4r9GTYf_B0iYoUVH5wust40QrmS9npxCZJ6INTVgviDVamaDcpX9-KzcdW0Ba7ywKS4jzImeYzltqmiOhz-rIT7YD1IJDWdAycUlv2K9D9px6yaSMt5</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.56834509999999,14.3591888,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Traimit (Buda de oro), วัดไตรมิตรวิทยารามวรวิหาร</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/QTN6urN88pPOBTWpRjmNqiUztdzZxIzcLSZxmeBAOmA1M0RrXMb_-xPiIBBH-dM0XtyFXuifwraIqNlIgl_oY_MYxyzNp7124YIyoIfw99rY3_LJeQ" height="200" width="auto" /><br><br>Wat Traimit,, Mittaphap Thai-China Rd, แขวง ตลาดน้อย เขต สัมพันธวงศ์ Bangkok 10100 ไทย<br>www.wattraimitr-withayaram.com<br>+66 2 225 9775]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/QTN6urN88pPOBTWpRjmNqiUztdzZxIzcLSZxmeBAOmA1M0RrXMb_-xPiIBBH-dM0XtyFXuifwraIqNlIgl_oY_MYxyzNp7124YIyoIfw99rY3_LJeQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.51399390000006,13.7380895,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Arun  (Templo del Amanecer),  วัดอรุณ</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ukrSwJSy-CbbYfaMGHroOyXS-Zoj4dMz_i89m3xjsGUqbH2REG9Yz3dnneOZah4-ZpKw3mgR9zw2mb-k-IoTl8DCu21sklz6DJAwNzUuhSvapUWeJA6OWHuLrYdFPNTpQpBpo0ObOp8WmSplxoaMfCd-I8yVG6OYc9QsFNfRsfR2QiTZzH2k3C35MMUkpkpbZrHFokRaz_MhB09H068" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/ukrSwJSy-CbbYfaMGHroOyXS-Zoj4dMz_i89m3xjsGUqbH2REG9Yz3dnneOZah4-ZpKw3mgR9zw2mb-k-IoTl8DCu21sklz6DJAwNzUuhSvapUWeJA6OWHuLrYdFPNTpQpBpo0ObOp8WmSplxoaMfCd-I8yVG6OYc9QsFNfRsfR2QiTZzH2k3C35MMUkpkpbZrHFokRaz_MhB09H068</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.48900649999996,13.7437037,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Pathumwanaram Ratchaworawihan, 
+วัดปทุมวนารามราชวรวิหาร</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/WFz0IW6xmQJSy8FrO0jvtYSA77LtRmlycNZcduYn5R59WOKW6N-T2wnShJcwF2JMDI9f0LAHAdSyKe9lrf50vNhdcN1e6KENR41x8WJBA4kFKsLt4kq9uL1RqSZ4iIBdQuOv_k4" height="200" width="auto" /><br><br>969 Rama 1 Rd, Pathumwan, กรุงเทพมหานคร 10330 ไทย<br>+66 2 251 6469]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/WFz0IW6xmQJSy8FrO0jvtYSA77LtRmlycNZcduYn5R59WOKW6N-T2wnShJcwF2JMDI9f0LAHAdSyKe9lrf50vNhdcN1e6KENR41x8WJBA4kFKsLt4kq9uL1RqSZ4iIBdQuOv_k4</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.53666550000003,13.7458437,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Pho (Buda Recostado) วัดโพธิ์</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/WoCPNZlG_M3tEmSEXkYfqlBd394A8QXV5EkkLAeaoyM2M14_5M-18USra-v5WeV6ofmLPXc4zi663iMKsXdOh0xZq-KocL2NDy3Yv_8ncyrNNU02XJXtr7o" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/WoCPNZlG_M3tEmSEXkYfqlBd394A8QXV5EkkLAeaoyM2M14_5M-18USra-v5WeV6ofmLPXc4zi663iMKsXdOh0xZq-KocL2NDy3Yv_8ncyrNNU02XJXtr7o</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.4932922,13.7465273,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Su Thatsana Thep Wara Ram Ratchaworamahawihan</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/5nX0ziJMCdw_SwyRUqK4ivPrevLMZTPdAsZiwR0JeS1dRacFwh0P8y8njeWhGbfXPJnfKBCCHNGTC5PeYyoczkcPbe5HP2K7uxZCS1pJgDR4vtd4m6csjLz2nFY_VQrk" height="200" width="auto" /><br><br>Bamrung Mueang Road, Wat Rat Baphit, Khet Phra Nakhon, Bangkok, 10200, ไทย<br><br><img src="https://lh6.googleusercontent.com/proxy/uxFQxF_YmobJt0SGvPWbqME3BW-sRZZDmM3lm-GkZpPeyr6l9HX62ufmuS8OTntRqI4dEzYlbuOXIlNVcfCf-Sqar8FsTUF46xdg6mEWJhIKFw" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/5nX0ziJMCdw_SwyRUqK4ivPrevLMZTPdAsZiwR0JeS1dRacFwh0P8y8njeWhGbfXPJnfKBCCHNGTC5PeYyoczkcPbe5HP2K7uxZCS1pJgDR4vtd4m6csjLz2nFY_VQrk https://lh6.googleusercontent.com/proxy/uxFQxF_YmobJt0SGvPWbqME3BW-sRZZDmM3lm-GkZpPeyr6l9HX62ufmuS8OTntRqI4dEzYlbuOXIlNVcfCf-Sqar8FsTUF46xdg6mEWJhIKFw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.50106529999994,13.7511028,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Saket (Monte dorado) วัดสระเกศ (ภูเขาทอง)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/OscEC1FSI07Ph-l8eCNVCbV5kC9kx8M8LYIhLweDeZgC9rBVeTogGFULLUk9ur40J0Fcqww1IJD_5Jq9mOP-C1tjhCqN6Mt0QTYibtbVFsmCUavul6xziZmUPLYAMfQ-ioo_4-NWgIo8" height="200" width="auto" /><br><br>El Templo Wat Saket Ratcha Wora Maha Wihan, conocido simplemente como Wat Saket, es un conocido templo budista de Bangkok. El templo se remonta a la era de Ayutthaya, cuando era conocido como Wat Sakae. Cuando Bangkok se convirtió en la capital, el Rey Rama I renovó el templo y le dio su nombre actual.<br><br>Phu Khao Thong (la montaña Dorada) es una empinada colina artificial dentro del complejo del Wat Saket.<br><br>El nieto de Rama I, el rey Rama III (1787-1851), decidió construir una estupa de grandes dimensiones dentro del templo Wat Saket. Por desgracia, el chedi, o estupa, se derrumbó durante la construcción debido a que el suelo de Bangkok no podía soportar el peso. Durante las décadas siguientes, la estructura abandonada de barro y ladrillo adquirió la forma de una colina natural y se cubrió de maleza. Los lugareños lo llamaron “Phu Khao”.<br><br>Durante el reinado del Rey Rama IV se inició la construcción de un chedi pequeño en la colina. La construcción fue terminada en el reinado de su hijo, el rey Rama V (1853-1910). Se trajo de la India una reliquia de Buda y se colocó en el chedi. Las murallas de hormigón que lo rodean se añadieron en la década de 1940 para detener la erosión de la colina. El moderno templo Wat Saket fue construido en el siglo XX en mármol de Carrara.<br><br><br>Cada noviembre se celebra una festividad anual en el templo Wat Saket, con una procesión de velas por la Montaña Dorada hasta el chedi.<br><br>Ahora Phu Khao Thong es una popular atracción turística de Bangkok y se ha convertido en uno de los símbolos de la ciudad.<br><br><img src="https://lh3.googleusercontent.com/proxy/VVrSlty1Y_s_6pdOzjZVyp2RIg7_MHkZEI9iKoZTapQQlMGKLD8QE2X9i5BihWytYmq4--WCUMxL8DksacJ7xwENst2W7IPlpCShhVy95v5x3OzmtD_A_SvjCJqrhr6x91PTOZM3ujOGPM2QAGmD4BrzY2JEKSmt_Ri_LDAl1My4vQJeyyngyoxLPZfBlFI0rEXPZYA4qaeEesoFr1xi" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/OscEC1FSI07Ph-l8eCNVCbV5kC9kx8M8LYIhLweDeZgC9rBVeTogGFULLUk9ur40J0Fcqww1IJD_5Jq9mOP-C1tjhCqN6Mt0QTYibtbVFsmCUavul6xziZmUPLYAMfQ-ioo_4-NWgIo8 https://lh3.googleusercontent.com/proxy/VVrSlty1Y_s_6pdOzjZVyp2RIg7_MHkZEI9iKoZTapQQlMGKLD8QE2X9i5BihWytYmq4--WCUMxL8DksacJ7xwENst2W7IPlpCShhVy95v5x3OzmtD_A_SvjCJqrhr6x91PTOZM3ujOGPM2QAGmD4BrzY2JEKSmt_Ri_LDAl1My4vQJeyyngyoxLPZfBlFI0rEXPZYA4qaeEesoFr1xi</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.5066825,13.7539333,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Mahathat Yuwarat Rang Sa Rit Racha Woramahawihan วัดมหาธาตุยุวราชรังสฤษฎิ์ราชวรมหาวิหาร</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/VFjJ7-d5IAxfT3-L2fYgNPL1SL2wwk_JrwScd2yV0EKCxJ2jegagCRlV8_xslc4UVKNyQ3cX46ar4UVa3D1BEyF1MG9fUoQwp4_rlctUv_1uNSlFU3RXHcOILLhUlg" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/VFjJ7-d5IAxfT3-L2fYgNPL1SL2wwk_JrwScd2yV0EKCxJ2jegagCRlV8_xslc4UVKNyQ3cX46ar4UVa3D1BEyF1MG9fUoQwp4_rlctUv_1uNSlFU3RXHcOILLhUlg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.4910635,13.7549458,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Benchamabopit Dusit Wanaram (Templo de Mármol) วัดเบญจมบพิตรดุสิตวนารามราชวรวิหาร</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/esZV3TFfG8xbIKKqYgEGv07UDHizFaanF7QvJazW7jaEqaGt5o4x4ehoJv-Ehb9frscaQqqH4-KDUz_CPilqlGUy7IqB_oW8seYmqrm_RKmVotszDDuz2y4" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/esZV3TFfG8xbIKKqYgEGv07UDHizFaanF7QvJazW7jaEqaGt5o4x4ehoJv-Ehb9frscaQqqH4-KDUz_CPilqlGUy7IqB_oW8seYmqrm_RKmVotszDDuz2y4</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.5139643,13.7666192,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Phra Singh, วัดพระสิงห์วรมหาวิหาร</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Rt540-q4dUOhe2uC1ILO7dX-2BOUDUt66wSltdShi7zNIpOKq7eJ_O_6mo854mpRNfSHmWXQjW-KAo0dDqtgJ0pziKwrD7F_0P1LTHWo6KVOo0VaBeBrZd-5Y7MNyiIwRXJX1uO68YA" height="200" width="auto" /><br><br>อำเภอเมืองเชียงใหม่ 50200 ไทย<br>www.dmr.ac.th]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/Rt540-q4dUOhe2uC1ILO7dX-2BOUDUt66wSltdShi7zNIpOKq7eJ_O_6mo854mpRNfSHmWXQjW-KAo0dDqtgJ0pziKwrD7F_0P1LTHWo6KVOo0VaBeBrZd-5Y7MNyiIwRXJX1uO68YA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98177020000004,18.7882429,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Phra Si Sanphet</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/qUCj-zLi6w6SwnySBArWsU5vyYvJckzZKv9_qien_iY6UWd6rLa_GtCbL8XAggRqHSpwDaAqsPL64kHc1Fpo3buetZRg6lwjN7N1AwlUDFlo65lExUSIQLVTyXKttRWRLqC4L9iDNea2VTVudlVSt3U_YRwn9w5gNmsxm3Ck5mkybpLE4a0uIxP_GisiyWE5CvhbUE4h_0SWlWoOTYh5N2DOjoxoz5oWyQ" height="200" width="auto" /><br><br>El templo Phra Sri Sanphet estaba situado en el recinto del Palacio Real. Los edificios importantes de este templo son las tres estupas que contienen cenizas de reyes. Después del reinado del rey Borommatrailokanat, su hijo el rey Ramathibodi II ordenó la construcción de dos chedis, uno para guardar las cenizas de su padre y otro para guardar las cenizas de su hermano, el rey Borommarachathirat III. Se construiría otro similar para las cenizas de Ramathibodi II.<br><br>Era un templo real del reino del Ayutthaya que se usaba para importantes ceremonias reales como los juramentos de lealtad, además de servir como capilla privada de la familia real y el lugar donde se conservan las cenizas de la familia real.<br><br>En este templo no residían monjes, aunque eran invitados ocasionalmente para la realización de ciertos ritos.<br><br>En el año 1499, se construyó el viharn principal, la sala de oración. Al año siguiente, el rey Ramathibodi II ordenó la elaboración de la imagen de Buda de pie de 16 metros de altura y cubierta de oro. La imagen, Phra Buddha Chao Si Sanphet, fue el principal objeto de veneración en el viharn real.<br><br>Después las cenizas de los miembros de la familia real y otros reyes fueron colocados en pequeñas chedis construidas en el lugar. Hay líneas de columnas que en el pasado sostenían aleros del viharn luang con sus decoraciones en forma de loto. El Palacio Real tenía un acceso desde la misma entrada del templo Wat Phra Si Sanphet.<br><br>Cuando Ayutthaya fue atacada por lo birmanos se saquearon todas las decoraciones de oro.]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/qUCj-zLi6w6SwnySBArWsU5vyYvJckzZKv9_qien_iY6UWd6rLa_GtCbL8XAggRqHSpwDaAqsPL64kHc1Fpo3buetZRg6lwjN7N1AwlUDFlo65lExUSIQLVTyXKttRWRLqC4L9iDNea2VTVudlVSt3U_YRwn9w5gNmsxm3Ck5mkybpLE4a0uIxP_GisiyWE5CvhbUE4h_0SWlWoOTYh5N2DOjoxoz5oWyQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.5586125,14.35587,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Pha Sorn Kaew (5 budas blancos), วัดผาซ่อนแก้ว,  Khao Kor</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/yoUJY90sCGgI5VFg8DCf4XKwabY6gyyuZd3jPLY_IvyZiiEnLI-pQRw6IwU-OoflgKTM7YcjsDGpsbte9GfUHFMPnkQO9jD6cR2ZflbIMUZXs7baxh8G" height="200" width="auto" /><br><br>95 หมู่ 7 บ้านทางแดง, ต.แคมป์สน อ.เขาค้อ, เพชรบูรณ์ 67280 ไทย<br>+66 84 494 1262]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/yoUJY90sCGgI5VFg8DCf4XKwabY6gyyuZd3jPLY_IvyZiiEnLI-pQRw6IwU-OoflgKTM7YcjsDGpsbte9GfUHFMPnkQO9jD6cR2ZflbIMUZXs7baxh8G</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.0508337,16.7892938,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chiang Man, วัดเชียงมั่น</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/KC2o8Vms-lpBKUWTh95NNfmYAmLnAy3deNDYlzOHa-B-rNVOOaIy3lE8bxS5tGe3hZGrTIgN85F_-c6TFF7OQhU5j9PvHGZjFygzUk4mkxD3" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/KC2o8Vms-lpBKUWTh95NNfmYAmLnAy3deNDYlzOHa-B-rNVOOaIy3lE8bxS5tGe3hZGrTIgN85F_-c6TFF7OQhU5j9PvHGZjFygzUk4mkxD3</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98927000000003,18.793837400000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Phrathat Doi Suthep
+วัดพระธาตุดอยสุเทพวรวิหาร</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/1fiiwtNJAktmRMSMvG19Oaax3UdZozoVW1DexEWCVT9rj4o1MRsgnaMPolGJPoKjLVPDf234Hr8bC98mPPSUiukE4rrogugObSomCVztLY9nGkD3BmwG1FwZwGDjU0ZYtdblwwSTXzRW9DhKGQcLxlmvBtbyYHVEpUIFI3Ou3TIka5X2ucHwAxsDOw" height="200" width="auto" /><br><br>Wat Phra That Doi Suthep Road Srivijaya Suthep Mueang Chiang Mai District Chiang Mai อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200 ประเทศไทย<br>+66 53 295 002]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/1fiiwtNJAktmRMSMvG19Oaax3UdZozoVW1DexEWCVT9rj4o1MRsgnaMPolGJPoKjLVPDf234Hr8bC98mPPSUiukE4rrogugObSomCVztLY9nGkD3BmwG1FwZwGDjU0ZYtdblwwSTXzRW9DhKGQcLxlmvBtbyYHVEpUIFI3Ou3TIka5X2ucHwAxsDOw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.9220617,18.8049116,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Khun Inthapramun - Buda recostado más grande 
+วัดขุนอินทประมูล</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/wYAtyWByyWfz-kyycxcvNTCLo0ouOznGTVdFSs1oo5xjTh1l23fybMSqfX-tj7T8uehqP03MAVpmOjIuEI4B3ECxsgzF7lH0J5PPo0LkXqaMaE8UdDPQqpW7S4uvMg9xNnCvh5vPhKS0" height="200" width="auto" /><br><br>ทางหลวง ชนบท หมายเลข 3003 ต ิ นท ประมูล อ, ตำบล อินทประมูล อำเภอ โพธิ์ทอง อ่างทอง 14120 ประเทศไทย<br>+66 86 518 3528]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/wYAtyWByyWfz-kyycxcvNTCLo0ouOznGTVdFSs1oo5xjTh1l23fybMSqfX-tj7T8uehqP03MAVpmOjIuEI4B3ECxsgzF7lH0J5PPo0LkXqaMaE8UdDPQqpW7S4uvMg9xNnCvh5vPhKS0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.42739600000004,14.643953,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Tham Khao Pun 
+วัดถ้ำเขาปูน</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/MPx6VoRvhwnBHFbZHfE18ClYVtJEPEoUo7slicsgASMv2fHn2hS7LfFfn-GCIVaq1HRfAGkEnDTTxWngLLnAPKpvfyOV2I7jnLRaNKPF46US5ncdrBuhfmAmMniGy9wii3-l_cXhNPzybh8" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/proxy/b0oSv1o_6FC-kztf38lU2rSYMfb4oFsFjqFFk5iVSmuJ98ABOYOs5AiRNb2VKRTYt8Md05Uv_HVVKaj0IMHwuAMI22fvfs7JhWf6Na23_UBRu14ytpGtIuTTMynK7txBhuR-7xxkKwX1" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/MPx6VoRvhwnBHFbZHfE18ClYVtJEPEoUo7slicsgASMv2fHn2hS7LfFfn-GCIVaq1HRfAGkEnDTTxWngLLnAPKpvfyOV2I7jnLRaNKPF46US5ncdrBuhfmAmMniGy9wii3-l_cXhNPzybh8 https://lh3.googleusercontent.com/proxy/b0oSv1o_6FC-kztf38lU2rSYMfb4oFsFjqFFk5iVSmuJ98ABOYOs5AiRNb2VKRTYt8Md05Uv_HVVKaj0IMHwuAMI22fvfs7JhWf6Na23_UBRu14ytpGtIuTTMynK7txBhuR-7xxkKwX1</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.50350000000003,14.0001433,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Tham Khao Noi วัดถ้ำเขาน้อย</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/rOXVGVRrV_yUsc9PNe06vdDzJ88KEiIIZJiZas6_j0cX4baia1wxKvCFtR7gKUQdB6G1rs783klqOe-Lz1ATy88pf-XDZLI-UXjnyuVgNDbswNTjbBP9wIRtbMcCAd6GNrRHTgDcWPMEcruPaOvnNt1EyEZJs2L8jSg" height="200" width="auto" /><br><br>Muang Chum, Tha Muang District, Kanchanaburi 71110, Tailandia<br>www.thamkhaonoi.com<br>+66 34 655 233<br><br><img src="https://lh3.googleusercontent.com/proxy/qa24T1KsjAa_ktblniSExzZYbWtSkeFn19-H_EaiDxb_x_8xhGQL1qc1U8FbC_mBFMQb7QBeYFJkVyEIGIrHvSZYSe6xPkcI57K3kdrAwr3_blj-kpo4v2_46FE_Jy0tWqP-BbTyjEYW" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/kFx2b_Agijvl85BWJYiJhIFWel7G_s6mSHKOtctRehr7ApbPLxHbdxRaIPnc5q-5yllPpodUhHhVb5z0dAUf629r62lO7KgrBKHsdKWP4536t1IOhQmdnHkMprRa2UBeow" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/rOXVGVRrV_yUsc9PNe06vdDzJ88KEiIIZJiZas6_j0cX4baia1wxKvCFtR7gKUQdB6G1rs783klqOe-Lz1ATy88pf-XDZLI-UXjnyuVgNDbswNTjbBP9wIRtbMcCAd6GNrRHTgDcWPMEcruPaOvnNt1EyEZJs2L8jSg https://lh3.googleusercontent.com/proxy/qa24T1KsjAa_ktblniSExzZYbWtSkeFn19-H_EaiDxb_x_8xhGQL1qc1U8FbC_mBFMQb7QBeYFJkVyEIGIrHvSZYSe6xPkcI57K3kdrAwr3_blj-kpo4v2_46FE_Jy0tWqP-BbTyjEYW https://lh6.googleusercontent.com/kFx2b_Agijvl85BWJYiJhIFWel7G_s6mSHKOtctRehr7ApbPLxHbdxRaIPnc5q-5yllPpodUhHhVb5z0dAUf629r62lO7KgrBKHsdKWP4536t1IOhQmdnHkMprRa2UBeow</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.606448,13.9531633,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Si Suphan</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/qWkJn8KaBj7l1Gh3rZwZCXU-3xsYF-8OL99UbBQos-Kejf955yUPOcT2W_j5J0zTVI88yqxrU6LY7cDF1m3jTweSo0WDCH5XqOEQvfqxG1gm" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/qWkJn8KaBj7l1Gh3rZwZCXU-3xsYF-8OL99UbBQos-Kejf955yUPOcT2W_j5J0zTVI88yqxrU6LY7cDF1m3jTweSo0WDCH5XqOEQvfqxG1gm</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98364240000001,18.7786979,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Suan Dok วัดสวนดอก พระอารามหลวง</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/TjSZyHbTZ1VMYTpypBH2jgMEYKfeohSZL_80udoPcLs6E5otMs7eUQaLdsrvRQe70FEU5Tu8VWXaQJZ0ZpLc3o1dG0I6l9U2uGCP0T4MuNUW7NLSnA6JWB5KIL447DEYpspzcs4lElmy-3IFZvbvop9j7nhAQINdKjk3Lu6zxg4e9G6Gj6im6DG2tpsPr1mFtVyUVxwJa2ZQpVInbLFaPFYkpTZMwRC8Xm8NV7p4VGlQmI6olRsXAGcfdQE-BiGRtX69" height="200" width="auto" /><br><br>139 ถนน สุเทพ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200 ประเทศไทย<br>www.watsuandok.com<br>+66 53 278 304]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/TjSZyHbTZ1VMYTpypBH2jgMEYKfeohSZL_80udoPcLs6E5otMs7eUQaLdsrvRQe70FEU5Tu8VWXaQJZ0ZpLc3o1dG0I6l9U2uGCP0T4MuNUW7NLSnA6JWB5KIL447DEYpspzcs4lElmy-3IFZvbvop9j7nhAQINdKjk3Lu6zxg4e9G6Gj6im6DG2tpsPr1mFtVyUVxwJa2ZQpVInbLFaPFYkpTZMwRC8Xm8NV7p4VGlQmI6olRsXAGcfdQE-BiGRtX69</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.96776190000003,18.7882387,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Ket Karam, วัดเกตุการาม</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/5FQ-N5V20zbHIOzafv8h5SKpcmy3wzSA_MKW4p9xKzpqC0lbUSSexHeXX-mCS-lUv7OKahFfoxxWneJmuCeiXC2Fhc5TzW_lsgBK" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/5FQ-N5V20zbHIOzafv8h5SKpcmy3wzSA_MKW4p9xKzpqC0lbUSSexHeXX-mCS-lUv7OKahFfoxxWneJmuCeiXC2Fhc5TzW_lsgBK</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.00278950000006,18.7923096,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chedi Liam, วัดเจดีย์เหลี่ยม</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/99uqyN-HuAAC7DLyFyzgBZoXgCN5iZzhIxRg0UufNag497hJbblu1wDSAIDnnsnt7TeA2jz3KVjN-cZSvCty9cKlpUpI1mBXp369TZQECDEnmT0wtv1rBSe8VEZa2kzcxP7mXDYqDA2Z9Jz6F2cusg1yJOAXcElRnF1m5aWepQ" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/99uqyN-HuAAC7DLyFyzgBZoXgCN5iZzhIxRg0UufNag497hJbblu1wDSAIDnnsnt7TeA2jz3KVjN-cZSvCty9cKlpUpI1mBXp369TZQECDEnmT0wtv1rBSe8VEZa2kzcxP7mXDYqDA2Z9Jz6F2cusg1yJOAXcElRnF1m5aWepQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.99595049999994,18.7538917,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Mahawan Woramahawihan, 
+วัดมหาวัน</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ZKiUa-p6c1PDStO1ltE-U1KSYQYcmFhkHOjhT3Dk4hqzvk4cBGBYcSHwV0js4brzQKUqGvHN5V9TyVXZln9ZZPmAb2fOWIQBvg5Ck3M9K1eEAdZuPgTGVEB2Ck2OiHejxCE" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/ZKiUa-p6c1PDStO1ltE-U1KSYQYcmFhkHOjhT3Dk4hqzvk4cBGBYcSHwV0js4brzQKUqGvHN5V9TyVXZln9ZZPmAb2fOWIQBvg5Ck3M9K1eEAdZuPgTGVEB2Ck2OiHejxCE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.9956086,18.7885828,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Buppharam</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/dk90tyKlSrXt5E7aEOd3Ag4TX5JTXGLuBtPHWlb-dmKoutIEVQD895FnxzwFeSltVcywCDNJwD-CkdqUx4Tnjdr7fZH3g622OxkLBlsfYXmE8DfzSiJbNnz0otE" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/dk90tyKlSrXt5E7aEOd3Ag4TX5JTXGLuBtPHWlb-dmKoutIEVQD895FnxzwFeSltVcywCDNJwD-CkdqUx4Tnjdr7fZH3g622OxkLBlsfYXmE8DfzSiJbNnz0otE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.9983394,18.7882232,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chedi Luang Worawihan, วัดเจดีย์หลวงวรวิหาร</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/JBtEmnZC_mmc-HQGHbVFKj9jfEvIWFIMfvqIEPDpzq9ahlVBx0YsnRPAq6QabhB3qaIn7IqQfjvXZZQ090LMajrujDFm6W1GdPy7O83kJX3DSc6QtwBlQhct" height="200" width="auto" /><br><br>103 Road King Prajadhipok Phra Singh, Muang District, Chiang Mai, 50200 ไทย<br>+66 53 276 140]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/JBtEmnZC_mmc-HQGHbVFKj9jfEvIWFIMfvqIEPDpzq9ahlVBx0YsnRPAq6QabhB3qaIn7IqQfjvXZZQ090LMajrujDFm6W1GdPy7O83kJX3DSc6QtwBlQhct</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98651070000005,18.7869459,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Maha That, วัดมหาธาตุ</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Yho8hCLn6vUSt1yS45xHdF672K4xIHF0bNihMsFSzxAwQ51moPmac7VvFS5DnDdK6ELEcopWiNU_haEI6PhAH3DlPvQ5zPdIuQMwF4sochSXioRGCGDuH8UvEGhf6Rrs30cpjH4nlyI" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/Yho8hCLn6vUSt1yS45xHdF672K4xIHF0bNihMsFSzxAwQ51moPmac7VvFS5DnDdK6ELEcopWiNU_haEI6PhAH3DlPvQ5zPdIuQMwF4sochSXioRGCGDuH8UvEGhf6Rrs30cpjH4nlyI</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.70467289999999,17.0167526,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Puak Hong, วัดพวกหงส์</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/rsvIAdRg_tJoj4GIjW_pmsnVxJIWzGURS24aOmM_ciJ1V298MHp1ojcTZNH5GbNGeW_7Kn1kfqeiNxzYtmzLF1XcqIpHE-rD6L0" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/rsvIAdRg_tJoj4GIjW_pmsnVxJIWzGURS24aOmM_ciJ1V298MHp1ojcTZNH5GbNGeW_7Kn1kfqeiNxzYtmzLF1XcqIpHE-rD6L0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98116349999998,18.783114900000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Umong Pana's Wat วัดอุโมงค์ สวนพุทธธรรม</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/xHK1PCnLfMptjEG9hINizR7eBipVP9eHNAmLk2vyCAoMtpUdltMYKxNOTiPSlM3RJru5GmEOcsIVicd0-DtMm7BYpw" height="200" width="auto" /><br><br>ตำบล สุเทพ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200 ประเทศไทย<br>www.watumong.org<br>+66 85 033 3809]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/xHK1PCnLfMptjEG9hINizR7eBipVP9eHNAmLk2vyCAoMtpUdltMYKxNOTiPSlM3RJru5GmEOcsIVicd0-DtMm7BYpw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.95119350000006,18.7833398,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chiang Yuen, วัดเชียงยืน</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/sHybxXjumYYfNsHdYyC2DhU32-AjbTB8XromjZYTdPMyYYea053s5sBsjZSoc1kb7SmznZRg2lNdqDOYyv6YP1ZfoukKEXpRe3mZxdgClkiwOdPqP11L1IWV3Aq_udqnaYE7" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/sHybxXjumYYfNsHdYyC2DhU32-AjbTB8XromjZYTdPMyYYea053s5sBsjZSoc1kb7SmznZRg2lNdqDOYyv6YP1ZfoukKEXpRe3mZxdgClkiwOdPqP11L1IWV3Aq_udqnaYE7</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98851650000006,18.796385,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Koo Tao, วัดกู่เต้า (วัดเวฬุวนาราม)</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/eao5R6HmIT6Yf-xf6G03guSFHtSQ8y30CDCtSZlioHC6OGCr9d3gJVbPsQKsdscmWGFIV4W9unUHqOAC65FLJ0KWOH39AE66" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/eao5R6HmIT6Yf-xf6G03guSFHtSQ8y30CDCtSZlioHC6OGCr9d3gJVbPsQKsdscmWGFIV4W9unUHqOAC65FLJ0KWOH39AE66</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98878749999996,18.8023456,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Si Sawai, วัดศรีสวาย</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/uFWhhaNzvTB5h-nZUW-ebSQ0kdcEq8SndQOG7rN4ej7orqsQeFYh-I_oPiDbKa9npFgc8B4yxVms1UGGA7U1xFCvwSO_5_CKUUeTYGUHWzQxKw" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/uFWhhaNzvTB5h-nZUW-ebSQ0kdcEq8SndQOG7rN4ej7orqsQeFYh-I_oPiDbKa9npFgc8B4yxVms1UGGA7U1xFCvwSO_5_CKUUeTYGUHWzQxKw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.70245999999997,17.013724,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Sa-Si, วัดสระศรี</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/M7A4IE3wmi8JfZgOvjHQrNp-VpQMpdKKUxFUFNOm27xVXcsYNgjqskdEFahbmiMqomdC-Iur_skvxR-gT0JHYcp_Sko3YeSobom-PuKKzzAwHojl38ET7zyt1R-9uHXULHEU" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/M7A4IE3wmi8JfZgOvjHQrNp-VpQMpdKKUxFUFNOm27xVXcsYNgjqskdEFahbmiMqomdC-Iur_skvxR-gT0JHYcp_Sko3YeSobom-PuKKzzAwHojl38ET7zyt1R-9uHXULHEU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.70133409999994,17.0194839,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Si Chum, วัดศรีชุม อุทยานประวัติศาสตร์สุโขทัย</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/SSfiER_qO9Nf1uOAKOtaHcod4ORrp498dZbs4TXqTu7JlolDMe63GDyU7Ty1Jq9gkNVx5uwzilIotU7x6AxLR6Fv00XH9x6gPW0xvhBwnvr3MoDlQ7mVAVRTSssCV76VLJGBq0eiO9uftkpEmVI4cbvUFcvc1nm5" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/SSfiER_qO9Nf1uOAKOtaHcod4ORrp498dZbs4TXqTu7JlolDMe63GDyU7Ty1Jq9gkNVx5uwzilIotU7x6AxLR6Fv00XH9x6gPW0xvhBwnvr3MoDlQ7mVAVRTSssCV76VLJGBq0eiO9uftkpEmVI4cbvUFcvc1nm5</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.6935903,17.0277491,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Phra Si Mahathat Worawihan, วัดพระศรีมหาธาตุวรวิหาร (วัดใหญ่)</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/iopzgbCOyCZQJ-nd4ai4uqJ_w3noTH4FcRyfpyuzGakpfOgBjIfHE1qPlSvoyPUyeG02SF4D-BgFn29-cKvQIBe94N-EAvWDOorJ9Rw6MOz1_4_We9MV6bLdJmZnW92cNhbRqmKci9qe3Uhb1J_N" height="200" width="auto" /><br><br>ซอย พุทธบูชา ตำบล ในเมือง อำเภอเมืองพิษณุโลก พิษณุโลก 65000 ประเทศไทย]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/iopzgbCOyCZQJ-nd4ai4uqJ_w3noTH4FcRyfpyuzGakpfOgBjIfHE1qPlSvoyPUyeG02SF4D-BgFn29-cKvQIBe94N-EAvWDOorJ9Rw6MOz1_4_We9MV6bLdJmZnW92cNhbRqmKci9qe3Uhb1J_N</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.26230639999994,16.8236786,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Ton Son วัดต้นสน</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/HjBxdBY6U86NG3Rfx1IrTdJ6Rr4-Cidop06gVvwa6jaUJP0V3FGGby2oUKnsZnbVvvAjOcKY5Y4nAlAELRgrqg" height="200" width="auto" /><br><br>ตำบล บางแก้ว อำเภอเมืองอ่างทอง อ่างทอง 14000 ประเทศไทย<br>www.wattonson1.com<br>+66 35 611 198<br><br>Horario: 07 a 17 horas.]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/HjBxdBY6U86NG3Rfx1IrTdJ6Rr4-Cidop06gVvwa6jaUJP0V3FGGby2oUKnsZnbVvvAjOcKY5Y4nAlAELRgrqg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.459778,14.5930694,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Wang Wiwekaram 
+วัดวังก์วิเวการาม</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/xfI3L_Sqirs2Gl1aITEm2ISiNYQgMi-dUOA6jhB4QlpLcuXL3e_TIrwkk7aGtkqSotyqGH3KIiOPlZWxZ2oaLA2vkGg3xNRU2Leu0EEcnqc" height="200" width="auto" /><br><br>Nong Lu, Sangkhla Buri District, Kanchanaburi 71240, Tailandia<br>www.watwang.ac.th]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/xfI3L_Sqirs2Gl1aITEm2ISiNYQgMi-dUOA6jhB4QlpLcuXL3e_TIrwkk7aGtkqSotyqGH3KIiOPlZWxZ2oaLA2vkGg3xNRU2Leu0EEcnqc</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.44495170000005,15.1329891,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Santuario de Erawan, พระพรหม เอราวัณ</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/y6l_e9yluS8WWiDtj_uVGYHEtLmHUffM3aa10ePc12ScvQQoOkAnAKcolq1-LkpyX5TJlkX9n_5UJda855fb_0PoVPWBmskTxwqxVPjmhar_rvm2yIwxTuSyxTggEqXNn3FkxJcTaYd-75Ip8Z8c30_uxPXW_u0YwNA-uL0DXVv6LMnDqGfMAU79P19x_Ss2L4KNBOJ4EHnx" height="200" width="auto" /><br><br>El Santuario de Erawan fue construido en el año 1956 como parte del Hotel Erawan, propiedad de gobierno, para eliminar el mal karma que se cree fue causado por sentar los cimientos en la fecha equivocada.<br><br><br>Estatua de cuatro cabezas de Brahma<br>Estatua de cuatro cabezas de Brahma<br>(Phra Phrom) del Santuario de Erawan, Tktru<br><br>La construcción del hotel se retrasó por un serie de contratiempos, incluyendo los sobrecostos, lesiones de los trabajadores, y la pérdida de cargamento de mármol italiano destinado al edificio. Por otra parte, la Intersección Ratchaprasong fue usada en alguna ocasión para exponer a los criminales ante el público.<br><br>Un astrólogo aconsejó la construcción del santuario para contrarrestar las influencias negativas. La estatua de Brahma fue diseñada y construída por el Departamento de Bellas Artes y fue consagrada el 9 de noviembre de 1956.<br><br>A partir de entonces, la construcción del hotel se llevó a cabo sin incidentes. En el año 1987, el hotel fue demolido y el sitio se utilizó para hacer el Gran Hotel Hyatt Erawan.]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/y6l_e9yluS8WWiDtj_uVGYHEtLmHUffM3aa10ePc12ScvQQoOkAnAKcolq1-LkpyX5TJlkX9n_5UJda855fb_0PoVPWBmskTxwqxVPjmhar_rvm2yIwxTuSyxTggEqXNn3FkxJcTaYd-75Ip8Z8c30_uxPXW_u0YwNA-uL0DXVv6LMnDqGfMAU79P19x_Ss2L4KNBOJ4EHnx</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.54040080000004,13.7443579,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chana Songkhram Rachawora Mahawiharn, วัดชนะสงคราม ราชวรมหาวิหาร</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/c-L1o1TbaVKzNk6emBYF6X6QJ6ZmkohIMqfrBI8LMhzz3p9T4bRZlIml_zxz324QyznMbhGwG4XRq1Ey43Dph5KwD1OgdWbH" height="200" width="auto" /><br><br>77 Chakrabongse Rd, Khwaeng Chana Songkhram, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Tailandia<br>www.watchanasongkram.com<br>+66 2 629 0603]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/c-L1o1TbaVKzNk6emBYF6X6QJ6ZmkohIMqfrBI8LMhzz3p9T4bRZlIml_zxz324QyznMbhGwG4XRq1Ey43Dph5KwD1OgdWbH</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.4955497,13.7604455,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chang Lom, โบราณสถานวัดช้างล้อม</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/QdytMBbH6cFdHs-cZh1CT2pygLpmb7SDJejtsS-HjHTzKL5x1h266PW8Uk92aHCpMFzUP76ZEXoHOSDouPgvGIBW7WBuhdoWpbgAkMfIAezkYmcsaCvTmeZ2c1bQWHw5D766pKK7jqpZX_YflvxpqvCmt1DcDplpbK5qh6JSpJS94ga2cK_yeBkK1HZ2BWkPMc-bl1TNe1J47DQec_l9-Xf6n-K7n4qiycFvflR1noAOnhB4JELvIOu2m7Gau1F66EMEel636M6QwfZdxraydDUAqsstxg" height="200" width="auto" /><br><br>Mueang Kao, Si Satchanalai District, Sukhothai 64210, Tailandia<br>+66 95 019 9853 // ตำบล เมืองเก่า อำเภอเมืองสุโขทัย สุโขทัย 64210 ไทย<br>+66 95 019 9853]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/QdytMBbH6cFdHs-cZh1CT2pygLpmb7SDJejtsS-HjHTzKL5x1h266PW8Uk92aHCpMFzUP76ZEXoHOSDouPgvGIBW7WBuhdoWpbgAkMfIAezkYmcsaCvTmeZ2c1bQWHw5D766pKK7jqpZX_YflvxpqvCmt1DcDplpbK5qh6JSpJS94ga2cK_yeBkK1HZ2BWkPMc-bl1TNe1J47DQec_l9-Xf6n-K7n4qiycFvflR1noAOnhB4JELvIOu2m7Gau1F66EMEel636M6QwfZdxraydDUAqsstxg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.7196616,17.0200224,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Traphang Thong Lang, วัดตระพังทองหลาง</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/X3JiFV090iQniuAQqMfk-oYzx7R4ZdfTWEs4qcL9g7MAA6XeYkEY_J4nnkl7qpVVxZiMfmYSWkDUud7I6fb8_EejqylIfgxrEQcUTCu-wWQSlxMzM4tz3-e1b9ZILpYtdqFDyT9mz7pJ3UB57bP8LPQFbw" height="200" width="auto" /><br><br>Mueang Kao, Mueang Sukhothai District, Sukhothai 64210, Tailandia<br>www.traphangthong.org<br>+66 85 052 3797 // อำเภอเมืองสุโขทัย สุโขทัย ไทย<br>www.traphangthong.org]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/X3JiFV090iQniuAQqMfk-oYzx7R4ZdfTWEs4qcL9g7MAA6XeYkEY_J4nnkl7qpVVxZiMfmYSWkDUud7I6fb8_EejqylIfgxrEQcUTCu-wWQSlxMzM4tz3-e1b9ZILpYtdqFDyT9mz7pJ3UB57bP8LPQFbw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>99.70898579999994,17.0173147,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Prasri Mahadhat Worawihan, วัดพระศรีมหาธาตุ บางเขน</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Ri322ZjxFXN-hMkgkDSpExO8kHTmEKJxxTizNacGLCVQEj7fjdEZQXJf8ND0YNfrg4sRjMmtrPeaPO_qvCrcLGT8ufmBAJ4iLUKKM4LpWxFcqqgr9xahNJlEX5G0RuOmgfhNlg" height="200" width="auto" /><br><br>16/9, 16/9 หอวัง แขวง จตุจักร เขต จตุจักร กรุงเทพมหานคร 10900 ไทย]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/Ri322ZjxFXN-hMkgkDSpExO8kHTmEKJxxTizNacGLCVQEj7fjdEZQXJf8ND0YNfrg4sRjMmtrPeaPO_qvCrcLGT8ufmBAJ4iLUKKM4LpWxFcqqgr9xahNJlEX5G0RuOmgfhNlg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.59421950000001,13.8738431,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Samphran Dragon Temple</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/6cmI11RPYdGdY16lZp6MVVty_xQVJa4lEAH_8pNG3AsIYGjlhASCSOV-zM_6SCRSNKeuJgcggVd74T4BK5xATLeJB4gCPGijwxKGzhL7E2KIdSlvJeSAnW789u2YCee1iGvT2F40XiOxcQ" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/6cmI11RPYdGdY16lZp6MVVty_xQVJa4lEAH_8pNG3AsIYGjlhASCSOV-zM_6SCRSNKeuJgcggVd74T4BK5xATLeJB4gCPGijwxKGzhL7E2KIdSlvJeSAnW789u2YCee1iGvT2F40XiOxcQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.2161425,13.7365712,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Phra Kaew, Buda Esmeralda วัดพระศรีรัตนศาสดาราม</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Hde8kCVOoB24IKMbLidXEYY0Wp8UhVZED7cwitlaTCKhytvuAs8T3W32YK6ruEFtKY9K8fGGfgKOLreU8f7eyWNtib7NqZYt7mQOW1Au3xMk5f9Ucs0Ia2J0YWTodAc2VhrphT2Zks8M56U4" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/Hde8kCVOoB24IKMbLidXEYY0Wp8UhVZED7cwitlaTCKhytvuAs8T3W32YK6ruEFtKY9K8fGGfgKOLreU8f7eyWNtib7NqZYt7mQOW1Au3xMk5f9Ucs0Ia2J0YWTodAc2VhrphT2Zks8M56U4</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.492733,13.7517632,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Thammikarat, วัดธรรมิกราช</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/EyunBIFTWoLcuRhlFIE5Kyp33pN09hKDC3HhAGtzwyC6jqCc94uPwCh-iXnYOqGBm2grGffns-Bh7H5PLOpgWlu8EphoeDeK" height="200" width="auto" /><br><br>วัด ธรรมิก ราช, ตำบล ท่าวาสุกรี อำเภอ พระนครศรีอยุธยา พระนครศรีอยุธยา 13000, Tailandia<br>+66 35 328 555]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/EyunBIFTWoLcuRhlFIE5Kyp33pN09hKDC3HhAGtzwyC6jqCc94uPwCh-iXnYOqGBm2grGffns-Bh7H5PLOpgWlu8EphoeDeK</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.5616493,14.3595805,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Worrachettharam วัดวรเชษฐาราม</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/DKe9ROKXuC9HfxVjApcWebGn6Hnn3vEns-_FyBO7IIw8a8vOM2pn1ENZmGdIveVsM-g4IAW-BoFGh5RjxbeLqdI7-8o-A_gDY6KTBVpQm_0g0anu6lmsy5Eh7QZpGTeOYn7oF0iqSn3gl3FoZbcUYgJ0NS_FztZP9vaVDsvHo9Yucpxd7K07fBQFDhins92pGZz1NUZY-MrROqfOBezdJ1jJnUiMKC2KIVzsUPuIgq1bwstJfM-WZ2zaUdNU_KcvoYPEpRDM_OgKNH4U3_Rmxlj8nw" height="200" width="auto" /><br><br>Tha Wa Su Kri, Phra Nakhon Si Ayutthaya District, Phra Nakhon Si Ayutthaya 13000, Tailandia]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/DKe9ROKXuC9HfxVjApcWebGn6Hnn3vEns-_FyBO7IIw8a8vOM2pn1ENZmGdIveVsM-g4IAW-BoFGh5RjxbeLqdI7-8o-A_gDY6KTBVpQm_0g0anu6lmsy5Eh7QZpGTeOYn7oF0iqSn3gl3FoZbcUYgJ0NS_FztZP9vaVDsvHo9Yucpxd7K07fBQFDhins92pGZz1NUZY-MrROqfOBezdJ1jJnUiMKC2KIVzsUPuIgq1bwstJfM-WZ2zaUdNU_KcvoYPEpRDM_OgKNH4U3_Rmxlj8nw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.55329180000001,14.3570084,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Muang Mang, 
+วัดเมืองมาง</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/rIE8B8-9OuH4kGOffbv5neq3S_7n5X9wOPkIeBwld6Y4zuuH2ya69ZDslUyF7z2Mm3c8RHxcl14DyyGCbd4d" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/rIE8B8-9OuH4kGOffbv5neq3S_7n5X9wOPkIeBwld6Y4zuuH2ya69ZDslUyF7z2Mm3c8RHxcl14DyyGCbd4d</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.99154309999994,18.7803559,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chedlin, 
+วัดเจ็ดลิน</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/J_idOe-IWNiPkKh6W_dH24xClQDKRI2wzAk9BT1GhTSOcjVnYPnUvwNsw16BHzJbqtoxvfNBIBWB8clInQpfsbFiLPU_NfPFDwnaevER8S6BSTNYpQ" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/J_idOe-IWNiPkKh6W_dH24xClQDKRI2wzAk9BT1GhTSOcjVnYPnUvwNsw16BHzJbqtoxvfNBIBWB8clInQpfsbFiLPU_NfPFDwnaevER8S6BSTNYpQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98835170000007,18.7837351,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chang Taem, 
+วัดช่างแต้ม</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Dh6LnhEJTIadLnNbnDigIwW4ghDYQnc7NMlDME958PK26YAH8ytk2NartlpfLcFS8LRxNoe7Ml4LBuVEb5zSHvTupdwL4PQQABCbsDD5vyfWAisXVavHGyWyjaMmtRDRXSI84vGz0F2gkQ" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/Dh6LnhEJTIadLnNbnDigIwW4ghDYQnc7NMlDME958PK26YAH8ytk2NartlpfLcFS8LRxNoe7Ml4LBuVEb5zSHvTupdwL4PQQABCbsDD5vyfWAisXVavHGyWyjaMmtRDRXSI84vGz0F2gkQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98814019999998,18.7851301,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chedi Phutthakhaya เจดีย์พุทธคยา</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/G8hKXT9sF1yP2XiX3myh1UP9HV2U1g9ELgyzvF4cARUJbS8B6lM2vVuvjQtI5NLbHJebL1GKbIUdBziVkZDqqVoDTQHONqVXvR69ZaPqSA0TaakY3Y4GckNDVcpVX1oyN5g" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/G8hKXT9sF1yP2XiX3myh1UP9HV2U1g9ELgyzvF4cARUJbS8B6lM2vVuvjQtI5NLbHJebL1GKbIUdBziVkZDqqVoDTQHONqVXvR69ZaPqSA0TaakY3Y4GckNDVcpVX1oyN5g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.45055430000002,15.1278533,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Baan Rai, วัดบ้านไร่</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/GNA-8N8N-e11zcx4D8tS0eCJl0m8GE1iKVCVFJ25tggiqg789ffi8Xbe45EE7bP434wkgnkZNvDBENIZPgEd2WFouKDyuVW6P6yYd39IelqjUAzp9qIAKyOFF6qVcb7BMzQJy90l-ApVMn2EWoXU" height="200" width="auto" /><br><br>+66 90 426 4845]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/GNA-8N8N-e11zcx4D8tS0eCJl0m8GE1iKVCVFJ25tggiqg789ffi8Xbe45EE7bP434wkgnkZNvDBENIZPgEd2WFouKDyuVW6P6yYd39IelqjUAzp9qIAKyOFF6qVcb7BMzQJy90l-ApVMn2EWoXU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.73587339999995,15.3000313,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mon Bridge สะพานมอญ</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/489sfVh-insajf2cqfKMxqPmMnlCflrfg_egkW9tFdBZ5rzRTILpUsOFDAi06tM1n9W0M9CAFgWX5FmiF8-8ISUCGaP0rlCTiMYZu1M9E5dgNUlwqRieL4IUK_ZJYudstsyBuBIDPlEJoLiVcqdQBfc" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/489sfVh-insajf2cqfKMxqPmMnlCflrfg_egkW9tFdBZ5rzRTILpUsOFDAi06tM1n9W0M9CAFgWX5FmiF8-8ISUCGaP0rlCTiMYZu1M9E5dgNUlwqRieL4IUK_ZJYudstsyBuBIDPlEJoLiVcqdQBfc</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.44985629999996,15.1433427,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Victory Monument, Bangkok</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Ga9ofb6rZ0iSPFGZHZgnVJClO9SI_Vr8lSdvos4s3G5dZ_yNULP7_fHb15Ufnx4GrovwMlkS72btxBQud2Zuv1_oA2_XX4BFo1lIhGaco5u3cf_8YOfx0w" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/Ga9ofb6rZ0iSPFGZHZgnVJClO9SI_Vr8lSdvos4s3G5dZ_yNULP7_fHb15Ufnx4GrovwMlkS72btxBQud2Zuv1_oA2_XX4BFo1lIhGaco5u3cf_8YOfx0w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.53827109999997,13.7649221,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Giant Swing (columpio gigante) เสาชิงช้า</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/h7qUDchTmm4xUmC186iA5nBhkShLeQPVhlYmXho3PRi9J8L1d9cJ1twGuBxviJwm3g0wfRsm_LAmdyNT8gR3SFLrNrXWIPMgEGhbHK0DlJf8Eg8IXX7feT5AncZFhLt7162d4xN6GcYrp0jDdv76-5L5WHgviNpOAKzYln-laZC2qeA7JYb0hcHjsDWFIWE8tlVr-uxMWhYUMmYtW4smxnmvTrsDDJ4O5RmjUkKpgUf5mzAivDGeYuc82YLmw7Phjjw-0Swg-naBeaDLNJ6PldaBTchJtD4u8tQhczuRatPjop0-zEY" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/h7qUDchTmm4xUmC186iA5nBhkShLeQPVhlYmXho3PRi9J8L1d9cJ1twGuBxviJwm3g0wfRsm_LAmdyNT8gR3SFLrNrXWIPMgEGhbHK0DlJf8Eg8IXX7feT5AncZFhLt7162d4xN6GcYrp0jDdv76-5L5WHgviNpOAKzYln-laZC2qeA7JYb0hcHjsDWFIWE8tlVr-uxMWhYUMmYtW4smxnmvTrsDDJ4O5RmjUkKpgUf5mzAivDGeYuc82YLmw7Phjjw-0Swg-naBeaDLNJ6PldaBTchJtD4u8tQhczuRatPjop0-zEY</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.5011916,13.7518284,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Democracy Monument
+อนุสาวรีย์ประชาธิปไตย</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/n0ZfjK-1iV5tY0KNk4sqv_Dr_lMY5QjWsWqPNH9dke5LUWQ2dOTd_TiY8D9j28m1AKVULT-1f2cB8ZVvKlnyHa5qY3x2t47tVJLZdUPnDG1SpM0AlpnWm_k6KdePUkAzYp9E-xz08wtotA0yYtE_fzGukfU4uBWa1hWK1WVqGAVU3nvqzdTP6VqOAKY7JJ3QhHW5Qe3bS9E_0pqL6iAplmMhXdM" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/n0ZfjK-1iV5tY0KNk4sqv_Dr_lMY5QjWsWqPNH9dke5LUWQ2dOTd_TiY8D9j28m1AKVULT-1f2cB8ZVvKlnyHa5qY3x2t47tVJLZdUPnDG1SpM0AlpnWm_k6KdePUkAzYp9E-xz08wtotA0yYtE_fzGukfU4uBWa1hWK1WVqGAVU3nvqzdTP6VqOAKY7JJ3QhHW5Qe3bS9E_0pqL6iAplmMhXdM</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.5018568,13.7566743,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Mahan Pharam
+วัดมหรรณพาราม</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/M9UZKLiERBwSErTFt0MkKn6WE_mHagduYYq2GXlEdsEm_UMdWIV_77TtN2YFagVpR_u029BzvoeNL2TauU7p84EaR47F9iTC6uCwezHXXPV90SJ0hXHDEFO_O1nNH2zElCsLv1zuj0K64FN4sgYYouRKT0o0F1xcgM1c25yPMF9TsBW9yZnjVtOJx5WwBriY4vegTZHk8bbWsUuxJjWD4xx8PfBS" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/M9UZKLiERBwSErTFt0MkKn6WE_mHagduYYq2GXlEdsEm_UMdWIV_77TtN2YFagVpR_u029BzvoeNL2TauU7p84EaR47F9iTC6uCwezHXXPV90SJ0hXHDEFO_O1nNH2zElCsLv1zuj0K64FN4sgYYouRKT0o0F1xcgM1c25yPMF9TsBW9yZnjVtOJx5WwBriY4vegTZHk8bbWsUuxJjWD4xx8PfBS</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.4993248,13.7547255,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Ratchapradit Sathitmahasimaram
+วัดราชประดิษฐสถิตมหาสีมาราม (วัดราชประดิษฐฯ)</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/JWlGGUVgqzgMie1K7N5P9sia_CpTCt_Wg1mH5auwrmPsB3RXJaN0MAeFgCzrdkihWXCUUk7XSuhxaQDP3Tsiuuc2ITZDTAWH-_MqrxcfdhsErQ7sXDFQVmG6agM2UxbwCJVz_XFK8P1e1m2auqkt-0Rx9XKjwmAOJSSdMWVSQz3v56NYYj_c3TRXwhiHvgj2QCCQ8KW_2IQNCZqsaQ-4AhPy60vQ" height="200" width="auto" /><br><br>Saranrom Alley, Khwaeng Phra Borom Maha Ratchawang, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Tailandia<br><br>+66 2 622 1030]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/JWlGGUVgqzgMie1K7N5P9sia_CpTCt_Wg1mH5auwrmPsB3RXJaN0MAeFgCzrdkihWXCUUk7XSuhxaQDP3Tsiuuc2ITZDTAWH-_MqrxcfdhsErQ7sXDFQVmG6agM2UxbwCJVz_XFK8P1e1m2auqkt-0Rx9XKjwmAOJSSdMWVSQz3v56NYYj_c3TRXwhiHvgj2QCCQ8KW_2IQNCZqsaQ-4AhPy60vQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.49584010000001,13.7494593,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Templo Mangkon Kamalawat
+วัดมังกรกมลาวาส</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/-u-u7TqTWgqKlFUEwkcGCMSnZpayT50qRk4TpcfnupS9-2Jb-HUswlOORTEV_FekFFyx523IoBetX03xt9MZRpP5J0MbCo_b9sC9DyB_ca4cFAQ7fwkREJo3vTnc-hvUGfb9ztLg_NQgdkmSfReI8DTFsb2XhoCuIWCnlQBJ_bB5AFdPXV1B4HbpnOtZoQq6etEBy8CMnjUMFf5jKyjlx-nRl3k" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/-u-u7TqTWgqKlFUEwkcGCMSnZpayT50qRk4TpcfnupS9-2Jb-HUswlOORTEV_FekFFyx523IoBetX03xt9MZRpP5J0MbCo_b9sC9DyB_ca4cFAQ7fwkREJo3vTnc-hvUGfb9ztLg_NQgdkmSfReI8DTFsb2XhoCuIWCnlQBJ_bB5AFdPXV1B4HbpnOtZoQq6etEBy8CMnjUMFf5jKyjlx-nRl3k</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.50961239999992,13.7436867,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Phalapphla Chai
+วัดพลับพลาชัย</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/PaiA4ZDzcEYMf_8J2HcmhGTKyk-cIW79vNCjGxgDdXZ99J3vWXUaIEpnWlWZY6PwEntME3tJr91o0-8VIsfBA56l2stvZltbDJonBc8OaLkKVBv3dDjv8ZPUGxBqikl_QlKwrBa8zA3ikyi46NqPStJiqPQlgUd6leFdPc4JTRgMXX0prB8" height="200" width="auto" /><br><br>5 Maitri Chit Rd, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai, Krung Thep Maha Nakhon 10100, Tailandia<br>+66 2 222 6148]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/PaiA4ZDzcEYMf_8J2HcmhGTKyk-cIW79vNCjGxgDdXZ99J3vWXUaIEpnWlWZY6PwEntME3tJr91o0-8VIsfBA56l2stvZltbDJonBc8OaLkKVBv3dDjv8ZPUGxBqikl_QlKwrBa8zA3ikyi46NqPStJiqPQlgUd6leFdPc4JTRgMXX0prB8</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.51250140000002,13.7455706,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Dab Pai วัดดับภัย</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/Hlts8Xl26qE163ClRL0D7OaaUIbchIU93NQHt3pjvteWVhcwSYEGJtOTNKKxpZIms2Lwk_xNf70i4TkPDkAp1IpII93gJU5qWeKZm_-21botoIrl47nxhL4iqPmi9Fek" height="200" width="auto" /><br><br>Mueang Chiang Mai District, Chiang Mai 50200, Tailandia<br><br><img src="https://lh4.googleusercontent.com/BuGNs5gffbBzqYoLlhklygOKbREhrqn8ShkUhsYW9P-CZPJ2rUH_KB42qcrFM_qGhMLz2Vgl9DIF1s-9j6p_Je7u3XGQ1auQlMljBLWmlSpKqyNilRPFwBJ-sHmcR6_i_Q" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/Hlts8Xl26qE163ClRL0D7OaaUIbchIU93NQHt3pjvteWVhcwSYEGJtOTNKKxpZIms2Lwk_xNf70i4TkPDkAp1IpII93gJU5qWeKZm_-21botoIrl47nxhL4iqPmi9Fek https://lh4.googleusercontent.com/BuGNs5gffbBzqYoLlhklygOKbREhrqn8ShkUhsYW9P-CZPJ2rUH_KB42qcrFM_qGhMLz2Vgl9DIF1s-9j6p_Je7u3XGQ1auQlMljBLWmlSpKqyNilRPFwBJ-sHmcR6_i_Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98152879999998,18.7928168,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Saen Muang Ma Luang (Wat Hua Khuang) วัดแสนเมืองมาหลวง (วัดหัวข่วง)</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/7bhR42m3S0yKoC17JSCZ8oZ2OQgMKB4asqXTlMd-lY0fpL6FTBZF1vkvu7KQE81vWH_6ll6HkYehTEkBgY5J5CkVHnUn0hj-r2N8P-GJxt4oY4hyTZH3I4ZucGvKl8Ty" height="200" width="auto" /><br><br>Mueang Chiang Mai District, Chiang Mai 50200, ]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/7bhR42m3S0yKoC17JSCZ8oZ2OQgMKB4asqXTlMd-lY0fpL6FTBZF1vkvu7KQE81vWH_6ll6HkYehTEkBgY5J5CkVHnUn0hj-r2N8P-GJxt4oY4hyTZH3I4ZucGvKl8Ty</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98681439999996,18.7940112,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Chaimongkol วัดชัยมงคล</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/DdQv_UWMFs-JhEUe0R2XWwql3-gfF5FPBu-k3jGlxlBg2bnY08AzidfRTcYxuqvTdiHIOtH2yc-wJ5iCw6ZeR3PENyJUCLfxTUyziZwqXVQiB3oBkTac0rZP1aOpAsg" height="200" width="auto" /><br><br>5, ถนน เทศบาล 15 ตำบล ตลาดหลวง อำเภอเมืองอ่างทอง อ่างทอง 14000, Tailandia]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/DdQv_UWMFs-JhEUe0R2XWwql3-gfF5FPBu-k3jGlxlBg2bnY08AzidfRTcYxuqvTdiHIOtH2yc-wJ5iCw6ZeR3PENyJUCLfxTUyziZwqXVQiB3oBkTac0rZP1aOpAsg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.44618939999998,14.5834317,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Sanam Chai วัดสนามชัย</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/PH9iD9E7aoi3R_L17pkUyql-OljpIJq5wVHi-M8KLhhsti233ToRtNuBvoy01HhmSmZAcok1J4ck0eMbSnHZZQAVhwohaLgJw862-IsjK8gLm5PrZ4bLfx9Cgj0Q3LSP" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/PH9iD9E7aoi3R_L17pkUyql-OljpIJq5wVHi-M8KLhhsti233ToRtNuBvoy01HhmSmZAcok1J4ck0eMbSnHZZQAVhwohaLgJw862-IsjK8gLm5PrZ4bLfx9Cgj0Q3LSP</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.44915259999993,14.5873796,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Lo Sutthawat</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/e6HNl7TDZAuLXL0YcP_fW8ttHsi3YnU05wwUI2vC8a8W0F41HK5IuuG-4_Wg7nhDmu_MHy1m6ESFd2I-VVflhOOw18z9a9ZgQmTdfW5R1CGxCdGYsFvde_FCEe3sv2N_" height="200" width="auto" /><br><br>Sala Daeng, Mueang Ang Thong District, Ang Thong 14000, Tailandia<br>www.watlo.net]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/e6HNl7TDZAuLXL0YcP_fW8ttHsi3YnU05wwUI2vC8a8W0F41HK5IuuG-4_Wg7nhDmu_MHy1m6ESFd2I-VVflhOOw18z9a9ZgQmTdfW5R1CGxCdGYsFvde_FCEe3sv2N_</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.44708270000001,14.5896069,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Somdet วัดสมเด็จ</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/V628Qu59rc26PHNMqpQA_OmyObdq-EI7Ydfju2cNMgf2VPx_glBC70hXazKN1PrxI4Yr_TpxBqcbCVhBCWb5ugUlfFfZSwW1B09gAt6sXAD-ytjES-3JYziNjtgtS353gg" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1671-673AB7</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/V628Qu59rc26PHNMqpQA_OmyObdq-EI7Ydfju2cNMgf2VPx_glBC70hXazKN1PrxI4Yr_TpxBqcbCVhBCWb5ugUlfFfZSwW1B09gAt6sXAD-ytjES-3JYziNjtgtS353gg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.45259510000005,15.1597139,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wat Si Suwan วัดศรีสุวรรณ</name>
+			<styleUrl>#icon-1671-673AB7-nodesc</styleUrl>
+			<Point>
+				<coordinates>98.4537689,15.1469085,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mezquita Ton Son มัสยิดต้นสน</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/bLjRxZPTCnD_YVN9197qIUOqY0hARbNyql1g0Ko68glnRP9iWcGiNCwHRTSINw2sRvlulMYwSo0f65n3p82ekl30ouReolRZqIaD_5JxvbMF-wMD_VBl_-yLQLZmuZod_i8K8YLe" height="200" width="auto" /><br><br>Bangkok Yai, Bangkok, จังหวัด กรุงเทพมหานคร 10600, Tailandia<br>+66 2 466 5326]]></description>
+			<styleUrl>#icon-1673-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/bLjRxZPTCnD_YVN9197qIUOqY0hARbNyql1g0Ko68glnRP9iWcGiNCwHRTSINw2sRvlulMYwSo0f65n3p82ekl30ouReolRZqIaD_5JxvbMF-wMD_VBl_-yLQLZmuZod_i8K8YLe</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>100.4886775,13.740044,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mezquita Ban Tuk Din
+มัสยิดบ้านตึกดิน</name>
+			<styleUrl>#icon-1673-9C27B0-nodesc</styleUrl>
+			<Point>
+				<coordinates>100.5003226,13.7582479,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mezquita , มัสยิดฏิยาอุ้ลอิสลาม</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/XezDg_a_Fi22RnrEA1vNNqnRJwoC9fORM_QEE3cWU4XchdlKrPYV-DszQFQygri4HDVI3SKSfomvOE81gCV3_upRFxJSmD8aiCZZnKhj-1qytaTT0VP-fuWsjCFwDh2JzmtVyREG" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1673-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/XezDg_a_Fi22RnrEA1vNNqnRJwoC9fORM_QEE3cWU4XchdlKrPYV-DszQFQygri4HDVI3SKSfomvOE81gCV3_upRFxJSmD8aiCZZnKhj-1qytaTT0VP-fuWsjCFwDh2JzmtVyREG</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.44983730000001,15.1567176,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mesquita Kunnun มัศยิด ดูร์นูร์ ช้างเผือก(สุเหร่า อิสลาม) มัส ญี -คุน-นูร</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/t8spmhUSPO7ChpwnUztrA9P2D_-Y64EPj31OvwHeeXl7YdUtlJok1pIVtKrgCy4Eofj-KNCdewhhm3idUf9ZcWxSl_HiPU7K6i7-AcuUYCeIMl2ga9W9boiekGd7PVjD" height="200" width="auto" /><br><br>Mueang Chiang Mai District, Chiang Mai 50200, ]]></description>
+			<styleUrl>#icon-1673-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/t8spmhUSPO7ChpwnUztrA9P2D_-Y64EPj31OvwHeeXl7YdUtlJok1pIVtKrgCy4Eofj-KNCdewhhm3idUf9ZcWxSl_HiPU7K6i7-AcuUYCeIMl2ga9W9boiekGd7PVjD</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>98.98665069999993,18.796403,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mezquita Masjid Siratullah</name>
+			<description><![CDATA[Bang Kaeo, Mueang Ang Thong District, Ang Thong 14000, Tailandia]]></description>
+			<styleUrl>#icon-1673-9C27B0</styleUrl>
+			<Point>
+				<coordinates>100.45826499999998,14.5930385,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-1671-673AB7-normal'>
+			<IconStyle>
+				<color>ffB73A67</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1671-673AB7-highlight'>
+			<IconStyle>
+				<color>ffB73A67</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1671-673AB7'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1671-673AB7-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1671-673AB7-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1671-673AB7-nodesc-normal'>
+			<IconStyle>
+				<color>ffB73A67</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1671-673AB7-nodesc-highlight'>
+			<IconStyle>
+				<color>ffB73A67</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1671-673AB7-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1671-673AB7-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1671-673AB7-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1673-9C27B0-normal'>
+			<IconStyle>
+				<color>ffB0279C</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1673-9C27B0-highlight'>
+			<IconStyle>
+				<color>ffB0279C</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1673-9C27B0'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1673-9C27B0-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1673-9C27B0-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1673-9C27B0-nodesc-normal'>
+			<IconStyle>
+				<color>ffB0279C</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1673-9C27B0-nodesc-highlight'>
+			<IconStyle>
+				<color>ffB0279C</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1673-9C27B0-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1673-9C27B0-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1673-9C27B0-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

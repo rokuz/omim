@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Nicaragua</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Concepción</name>
+    <TimeStamp><when>2016-01-23T04:08:21Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.621333,11.537246</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Isla de Ometepe</name>
+    <TimeStamp><when>2016-01-23T04:08:28Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.577029,11.505072</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Maderas</name>
+    <TimeStamp><when>2016-01-23T04:08:35Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.510985,11.445298</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Moyogalpa</name>
+    <TimeStamp><when>2016-01-23T04:08:51Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.697937,11.540082</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Rivas</name>
+    <TimeStamp><when>2016-01-23T04:09:06Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.82874,11.438939</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Palí</name>
+    <TimeStamp><when>2016-01-23T04:09:25Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.829888,11.439007</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>San Jorge</name>
+    <TimeStamp><when>2016-01-23T04:10:15Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.803359,11.454836</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Puerto</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.790581,11.460164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel con Corazón</name>
+    <TimeStamp><when>2016-01-23T04:11:48Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.953536,11.933927</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>nuestro mundo</name>
+    <TimeStamp><when>2016-01-23T04:13:10Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.953727,11.929327</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Chico Tripa</name>
+    <TimeStamp><when>2016-01-23T04:17:38Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.952624,11.940193</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Estelí</name>
+    <TimeStamp><when>2016-01-23T04:21:06Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-86.354641,13.090081</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Somoto</name>
+    <TimeStamp><when>2016-01-23T04:21:32Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-86.582624,13.48371</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Charco Verde</name>
+    <TimeStamp><when>2016-01-23T04:23:24Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.635281,11.479329</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>El Zaguán</name>
+    <description>goed vleesrestaurant</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.952669,11.929752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Muelle de Granada</name>
+    <TimeStamp><when>2016-01-23T04:25:55Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.941104,11.930654</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cerro La Calera</name>
+    <TimeStamp><when>2016-01-23T04:26:44Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.396572,12.422808</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Estación biológica Mombacho</name>
+    <TimeStamp><when>2016-01-23T04:28:21Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.980232,11.834125</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Masaya</name>
+    <TimeStamp><when>2016-01-23T04:28:46Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-86.08826,11.976397</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Matagalpa</name>
+    <TimeStamp><when>2016-01-23T04:29:29Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.918417,12.92307</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Selva Negra</name>
+    <TimeStamp><when>2016-01-23T04:30:50Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.909727,12.998867</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>León</name>
+    <TimeStamp><when>2016-01-23T04:34:35Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-86.87735,12.434538</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cerro Negro</name>
+    <TimeStamp><when>2016-01-23T04:35:38Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-86.703288,12.507823</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Museo de la Revolución</name>
+    <TimeStamp><when>2016-01-23T04:36:51Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-88.163094,13.961779</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>PERKIN LENCA</name>
+    <TimeStamp><when>2016-01-23T04:37:06Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-88.156233,13.953696</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>El Tejado</name>
+    <TimeStamp><when>2016-01-23T04:37:52Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-89.022525,13.939241</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ferry Ometepe</name>
+    <TimeStamp><when>2016-01-24T15:11:47Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-85.70151,11.540458</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+</Document>
+</kml>

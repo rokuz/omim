@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>LA RUS.kml</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Untitled Placemark</name>
+    <description>Лос-А́нджелес (англ. Los Angeles, МФА (англ.): [lɒs ˈændʒələs], исп. Los Ángeles, МФА (исп.): [los ˈaŋxeles]; устар. Лос-Анжелос, Лос-Анжелес, Лос-Анхелес, также известен как L.A. и City of Angels — Город Ангелов) — город в США на юге штата Калифорния, находящийся на берегу Тихого океана. Крупнейший по численности населения в штате и второй — в стране (на 1 июля 2009 года — 3 831 868 жителей)[4]. Город является административным центром одноимённого округа, а также центром Большого Лос-Анджелеса — агломерации с населением выше 17 млн человек. Жителей Лос-Анджелеса называют «Angelenos» (произносится [анджели́нос])[5].</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-118.25361,34.033421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Untitled Placemark</name>
+    <description>Лос-Анджелес является одним из крупнейших мировых культурных, научных, экономических, образовательных центров[6][7]. Также город — один из крупнейших мировых центров индустрии развлечений в сфере кино, музыки, телевидения, компьютерных игр.</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-118.4047,33.937606</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Untitled Placemark</name>
+    <description>На прибрежных территориях, занимаемых сейчас Лос-Анджелесом, в XVI веке жили индейцы тонгва и чумаши. Первым европейцем, приставшим к берегу в районе нынешнего Лос-Анджелеса в 1542 году на двух кораблях «Сан Сальвадор» и «Ла Виктория» (водоизмещением 50 тонн каждое), стал мореплаватель Хуан Родригес Кабрильо (лоцманом и заместителем его был Бартоломео Феррело)[8]. Отплыв из Ла Навидад (Мексика) 27 июля 1542 года, Кабрильо высадился в бухте Сан Диего 28 сентября. В то время на берегу существовала индейская деревня Янг-На. Сам первооткрыватель умер 3 января 1543 года и похоронен на острове Сан-Мигель, названном впоследствии его именем «Хуан Родригес» (Juan Rodríguez). О своём плавании Родригес Кабрильо записал в журнале, который привёз его лоцман, и теперь он хранится в одном из архивов Севильи (Испания)[9]. Тест</description>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-118.23424,33.908459</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Vliegerplekken</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Vliegerplek Kennemerstrand</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>4.5564229,52.455922</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vliegerplek strand</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>4.5676416,52.468773</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vliegerplek</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>5.4204893,52.182981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vliegerplek Autostrand</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>4.0510598,51.909192</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>.?..???</name>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.6822089,52.336168</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>..</name>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.7264588,52.344496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <TimeStamp><when>2015-04-12T15:57:03Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.7384219,52.340839</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <TimeStamp><when>2015-04-12T16:02:22Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.7877631,52.180309</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <TimeStamp><when>2015-04-12T16:03:43Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.294257,52.153442</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Zwolle</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>6.0589013,52.521174</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gooimeer</name>
+    <TimeStamp><when>2015-04-12T16:11:04Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.2107597,52.309236</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>strand</name>
+    <TimeStamp><when>2015-04-12T16:15:47Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>3.9810888,51.925175</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>De Zandmotor</name>
+    <TimeStamp><when>2015-04-12T16:16:29Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>4.1842615,52.05203</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Strand Horst Zuid</name>
+    <TimeStamp><when>2015-04-12T16:20:05Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.5606511,52.312242</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <TimeStamp><when>2015-04-12T16:26:00Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.7962902,52.044318</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <TimeStamp><when>2015-04-13T09:14:20Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.8437016,52.397903</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <TimeStamp><when>2015-04-13T09:14:25Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.8434303,52.391186</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Nieuw Hulckesteijn</name>
+    <TimeStamp><when>2015-04-13T09:15:01Z</when></TimeStamp>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>5.463662,52.257401</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cascais</name>
+    <TimeStamp><when>2015-04-13T09:45:09Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-9.4234627,38.700262</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>6</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>landuse-meadow</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>5.4783915,52.265112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vliehors</name>
+    <TimeStamp><when>2015-04-15T06:43:59Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>4.9247525,53.247566</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>strand</name>
+    <TimeStamp><when>2015-04-15T06:44:37Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>4.8460943,53.182185</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Aekingerzand</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>6.292971,52.932199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>strand</name>
+    <TimeStamp><when>2015-04-15T06:51:13Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>3.7361709,51.735922</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Niet Zeker Of Het Deze Plek Is.  Grasland Waar Je Met De Auto Op Mag.  Biggyplek</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>5.1329896,51.186714</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Terschelling</name>
+    <TimeStamp><when>2015-04-15T07:26:03Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>5.1608226,53.355679</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Wijde Veld</name>
+    <TimeStamp><when>2015-04-15T07:34:08Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>5.740504,52.030667</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+</Document>
+</kml>

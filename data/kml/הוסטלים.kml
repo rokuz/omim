@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>הוסטלים</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Milhouse Avenue פיקטיבי</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-58.380097,-34.609466</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Patagonia Pais 2</name>
+    <description>חמוד ומיקום מצוין
+ב- onas 176
+קרוב ממש לסופר ולאגם</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-68.319166,-54.809453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Calafate Viejo</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-72.262155,-50.335417</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Glacial Marconi</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-72.88805,-49.331166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>הוסטל בסרו קסטיז'ו</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-72.163166,-46.121773</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>קבאניה ריו טרנקילו</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-72.674298,-46.625765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>הוסטל יולנדה</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-72.063599,-45.571406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <TimeStamp><when>2016-01-01T19:54:10Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-72.064261,-45.568935</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>הוסטל Adonay</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-72.559891,-44.325523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>הוסטל פוטלפו</name>
+    <TimeStamp><when>2016-01-06T03:04:46Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-71.868661,-43.186038</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Joy Hostel</name>
+    <TimeStamp><when>2016-01-06T03:05:35Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-71.535289,-41.966853</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>החווה האיטלקית</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-71.612362,-42.076405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>הוסטל Like Quijote</name>
+    <description>פח. לא לבוא.</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-71.313468,-41.140828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tiki Backpackers</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-71.972292,-39.27831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>הוסטל Mantara</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-71.313183,-41.139497</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hostel Gorilla</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-68.851885,-32.890658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>הוסטל סנדי</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-69.342245,-32.589556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hostel Aldea</name>
+    <description>מדורג 8.1 אלינור המליצה</description>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-64.189022,-31.410677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Milhouse Avenue</name>
+    <TimeStamp><when>2016-02-07T20:17:40Z</when></TimeStamp>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-58.383864,-34.609261</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>הוסטל ארגנטינו</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-58.5105,-33.009357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hostel Park Iguazú</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-54.567897,-25.598875</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>דירה בפלורה</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-48.425197,-27.575861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hostel Viuda</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-53.554874,-34.04637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hostel Sueno Profundo</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-53.779863,-34.402904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chill On The Beach Hostel</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-43.189221,-22.972692</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hostel Backpackers Ceara</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-38.519895,-3.724766</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bada Hostel</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-38.726051,-3.6285296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hostel</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-40.515667,-2.7987122</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MAPS.me Bug Report</name>
+	<Style id="placemark-red">
+		<IconStyle>
+			<Icon>
+				<href>http://mapswith.me/placemarks/placemark-red.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Example</name>
+		<description><![CDATA[<!-- REFERRAL -->
+<style>
+.referral {
+	width: 72px;
+	height: 72px;
+	float: left;
+	border-radius: 50px;
+	border: 10px solid #7f7f7f;
+	margin: 40px 40px 0 20px;
+}
+.focus {
+	display: none;
+     	font-family: Arial;
+	font-size: 72px;
+	color: #7f7f7f;
+	position: relative;
+	top: -16px;
+}
+.badge {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	border-top: 48px solid #f00001;
+	border-right: 48px solid transparent;
+}
+.info {
+	font-family: Arial;
+	color: black;
+     	font-size: 80px;
+	width: 80%;
+	float: left;
+}
+p {
+	font-size: 42px;
+	font-family: Arial;
+	color: #999;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #999 !important;
+	text-decoration: none !important;
+	font-weight: normal;
+}
+</style>
+<div class="badge"></div>
+<div class="referral">
+	<span class="focus">&#9733;</span>
+</div>
+<div class="info">
+	Referral
+	<p>Address</p>
+	<p>Phone number</p>
+</div>]]></description>
+		<TimeStamp><when>2016-04-08T14:46:11Z</when>
+</TimeStamp>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:scale>17</mwm:scale>
+		</ExtendedData>
+		<Point>
+			<coordinates>-76.779138,38.838824,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

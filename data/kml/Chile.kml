@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Chile</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Dropped Pin</name>
+    <styleUrl>#placemark-green</styleUrl>
+    <Point><coordinates>-70.754519,-33.366267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Supermercado A Cuenta</name>
+    <styleUrl>#placemark-orange</styleUrl>
+    <Point><coordinates>-70.987651,-34.588143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Al Maktoum International Airport</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>55.158769,24.895136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>(41.6384 0.887772)</name>
+    <TimeStamp><when>2015-12-06T12:52:02Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>0.887772,41.6384</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>(41.382561 2.177117)</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>2.177117,41.382561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>(41.38739 2.17503)</name>
+    <TimeStamp><when>2015-12-09T10:17:23Z</when></TimeStamp>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>2.17503,41.38739</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Bug With Subways</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>2.1756028,41.394921</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>(53.67139 9.90153)</name>
+    <TimeStamp><when>2015-12-08T21:29:05Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>9.90153,53.67139</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>9</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Соловецкий монастырь</name>
+    <TimeStamp><when>2015-12-08T16:38:30Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>35.710436,65.024969</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Санкт-Петербург</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>30.315363,59.939366</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jomtien</name>
+    <TimeStamp><when>2015-12-08T11:43:52Z</when></TimeStamp>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>100.86989,12.9009</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>9</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ho Chi Minh City</name>
+    <TimeStamp><when>2015-12-08T11:44:11Z</when></TimeStamp>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>106.70174,10.77583</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>9</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>(44.053029 -123.095475)</name>
+    <TimeStamp><when>2015-12-08T06:59:31Z</when></TimeStamp>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-123.09548,44.053029</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ашан</name>
+    <TimeStamp><when>2015-12-08T03:38:00Z</when></TimeStamp>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>37.48998,55.606273</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Volgograd</name>
+    <TimeStamp><when>2015-12-07T23:03:56Z</when></TimeStamp>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>44.244073,48.5424</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>8</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+</Document>
+</kml>

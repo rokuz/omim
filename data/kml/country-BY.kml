@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<atom:author>
+	<atom:name>Hitchwiki Maps</atom:name>
+</atom:author>
+<atom:link href="http://hitchwiki.org/maps" />
+
+<name>Hitchhiking places</name>
+
+<Style id="rating_0">
+<IconStyle>
+	<color>ffffffff</color>
+	<scale>0.5</scale>
+	<Icon>
+		<href>http://hitchwiki.org/maps/static/gfx/hh_place_0.png</href>
+	</Icon>
+</IconStyle>
+</Style>
+
+
+
+<Style id="rating_1">
+<IconStyle>
+	<color>ff00ad00</color>
+	<scale>0.5</scale>
+	<Icon>
+		<href>http://hitchwiki.org/maps/static/gfx/hh_place_1.png</href>
+	</Icon>
+</IconStyle>
+</Style>
+
+
+
+<Style id="rating_2">
+<IconStyle>
+	<color>ff96ad00</color>
+	<scale>0.5</scale>
+	<Icon>
+		<href>http://hitchwiki.org/maps/static/gfx/hh_place_2.png</href>
+	</Icon>
+</IconStyle>
+</Style>
+
+
+
+<Style id="rating_3">
+<IconStyle>
+	<color>ffffff00</color>
+	<scale>0.5</scale>
+	<Icon>
+		<href>http://hitchwiki.org/maps/static/gfx/hh_place_3.png</href>
+	</Icon>
+</IconStyle>
+</Style>
+
+
+
+<Style id="rating_4">
+<IconStyle>
+	<color>ffff8d00</color>
+	<scale>0.5</scale>
+	<Icon>
+		<href>http://hitchwiki.org/maps/static/gfx/hh_place_4.png</href>
+	</Icon>
+</IconStyle>
+</Style>
+
+
+
+<Style id="rating_5">
+<IconStyle>
+	<color>ffff0000</color>
+	<scale>0.5</scale>
+	<Icon>
+		<href>http://hitchwiki.org/maps/static/gfx/hh_place_5.png</href>
+	</Icon>
+</IconStyle>
+</Style>
+
+
+<Folder>
+<name>Hitchhiking places</name>
+<open>0</open>
+
+
+<Placemark id="5269">
+<name>a Hitchhiking spot in Minsk, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Grodno(Hrodna), Vilnius(LT):
+Take Metro (2nd line(red) 'Avtozavodskaya linija') to 'Kamennaya Horka', get off and go west towards M9 (~2km). Try to hh right after on-ramp from M9 to M6</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (12 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:8.3333333333333,75,8.3333333333333,8.3333333333333,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|1|9|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 40min (7 experiences)<br /><a href="http://hitchwiki.org/maps/?place=5269">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.4019622802734,53.9115558117403</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="5271">
+<name>a Hitchhiking spot in Minsk, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Babrujsk, Homiel, Mazyr, Kyiv (UA):
+Take Metro (2nd line (red)  'Aŭtazavodskaja linija') to 'Mahilioŭskaja' station, then take bus #512 to Sokal get off at the junction with M1. You can try hitching just after the junction or walk 1.5 km east towards junction of M4 (towards Mahilioŭ) and M5 (towards Homiel) roads.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (5 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:40,60,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|3|2|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 18min (3 experiences)<br /><span title="Thu, 05 Feb 15 00:46:47 +0100">Description written 5.2.2015</span><br /><a href="http://hitchwiki.org/maps/?place=5271">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.816841006279,53.7933252930825</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="3694">
+<name>a Hitchhiking spot in Minsk, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Mogilev:
+Take Metro (2nd line (red)  'Avtozavodskaya linija') to 'Mahileuskaya' station, then take a bus #512 to Sokal get off at the junction with M1. You can try hitching just after the junction or walk 1.5 km east towards junction of M4 (towards Mahileu) and M5 (towards Homel') roads.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,75,25,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|3|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=3694">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.8220176696777,53.7907775326974</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="3696">
+<name>a Hitchhiking spot in Minsk, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Borisov, Moscow(RU) (for night-time hh):
+take Metro (1st line(blue)) to 'Uruchcha' station, then get the bus #15, #99, #263 to '9-yj kilometr' station, get out and walk 0.5km NE along the road. The spot is right after junction</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=3696">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.753438949585,53.9701987915203</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="3698">
+<name>a Hitchhiking spot in Minsk, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Brest, Poland:</p>
+
+<p>take Metro to 'Malinaŭka' (Малінаўка) station (1st (blue) line), then either walk about 1 km or take bus #28 to 'Pavarot na Malinaŭku' (Паварот на малінаўку) stop</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (13 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:69.230769230769,30.769230769231,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|4|9|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 41min (6 experiences)<br /><span title="Mon, 16 Jun 14 15:37:29 +0200">Description written 16.6.2014</span><br /><a href="http://hitchwiki.org/maps/?place=3698">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.4646615982056,53.8394117458006</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="3699">
+<name>a Hitchhiking spot in Minsk, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Take Metro (2nd line 'Avtozavodskaya linija') to 'Kamennaya Horka', get off walk 50m (direction west) and hitch right from the bus stop.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (6 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,33.333333333333,66.666666666667,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|4|2|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><a href="http://hitchwiki.org/maps/?place=3699">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.4332046508789,53.9077006518242</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="3700">
+<name>a Hitchhiking spot in Smalyavichy, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>towards Moscow, Russia (day-time):
+take Metro (2nd line 'Avtozavodskaya linija') to 'Mahileuskaya', then take a bus #512 to 'Sokal' get off at the turn from M1 to 'Sokal'. Spot is right after this crossroad. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,100,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|3|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=3700">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.9062175750732,53.8614868985624</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="4768">
+<name>a Hitchhiking spot in Brest, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>I am not really sure this is the exact place, anyway, trolleybus n.5 and marshrutka n. 20 &amp; 29, drive you all the way to a place very close to the highway to Minsk/Gomel, just ask the driver or somebody else. To get a ride was really easy from here, in the morning. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:66.666666666667,33.333333333333,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|1|2|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 1h (1 experience)<br /><a href="http://hitchwiki.org/maps/?place=4768">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>23.8556098937988,52.1177851657757</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="4771">
+<name>a Hitchhiking spot in Kobryn, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>HH on this road is almost sensless: on my way to Dzitkovichi I got few short rides and I spent a long time waiting on the road. Nevertheless, the people who picked me up made it worth (and we nad no languages in common). Hitching here you will experience the countryside, its stillness and the carachter who populate it. Bring enough food and water!</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><a href="http://hitchwiki.org/maps/?place=4771">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>24.4365119934082,52.2192817236814</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="5737">
+<name>a Hitchhiking spot in Brest, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to POLAND</p>
+
+<p>From trolleybus last stop 'Ardžanikidze' near the Railway Station walk ~250m along 'Kamsamolskaja' street to the stop 'Kamsamolskaja'. From here take marshrutka #1 and get off when it turns left from E30 (stop 'Cafe'). Then walk 600m along the main road (E30) to the gates and ask drivers.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,100,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|4|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 15min (3 experiences)<br /><span title="Mon, 06 Oct 14 14:30:37 +0200">Description written 6.10.2014</span><br /><a href="http://hitchwiki.org/maps/?place=5737">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>23.6645025014877,52.0739241783955</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="7165">
+<name>a Hitchhiking spot in Гомель, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>30.904860734127,52.402761131845</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="7811">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Slow speed before bend in the road, but your waiting can be long.Better to walk several kilometers(4km) to the next fork</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Sun, 22 May 11 16:22:28 +0200">Description written 22.5.2011</span><br /><a href="http://hitchwiki.org/maps/?place=7811">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.482605933293,53.866634006293</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="8766">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Good place to get a car</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Mon, 21 Jul 14 22:33:53 +0200">Description written 21.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=8766">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>26.880849838269,54.296514255659</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="8767">
+<name>a Hitchhiking spot in Молодечно, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>normal postion near bus-stop direction LT </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,50,50,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|1|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Mon, 21 Jul 14 22:34:20 +0200">Description written 21.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=8767">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>26.821036577237,54.308577913027</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="8769">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>good road after repairs with illumination</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Mon, 03 Oct 11 01:03:26 +0200">Description written 3.10.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8769">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>26.825038433087,54.296376507971</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="8770">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>good road after repairs with illumination</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Mon, 03 Oct 11 01:04:21 +0200">Description written 3.10.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8770">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>26.823042869579,54.293953325577</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="8772">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>near a bus-stop</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Mon, 21 Jul 14 22:34:36 +0200">Description written 21.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=8772">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>26.814470529565,54.283444957471</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="8773">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Ukraine</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,100,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 32min (3 experiences)<br /><span title="Mon, 03 Oct 11 01:17:59 +0200">Description written 3.10.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8773">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>31.029830217376,52.356302866058</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="8774">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>alt.way to lt</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Unknown <b style="font-size: 15px; color: #ffffff;">&bull;</b> (0 votes)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Mon, 03 Oct 11 01:22:29 +0200">Description written 3.10.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8774">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.42361092569,53.948942103245</coordinates>
+</Point>
+<styleUrl>#rating_0</styleUrl>
+</Placemark>
+
+<Placemark id="8775">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>alt.way to LT</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Mon, 03 Oct 11 01:24:56 +0200">Description written 3.10.2011</span><br /><a href="http://hitchwiki.org/maps/?place=8775">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.425960540788,53.94823493105</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="8776">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>26.502915859241,54.062476806214</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="8778">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>24.322326660153,52.175992970255</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="8779">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>24.334761381146,52.179045674982</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="9423">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>30.229019165041,53.967059300596</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="9434">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>The spot is just after the road splits - one way to Hrodna, the other to Vilnius.  When going to Vilnius this is a pretty good spot, enough place to stop and not too much traffic - most of the trucks go to LT</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:25,50,25,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|2|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><span title="Sat, 03 Mar 12 16:24:17 +0100">Description written 3.3.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9434">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>26.755537033079,54.055373427432</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="9435">
+<name>a Hitchhiking spot in Ошмяны, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Right after, on, or next to the gas station is a GREAT spot when going to Lithuania. It's only 18 km to the border so every car is going there. The first car stopped. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:33.333333333333,33.333333333333,33.333333333333,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|1|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 27min (3 experiences)<br /><span title="Mon, 21 Jul 14 22:25:14 +0200">Description written 21.7.2014</span><br /><a href="http://hitchwiki.org/maps/?place=9435">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>25.916885375979,54.44475713879</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="9696">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Try walking some 10 km to the south, virtually nobody is willing to stop here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (5 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:40,40,0,0,20&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|1|0|0|2|2|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 13min (2 experiences)<br /><span title="Sun, 08 Apr 12 21:07:03 +0200">Description written 8.4.2012</span><br /><a href="http://hitchwiki.org/maps/?place=9696">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.963322162613,52.08221942837</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10247">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>A very good spot for going to St.Petersburg.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Fri, 15 Jun 12 12:14:36 +0200">Description written 15.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10247">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.351928710937,55.16251026582</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="10248">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>a good spot for going to Minsk. Cars go slow after the traffic lights.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Sun, 17 Jun 12 13:11:49 +0200">Description written 17.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10248">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.130249500275,55.153548872299</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="10261">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Cars go fairly slow but there are few of them here (the usual effect of a near-by border). Quite a good opportunity to stop a truck to St.Petersburg.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Sat, 16 Jun 12 05:52:47 +0200">Description written 16.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10261">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.02450609207,55.491622958058</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10262">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Vey few people stop, although cars go very slow after the post. I think it's better to walk some kilometers ahead or to accept a short ride to the nearest town of Nevel.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,100,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|2|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 2h (2 experiences)<br /><span title="Sat, 16 Jun 12 05:57:38 +0200">Description written 16.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10262">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>29.96476793289,55.856265815588</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="10269">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>24.139743328093,51.891505941095</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10270">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>24.138970851897,51.893068547413</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10271">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>24.313035488128,51.825071460958</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="10272">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>24.310589313506,51.827604474628</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="10273">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>24.285526752471,51.831224712845</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="10276">
+<name>a Hitchhiking spot in Барановичи, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.41038084031,53.063367052687</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10277">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.263910770426,53.075795642869</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10278">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>There is a very beautiful 15th century church in Synkavichy. It's built in the so called Belarusian gothic style.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Sat, 16 Jun 12 22:49:54 +0200">Description written 16.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10278">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>25.153146266942,53.114463761238</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10279">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Not enough place for a car to pull over but still quite a good place beacuse the traffic is not very fast here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Sun, 17 Jun 12 13:15:28 +0200">Description written 17.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10279">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>24.847159862533,53.146598448458</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10280">
+<name>a Hitchhiking spot in Лида, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.309079170236,53.879865251764</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10281">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.424736022953,54.039756534475</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10282">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Zhaludok. very few cars</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 2h (1 experience)<br /><span title="Sat, 16 Jun 12 23:01:18 +0200">Description written 16.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10282">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>25.303736209879,53.649339412399</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="10283">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.311718463911,53.634888709119</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10284">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Cars go quite fast but still it's better to hitch-hike here than just behind the encircling highway because drivers often ask for money there. You can get here by buses 113 and 113a (the bus stop 'Pavarot na Malinauku' - 'Turn to Malinauka')</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,33.333333333333,33.333333333333,33.333333333333,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|1|1|1|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 23min (3 experiences)<br /><span title="Sat, 16 Jun 12 23:09:02 +0200">Description written 16.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10284">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.657192230236,53.986813545448</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="10285">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>It's quite hilly here and there's virtually no place for a car to pull over. A bad spot.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><span title="Sun, 17 Jun 12 13:12:39 +0200">Description written 17.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10285">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.827802181259,54.212476276689</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="10286">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>A very good spot near the circle junction. High frequency of cars and trucks. Vehicles go slow and often stop. Excellent place to join Полоцк (Polotsk) or Лепель (Lepiel).</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:75,25,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|1|3|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 11min (4 experiences)<br /><span title="Thu, 25 Jun 15 22:14:14 +0200">Description written 25.6.2015</span><br /><a href="http://hitchwiki.org/maps/?place=10286">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>28.065027475375,54.729485533212</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="10287">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.736716985725,54.917580627081</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="10288">
+<name>a Hitchhiking spot in Лепель, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Drivers often drop you here. Go ahead a kilometre or so and then hitch-hike. The best variant is to get to the circle junction which is some 5 km further.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><span title="Fri, 25 Oct 13 11:15:46 +0200">Description written 25.10.2013</span><br /><a href="http://hitchwiki.org/maps/?place=10288">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>28.717383623149,54.873960252163</coordinates>
+</Point>
+<styleUrl>#rating_5</styleUrl>
+</Placemark>
+
+<Placemark id="10289">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.79660534862,54.960168196254</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="10290">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>29.531165838276,55.064541467213</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="10292">
+<name>a Hitchhiking spot in Бобруйск, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Too many locals come to hitch-hike here and all of them pay so the drivers here are used to getting money. Not a very good spot.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 1h 30min (1 experience)<br /><span title="Sun, 17 Jun 12 13:04:18 +0200">Description written 17.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10292">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>29.197144985198,53.179905075311</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="10293">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>M-8 Cars go quite fast but I've never waited too long here. Cars turning from M-1 go slow and it's usually them that pick up people. However, it depends)))</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 23min (2 experiences)<br /><span title="Sun, 17 Jun 12 13:08:34 +0200">Description written 17.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10293">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.440145015716,54.629346220014</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10294">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Too many trucks going too fast to pull over and too few cars. A usual situation before the border. One can wait here for hours(((</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 3h (1 experience)<br /><span title="Sun, 17 Jun 12 13:11:04 +0200">Description written 17.6.2012</span><br /><a href="http://hitchwiki.org/maps/?place=10294">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.454929351804,54.625358862631</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="10591">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.36096382141174,53.04700071139215</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="10599">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>23.86656570434535,53.616194674733215</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="10600">
+<name>a Hitchhiking spot in Grodno, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>For Minsk. </p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,100,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Fri, 07 Nov 14 00:02:46 +0100">Description written 7.11.2014</span><br /><a href="http://hitchwiki.org/maps/?place=10600">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>23.865364074706505,53.67002735161047</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10601">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>24.24224662780722,53.5747303146138</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="10602">
+<name>a Hitchhiking spot in Барановичи, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.368001937865795,53.04736189552637</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="10603">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>23.92982292175176,53.44232288382226</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="10604">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>26.68704795837285,54.90766376440112</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="10605">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>26.64825248718155,54.958751390627775</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="11854">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>A good place to go towards Brest as M1 highway (Warsaw-Moscow) and P1 (from Miensk) join here.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Wed, 10 Oct 12 00:52:24 +0200">Description written 10.10.2012</span><br /><a href="http://hitchwiki.org/maps/?place=11854">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.170367984473263,53.67282639440764</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="12082">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Gomel</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,0,33.333333333333,33.333333333333,33.333333333333&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|1|1|1|0|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 1h 45min (2 experiences)<br /><span title="Sun, 21 Oct 12 11:11:25 +0200">Description written 21.10.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12082">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>29.364704132081325,53.14143256655672</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="12083">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Gomel</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 30min (1 experience)<br /><span title="Sun, 21 Oct 12 11:13:30 +0200">Description written 21.10.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12083">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.343538761142096,53.524381353224186</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="12084">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Gomel</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Senseless <b style="font-size: 15px; color: #ff0000;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 1h 20min (1 experience)<br /><span title="Sun, 21 Oct 12 11:14:50 +0200">Description written 21.10.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12084">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.471469402314614,53.14194741180745</coordinates>
+</Point>
+<styleUrl>#rating_5</styleUrl>
+</Placemark>
+
+<Placemark id="12085">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>to Ukraine</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:33.333333333333,66.666666666667,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|2|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (4 experiences)<br /><span title="Sun, 21 Oct 12 11:17:46 +0200">Description written 21.10.2012</span><br /><a href="http://hitchwiki.org/maps/?place=12085">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>31.0303344726552,52.34379868252872</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="12455">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.043026924131023,53.59015206794455</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="12539">
+<name>a Hitchhiking spot in Grodno, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>23.841188192367333,53.6459100334345</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="12936">
+<name>a Hitchhiking spot in Brest, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>There is enough place for cars to stop near the bus stop.Not that many cars go towards Ukraine but still it's possible to get a ride.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Thu, 31 Jan 13 12:37:58 +0100">Description written 31.1.2013</span><br /><a href="http://hitchwiki.org/maps/?place=12936">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>23.729409742358616,52.05171764541473</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="17417">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Towards Homiel</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (4 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:25,50,25,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|2|1|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 13min (2 experiences)<br /><span title="Sun, 09 Feb 14 14:44:46 +0100">Description written 9.2.2014</span><br /><a href="http://hitchwiki.org/maps/?place=17417">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>29.351883172998345,53.10841166850769</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="17419">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>towards Homiel</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,33.333333333333,66.666666666667,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|2|1|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Sun, 09 Feb 14 14:51:37 +0100">Description written 9.2.2014</span><br /><a href="http://hitchwiki.org/maps/?place=17419">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.97143316269871,52.104894246891554</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="18129">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>23.83430044725421,53.6734276080869</coordinates>
+</Point>
+<styleUrl>#rating_0</styleUrl>
+</Placemark>
+
+<Placemark id="18451">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Once you've walked through the border pretty much everything coming through will be going your way.  A sign for Minsk had me picked up in minutes.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:100,0,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|0|2|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Mon, 19 May 14 00:21:36 +0200">Description written 19.5.2014</span><br /><a href="http://hitchwiki.org/maps/?place=18451">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>25.707372665403668,54.54206461307208</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="18984">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.398065567017,53.911281139812914</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="19295">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>26.852954864501882,54.49059827335195</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="19297">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.406637907028912,53.95262299343075</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="19298">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.305894136429142,53.99091527134651</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="20283">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.744040966033204,55.51093465396638</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="20284">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.64444255828936,53.965961130231484</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="20505">
+<name>a Hitchhiking spot in Brest, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Direction Kobryn, Baranavičy, MINSK
+Take trolleybus 1 or 5 to get here. You can stand right after the traffic lights or walk a bit further to the next spot. Plenty of space for cars to stop. You can use this spot at night as well.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Thu, 05 Feb 15 00:43:53 +0100">Description written 5.2.2015</span><br /><a href="http://hitchwiki.org/maps/?place=20505">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>23.811630249024166,52.10882491441489</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="20734">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>30.931114196777823,52.4784581031162</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="20806">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Good place to get to the Gomel</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 11 Nov 14 10:01:20 +0100">Description written 11.11.2014</span><br /><a href="http://hitchwiki.org/maps/?place=20806">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.834810853005788,52.3879177561848</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="21909">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>from Metro &quot;могилевская&quot;  bus 112.
+Direction to Mogilev, Gomel/</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Very good <b style="font-size: 15px; color: #00ad00;">&bull;</b> (1 vote)<br /><span title="Tue, 31 Mar 15 00:30:14 +0200">Description written 31.3.2015</span><br /><a href="http://hitchwiki.org/maps/?place=21909">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.763393163679154,53.81982066277769</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="22927">
+<name>a Hitchhiking spot in Lahoysk, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Nice spot to go to Лепель (lepiel) or Полоцк (Polotsk). The only issue is the low frequency of the cars entering the M3. But eventually I didn't have to wait more than 15 minutes. The driver dropped me to Бегомль (Begoml) from where I easily hitchhiked to Polatsk. I joined Lahoysk with a minibus from Minsk at bus stop ДС &quot;Славинского&quot; then walked 2 km from bus destination to the spot.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><span title="Thu, 25 Jun 15 20:14:07 +0200">Description written 25.6.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22927">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.823775053026083,54.207558709785076</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="22938">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Good vehicles frequency. Cars can stop here. Good spot to go to Полоцк (Polatsk).</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (2 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,100,0,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|0|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 18min (2 experiences)<br /><span title="Thu, 25 Jun 15 22:12:18 +0200">Description written 25.6.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22938">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>28.735985875130122,54.91793136810486</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="22939">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Good vehicles frequency and they don't arrive too fast. Also there is enough room for trucks to stop there.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Thu, 25 Jun 15 22:19:57 +0200">Description written 25.6.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22939">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>28.667605638504753,55.54186120828642</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="22940">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>I wanted to cross the border to Latvia, many cars did stop but none of them were going to Latvia. It took one hour to finally find a truck that was heading there. But once we reached the border I had to change there because there was a huge truck queue. Still it took me 5 hours to cross. If you really want to cross the border with hitchhiking, better go to the gas station that is 50 meters in front of this spot. Cars stop there before crossing the border. This is what a local advised me. For nonsense reasons I didn't listen. Note that drivers may be reluctant to take hitchhikers aboard because it might complicate border controls for them. Talk to them and explain that all your documents are in order for crossing. Also a local told me that cars aren't allowed to stop at this spot. Many did nonetheless.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Average <b style="font-size: 15px; color: #ffff00;">&bull;</b> (1 vote)<br /><span title="Thu, 25 Jun 15 22:40:33 +0200">Description written 25.6.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22940">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.95888555049884,55.75536131868801</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="22941">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>So a truck brought me to the border but there was a huge queue. It could have taken more than a day to cross with him. Note you can't just cross by foot. So I waited for a car to come since controls are faster for them. But there are very very few of them and they seem to be reluctant to pick up hitchhikers to the border due to possible control complications. So I had to cross with a truck ahead on the queue (them too were reluctant for the same reasons, but a border agent kindly helped me). It took about 4-5 hours to complete all border controls.
+So if you want to cross the border I rather advise you to go by bus or train. If you want to go by car, rather organize that in advance with contacts.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Bad <b style="font-size: 15px; color: #ff8d00;">&bull;</b> (1 vote)<br /><span title="Thu, 25 Jun 15 23:07:47 +0200">Description written 25.6.2015</span><br /><a href="http://hitchwiki.org/maps/?place=22941">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>27.630255937575722,55.82067964621622</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="23180">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.393859863280586,53.91055752970692</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="23181">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>You can get here by bus from Navapolatsk autostation to Dzisna. The bus stop is named &quot;Biazdziedavičy&quot; (&quot;Bezdedovichy&quot; at Russian).</p>
+
+<p>It is good place to hitch the car to Braslaw.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Fri, 17 Jul 15 12:50:23 +0200">Description written 17.7.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23181">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>28.503285884857878,55.4831581937208</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23182">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>29.20910918712711,53.01160449457276</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="23183">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>26.525054812430437,54.06427135064716</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23184">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>26.58960485458563,54.122111703138295</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23185">
+<name>a Hitchhiking spot in Ivacevichi, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.38679504394617,52.7096398216818</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23186">
+<name>a Hitchhiking spot in Brest, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>23.83625829219922,52.11367434690433</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="23187">
+<name>a Hitchhiking spot in Vitebsk, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>You can get here by tram from the railway station.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Fri, 17 Jul 15 13:07:24 +0200">Description written 17.7.2015</span><br /><a href="http://hitchwiki.org/maps/?place=23187">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>30.13934218883494,55.19349490736691</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23190">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.063816666602474,54.72896666827615</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="23191">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.11391234397949,55.61808246044028</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="23192">
+<name>a Hitchhiking spot in Molodechno, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>26.870818376541024,54.33075529687411</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23193">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.713141918183027,55.5413110364791</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="23194">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.11212062836072,53.95681489801865</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23195">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>29.407083034516457,52.786429497752735</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23196">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.949873685836426,54.30037100381778</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="23277">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.766657352447748,55.453641916736984</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="23278">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.73552763462216,54.91624710078095</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23279">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>28.75624501705076,55.199113365935624</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="23286">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.645654916763668,53.96817006417114</coordinates>
+</Point>
+<styleUrl>#rating_3</styleUrl>
+</Placemark>
+
+<Placemark id="23322">
+<name>a Hitchhiking spot in Докшицы, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.736732006076263,54.89173029516455</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="23323">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.680995702745644,55.616573829004544</coordinates>
+</Point>
+<styleUrl>#rating_1</styleUrl>
+</Placemark>
+
+<Placemark id="23838">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.376564979551347,53.94918203394591</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="24119">
+<name>a Hitchhiking spot in Lida, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Not bad spot, but many cars goes to Ditva and other villages. at the bus station you can get bus 11  to the turning to hospital in Ostrovliya.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (3 votes)<br />Vote distribution:<br /><img src="http://chart.apis.google.com/chart?cht=bhs&chf=bg,s,faf9f3&chs=220x55&chd=t:0,66.666666666667,33.333333333333,0,0&chxt=y,r&chxl=1:|Senseless|Bad|Average|Good|Very good|0:|0|0|1|2|0|&chxs=1,ad8c55,10,-1,t,ad8c55|0,ad8c55,10&chco=00ad00|96ad00|ffff00|ff8d00|ff0000&chbh=6,3" alt="Vote distribution" /><br /><b title="Average">Waiting time:</b> 20min (1 experience)<br /><span title="Thu, 17 Sep 15 10:11:20 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24119">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>25.228008270265306,53.86261652520039</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="24120">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.351776123048637,53.83259025157126</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="24121">
+<name>a Hitchhiking spot in Lida, Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Good place at the descent from the bridge, opposite gas station. A lot of cars go to Minsk</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 15min (1 experience)<br /><span title="Thu, 17 Sep 15 10:13:01 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24121">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>25.364189386370683,53.82929136547879</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="24122">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<description><![CDATA[<p>Place of hitch-hiking start from Lida to Minsk. Often you are given a lift to the road junction.</p>
+ 
+<div style="border-top: 1px solid #ccc; margin: 5px 0 0 0; padding: 5px 0 0 0;"><small><b>Hitchability:</b> Good <b style="font-size: 15px; color: #96ad00;">&bull;</b> (1 vote)<br /><b title="Average">Waiting time:</b> 10min (1 experience)<br /><span title="Thu, 17 Sep 15 10:14:48 +0200">Description written 17.9.2015</span><br /><a href="http://hitchwiki.org/maps/?place=24122">Place in Hitchwiki Maps</a><br /></small></div>
+]]></description>
+<Point>
+	<coordinates>25.331477165221834,53.858959332863</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="25246">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>26.58636474609088,53.44534703823908</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="25247">
+<name>a Hitchhiking spot in Minsk, Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>27.718686103818133,53.84163078019522</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+<Placemark id="25248">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>29.07815837859978,53.21338662489956</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="25444">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>25.979858162901607,53.15923784499304</coordinates>
+</Point>
+<styleUrl>#rating_4</styleUrl>
+</Placemark>
+
+<Placemark id="25521">
+<name>a Hitchhiking spot in Belarus</name>
+<visibility>1</visibility>
+<Point>
+	<coordinates>31.018232345583048,52.285609067480806</coordinates>
+</Point>
+<styleUrl>#rating_2</styleUrl>
+</Placemark>
+
+
+</Folder>
+
+</Document>
+</kml>

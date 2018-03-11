@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Regal Princess - 25 Night Regal, Scandinavia &amp; Russia Grand Adventure ex Ft Lauderdale to Copenhagen</name>
+	<open>1</open>
+	<description>Copyright 2013 Clean Cruising - All rights reserved.</description>
+	<ExtendedData>
+		<shipid>PRIREG</shipid><shipname>Regal Princess</shipname><totaldays>25</totaldays>
+	</ExtendedData>
+	<gx:balloonVisibility>1</gx:balloonVisibility>
+	<Style id="pathStyle">
+		<LineStyle>
+			<color>ffbe7800</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<ScreenOverlay>
+		<Icon>
+			<href>http://www.cleancruising.com.au/images/logo.png</href>
+		</Icon>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+	<Placemark>
+		<name>PATH</name>
+		<LookAt>
+			<longitude>-24.9037556407315</longitude>
+			<latitude>43.1412305734503</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>230000</range>
+		</LookAt>
+		<styleUrl>#pathStyle</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-80.11551128146304,26.09346114690055,0 -80.10139442409344,26.09351810689657,0 -80.095,26.094,0 -80.095,26.094,0 -79.298,27.534,0 -25.771,37.703,0 -25.65,37.727,0 -25.648,37.733,0 -25.651,37.736,0 -25.651,37.736,0 -25.65609562024987,37.73744882129542,0 -25.65637727250794,37.73747108988573,0 -25.65668708946718,37.73747108346602,0 -25.65689832719885,37.73743766805961,0 -25.6689510124732,37.73551454862071,0 -25.6689510124732,37.73551454862071,0 -25.65689832719885,37.73743766805961,0 -25.65668708946718,37.73747108346602,0 -25.65637727250794,37.73747108988573,0 -25.65609562024987,37.73744882129542,0 -25.651,37.736,0 -25.651,37.736,0 -25.487,37.684,0 -25.137,37.729,0 -5.456,48.83400000000001,0 -2.389,49.816,0 -1.652,49.794,0 -1.586,49.69,0 -1.586,49.69,0 -1.591563865089072,49.67110636374377,0 -1.592060773504528,49.67030274851486,0 -1.592706634266364,49.66969202306407,0 -1.593650522750238,49.6689527368281,0 -1.614643748229369,49.65584462813448,0 -1.614925877927164,49.65563122351238,0 -1.615231452272184,49.65531124861699,0 -1.61548993282041,49.65491516408915,0 -1.615607338743018,49.65456483392772,0 -1.615557519525425,49.64508187993576,0 -1.615528649556779,49.6448494860436,0 -1.615528649556779,49.6448494860436,0 -1.615557519525425,49.64508187993576,0 -1.615607338743018,49.65456483392772,0 -1.61548993282041,49.65491516408915,0 -1.615231452272184,49.65531124861699,0 -1.614925877927164,49.65563122351238,0 -1.614643748229369,49.65584462813448,0 -1.593650522750238,49.6689527368281,0 -1.592706634266364,49.66969202306407,0 -1.592060773504528,49.67030274851486,0 -1.591563865089072,49.67110636374377,0 -1.586,49.69,0 -1.586,49.69,0 -1.418,49.783,0 0.343,50.577,0 1.097,50.853,0 1.62,51.087,0 3.042,51.405,0 3.188,51.37,0 3.188,51.37,0 3.205532953846884,51.34795177571672,0 3.205601203653571,51.34773656054203,0 3.205612114570441,51.34747830863733,0 3.205542554035091,51.34724883981129,0 3.205392344716515,51.34707928068075,0 3.193940362996646,51.33399849515606,0 3.193839902249605,51.33374104577013,0 3.193839902249605,51.33374104577013,0 3.193940362996646,51.33399849515606,0 3.205392344716515,51.34707928068075,0 3.205542554035091,51.34724883981129,0 3.205612114570441,51.34747830863733,0 3.205601203653571,51.34773656054203,0 3.205532953846884,51.34795177571672,0 3.188,51.37,0 3.188,51.37,0 3.223,51.46500000000001,0 3.331,51.566,0 3.936,51.98599999999999,0 4.031,51.998,0 4.129,51.972,0 4.168,51.952,0 4.222,51.92999999999999,0 4.234,51.918,0 4.289,51.898,0 4.328,51.894,0 4.349,51.897,0 4.364,51.9,0 4.393,51.896,0 4.418,51.902,0 4.437,51.902,0 4.457,51.899,0 4.469,51.9,0 4.4688,51.9002,0 4.475425112498563,51.9018789970216,0 4.485063101852549,51.90585481904823,0 4.486007414423467,51.90627036609299,0 4.486007414423467,51.90627036609299,0 4.485063101852549,51.90585481904823,0 4.475425112498563,51.9018789970216,0 4.4688,51.9002,0 4.469,51.9,0 4.457,51.899,0 4.437,51.902,0 4.418,51.902,0 4.393,51.896,0 4.364,51.9,0 4.349,51.897,0 4.328,51.894,0 4.289,51.898,0 4.234,51.918,0 4.222,51.92999999999999,0 4.168,51.952,0 4.129,51.972,0 4.031,51.998,0 4.015,52.05799999999999,0 4.493,53.10100000000001,0 4.734,53.39999999999999,0 8.199999999999999,57.319,0 9.779,57.833,0 10.653,57.80199999999999,0 10.73,57.76400000000001,0 11.418,57.45300000000001,0 11.86,56.761,0 12.07,56.328,0 12.34,56.198,0 12.648,56.046,0 12.641,55.91500000000001,0 12.68,55.73399999999999,0 12.664,55.72599999999999,0 12.66399993946895,55.72600007561991,0 12.6449596546463,55.72183103735092,0 12.62385092200195,55.71165113761719,0 12.61663846300664,55.7078547495242,0 12.6163987369723,55.70776940663392,0 12.61607066526955,55.70772671050286,0 12.61574257823973,55.70772667108466,0 12.61530090872141,55.7077621646507,0 12.59841672671072,55.71095267841842,0 12.59841672671072,55.71095267841842,0 12.61530090872141,55.7077621646507,0 12.61574257823973,55.70772667108466,0 12.61607066526955,55.70772671050286,0 12.6163987369723,55.70776940663392,0 12.61663846300664,55.7078547495242,0 12.62385092200195,55.71165113761719,0 12.6449596546463,55.72183103735092,0 12.66399993946895,55.72600007561991,0 12.664,55.72599999999999,0 12.68,55.73399999999999,0 12.641,55.91500000000001,0 12.648,56.046,0 12.34,56.198,0 12.07,56.328,0 11.86,56.761,0 11.418,57.45300000000001,0 10.879,58.36800000000001,0 10.642,59.03400000000001,0 10.631,59.182,0 10.63069125288668,59.18275911088733,0 10.58135570413192,59.29368273766628,0 10.58382741195199,59.37786792238615,0 10.55503519264417,59.39661697833242,0 10.5282491017027,59.44708929093148,0 10.61658283857418,59.55075505451909,0 10.62907455722677,59.57146215976206,0 10.61419617502807,59.65756393841786,0 10.60708504245586,59.66615539900138,0 10.58081339397377,59.67194978584052,0 10.55891110608833,59.68104634005288,0 10.54068603873489,59.7110805749072,0 10.53630835708785,59.73971150120299,0 10.52192482951838,59.77871289136525,0 10.53308237892217,59.81154548069943,0 10.54663905972539,59.82886478843317,0 10.58065695092763,59.843724473361,0 10.62716826106009,59.87302968918284,0 10.70426458553658,59.89957810308967,0 10.7047326494847,59.8998900352026,0 10.70499322485179,59.900228161372,0 10.70623937711855,59.90511661896607,0 10.70634796052892,59.90526643051886,0 10.70831310906262,59.90866891522718,0 10.70831310906262,59.90866891522718,0 10.70634796052892,59.90526643051886,0 10.70623937711855,59.90511661896607,0 10.70499322485179,59.900228161372,0 10.7047326494847,59.8998900352026,0 10.70426458553658,59.89957810308967,0 10.62716826106009,59.87302968918284,0 10.58065695092763,59.843724473361,0 10.54663905972539,59.82886478843317,0 10.53308237892217,59.81154548069943,0 10.52192482951838,59.77871289136525,0 10.53630835708785,59.73971150120299,0 10.54068603873489,59.7110805749072,0 10.55891110608833,59.68104634005288,0 10.58081339397377,59.67194978584052,0 10.60708504245586,59.66615539900138,0 10.61419617502807,59.65756393841786,0 10.62907455722677,59.57146215976206,0 10.61658283857418,59.55075505451909,0 10.5282491017027,59.44708929093148,0 10.55503519264417,59.39661697833242,0 10.58382741195199,59.37786792238615,0 10.58135570413192,59.29368273766628,0 10.63069125288668,59.18275911088733,0 10.631,59.182,0 10.642,59.03400000000001,0 10.879,58.36800000000001,0 11.418,57.45300000000001,0 11.86,56.761,0 12.07,56.328,0 12.34,56.198,0 12.648,56.046,0 12.641,55.91500000000001,0 12.68,55.73399999999999,0 12.682,55.72299999999999,0 12.708,55.60399999999999,0 12.71,55.53199999999999,0 12.654,55.33,0 12.663,54.931,0 12.297,54.597,0 12.152,54.421,0 12.072,54.234,0 12.089,54.187,0 12.089,54.187,0 12.09252423012221,54.1785349015047,0 12.09252423012221,54.1785349015047,0 12.089,54.187,0 12.089,54.187,0 12.072,54.234,0 12.152,54.421,0 12.297,54.597,0 12.693,54.727,0 14.087,55.048,0 14.782,55.48199999999999,0 16.818,56.168,0 18.561,56.794,0 21.72,59.176,0 23.099,59.488,0 24.554,59.497,0 24.713,59.509,0 24.749,59.483,0 24.749,59.483,0 24.76112557338232,59.46186513074002,0 24.76201097158628,59.46059644448823,0 24.76329860306673,59.45179119042548,0 24.76368641494606,59.45015853295819,0 24.76368641494606,59.45015853295819,0 24.76329860306673,59.45179119042548,0 24.76201097158628,59.46059644448823,0 24.76112557338232,59.46186513074002,0 24.749,59.483,0 24.749,59.483,0 24.646,59.662,0 25.077,59.807,0 25.612,59.883,0 26.617,60.002,0 27.047,59.972,0 27.741,60.18899999999999,0 28.285,60.13200000000001,0 28.468,60.06,0 29.228,60.036,0 29.697,59.983,0 29.974,59.932,0 30.214,59.92,0 30.231,59.918,0 30.254,59.917,0 30.262,59.918,0 30.267,59.92,0 30.272,59.928,0 30.277,59.932,0 30.283,59.933,0 30.289,59.935,0 30.308,59.941,0 30.299,59.938,0 30.299,59.938,0 30.308,59.941,0 30.289,59.935,0 30.283,59.933,0 30.277,59.932,0 30.272,59.928,0 30.267,59.92,0 30.262,59.918,0 30.254,59.917,0 30.231,59.918,0 30.214,59.92,0 29.974,59.932,0 29.697,59.983,0 29.228,60.036,0 28.468,60.06,0 28.285,60.13200000000001,0 27.741,60.18899999999999,0 27.047,59.972,0 26.617,60.002,0 25.612,59.883,0 24.948,60.00299999999999,0 24.891,60.056,0 24.905,60.11,0 24.902,60.138,0 24.965,60.141,0 24.96554876092807,60.14513030822567,0 24.9686875720154,60.14883043564112,0 24.96911331707687,60.15191494691008,0 24.96908129489694,60.151994661822,0 24.96902524885324,60.15208234889014,0 24.96281146109116,60.1585644830522,0 24.96230815730803,60.15910958315136,0 24.96230815730803,60.15910958315136,0 24.96281146109116,60.1585644830522,0 24.96902524885324,60.15208234889014,0 24.96908129489694,60.151994661822,0 24.96911331707687,60.15191494691008,0 24.9686875720154,60.14883043564112,0 24.96554876092807,60.14513030822567,0 24.965,60.141,0 24.902,60.138,0 24.905,60.11,0 24.891,60.056,0 24.948,60.00299999999999,0 24.928,59.934,0 24.607,59.75999999999999,0 22.541,59.487,0 21.72,59.176,0 18.265,58.828,0 18.097,58.825,0 18.09694996327487,58.82510160435169,0 17.99206355031635,58.9144265399662,0 17.99154855337174,58.9146595028046,0 17.98324121063379,58.91635803167016,0 17.98233937473441,58.91632501128931,0 17.97202497213018,58.91383976779031,0 17.97129507943433,58.91349453112941,0 17.95991796707392,58.90372321784447,0 17.95991796707392,58.90372321784447,0 17.97129507943433,58.91349453112941,0 17.97202497213018,58.91383976779031,0 17.98233937473441,58.91632501128931,0 17.98324121063379,58.91635803167016,0 17.99154855337174,58.9146595028046,0 17.99206355031635,58.9144265399662,0 18.09694996327487,58.82510160435169,0 18.097,58.825,0 18.156,58.563,0 17.929,57.651,0 16.818,56.168,0 14.782,55.48199999999999,0 14.092,55.161,0 12.725,55.284,0 12.654,55.33,0 12.71,55.53199999999999,0 12.708,55.60399999999999,0 12.682,55.72299999999999,0 12.664,55.72599999999999,0 12.66399993946895,55.72600007561991,0 12.6449596546463,55.72183103735092,0 12.62385092200195,55.71165113761719,0 12.61663846300664,55.7078547495242,0 12.6163987369723,55.70776940663392,0 12.61607066526955,55.70772671050286,0 12.61574257823973,55.70772667108466,0 12.61530090872141,55.7077621646507,0 12.59841672671072,55.71095267841842,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Fort Lauderdale, USA</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/USFLL.jpg' height='240' width='320' border='0'></td></tr><tr><td>Fort Lauderdale is a city on the Atlantic coast of the U.S. in the state of Florida. As well as being a major yachting centre, it has a large and intricate canal system that results in its also being known as the Venice of America. While once being home to a series of forts, today there are three forts named Fort Lauderdale. The city is considered a perfect holiday destination mainly for its stunning beaches and palm-lined shorelines.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>-80.115511281463</longitude>
+			<latitude>26.0934611469006</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>US</region><day>1</day><date>17042016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-80.115511281463,26.0934611469006,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ponta Delgada, Portugal</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/PTPDL.jpg' height='240' width='320' border='0'></td></tr><tr><td>The largest place in the Portuguese Azores Islands and capital of the island São Miguel, Ponta Delgada is a town built on gently rising ground between green hills, and with its many churches, its trim white houses and the lush gardens on its outskirts presents an attractive spectacle to visitors arriving by sea. Boasting many impressive churches and convents, visitors are constantly reminded of its wealthy and illustrious past, when the port was a crucial staging post between Europe and the New World during the15th and 16th centuries.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>-25.6689510124732</longitude>
+			<latitude>37.7355145486207</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx8.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>PT</region><day>8</day><date>24042016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-25.6689510124732,37.7355145486207,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cherbourg, France</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/FRCER.jpg' height='240' width='320' border='0'></td></tr><tr><td>Cherbourg, a coast town of Normandy France, is on the English Channel. Of special note is that Cherbourg was the first stop of the Titanic after leaving England. Also of note are the massive man-made sea walls and the ever-busy piers. While many passengers visit the Normandy beaches, the Saire Valley, Cap de la Hague, or Mont Saint Michel from Cherbourg, a 15 minute walk or short ride in a shuttle bus takes visitors to the township that is best known for its aquarium, parks and museums. It truly offers everything you could want from a seaside town in France.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>-1.61552864955678</longitude>
+			<latitude>49.6448494860436</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx11.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>FR</region><day>11</day><date>27042016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-1.61552864955678,49.6448494860436,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Zeebrugge, Belgium</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/BEOST.jpg' height='240' width='320' border='0'></td></tr><tr><td>The port city of Zeebrugge is a harbour town at the western end of the Belgian coast and a subdivision of the city of Bruges - one of the best preserved cities in Europe - for which it is the modern port. The new port has reinvigorated the city as an art and tourist centre for northern Europe.Upon visiting Bruges you will immediately notice that this city has always carefully cherished its architectural and artistic treasures from the past, but what makes Bruges so unique though, is the way it deals with this past today.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>3.1938399022496</longitude>
+			<latitude>51.3337410457701</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx12.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>BE</region><day>12</day><date>28042016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>3.1938399022496,51.3337410457701,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rotterdam, Netherlands</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/NLRTM.jpg' height='240' width='320' border='0'></td></tr><tr><td>Rotterdam - located at the Rhine-Meuse-Scheldt delta on the North Sea - is the largest port in Europe, and a perfect starting point for excursions to the cities of Holland. Few cities rebounded as quickly as Rotterdam following the Nazi invasion, which levelled the medieval heart of town, burning most of it to the ground. Today some of Europe's most bold contemporary architecture, such as the unique Cube Houses, can be found amid classic 18th and 19th C buildings in this, the greatest comeback city in the world. The city also houses the 186 m tall Euromast that has long been a major tourist attraction.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>4.48600741442347</longitude>
+			<latitude>51.906270366093</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx13.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>NL</region><day>13</day><date>29042016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>4.48600741442347,51.90627036609299,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Copenhagen, Denmark</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/DKCPH.jpg' height='240' width='320' border='0'></td></tr><tr><td>Copenhagen, situated on two islands is the capital and largest city in Denmark. It is perhaps best known for being the final resting place of the famous author, Hans Christian Andersen and, being one of the worlds most environmentally friendly cities, has also been recognised as having a very high quality of life. With many colourful buildings dating back to the early 18th century, medieval cobbled streets and canals just a stone's throw away from ultra-modern waterfront architecture, and a street plan that dates back to the Middle Ages, it captures the imagination of all visitors.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>12.5984167267107</longitude>
+			<latitude>55.7109526784184</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx15.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>DK</region><day>15</day><date>01052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>12.5984167267107,55.7109526784184,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Oslo, Norway</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/NOOSL.jpg' height='240' width='320' border='0'></td></tr><tr><td>Oslo, the capital and most populous city in Norway, lies between the Oslo Fjord and the green hills of Oslomarka. The combination of city life and easy access to outdoor activities makes Oslo a unique destination. Oslo is built in a horseshoe shape on the shores of the Oslofjord and limited in most directions by hills and forests and subsequently there are a number of delightful recreation areas, with the Toyen area including the Botanical Gardens and a museum. Amazingly, the immigrant share of the population in the city proper, now counts more than 25% of the city's total!<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>10.7083131090626</longitude>
+			<latitude>59.9086689152272</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx16.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>NO</region><day>16</day><date>02052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>10.7083131090626,59.9086689152272,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Berlin (Warnemunde), Germany</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/DEBER.jpg' height='240' width='320' border='0'></td></tr><tr><td>Passengers on ships visiting Berlin typically dock at the north eastern port of Warnemunde and go directly to the capital of Germany that is just a three hour train ride away. Berlin, completely devastated in WW11, has amazingly seen the reconstruction of its sixteenth-century core that exists in the Nikolaiviertel, while nearby stand many rebuilt nineteenth-century buildings from the time of the Second Reich. Little from the Third Reich has been rebuilt, except for the 1936 Olympic Stadium. Today the city is a mix of beautiful historical buildings and some truly amazing modern architecture.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>12.0925242301222</longitude>
+			<latitude>54.1785349015047</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx18.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>DE</region><day>18</day><date>04052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>12.0925242301222,54.1785349015047,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tallinn, Estonia</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/EETLL.jpg' height='240' width='320' border='0'></td></tr><tr><td>Tallinn in Estonia is dominated by the amazing 13th century Toompea Castle towering over the rest of the city. Having always been the seat of power in Estonia it is appropriately home to the countrys Parliament to-day. Tallinn was named the European Capital of Culture in 2011 and its Medieval city centre, the most amazing part of Tallinn, truly must be explored. Take any street and be astounded at the impressive guild houses, picturesque wells, boutiques, monasteries, churches and restaurants.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>24.7636864149461</longitude>
+			<latitude>59.4501585329582</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx20.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>EE</region><day>20</day><date>06052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>24.7636864149461,59.4501585329582,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>St Petersburg, Russia</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/RULED.jpg' height='240' width='320' border='0'></td></tr><tr><td>St Petersburg is a federal city located on the Neva River at the head of the Gulf of Finland on the Baltic Sea. In everyday speech the locals refer to it as simply Peter. It is the second largest city in Russia and is regarded as the most Western city of Russia as a large number of foreign consulates, international corporations, banks and other businesses are located in St Petersburg. They make a striking contrast with the historically older buildings such as the Peter and Paul Fortress built in 1703.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>30.299</longitude>
+			<latitude>59.938</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx21.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>RU</region><day>21</day><date>07052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>30.299,59.938,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>St Petersburg, Russia</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/RULED.jpg' height='240' width='320' border='0'></td></tr><tr><td>St Petersburg is a federal city located on the Neva River at the head of the Gulf of Finland on the Baltic Sea. In everyday speech the locals refer to it as simply Peter. It is the second largest city in Russia and is regarded as the most Western city of Russia as a large number of foreign consulates, international corporations, banks and other businesses are located in St Petersburg. They make a striking contrast with the historically older buildings such as the Peter and Paul Fortress built in 1703.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>30.299</longitude>
+			<latitude>59.938</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx22.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>RU</region><day>22</day><date>08052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>30.299,59.938,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Helsinki, Finland</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/FLHEL.jpg' height='240' width='320' border='0'></td></tr><tr><td>Helsinki is the capital of Finland as well as being the centre of Finnish commerce and culture. The skyline features a dramatic blend of classical architecture and clean modernism, with Russian and Swedish influences throughout. Much more than simply the nation where saunas originated, Finland - Helsinki in particular - delights visitors with a vital sense of heritage as well as enthusiasm.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>24.962308157308</longitude>
+			<latitude>60.1591095831514</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx23.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>FL</region><day>23</day><date>09052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>24.962308157308,60.15910958315141,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nynashamn,  Sweden</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/SENYN.jpg' height='240' width='320' border='0'></td></tr><tr><td>Lying sixty kilometres S of Stockholm on the Södertörn Peninsula is Nynäshamn with its delightfully green foreshore dotted with small wooden cottage-like homes. It has almost a thousand islets nearby and you could take a ferry from the terminal to the beautiful island of Gotland. It does also provide a second gateway to Stockholm, the capital of Sweden.  <br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>17.9599179670739</longitude>
+			<latitude>58.9037232178445</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx24.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>SE</region><day>24</day><date>10052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>17.9599179670739,58.90372321784451,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Copenhagen, Denmark</name>
+		<description><![CDATA[<table width='320'><tr><td><img src='http://content.cleancruising.com.au/images/ports/DKCPH.jpg' height='240' width='320' border='0'></td></tr><tr><td>Copenhagen, situated on two islands is the capital and largest city in Denmark. It is perhaps best known for being the final resting place of the famous author, Hans Christian Andersen and, being one of the worlds most environmentally friendly cities, has also been recognised as having a very high quality of life. With many colourful buildings dating back to the early 18th century, medieval cobbled streets and canals just a stone's throw away from ultra-modern waterfront architecture, and a street plan that dates back to the Middle Ages, it captures the imagination of all visitors.<br></td></tr></table>]]></description>
+		<LookAt>
+			<longitude>12.5984167267107</longitude>
+			<latitude>55.7109526784184</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>70</tilt>
+			<range>4000</range>
+		</LookAt>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://content.cleancruising.com.au/images/icons/iconx26.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<ExtendedData>
+			<region>DK</region><day>26</day><date>12052016</date>
+		</ExtendedData>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>12.5984167267107,55.7109526784184,79.99999999999999</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

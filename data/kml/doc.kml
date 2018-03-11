@@ -1,0 +1,1392 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>China 2015</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Parques / Montañas</name>
+			<Placemark>
+				<name>Parque - Jiuzhaigou (P763)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/ORaI7w<br>Web: http://www.cnto.org.es/Valle_Jiuzhaigou.html<br>Mail: zharuecotour@jiuzhai.com<br><br>Web Parque: http://www.jiuzhai.com/language/english/index.html]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.9185827,33.2369693,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parque - Jiuzhaigou - (Aeropuerto)</name>
+				<description><![CDATA[Precio aprox. vuelo desde Xi'an: 121€ 1h30min<br>Buscador vuelo: http://www.chinahighlights.com/<br><br>Después de llegar a JZH, los visitantes pueden tomar un autobús al valle de Jiuzhaigou, Huanglong Valle y algunos de los otros lugares de interés turístico locales. La hora de salida de los autobuses de enlace se ejecuta generalmente de acuerdo con la hora de llegada de los vuelos. Un billete sencillo es CNY45 por persona, con un billete de ida y vuelta cuesta 80 CNY por persona.<br>Web: http://www.flightstats.com/go/Airport/airportDetails.do?airportCode=JZH<br>Airport Code:FlightStats code: JZH]]></description>
+				<styleUrl>#icon-1417</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.6880636,32.8507498,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parque - Jiuzhaigou - Información</name>
+				<description><![CDATA[Cómo Llegar: http://goo.gl/g2II4B<br>Cómo Llegar: http://goo.gl/qa7aTZ]]></description>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8791656,33.2398361,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parque - Wulingyuan (P466)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/Qzg6kz<br>Web: http://www.cnto.org.es/Wulingyuan.html]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>110.6877608,29.350526099999996,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parque - Huangshan (P392)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/ACoAzi<br>Web: http://www.chinahighlights.com/huangshan/]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>118.16304,30.134444400000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parque - Danxiashan</name>
+				<description><![CDATA[Imágenes: https://goo.gl/geWC5D]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>113.75,25.0166667,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parque - Julingyuan - Zhuanjiacun (P468)</name>
+				<description><![CDATA[web: http://www.zhangjiajietourism.us/what-scenic.html<br><br>Coger alojamiento por esta zona que está al lado de la entrada del parque.]]></description>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>110.4919482,29.347578799999997,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parque - Mukeng Zhuhai (P389)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/KeZ5TP<br><br>Aquí se rodó Tigre y Dragón. Hay un circuito de 2h.]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>118.03042000000002,30.003174000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vuelo Xianyang (XIY) a Jiuzhaigou (JZH)</name>
+				<description><![CDATA[Web Vuelo: http://english.ctrip.com/<br><br>Día:10/09/2015<br>Horario: 07:30h - 08:48h<br>Precio: 605CNY / 89€]]></description>
+				<styleUrl>#line-DB4436-3</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>108.5449219,34.270836,0.0 103.8537598,32.8795872,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Vuelo Jiuzhaigou (JZH) a Huangshan (TXN)</name>
+				<description><![CDATA[08:30-09:25<br>Escala en Chegdu 10h20m<br>19:45-22h<br><br>Precio: 216€]]></description>
+				<styleUrl>#line-DB4436-4</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>103.8867188,32.778038,0.0 104.3020032,30.5858818,0.0 117.4658203,30.4392021,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Beijing - Xi'an</name>
+				<description><![CDATA[Tren: 70€ (12:35h)<br>Vuelo: 100€ (2:15h)]]></description>
+				<styleUrl>#line-4186F0-3</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>115.9716797,39.7916548,0.0 109.25903320000002,34.7777158,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Vuelo Shanghai - Changsha</name>
+				<description><![CDATA[Precio: 55€ (2h)]]></description>
+				<styleUrl>#line-DB4436-4</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>121.4538574,31.0717559,0.0 113.203125,28.6905877,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Vuelo Huangshan - Shanghai</name>
+				<description><![CDATA[Precio: 52€ (1h)]]></description>
+				<styleUrl>#line-DB4436-4</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>117.67456049999998,30.4392021,0.0 121.2451172,31.128199300000002,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Tren Changsha - Shaoguan</name>
+				<description><![CDATA[Precio: 20€ (6h)]]></description>
+				<styleUrl>#line-4186F0-3</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>113.0053711,28.0816737,0.0 113.4667969,25.1850589,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Tren Shaoguan - Guangzhou</name>
+				<description><![CDATA[Precio: 7€ (2h30)]]></description>
+				<styleUrl>#line-4186F0-3</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>113.52172850000001,24.6570022,0.0 113.2910156,23.4027649,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Tren Guangzhou - Hong Kong</name>
+				<description><![CDATA[Precio: 32€ (2h)]]></description>
+				<styleUrl>#line-4186F0-3</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>113.28552250000001,23.0595163,0.0 114.0270996,22.461802,0.0</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Pueblos</name>
+			<Placemark>
+				<name>Pueblo - Fenghuang (P472)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/ysKVno]]></description>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>109.59872199999995,27.948014,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pueblo - Fenghuang - Cómo Llegar</name>
+				<description><![CDATA[Coger Vuelo desde Jiuzhaigoy Park - 12:10 a 13:45 - 208€<br>Luego Bus a Fenghuang.]]></description>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>112.9257202,28.3793186,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pueblo - Hongcun (P388)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/UxRG5r]]></description>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>117.99147890000002,29.9996995,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pueblo - Ta Chuan (P389)</name>
+				<styleUrl>#icon-ci-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>118.00920700000006,30.019354,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pueblo - Xidi Gucunluo (P388)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/uxjztF]]></description>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>117.99703599999998,29.903257,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pueblo - Tianluokeng Tulou</name>
+				<description><![CDATA[Imágenes: https://goo.gl/Sp9DJ6 <br>Link: http://goo.gl/JltCBR<br>Link: http://goo.gl/giPtV6]]></description>
+				<styleUrl>#icon-ci-4</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>117.06298200000003,24.584601,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Gran Muralla</name>
+			<Placemark>
+				<name>Gran Muralla - Jiankou Great Wall (P105)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/vnW8Z0<br>Blog: https://goo.gl/Ul4P3S<br>Blog: http://goo.gl/HoQFq4<br><br>Cómo llegar a Jiankou: Toma el autobús 916 desde la parada de Dongzhimen en Beijing hasta Huairou Fangshan. Allí vas a encontrar el autobús a Jiankou.]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.545105,40.473287000000006,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gran Muralla - Mu Tian Yu (P102)</name>
+				<description><![CDATA[Bolg:http://goo.gl/GfMwjQ<br>Blog:http://goo.gl/mqqDS1<br><br>Cómo llegar a Mutianyu: El autobús número 867 sale desde la parada de Dongzhimen y llega directamente a Mutianyu entre el 15 de marzo y el 15 de noviembre. En invierno se puede tomar el autobús número 936 o 916 hasta Huairou , que se encuentra a 17 km de Mutianyu . Entonces puedes tomar un taxi hasta la Muralla (alrededor de ¥20 si regateas bastante).]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.559625,40.42697200000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Pekín</name>
+			<Placemark>
+				<name>Pekín - Templo del Cielo (P64)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/ajZnI9<br>Horario: 08:00h - 18:00h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.41283999999997,39.883704,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Lama Temple (P57)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/ehXitX<br>Horario: 09:00h - 16:00h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.41728999999998,39.947671,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Golden Mask Dynasty Show</name>
+				<description><![CDATA[Web: http://www.goldenmaskdynastyshow.com/]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.49743960000002,39.8656069,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Beijing Dadong Roast Duck Shop (P83)</name>
+				<styleUrl>#icon-ci-6-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.462355,39.932829,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Parque Zhongshan (P56)</name>
+				<styleUrl>#icon-ci-5-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.39477999999998,39.911819,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Ciudad Prohibida (P47)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/tluqZ6<br>Horario: 08:30h - 16:00h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.39715500000001,39.916345,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Parque Jingshan (P63)</name>
+				<styleUrl>#icon-ci-5-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.396523,39.927913,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Parque Beihai (P62)</name>
+				<styleUrl>#icon-ci-5-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.391842,39.931771,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Plaza de Tian'anmen (P47)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/JVRSNI]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.39738899999996,39.908715,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Mausoleo de Mao (P55)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/FfKGS8]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.39736770000002,39.9103946,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Villa Olímpica</name>
+				<description><![CDATA[Imágenes: https://goo.gl/5Ey91t<br><br>La Villa Verde Olímpica en Beijing es digna de ser visitada. Es impresionante caminar entre sus edificios, ver la torre de la antorcha olímpica, el nido (Estadio Nacional de China) y el cubo de agua (Centro Acuático Nacional). Nosotros nos volvimos expertos en las rutas del metro, y así fue como llegamos: Línea 8, (linea olímpica especial) bajar en la estación del centro deportivo olímpico, salidas B1 o B2 y caminar al norte. Se pueden visitar las instalaciones olímpicas entre semana en un horario de 9 de la mañana a 6 de la tarde y los fines de semanas y días festivos de las 9 de la mañana a las 9:30 pm. El costo varía: por visitar el Nido se pagan 50 CNY y por esquiar 80 CNY.]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.39369699999997,39.994285,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Wang Fu Jing Da Jie (P81)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/5JbtQV<br>Calle de los Fantasmas.<br>Visitar por la noche, puestos de comida callejeros.]]></description>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.41117669999994,39.9160957,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Antiguo Palacio de Verano (P69)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/g140cf<br>Horario: 8:30h - 17:00h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.29821500000003,40.008098,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Nanluogu Xiang (P59)</name>
+				<description><![CDATA[Imagenes: https://goo.gl/9vCtsh]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.40308350000001,39.940687,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Hu Tong - Dong Mianhua (P62)</name>
+				<description><![CDATA[Blog: http://goo.gl/uFzzlD]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.40695700000003,39.935746,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Hu Tong - Fu Xue</name>
+				<styleUrl>#icon-ci-5-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.41292380000004,39.9357354,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Hu Tong - Wang Zhi Ma</name>
+				<description><![CDATA[En esta calle, se conservan pequeñas casas tradicionales con patio. Merecen la pena ver las tejas del número 59, que están decoradas con el símbolo de la doble felicidad y los caracteres xinxiang shicheng (que significa “todos tus deseos se harán realidad”).<br>Por otra parte, también merece la pena una visita al número 56, en el cual se pueden ver dos pequeñas jambas y la puerta, que es curiosa porque tiene una protección de metal. El número 49, por otra parte, cuenta con una de las pocas entradas pintadas de verde y sus jambas están labradas con calabazas y rematadas por leones sentados.También, se podrían destacar los números 39 y 28. En el primero, se ven unas urracas, un motivo que, en Pekín, se utiliza para atraer la doble felicidad a la casa y, por otra parte, el 28, dispone de dos piedras labradas para subir a los caballos. A ambos lados de los portones de este número, podrás descubrir cestas y uvas esculpidas y, además, éste también cuenta con dos enormes linternas roja. Y, ya por último, merece la pena ver el dintel del nº 15, ya que podrás contemplar dos curiosas estrellas.]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.41473070000008,39.9322291,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Hu Tong - Nan Jian Zi Xiang</name>
+				<styleUrl>#icon-ci-5-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.41188829999999,39.9315043,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Hu Tong - Gancha</name>
+				<description><![CDATA[En el nº 1 de esta calle vas a ver un palomar en el tejado y trece contadores de electricidad, algo curioso y que indica que en esta vivienda se llegaron a alojar 13 familias.]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.41140910000001,39.930011,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Hu Tong - Shi Jin Hua Yuan</name>
+				<styleUrl>#icon-ci-5-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.41402900000004,39.9298996,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Hu Tong - Mao Er (P62)</name>
+				<description><![CDATA[Imagenes: https://goo.gl/W3eGNI]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.39965410000002,39.9363609,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Torre del Tambor (P62)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/3fnKL8<br>Horario: 09:00h - 17:00h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.3958818,39.940831,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Torre de la Campana (P62)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/jcygcr<br>Horario: 09:00h - 17:00h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.395847,39.942489,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Dong Zhi Men Nei Da Jie (P81)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/ikohca<br>Calle llena de farolillos con Restaurantes nocturnos.]]></description>
+				<styleUrl>#icon-ci-6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.42471869999997,39.9409709,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Beijing Railway Station</name>
+				<styleUrl>#icon-1459-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.42717300000005,39.905010999999995,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Dongzhimen (Bus Muralla)</name>
+				<styleUrl>#icon-1423-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.43359099999998,39.941123,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Parada Bus a Mutianyu</name>
+				<description><![CDATA[Nosotros optamos por el tramo de Mutianyu, a 80 km de Pekín, en el distrito de Huairou. También está restaurado pero con menos turistas por estar más alejado y peor comunicado con Pekín. Gracias a Andrea y sus fantásticas explicaciones en su blog Enbeijing.com decidimos hacer la excursión por libre en autobús de línea (867). También puede hacerse en el autobús 916 más rápido pero que para en el pueblo de Hairou (hay que ir en taxi desde allí). El autobús 867 sale desde Pekín dos veces al día: a las 7:00 y a las 8:30. Y desde Mutianyu de vuelta a las 14:00 y a las 16:00. En Pekín se coge en la estación de autobuses cercana a Dongzhimen: salida B, hacia la izquierda, continúa todo recto hasta el edificio alto que se ve enfrente (unos 5 minutos a pie), gira a la izquierda sin cruzar la calle y continúa otros 10 minutos hasta ver varias dársenas. La del 867 es la última.]]></description>
+				<styleUrl>#icon-1423</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.4381373,39.9456079,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Estación Metro Gulou</name>
+				<description><![CDATA[Cerca zona Hotongs]]></description>
+				<styleUrl>#icon-1459</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.3937682,39.9488281,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Zona Hotongs</name>
+				<description><![CDATA[Pendiente localizar Gulou Hotong para dormir.<br>Blog: http://www.elarquitectoviajero.com/2011/04/08/hutongs-de-pekin/<br>Blog: http://travel.cnn.com/explorations/life/gulou-heart-old-beijing-still-ticks-340681]]></description>
+				<styleUrl>#icon-ci-3</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.395871,39.9436915,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Templeside Deluxe Hutong House Hotel</name>
+				<styleUrl>#icon-ci-3-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.36608299999999,39.92661900000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pekín - Información Trenes</name>
+				<description><![CDATA[Tren Normal Nocturno: T231- 1200km 12h47m - 58€<br>Tren Bala: G669 - 1200km 5h15m - 75€ a 120€<br><br>Web: http://www.beijingchina.net.cn/transportation/train/train-to-xian.html]]></description>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.38847389999998,40.0397075,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Xi'an</name>
+			<Placemark>
+				<name>Xi'An (P361)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/G9xeiS]]></description>
+				<styleUrl>#icon-ci-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>108.94017499999995,34.341568,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Guerreros Terracota (P370)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/UdTI0P<br>Horario: 8:30h - 17:30h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>109.27849200000003,34.384115,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Gran Pagoda de la Oca (P365)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/J0hm4S<br>Horario: 08:00h - 19:00h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>108.96415200000001,34.218243,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Dà Cí'en Temple (P365)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/0OtW5Z<br>Horario: Al anochecer hay espectáculo de luz y música.]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>108.96415110000001,34.2179283,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Han Yangling Mausoleum (P371)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/qlQ17k<br>Horario: 08:30h - 19h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>108.92528600000003,34.444187,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Hanyangling Museum (P371)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/l4BLNQ<br>Horario: 08:30h - 19h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>108.952477,34.441912,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Pequeña Pagoda de la Oca (P365)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/7nbB8K<br>Horario: 08:30h - 19:00h (cerrada martes)]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>108.94208500000002,34.239141,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Gran Muralla (Puerta Sur) (P364)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/pYYGEV<br><br>Se puede recorrer todo el perímetro en bici, por encima de la muralla, se alquila en la puerta sur.]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>108.9465666,34.2497673,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Gran Mezquita (P363)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/1AxV5j<br>Horario: 08:00h - 19:30h]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>108.9390564,34.2632107,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Xi'An - Monte Hua Shan (P374)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/28N5WH]]></description>
+				<styleUrl>#icon-ci-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>110.06944440000007,34.4788889,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Hong Kong</name>
+			<Placemark>
+				<name>Hong Kong - Avenida de las Estrellas</name>
+				<description><![CDATA[Imágenes: https://goo.gl/BpgbNL]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.1703939,22.2930672,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Tsim Sha Tsui Promenade</name>
+				<description><![CDATA[Espectáculo Nocturno Luz y Sonido.<br>Horario: Todas las noches a las 20h.<br>Web: http://www.tourism.gov.hk/symphony/english/details/details.html<br><br>El Show comprende cinco temas principales, teniendo espectadores en un viaje único que celebra la energía, el espíritu y la diversidad de Hong Kong:<br>La primera escena de " El despertar "comienza con destellos de luces láser que dan vida a un núcleo de energía de la luz que ilumina poco a poco los edificios participantes utilizando un arsenal de luces danzantes y color del arco iris. Esta escena simboliza el crecimiento génesis y poderosa de Hong Kong.<br>La segunda escena " Energía "está representada por la pantalla de la subida de los patrones de color y el barrido de los rayos láser y reflectores con energía todo el cielo de la noche, lo que significa la energía vibrante de Hong Kong.<br>En la tercera escena " Patrimonio ", colores rojo y oro afortunados tradicionales se muestran a través de los edificios a ambos lados de la Bahía, que se complementa con la introducción de la música con instrumentos musicales chinos, que simboliza la colorida herencia de Hong Kong y ricas tradiciones culturales.<br>La cuarta escena " Alianza "cuenta con una pantalla de rayos láser y reflectores barriendo la exploración de todo el puerto, lo que representa una conexión iluminada con el lado opuesto. Vigas alcanzar a conectar simbólicamente los dos lados del puerto en una mayor colaboración y unificada.El "final de Celebración "pone de manifiesto una poderosa pantalla rítmica del remolino, los patrones caleidoscópicos de luces y vigas baile animado a través de la Bahía. <br>La escena final emocionante significa la celebración de la estrecha colaboración entre los dos lados del puerto y representa un futuro aún más brillante para Asia mundo de la ciudad - Hong Kong.]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.17834300000004,22.297307,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Man Mo Temple (P482)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/sCjNXC]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.15025800000001,22.284005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Central-Mid-Levels Escalators</name>
+				<description><![CDATA[Imágenes: https://goo.gl/nYIxPM]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.15508899999998,22.283835,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Victoria Peak (P482)</name>
+				<description><![CDATA[Vista Nocturna, se sube en tranvía.<br>Imágenes: https://goo.gl/hTTmz1]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.145532,22.2758835,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Lan Kwai Fong</name>
+				<description><![CDATA[Zona para salir de fiesta.<br>Imágenes: https://goo.gl/kp95Fo]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.15567099999998,22.280837,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Hong Kong Park</name>
+				<description><![CDATA[Imágenes: https://goo.gl/CqZKMc]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.16181200000005,22.277763,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Tian Tan Buddha (P495)</name>
+				<description><![CDATA[Imágenes: https://goo.gl/sqPi1j]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>113.90498400000001,22.253985,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Temple St</name>
+				<description><![CDATA[Restaurantes a buen precio.<br>Imágenes: https://goo.gl/ILOEPa]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.17023619999999,22.3072704,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kong - Kowloon Walled City Park (No Visitar)</name>
+				<description><![CDATA[Foro: http://www.skyscrapercity.com/showthread.php?t=1518710]]></description>
+				<styleUrl>#icon-ci-5</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.19032800000002,22.33213,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1417-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1417-trans-airport.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1417-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1417-trans-airport.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1417'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1417-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1417-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1423-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1423-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1423'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1423-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1423-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1423-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1423-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1423-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1423-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1423-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1459-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1459-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1459'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1459-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1459-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1459-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1459-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1459-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1459-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1459-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-1-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-ci-1-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-1.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-ci-1'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-1-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-1-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-2-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-ci-2-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-2.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-ci-2'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-2-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-2-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-3-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-ci-3-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-ci-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-3-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-ci-3-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-3.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-ci-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-4-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-ci-4-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-ci-4'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-4-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-4-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-4-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-ci-4-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-4.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-ci-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-5-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-ci-5-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-ci-5'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-5-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-5-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-5-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-ci-5-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-5.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-ci-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-6-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-ci-6-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-ci-6'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-6-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-6-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-ci-6-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-ci-6-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>images/icon-6.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-ci-6-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-ci-6-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-ci-6-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-4186F0-3-normal'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-4186F0-3-highlight'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-4186F0-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-4186F0-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-4186F0-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-DB4436-3-normal'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-DB4436-3-highlight'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-DB4436-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-DB4436-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-DB4436-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-DB4436-4-normal'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-DB4436-4-highlight'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>6.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-DB4436-4'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-DB4436-4-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-DB4436-4-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

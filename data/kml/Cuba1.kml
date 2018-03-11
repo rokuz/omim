@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Cuba</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Viñales</name>
+    <TimeStamp><when>2014-02-26T09:36:35Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.709023,22.616538</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>10</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel La Ermita</name>
+    <TimeStamp><when>2014-02-26T09:17:15Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.699253,22.611822</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pinar del Río</name>
+    <TimeStamp><when>2014-02-26T09:17:38Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.695848,22.421764</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>11</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Matanzas</name>
+    <TimeStamp><when>2014-02-26T09:19:08Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.579139,23.049627</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>8</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Bayamo</name>
+    <TimeStamp><when>2014-02-26T09:19:24Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.641557,20.381222</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>8</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Santiago de Cuba</name>
+    <TimeStamp><when>2014-02-26T09:19:31Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.828998,20.028901</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>8</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Baracoa</name>
+    <TimeStamp><when>2014-02-26T09:19:41Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.500011,20.343754</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>11</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel El Castillo</name>
+    <TimeStamp><when>2014-02-26T09:19:50Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.498744,20.347918</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa de Trova</name>
+    <TimeStamp><when>2014-02-26T09:20:13Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.49663,20.347767</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>El Yunque</name>
+    <TimeStamp><when>2014-02-26T09:20:49Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.56968,20.345984</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Moa</name>
+    <TimeStamp><when>2014-02-26T09:21:12Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.945079,20.662706</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>11</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Holguín</name>
+    <TimeStamp><when>2014-02-26T09:21:24Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.260254,20.88947</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>8</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Camagüey</name>
+    <TimeStamp><when>2014-02-26T09:21:33Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.913911,21.385613</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>8</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Trinidad</name>
+    <TimeStamp><when>2014-02-26T09:22:32Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.984373,21.80526</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>10</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ancón</name>
+    <TimeStamp><when>2014-02-26T09:22:48Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.999133,21.735004</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa de la Cultura</name>
+    <TimeStamp><when>2014-02-26T09:23:59Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.9844,21.804166</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa de Musica</name>
+    <TimeStamp><when>2014-02-26T09:24:39Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.983492,21.80541</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>El Chino (Sigaren)</name>
+    <TimeStamp><when>2014-02-26T09:26:34Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.983971,21.807271</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Coctails Cachaca</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.983504,21.80667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jibacoa</name>
+    <TimeStamp><when>2014-02-26T09:27:57Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.860301,23.14634</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mueso de la Comandancia de Che</name>
+    <TimeStamp><when>2014-02-26T09:28:28Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.350425,23.146801</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Villa Soroa</name>
+    <TimeStamp><when>2014-03-01T05:40:53Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.011852,22.796458</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Orquideario Soroa</name>
+    <TimeStamp><when>2014-03-01T05:41:04Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.009564,22.794319</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Las Terrazas</name>
+    <TimeStamp><when>2014-03-01T05:42:00Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.944204,22.845562</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Rancho Curijey</name>
+    <TimeStamp><when>2014-03-01T05:42:25Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.938709,22.852779</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa de la Trova</name>
+    <TimeStamp><when>2014-03-01T05:54:22Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.983123,21.804772</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Palenque de Los Congos Reales</name>
+    <TimeStamp><when>2014-03-01T05:54:30Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.983416,21.804939</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Basílica Santuario Nacional de Nuestra Señora de la Caridad del Cobre</name>
+    <TimeStamp><when>2014-03-12T19:21:22Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.949062,20.050677</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>El Cobre</name>
+    <TimeStamp><when>2014-03-12T19:21:32Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.946013,20.050604</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Paladar El Colonial</name>
+    <TimeStamp><when>2014-03-12T20:13:16Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.497024,20.348906</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Museo de Agroindustria Azucarero Marcelo Salado</name>
+    <TimeStamp><when>2015-07-14T09:18:14Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.492285,22.505774</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Museo del Vapor</name>
+    <TimeStamp><when>2015-07-14T09:19:39Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.491992,22.507107</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Barcelona</name>
+    <TimeStamp><when>2015-07-14T09:19:56Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.545314,22.494132</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Iglesia de San Juan Batista</name>
+    <TimeStamp><when>2015-07-14T09:20:00Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.544867,22.494625</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Huis Dayana</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.258258,22.260572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Juan Gualberto Gómez</name>
+    <TimeStamp><when>2015-08-11T10:02:34Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.434896,23.035261</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel H10 Habana Panorama</name>
+    <TimeStamp><when>2015-11-11T09:38:55Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.439598,23.111494</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Comodoro</name>
+    <TimeStamp><when>2015-11-11T09:39:13Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.445343,23.107534</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Bosque de La Habana</name>
+    <TimeStamp><when>2015-11-11T09:39:56Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.406958,23.108654</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Lunchplek</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.348844,23.141556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Plaza de Armas</name>
+    <TimeStamp><when>2015-11-11T09:40:56Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.349564,23.140227</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Capitolio Nacional</name>
+    <TimeStamp><when>2015-11-11T09:41:38Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.359656,23.13528</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Real Fábrica de Tabacos Partagás</name>
+    <TimeStamp><when>2015-11-11T09:41:44Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.360793,23.134612</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>El Floridita</name>
+    <TimeStamp><when>2015-11-11T09:41:58Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.357359,23.137372</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Plaza de la Revolución</name>
+    <TimeStamp><when>2015-11-11T09:43:57Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.38598,23.124568</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Monumento a José Martí</name>
+    <TimeStamp><when>2015-11-11T09:44:02Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.386583,23.122656</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional José Martí</name>
+    <TimeStamp><when>2015-11-11T09:46:29Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.412034,22.987779</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cementerio de Colón</name>
+    <TimeStamp><when>2015-11-11T09:48:03Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.398227,23.125915</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Paladar Las Marias</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.427483,23.110243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Centro Comercial Ave 3ra y 70</name>
+    <TimeStamp><when>2015-11-11T22:43:50Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.436883,23.112111</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Paladar Vistamar</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.4248,23.125214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Nacional de Cuba</name>
+    <TimeStamp><when>2015-11-11T22:46:06Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.380686,23.143485</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Fabrica de Bebidas Casa Garay - Guayabita del Pinar</name>
+    <TimeStamp><when>2015-11-11T22:58:56Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.69592,22.411598</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Fabrica de Tobacos Francisco Donatien</name>
+    <TimeStamp><when>2015-11-11T22:59:00Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.698039,22.415089</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Caverna de Santo Tomás</name>
+    <TimeStamp><when>2015-11-11T23:01:12Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.840121,22.546614</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Caverna de Santo Tomás</name>
+    <TimeStamp><when>2015-11-11T23:01:20Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.843015,22.547595</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Riu Varadero</name>
+    <TimeStamp><when>2015-11-11T23:02:06Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.140585,23.199786</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Memories Varadero Beach Resort</name>
+    <TimeStamp><when>2015-11-11T23:02:29Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.145308,23.200654</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Paseo del Prado</name>
+    <TimeStamp><when>2015-11-12T10:43:12Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.359031,23.140046</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Parque Central (Alojamiento)</name>
+    <TimeStamp><when>2015-11-12T10:43:25Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.358694,23.138832</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Parque Central</name>
+    <TimeStamp><when>2015-11-12T10:43:31Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.358697,23.137476</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Museo de la Revolución</name>
+    <TimeStamp><when>2015-11-12T10:43:50Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.356709,23.141634</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Memorial Granma</name>
+    <TimeStamp><when>2015-11-12T10:44:10Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.356992,23.14092</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Edificio Bacardi</name>
+    <TimeStamp><when>2015-11-12T10:44:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.357015,23.138954</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular CUB tour</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.714269,22.614789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Yuri y Nino</name>
+    <TimeStamp><when>2015-11-18T17:40:01Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.703422,22.620621</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Finca Agroecologica El Paraiso</name>
+    <TimeStamp><when>2015-11-18T17:40:16Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.691253,22.624842</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Parador El Rumbito de Machurrucutu - Koffie</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.493459,23.040247</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lunchplek Australia</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.135083,22.503098</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>restaurant</name>
+    <TimeStamp><when>2015-11-19T17:04:56Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.140995,22.48323</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Guama</name>
+    <TimeStamp><when>2015-11-19T17:05:44Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.164199,22.367693</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>13</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mirador</name>
+    <TimeStamp><when>2015-11-19T17:06:21Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.102597,22.344409</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Playa Giron</name>
+    <TimeStamp><when>2015-11-19T17:06:50Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.033479,22.06779</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Jagua</name>
+    <TimeStamp><when>2015-11-19T20:13:07Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.452065,22.121978</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Bouyon 1825</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.453926,22.146801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Teatro Tomás Terry</name>
+    <TimeStamp><when>2015-11-20T02:26:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.452781,22.146496</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Parque José Martí</name>
+    <TimeStamp><when>2015-11-20T02:26:23Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.453034,22.145976</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>La Casa de Chango</name>
+    <TimeStamp><when>2015-11-20T02:27:37Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.447049,22.137745</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Villa Lagarto</name>
+    <TimeStamp><when>2015-11-20T02:28:47Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.452904,22.117814</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cayo Blanco de Casilda</name>
+    <TimeStamp><when>2015-11-20T02:30:23Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.887852,21.638005</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Snorkelplek</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.890039,21.635935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Wrak</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.890586,21.639521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Club Amigo Costasur</name>
+    <TimeStamp><when>2015-11-20T02:32:17Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.020804,21.744036</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Iznaga</name>
+    <TimeStamp><when>2015-11-20T02:33:00Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.867316,21.840917</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Torre Iznaga</name>
+    <TimeStamp><when>2015-11-20T02:33:07Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.866479,21.842329</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Sancti Spiritus</name>
+    <TimeStamp><when>2015-11-20T02:38:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.442857,21.927255</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>11</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Playa Ancón</name>
+    <TimeStamp><when>2015-11-21T15:54:00Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.994281,21.73047</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Catamaran naar Cayo Blanco</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.995447,21.736172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Casa de la Trova</name>
+    <TimeStamp><when>2015-11-21T15:56:13Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.91875,21.378996</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Restaurante 1800</name>
+    <TimeStamp><when>2015-11-21T15:56:36Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.918069,21.376334</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Gran Hotel</name>
+    <TimeStamp><when>2015-11-21T15:57:10Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.917364,21.381868</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mirador de la Loma del Puerto</name>
+    <TimeStamp><when>2015-11-22T12:14:48Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.946058,21.811451</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Santa Clara</name>
+    <TimeStamp><when>2015-11-22T12:55:01Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.965147,22.406571</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>11</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Villa Las Brujas</name>
+    <TimeStamp><when>2015-11-22T13:03:26Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.170999,22.626637</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Parador Oases</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-78.588739,21.778651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafeteria Caney</name>
+    <TimeStamp><when>2015-11-22T13:42:01Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-78.233113,21.531328</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Koffiestop</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-78.947593,21.904545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cadeca</name>
+    <TimeStamp><when>2015-11-22T18:32:47Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.918812,21.379211</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Opstapplaats Bicitaxis</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.91476,21.377025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel América</name>
+    <TimeStamp><when>2015-11-23T13:11:42Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.96408,22.406229</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Teatro La Caridad</name>
+    <TimeStamp><when>2015-11-23T13:11:51Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.965769,22.407443</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Eten Entronque de Fomento</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.688,22.221505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Los Caneyes</name>
+    <TimeStamp><when>2015-11-23T19:50:31Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.999775,22.4021</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mausoleo Frente de las Villas</name>
+    <TimeStamp><when>2015-11-23T19:53:22Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.978864,22.40341</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Ernesto Che Guevara</name>
+    <TimeStamp><when>2015-11-23T19:53:27Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.979379,22.402629</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Tren Blindado</name>
+    <TimeStamp><when>2015-11-23T19:54:00Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.960263,22.409753</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Escultura del Ché Guevara</name>
+    <TimeStamp><when>2015-11-23T19:54:51Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.956693,22.411841</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Mascotte</name>
+    <TimeStamp><when>2015-11-23T19:57:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.545722,22.495138</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Paladar Casona ....</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.966447,22.404645</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Marquesina</name>
+    <TimeStamp><when>2015-11-24T09:47:35Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.96582,22.407241</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cafe de Maria</name>
+    <TimeStamp><when>2015-11-24T09:54:12Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.944094,22.843896</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>bank</name>
+    <TimeStamp><when>2015-11-24T09:54:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.943939,22.843241</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Paladar</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.472296,22.514784</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parador Aguada</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.865393,22.405079</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mansion Xanadú</name>
+    <TimeStamp><when>2015-11-27T20:00:20Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.215464,23.173217</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Mirador</name>
+    <TimeStamp><when>2016-02-14T15:55:25Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.009122,22.791853</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cascada de Soroa</name>
+    <TimeStamp><when>2016-02-14T15:56:10Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.006394,22.791574</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>uitzicht</name>
+    <TimeStamp><when>2016-02-14T15:56:16Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.006239,22.791386</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Venus</name>
+    <TimeStamp><when>2016-02-14T15:56:26Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.003159,22.79514</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Restaurante Europa</name>
+    <TimeStamp><when>2016-02-14T15:58:08Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.353013,23.138724</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>La Bodeguita del Medio</name>
+    <TimeStamp><when>2016-02-14T15:58:38Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.352278,23.14084</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Melen Club</name>
+    <TimeStamp><when>2016-02-15T01:23:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.435325,23.116539</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Florida</name>
+    <TimeStamp><when>2016-02-15T01:25:51Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.352435,23.139078</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>La Gruta</name>
+    <TimeStamp><when>2016-02-15T01:26:18Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.380517,23.141627</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Don Cangrejo</name>
+    <TimeStamp><when>2016-02-15T01:27:07Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.422421,23.127045</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Habana Libre</name>
+    <TimeStamp><when>2016-02-15T01:28:39Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.382445,23.139494</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>La Fontana</name>
+    <TimeStamp><when>2016-02-15T01:39:57Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.432656,23.11568</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Jardines del 1830</name>
+    <TimeStamp><when>2016-02-15T01:41:34Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.410201,23.130994</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Verde</name>
+    <TimeStamp><when>2016-02-15T01:41:49Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.413602,23.128372</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>CADECA</name>
+    <TimeStamp><when>2016-02-15T01:42:47Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.3544,23.138391</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular  Mariles</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-82.352322,23.135402</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Habana Vieja</name>
+    <TimeStamp><when>2016-02-15T01:47:18Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.352455,23.136511</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Johnson</name>
+    <TimeStamp><when>2016-02-15T01:47:30Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.35274,23.138926</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>El Escorial</name>
+    <TimeStamp><when>2016-02-15T15:30:21Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.349639,23.135766</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Fuente de la Plaza Vieja</name>
+    <TimeStamp><when>2016-02-15T15:30:29Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.349993,23.136054</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Castropol (Sociedad Asturiana)</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.360966,23.143669</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Moneda Cubana</name>
+    <TimeStamp><when>2016-02-15T15:31:48Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.351565,23.140134</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Restaurante La Dominica</name>
+    <TimeStamp><when>2016-02-15T15:32:05Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.350672,23.1403</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Bario Chino</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.363549,23.134208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Presidente</name>
+    <TimeStamp><when>2016-02-17T17:02:31Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.394488,23.142771</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular Doña Hilde</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-82.394769,23.143348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paladar Motivos</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.395777,23.143204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular de Lenia</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.395438,23.143427</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Turf Club</name>
+    <TimeStamp><when>2016-02-17T18:04:07Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.395202,23.142228</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>La Cocina de Lilliam</name>
+    <TimeStamp><when>2016-02-17T18:06:18Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.426648,23.110011</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>15</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Habana Riviera</name>
+    <TimeStamp><when>2016-02-17T23:00:34Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.404262,23.139658</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Loma del Capiro</name>
+    <TimeStamp><when>2016-02-20T22:05:36Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.949293,22.40829</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>14</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular De Alexander</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.965575,22.40581</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <TimeStamp><when>2016-02-21T23:33:23Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.263224,20.887052</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-76.264445,20.888161</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mijn Locatie</name>
+    <TimeStamp><when>2016-02-22T03:13:17Z</when></TimeStamp>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-76.255407,20.889422</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-74.494809,20.345918</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Esperanza</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-74.543786,20.386951</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular Coordinador</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-75.807387,20.019588</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>restaurant Los Naranjo</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.808976,20.022984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lido</name>
+    <TimeStamp><when>2016-02-25T23:34:48Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.808987,20.023666</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>El Paraíso</name>
+    <TimeStamp><when>2016-02-25T23:41:48Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.876661,19.9769</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Centro Cultural Musical</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.809262,20.02449</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ranchón Restaurante</name>
+    <TimeStamp><when>2016-02-26T19:21:58Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.64856,20.366377</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Restaurante Chapuzón</name>
+    <TimeStamp><when>2016-02-26T19:22:05Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.649708,20.367648</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>La Bodega</name>
+    <TimeStamp><when>2016-02-26T19:22:13Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.650527,20.372981</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>San Salvador de Bayamo</name>
+    <TimeStamp><when>2016-02-26T19:22:24Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.649146,20.3745</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Sierra Maestra</name>
+    <TimeStamp><when>2016-02-26T21:08:30Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.633264,20.360579</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Café Ciudad</name>
+    <TimeStamp><when>2016-02-28T22:13:49Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-77.918678,21.379371</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Central</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-79.983425,21.80366</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Geplaatste Speld</name>
+    <TimeStamp><when>2016-03-01T00:28:41Z</when></TimeStamp>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-79.982132,21.803558</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Cafè Don Pepe</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.984601,21.806072</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Céspedes</name>
+    <TimeStamp><when>2016-03-01T14:07:59Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.98467,21.800631</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Pito Sigarenmannetje</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.984575,21.802515</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>bushalte Playa Ancon</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.996768,21.733743</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Salsaschool Trinidad</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.983517,21.800247</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>San José Paladar</name>
+    <TimeStamp><when>2016-03-02T02:25:43Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-79.983673,21.801863</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Guajimico Lunchplek</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-80.300424,21.93204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paladar Campestre Don David</name>
+    <TimeStamp><when>2016-03-03T18:36:13Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.623624,22.988624</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular Coordinador</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-83.707623,22.616407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paladar Balcone del valle</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.721372,22.596741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cayo Jutías</name>
+    <TimeStamp><when>2016-03-04T19:27:19Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-84.026519,22.70548</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>12</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>uitzicht</name>
+    <TimeStamp><when>2016-03-04T22:12:34Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.66956,22.597204</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>17</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Presa El Salto</name>
+    <TimeStamp><when>2016-03-05T00:08:01Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.672509,22.596457</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant el Gallito</name>
+    <TimeStamp><when>2016-03-05T00:08:38Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.709479,22.616156</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Restaurante El Olivo</name>
+    <TimeStamp><when>2016-03-05T00:08:56Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-83.709752,22.615703</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular de Marta</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.427317,23.113758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Palacio de las Convenciones</name>
+    <TimeStamp><when>2016-03-06T21:54:42Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.455303,23.08786</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>16</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Guajirito</name>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-82.35609,23.13123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Casa Particular Rafael</name>
+    <styleUrl>#placemark-blue</styleUrl>
+    <Point><coordinates>-82.429854,23.112424</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>uitzicht</name>
+    <TimeStamp><when>2016-03-21T08:24:16Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-75.056015,20.035664</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>19</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Villa Horizontes El Saltón</name>
+    <TimeStamp><when>2016-03-21T08:25:59Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-76.28915,20.130456</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+  <Placemark>
+    <name>Finca Fiesta Campesina</name>
+    <TimeStamp><when>2016-03-21T08:33:15Z</when></TimeStamp>
+    <styleUrl>#placemark-red</styleUrl>
+    <Point><coordinates>-81.137556,22.50996</coordinates></Point>
+    <ExtendedData xmlns:mwm="http://mapswith.me">
+      <mwm:scale>18</mwm:scale>
+    </ExtendedData>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Salzburg Walking Tour</name>
+    <Style id="icon-1085-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1085-biz-restaurant-generic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1085-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1085-biz-restaurant-generic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1085">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1085-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1085-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1433-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1433-trans-ferry.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1433-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1433-trans-ferry.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1433">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1433-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1433-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1459-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1459-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1459">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1459-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1459-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-191-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/191-subway.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-191-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/191-subway.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-191">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-191-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-191-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-24-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-24-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-24">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-24-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-24-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-1780-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>1.78</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-1780-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>2.67</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-1780">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-1780-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-1780-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-2170-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>2.17</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-2170-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3.255</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-2170">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-2170-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-2170-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-2744-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>2.744</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-2744-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.116</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-2744">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-2744-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-2755-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>2.755</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-2755-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.1325</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-2755">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-2755-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-2755-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-2938-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-2938-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-2938-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-3131-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>3.131</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3F5BA9-3131-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>4.6965</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-3131">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-3131-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-3131-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A61B4A-5456-normal">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A61B4A-5456-highlight">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A61B4A-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A61B4A-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A61B4A-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Suggested Route</name>
+      <description><![CDATA[description: 3.5 miles<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#line-A61B4A-5456</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>3.5 miles</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          13.043796,47.8021675,0
+          13.0435254,47.8025703,0
+          13.0436538,47.8027305,0
+          13.043333,47.8029889,0
+          13.0430109,47.803361,0
+          13.0423354,47.8044744,0
+          13.0416978,47.8046464,0
+          13.0415483,47.8048815,0
+          13.0413217,47.8053138,0
+          13.0406898,47.8052443,0
+          13.0412348,47.8054455,0
+          13.0412351,47.8057911,0
+          13.0425175,47.8061998,0
+          13.0439077,47.8044218,0
+          13.0463279,47.8051794,0
+          13.0465481,47.8048751,0
+          13.0472349,47.8045671,0
+          13.0477227,47.8039531,0
+          13.0465463,47.8030885,0
+          13.0457883,47.8024111,0
+          13.0462127,47.8022987,0
+          13.046343,47.8022983,0
+          13.0464654,47.802361,0
+          13.0468449,47.8028071,0
+          13.0470449,47.8028871,0
+          13.0471841,47.8028777,0
+          13.0472749,47.8028071,0
+          13.0471949,47.8025071,0
+          13.0465549,47.8019971,0
+          13.0465649,47.8017571,0
+          13.0463715,47.8019444,0
+          13.0459549,47.8017571,0
+          13.0460958,47.8015983,0
+          13.0456949,47.8014071,0
+          13.0462043,47.8012211,0
+          13.0464067,47.8011479,0
+          13.0465849,47.8011071,0
+          13.0467941,47.8011029,0
+          13.0472259,47.8011566,0
+          13.0473949,47.8011671,0
+          13.0477779,47.8010991,0
+          13.0481449,47.8010671,0
+          13.0489917,47.8010835,0
+          13.0490432,47.8007797,0
+          13.0494598,47.8006291,0
+          13.0490721,47.7999432,0
+          13.0487649,47.7993871,0
+          13.0484044,47.7989868,0
+          13.0475229,47.7988978,0
+          13.0478725,47.7984484,0
+          13.0472829,47.7984348,0
+          13.0460646,47.7988541,0
+          13.0460149,47.7993697,0
+          13.0457111,47.7996203,0
+          13.0453643,47.7997124,0
+          13.0452288,47.7999289,0
+          13.0452005,47.7992013,0
+          13.0458647,47.7987787,0
+          13.0458949,47.7985171,0
+          13.0457409,47.7984214,0
+          13.0459415,47.7983078,0
+          13.0459276,47.7981762,0
+          13.0455102,47.7979303,0
+          13.0467549,47.7972871,0
+          13.0473649,47.7965871,0
+          13.0473149,47.7964071,0
+          13.0474049,47.7962971,0
+          13.0471449,47.7962571,0
+          13.0466511,47.7963003,0
+          13.0464664,47.7963656,0
+          13.0461663,47.796503,0
+          13.0460504,47.7964966,0
+          13.0463719,47.7951317,0
+          13.0458749,47.7965671,0
+          13.0457742,47.7966883,0
+          13.045601,47.7968276,0
+          13.0453838,47.7968304,0
+          13.0452363,47.7967467,0
+          13.0449091,47.7966803,0
+          13.0441849,47.7971371,0
+          13.0443049,47.7979971,0
+          13.0437308,47.7980669,0
+          13.0429851,47.7979421,0
+          13.0423221,47.7983329,0
+          13.0432533,47.7987619,0
+          13.0435904,47.7992702,0
+          13.043527,47.7996221,0
+          13.0435801,47.8000603,0
+          13.0433214,47.8000791,0
+          13.0417249,47.8000171,0
+          13.0400849,47.7999871,0
+          13.0401049,47.7998771,0
+          13.040359,47.7994992,0
+          13.0398749,47.7999671,0
+          13.0393849,47.8000671,0
+          13.0391859,47.7995921,0
+          13.0389575,47.7988926,0
+          13.0385145,47.7986544,0
+          13.0384738,47.7988126,0
+          13.0386305,47.7990826,0
+          13.038358,47.7997851,0
+          13.0384483,47.8000119,0
+          13.0385063,47.8003575,0
+          13.0380181,47.8006741,0
+          13.0374922,47.8007384,0
+          13.0366649,47.8009471,0
+          13.0361573,47.8013831,0
+          13.0361249,47.8022471,0
+          13.0356349,47.8026871,0
+          13.0356649,47.8031871,0
+          13.0358149,47.8033371,0
+          13.0357549,47.8037771,0
+          13.0353849,47.8038471,0
+          13.0352249,47.8040871,0
+          13.0352749,47.8045171,0
+          13.0351149,47.8048771,0
+          13.0347349,47.8049971,0
+          13.0346949,47.8050871,0
+          13.0349449,47.8052571,0
+          13.0350749,47.8052371,0
+          13.0352949,47.8049971,0
+          13.0354449,47.8049671,0
+          13.0355349,47.8050671,0
+          13.0353349,47.8052771,0
+          13.0349049,47.8054071,0
+          13.0347549,47.8053871,0
+          13.0343865,47.8051354,0
+          13.0342461,47.8051269,0
+          13.033812,47.8053578,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Christian Doppler's House]]></name>
+      <description><![CDATA[description: Doppler was born and lived here before moving to America and inventing the Doppler Weather Scale.  The modern radar system has since been named after him.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Doppler was born and lived here before moving to America and inventing the Doppler Weather Scale.  The modern radar system has since been named after him.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0432602,47.8025518,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1. Sacher Cafe</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/qkJn_UpOmi15FFQw0Kmio-LiBkfdAY7BvvKnWLY_0TMRuTFEte4SkJPOObkE2omWsaes-As4s6A0lTKBiJ1gp44VsLwL3Dedfb4K51xq9iQbMRP9F33fp3RoZravo2-Aik6ANASbnv3LKWrT6Tn0_AV6c7fOj-yvpxfVuM1ZXmtO" height="200" width="auto" /><br><br>description: Fancy hotel and cafe which is home of the famous Sacher Torte desserts.  They also have great coffee and an assortment of other foods.  If it is too busy, stop by the Cafe Bazar nextdoor.<br>Built In: <br>Address: <br>Hours and Cost: Daily 7:30am-Midnight<br>Website: https://www.sacher.com/en/hotel-salzburg-en/culinary-en/cafe-sacher-salzburg-2/<br><br><img src="https://lh4.googleusercontent.com/proxy/KiUt3ys6SzW_85FG-NbyQDxyzEy_Z4kQA4rmbOS3WpyvMUf4ruP-oA9D3Jdf0bZCOegFWQhZ2vUCaScnsnKCKDLsBnFEGoCryz6wFNrof-QVHZWABBQK8_H-yOU-D5_oRXzJOgFr4181OfUQ7vT94eeiMq7Dr-3IX1RmrIx0oEgkr_svyjZx" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Fancy hotel and cafe which is home of the famous Sacher Torte desserts.  They also have great coffee and an assortment of other foods.  If it is too busy, stop by the Cafe Bazar nextdoor.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Daily 7:30am-Midnight</value>
+        </Data>
+        <Data name="Website">
+          <value>https://www.sacher.com/en/hotel-salzburg-en/culinary-en/cafe-sacher-salzburg-2/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/qkJn_UpOmi15FFQw0Kmio-LiBkfdAY7BvvKnWLY_0TMRuTFEte4SkJPOObkE2omWsaes-As4s6A0lTKBiJ1gp44VsLwL3Dedfb4K51xq9iQbMRP9F33fp3RoZravo2-Aik6ANASbnv3LKWrT6Tn0_AV6c7fOj-yvpxfVuM1ZXmtO https://lh4.googleusercontent.com/proxy/KiUt3ys6SzW_85FG-NbyQDxyzEy_Z4kQA4rmbOS3WpyvMUf4ruP-oA9D3Jdf0bZCOegFWQhZ2vUCaScnsnKCKDLsBnFEGoCryz6wFNrof-QVHZWABBQK8_H-yOU-D5_oRXzJOgFr4181OfUQ7vT94eeiMq7Dr-3IX1RmrIx0oEgkr_svyjZx</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0435624,47.8018793,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marionette Puppet Theater</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/qTTfjbYpY7E5398ctgGATBY_whlgclCB0-EPBy6WRCedsJ6umKXurrC5h5h0DHiQswYYhXwv5xeXPM6oY6fsUwmZO6bGu1e_8FACEdDYu3S7xJnVYIPWPodGn12m2bRyPddd933cIowlbJuCe3a2GsOGdV51pQbfgllZKTcjfvX3p-8sJQf4kn6vwbWy4Iq0IQ" height="200" width="auto" /><br><br>description: Great puppet theater which has entertaining evening shows in their theater and often does scaled back shows in Residenzplatz. <br>Next door is the Mozart Concert Hall (Stiftung Mozarteum) which opened in 1880. The Mozart Hall is also home to the Little Magic Flute House where he was locked inside in Vienna to complete the opera in 1791. The cottage house was later donated in 1873 and moved to Salzburg.  Can see it in the gardens whenever a Summer show is going on.  http://www.mozarteum.at/en<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: http://www.marionetten.at/marionetten09/index.php<br><br><img src="https://lh4.googleusercontent.com/proxy/NX0zg004zfb4tX2c2pEWpJqMInz_rVCEFe2hAgpeD1ELJf5k1kRhscTJQDyup8Hqc-8XlhrKkhpx04lDLW9Vv24pxErSylVhJd9qSgsSpjwVFX_QqCHyxnUMaQ9zN6sO6Z9UkRV34PW42nwHDeS1HUUbfX167es3p7GrkCd96idXNkGd517k-qaRaZiwK_N4mw" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Great puppet theater which has entertaining evening shows in their theater and often does scaled back shows in Residenzplatz. 
+Next door is the Mozart Concert Hall (Stiftung Mozarteum) which opened in 1880. The Mozart Hall is also home to the Little Magic Flute House where he was locked inside in Vienna to complete the opera in 1791. The cottage house was later donated in 1873 and moved to Salzburg.  Can see it in the gardens whenever a Summer show is going on.  http://www.mozarteum.at/en</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value>http://www.marionetten.at/marionetten09/index.php</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/qTTfjbYpY7E5398ctgGATBY_whlgclCB0-EPBy6WRCedsJ6umKXurrC5h5h0DHiQswYYhXwv5xeXPM6oY6fsUwmZO6bGu1e_8FACEdDYu3S7xJnVYIPWPodGn12m2bRyPddd933cIowlbJuCe3a2GsOGdV51pQbfgllZKTcjfvX3p-8sJQf4kn6vwbWy4Iq0IQ https://lh4.googleusercontent.com/proxy/NX0zg004zfb4tX2c2pEWpJqMInz_rVCEFe2hAgpeD1ELJf5k1kRhscTJQDyup8Hqc-8XlhrKkhpx04lDLW9Vv24pxErSylVhJd9qSgsSpjwVFX_QqCHyxnUMaQ9zN6sO6Z9UkRV34PW42nwHDeS1HUUbfX167es3p7GrkCd96idXNkGd517k-qaRaZiwK_N4mw</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0424456,47.8032323,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2. Mozart’s Residence (Wohnhaus)</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p4EyN9D8-dzZuofVJhf8pgF_qMeLtrUipY6HNWDaho4j9J5YQsZeKTR32bZQL5T97qA14H42GR1n2ds5hvL49L7uNrdyunxIppSuwcOrfn3yFb4JnFukhZnxLSXYRitYszjEzTv_HqMiF9egT0XEipCSe7Op7yliXdSlmKth6TkA-UjmawM1NyEBoFHUPWp-" height="200" width="auto" /><br><br>description: Is where Mozart lived with his family from age 17 to 25 before branching our on his own in Vienna.<br>Cost: 6€, or 9.50€ for a ticket that also includes Mozart's Birth Place (stop #24)<br><br>Built In: Museum opened In 1996<br>Address: Makartplatz 8<br>Hours and Cost: Daily 9am-6pm; in July & August it stays open until 7pm<br>Website: http://www.mozarteum.at/en/museums/mozarts-residence.html<br><br><img src="https://lh4.googleusercontent.com/proxy/m4jevQXOlCOaSwvxwUh23v_EDne4UiyeJJE7ZNfFZ0onw6tbHHHF-amwit9XieDnn70GaOXsvPFjZrUvFNbuJNrs4lKq9LR674Wf1drR2eafqwmAAZ_wcYNB03gxem0q98UWyQbrP73u3IUpA5AwBXqG-4zQDdAqZ09_OqCLC-an-qm9g5tB2AehazcNff6ClCc" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Is where Mozart lived with his family from age 17 to 25 before branching our on his own in Vienna.
+Cost: 6€, or 9.50€ for a ticket that also includes Mozart's Birth Place (stop #24)
+]]></value>
+        </Data>
+        <Data name="Built In">
+          <value>Museum opened In 1996</value>
+        </Data>
+        <Data name="Address">
+          <value>Makartplatz 8</value>
+        </Data>
+        <Data name="Hours and Cost">
+          <value><![CDATA[Daily 9am-6pm; in July & August it stays open until 7pm]]></value>
+        </Data>
+        <Data name="Website">
+          <value>http://www.mozarteum.at/en/museums/mozarts-residence.html</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/p4EyN9D8-dzZuofVJhf8pgF_qMeLtrUipY6HNWDaho4j9J5YQsZeKTR32bZQL5T97qA14H42GR1n2ds5hvL49L7uNrdyunxIppSuwcOrfn3yFb4JnFukhZnxLSXYRitYszjEzTv_HqMiF9egT0XEipCSe7Op7yliXdSlmKth6TkA-UjmawM1NyEBoFHUPWp- https://lh4.googleusercontent.com/proxy/m4jevQXOlCOaSwvxwUh23v_EDne4UiyeJJE7ZNfFZ0onw6tbHHHF-amwit9XieDnn70GaOXsvPFjZrUvFNbuJNrs4lKq9LR674Wf1drR2eafqwmAAZ_wcYNB03gxem0q98UWyQbrP73u3IUpA5AwBXqG-4zQDdAqZ09_OqCLC-an-qm9g5tB2AehazcNff6ClCc</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0438832,47.8027495,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[3. Drawf Garden & Hedge Maze]]></name>
+      <description><![CDATA[description: <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0405837,47.8049618,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[3. Pegasus Statue & Musical Steps]]></name>
+      <description><![CDATA[description: <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0412136,47.8057839,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[3. Mirabell Palace & Gardens]]></name>
+      <description><![CDATA[description: The Mirabell Palace Gardens, which opened in 1730, are laced with scenes from the hit movie The Sound of Music, especially from then they sing ‘Do Re Mo’.  <br><br>Built In: <br>Address: <br>Hours and Cost: Cost: Free. <br>Garden Hours: Daily 6am-Dusk; Dwarf and Hedge areas closed in the Winter months. <br>Palace Hours: 8am-4pm; Tuesday & Friday 1-4pm.<br><br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>The Mirabell Palace Gardens, which opened in 1730, are laced with scenes from the hit movie The Sound of Music, especially from then they sing ‘Do Re Mo’.  
+</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value><![CDATA[Cost: Free. 
+Garden Hours: Daily 6am-Dusk; Dwarf and Hedge areas closed in the Winter months. 
+Palace Hours: 8am-4pm; Tuesday & Friday 1-4pm.
+]]></value>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0425523,47.8042841,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4. Saint Sebastian Cemetery</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/vzR-LzVVsK3UbIruc7U_t3PzvOLQq4VxB9hH3fFxnCyf4cSi6502vmTjDO7V8w8RnpXwa-clKCqvY5_04hdw7DT7gPnOKgM-g9nZyV3Shen5H6mvNlAc7pMYoYI33GY4a2I5utWfuVPugVwPWkLLhq0SmBjVTJT-41ao5-ziSKSktjhMDLiUUFx88sF3nIpkFU97X58Odmz9GzZXBA4vKTelKnY" height="200" width="auto" /><br><br>description: Is where Mozart's wife and dad are buried. Hours: Daily 9am-4pm; Summer stay open until 6:30pm.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh5.googleusercontent.com/proxy/afnR4oo3JxtLVC-HyzAGU78CuLhbzdTLX8fA9spCc9t2sZPubuQsSKx7TSubHfvqghdqt9v2mGQeFhpxUtWJqnT4RK8_qlSOCs6bRCVDKmT-3flp8sD6b5B_FQCsP2BNGKUSTjR50W7U9lOd26cciyaoYavhIhCMTsmeBO7VrTq-dthnUpzUNrfp3KhJ-qtm_qUGMn0_vsAmZc-3oti_rpj4MYLb6Q" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Is where Mozart's wife and dad are buried. Hours: Daily 9am-4pm; Summer stay open until 6:30pm.]]></value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/vzR-LzVVsK3UbIruc7U_t3PzvOLQq4VxB9hH3fFxnCyf4cSi6502vmTjDO7V8w8RnpXwa-clKCqvY5_04hdw7DT7gPnOKgM-g9nZyV3Shen5H6mvNlAc7pMYoYI33GY4a2I5utWfuVPugVwPWkLLhq0SmBjVTJT-41ao5-ziSKSktjhMDLiUUFx88sF3nIpkFU97X58Odmz9GzZXBA4vKTelKnY https://lh5.googleusercontent.com/proxy/afnR4oo3JxtLVC-HyzAGU78CuLhbzdTLX8fA9spCc9t2sZPubuQsSKx7TSubHfvqghdqt9v2mGQeFhpxUtWJqnT4RK8_qlSOCs6bRCVDKmT-3flp8sD6b5B_FQCsP2BNGKUSTjR50W7U9lOd26cciyaoYavhIhCMTsmeBO7VrTq-dthnUpzUNrfp3KhJ-qtm_qUGMn0_vsAmZc-3oti_rpj4MYLb6Q</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.04693,47.804688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5. Kapuzinerberg Monastery</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/O1VhOhhHnDOiPdKS9OlKndYrj1sgGrgcUfTtnIqUO3epDrKsEjtyUWwWn8hhrkHNljXyWKdw_CUxYAji0T-HsICgJ0Y2OVQ73RZ4k2BpyZ5-el4puT2VoY6ICy7NrhDzqbfI_C2lBWug4JJUJgj5n1mnkaR712Bq985E8ZyGdrHYcB2l1Ay1doof0gLjLbtwJLYbCQys0oC4aw" height="200" width="auto" /><br><br>description: Hilltop has been settled since 1000BC and has housed the Monks since 1594. Amazing city views and a good jump off point if you are hiking up to Franziskischlössl.<br><br>Built In: <br>Address: <br>Hours and Cost: Terrance Hours: Daily from Dawn-Dusk. Monastery Hours: Monday-Saturday 6am-6 pm; Sunday 8am-6 pm; Closed during Mass.<br>Website: <br><br><img src="https://lh3.googleusercontent.com/proxy/vqLX7wV38DLDyNQaPLDZdov2x9BmJG65W2KzpgVZ97yrxsOBhqtdnq8tGDu0LCeiiva54NipYZNOf_k7G6NAN5y3FJBGF5jHrAuKfSkwdlLYn3OM432Gl5TbVCmEEUyMBEvmrISd-n9xkKlBx_osPF7-HiA1skW9IrtTs2CG51rRxItJ90POW2sFUFNjjtnWoxNCwWNYsIUX" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/proxy/LjFEBtGjh10BUmhkPi0vE1N8fNU-MMHH9G-JQs5WUU2NpI_nJCa9NWHtUpm4HZ_Ll_CEkOOLmtqsSZhD28ADaD17jS_1Hl32NQG5NU0LEZDZPqYmOBgUNVifmqSMpLoJfUjlBt5A8GUs6z5MIanifUl5vZw1ARchtGZXjVN7LaO2kZH8jd04wu5qaAft1Iy_eYjnxoto-Mvg3XQ" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Hilltop has been settled since 1000BC and has housed the Monks since 1594. Amazing city views and a good jump off point if you are hiking up to Franziskischlössl.
+</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Terrance Hours: Daily from Dawn-Dusk. Monastery Hours: Monday-Saturday 6am-6 pm; Sunday 8am-6 pm; Closed during Mass.</value>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/O1VhOhhHnDOiPdKS9OlKndYrj1sgGrgcUfTtnIqUO3epDrKsEjtyUWwWn8hhrkHNljXyWKdw_CUxYAji0T-HsICgJ0Y2OVQ73RZ4k2BpyZ5-el4puT2VoY6ICy7NrhDzqbfI_C2lBWug4JJUJgj5n1mnkaR712Bq985E8ZyGdrHYcB2l1Ay1doof0gLjLbtwJLYbCQys0oC4aw https://lh3.googleusercontent.com/proxy/vqLX7wV38DLDyNQaPLDZdov2x9BmJG65W2KzpgVZ97yrxsOBhqtdnq8tGDu0LCeiiva54NipYZNOf_k7G6NAN5y3FJBGF5jHrAuKfSkwdlLYn3OM432Gl5TbVCmEEUyMBEvmrISd-n9xkKlBx_osPF7-HiA1skW9IrtTs2CG51rRxItJ90POW2sFUFNjjtnWoxNCwWNYsIUX https://lh5.googleusercontent.com/proxy/LjFEBtGjh10BUmhkPi0vE1N8fNU-MMHH9G-JQs5WUU2NpI_nJCa9NWHtUpm4HZ_Ll_CEkOOLmtqsSZhD28ADaD17jS_1Hl32NQG5NU0LEZDZPqYmOBgUNVifmqSMpLoJfUjlBt5A8GUs6z5MIanifUl5vZw1ARchtGZXjVN7LaO2kZH8jd04wu5qaAft1Iy_eYjnxoto-Mvg3XQ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0466719,47.8018558,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel Stein</name>
+      <description><![CDATA[description: Great Roof Top Patio, but closed for renovations until 2017<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: Hotel http://www.hotelstein.at/en.html<br>Rooftop Restaurant http://www.steinterrasse.at/en.html]]></description>
+      <styleUrl>#icon-1085</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Great Roof Top Patio, but closed for renovations until 2017</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value>Hotel http://www.hotelstein.at/en.html
+Rooftop Restaurant http://www.steinterrasse.at/en.html</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0453314,47.8014127,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6. Stone Alley (Steingasse)</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/SKiUO43xl04B6_HKiIYYJOc9I4Af1A9lcAexVqnG2EFwQjZtqrAMo6qsYqbEhsCXkVFYiBh4kVD7fDuetPh45bDw4sY5XHQTAMHYNOrzCQWzE5IixY0_Vzttd35cY2i9YCCNwWHo93niJ_Wf09-qrBxwuTAo4VmMXYNMnhmXJLvd67__F9qvXvb7gTVX" height="200" width="auto" /><br><br>description: For a long time this was the only road stretching from the North over the Alps down to Venice, Italy. <br>The most notable person to live here was Joseph Mohr in house #9 where he wrote the lyrics to 'Silent Night'. Also notice the broken corner where a US Army tank got stuck trying to get down the narrow road.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh5.googleusercontent.com/proxy/_Hda4fobsxdMf4nKHhcDm3fxfT2ddrWUyDtq0s1yytRhW8aIgXQeGellG1cyq0DmhlZvjxaOvEKJdC5BwWrqtD7HY7_N05LtK0b5l1IamrbZ72Jjm7X1o1AfpnhvORUqqUho-5RzIJwMuFpXu-5p0SdsIr41SA-gngwk6iwnsF8y9b-gARsccIhMmg" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[For a long time this was the only road stretching from the North over the Alps down to Venice, Italy. 
+The most notable person to live here was Joseph Mohr in house #9 where he wrote the lyrics to 'Silent Night'. Also notice the broken corner where a US Army tank got stuck trying to get down the narrow road.]]></value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/SKiUO43xl04B6_HKiIYYJOc9I4Af1A9lcAexVqnG2EFwQjZtqrAMo6qsYqbEhsCXkVFYiBh4kVD7fDuetPh45bDw4sY5XHQTAMHYNOrzCQWzE5IixY0_Vzttd35cY2i9YCCNwWHo93niJ_Wf09-qrBxwuTAo4VmMXYNMnhmXJLvd67__F9qvXvb7gTVX https://lh5.googleusercontent.com/proxy/_Hda4fobsxdMf4nKHhcDm3fxfT2ddrWUyDtq0s1yytRhW8aIgXQeGellG1cyq0DmhlZvjxaOvEKJdC5BwWrqtD7HY7_N05LtK0b5l1IamrbZ72Jjm7X1o1AfpnhvORUqqUho-5RzIJwMuFpXu-5p0SdsIr41SA-gngwk6iwnsF8y9b-gARsccIhMmg</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0473701,47.8012508,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>7. Mozart Bridge</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/H1GCgCWMRkj7T2eujg2ttAJd5qqBmg37a3BElmTlEICH7kgDMrTYLfi0F_LtAXLr47emveoImmdvgoSOJvzcRsKG3M5bg_0hQLWZUhS1ib9-1my7C9wb6fcp7-VxSzsEV12oybUnz_evBOYs1l28MCO-Yq40od5uJIJgVxgafYRFAbMy9SmB" height="200" width="auto" /><br><br>description: pedestrian only bridge featured in scenes in the Sound of Music movie.<br>Built In: 1903<br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh5.googleusercontent.com/proxy/Hn4_84qoAl36A5pF9mGSyRDcKlsQ1Cxs8HX8OlzwR8-sLM5nlgBbTpY-evGwGTGLPssobyHpIrn3FqEv4RC_6SOFUcrbwBqBY0MWfuViL8SO2HtSEiwIZ8kaS5759Y8C26G7y9wyAn6-hyCQWwerp01mmvdIHkwKpmEoef27q92IE779lglGTio" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>pedestrian only bridge featured in scenes in the Sound of Music movie.</value>
+        </Data>
+        <Data name="Built In">
+          <value>1903</value>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/H1GCgCWMRkj7T2eujg2ttAJd5qqBmg37a3BElmTlEICH7kgDMrTYLfi0F_LtAXLr47emveoImmdvgoSOJvzcRsKG3M5bg_0hQLWZUhS1ib9-1my7C9wb6fcp7-VxSzsEV12oybUnz_evBOYs1l28MCO-Yq40od5uJIJgVxgafYRFAbMy9SmB https://lh5.googleusercontent.com/proxy/Hn4_84qoAl36A5pF9mGSyRDcKlsQ1Cxs8HX8OlzwR8-sLM5nlgBbTpY-evGwGTGLPssobyHpIrn3FqEv4RC_6SOFUcrbwBqBY0MWfuViL8SO2HtSEiwIZ8kaS5759Y8C26G7y9wyAn6-hyCQWwerp01mmvdIHkwKpmEoef27q92IE779lglGTio</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0489898,47.7998814,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>8. Mozart Square (Mozartplatz)</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/v0NtrLH1SEmUlWHiHEQekD0h6UraidRbbHfYUMhp9qASOkd5dj1Vv7LH2BnyMFzVwzlrwjZa8-1IySVlH9o1G4hGHz5zrfO5_oKrixRp9JCLtulp1UvzGc43aSb6jQGaI52f764zYVvvqGrIXahDl0QSy62RPV3htKcY1vnp9KqM7aURuOWnBQy_ufvxRis" height="200" width="auto" /><br><br>description: Amadeus Mozart  statue dominates the center of this square. Highlighted by the beautiful pink Church of St. Michael which and the  Cafe Demel.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh6.googleusercontent.com/proxy/PhKbK4fW6kkNPbaPLbOt6Na4ATpOK421ETethDuZll7-cLfSP1T6j3M3-JHMtCDu7EuqzFipAzJxN1oDST-ackuea3dFDXdBA_pXtCUtx2o3KuUY7vKNwWbyCxLvE3r7ijznm4_K-awdp8KYmyD1wUFsRAA1_zmvo1MLa1WES8-txD5Kqwd2iKknxNH5L14" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Amadeus Mozart  statue dominates the center of this square. Highlighted by the beautiful pink Church of St. Michael which and the  Cafe Demel.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/v0NtrLH1SEmUlWHiHEQekD0h6UraidRbbHfYUMhp9qASOkd5dj1Vv7LH2BnyMFzVwzlrwjZa8-1IySVlH9o1G4hGHz5zrfO5_oKrixRp9JCLtulp1UvzGc43aSb6jQGaI52f764zYVvvqGrIXahDl0QSy62RPV3htKcY1vnp9KqM7aURuOWnBQy_ufvxRis https://lh6.googleusercontent.com/proxy/PhKbK4fW6kkNPbaPLbOt6Na4ATpOK421ETethDuZll7-cLfSP1T6j3M3-JHMtCDu7EuqzFipAzJxN1oDST-ackuea3dFDXdBA_pXtCUtx2o3KuUY7vKNwWbyCxLvE3r7ijznm4_K-awdp8KYmyD1wUFsRAA1_zmvo1MLa1WES8-txD5Kqwd2iKknxNH5L14</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0478309,47.799042,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>9. New Residenz </name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/cqVv961Pt-2TDtpUNwVbxnDlA_MWwzyBxDzWCe7zq5c_MXEbgrSqbfdbmsjcVeq8B5lunbwmE-W8BYGgJuoO2-BnmgdX1P5hbCMVTgY8zKnpm3bsTQYPb2XCEtDC04xt6gDpNSfFwHQBOAXBKwDlbcfI8-kBeGSynKXzhLuxAMuD7rvFj4aZ2pRTN7fk8p5iCA1WZWKRNQ" height="200" width="auto" /><br><br>description: Home of the Glockenspiel Bell Tower, Heimatwerk Shop, and the Salzburg Panorama 1929 painted by Johann Michael Sattler. The Panorama boasts a series of stunning 360 degree panoramic paintings of many European cities made during the early 1800’s. <br>Heimatwerk Hours: open Monday-Friday9am-6pm & Saturday 9am-1pm. Museum of History & Art Hours: Open daily 9am-6pm; open until 8pm on Thursdays; Costs 8€. Salzburg Panorama 1929 Hours: Open daily from 9am-6pm, Thursday until 9pm; Costs 2€.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh3.googleusercontent.com/proxy/Ytn1NGaAq7oHlecG-4l2KiFwTJsYYq1gjbm1DMGfRv09Z33kvHY7CE_4B8EwA-yqj2XiGOnqD5kmcAcMLMhLupaSfsICriB478ex0iOU-N-g8yZo6VBRUYV2gKmZqVRNZofVxON3-kiZv8XEac_DRKA1zkuCLkXtoGBuJWHPwK4q6MgOkEDpSrHP6iCAMsz82frZI4rZphaqZTy_AFlztOc" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Home of the Glockenspiel Bell Tower, Heimatwerk Shop, and the Salzburg Panorama 1929 painted by Johann Michael Sattler. The Panorama boasts a series of stunning 360 degree panoramic paintings of many European cities made during the early 1800’s. 
+Heimatwerk Hours: open Monday-Friday9am-6pm & Saturday 9am-1pm. Museum of History & Art Hours: Open daily 9am-6pm; open until 8pm on Thursdays; Costs 8€. Salzburg Panorama 1929 Hours: Open daily from 9am-6pm, Thursday until 9pm; Costs 2€.]]></value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/cqVv961Pt-2TDtpUNwVbxnDlA_MWwzyBxDzWCe7zq5c_MXEbgrSqbfdbmsjcVeq8B5lunbwmE-W8BYGgJuoO2-BnmgdX1P5hbCMVTgY8zKnpm3bsTQYPb2XCEtDC04xt6gDpNSfFwHQBOAXBKwDlbcfI8-kBeGSynKXzhLuxAMuD7rvFj4aZ2pRTN7fk8p5iCA1WZWKRNQ https://lh3.googleusercontent.com/proxy/Ytn1NGaAq7oHlecG-4l2KiFwTJsYYq1gjbm1DMGfRv09Z33kvHY7CE_4B8EwA-yqj2XiGOnqD5kmcAcMLMhLupaSfsICriB478ex0iOU-N-g8yZo6VBRUYV2gKmZqVRNZofVxON3-kiZv8XEac_DRKA1zkuCLkXtoGBuJWHPwK4q6MgOkEDpSrHP6iCAMsz82frZI4rZphaqZTy_AFlztOc</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0476428,47.7984113,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10. Residenz Square (Residenzplatz)</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Ct9VTRBIBIHtR4c5JgE72YFCvHSSMSluHgc7V81_i-VmkwlVLTo6FubflDW8qJfQtAduytFIaQXeNBMfgKj8PYreYgg_6BvwWaCftaKg0FZi-6GAMEbOEX3BVCEIK91tICymi_RF_6EgFtzQUypwwjPChQwyhJojYp5gMBKK6d9ca_FVYM_jtrLBYxzhkZTt" height="200" width="auto" /><br><br>description: Square is the heart of the city and has a great fountain.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh3.googleusercontent.com/proxy/0PRQB6oXvQRFkTbeiNP08Rhg339AU62QvYPhnbcVyyVZWe92fgrX5GbmjX70bMsDlEiF-sSSXxE7U7GZ1A-GbvWU8JqqQB8TmByB0cLeAaDrh2osVqPr2AGtW7OJgN-KN2eY5PKmAAayozI-7T9tkzfpXE1O7Tz0CnQez6gy4i_PqZL1_SDff1tjxryB_ekv" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/proxy/TdlAydcGKhRhT9fOkRZHrpwH06plB7RGf_VZD3iUXBYpw5VqBOV_P70HZu_h-SbSAqJfYQQ-9B6daaioQp5JGNEnEs0F-s4ase72-5KC6nyNKDX4404S-_erHbUp4ZAdF72NBSv_2VwMcPenp3I_x5242hZfnpY0T_mon2QEPK-VfI08l3gFRds7l5-Ck7oF" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Square is the heart of the city and has a great fountain.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/Ct9VTRBIBIHtR4c5JgE72YFCvHSSMSluHgc7V81_i-VmkwlVLTo6FubflDW8qJfQtAduytFIaQXeNBMfgKj8PYreYgg_6BvwWaCftaKg0FZi-6GAMEbOEX3BVCEIK91tICymi_RF_6EgFtzQUypwwjPChQwyhJojYp5gMBKK6d9ca_FVYM_jtrLBYxzhkZTt https://lh3.googleusercontent.com/proxy/0PRQB6oXvQRFkTbeiNP08Rhg339AU62QvYPhnbcVyyVZWe92fgrX5GbmjX70bMsDlEiF-sSSXxE7U7GZ1A-GbvWU8JqqQB8TmByB0cLeAaDrh2osVqPr2AGtW7OJgN-KN2eY5PKmAAayozI-7T9tkzfpXE1O7Tz0CnQez6gy4i_PqZL1_SDff1tjxryB_ekv https://lh6.googleusercontent.com/proxy/TdlAydcGKhRhT9fOkRZHrpwH06plB7RGf_VZD3iUXBYpw5VqBOV_P70HZu_h-SbSAqJfYQQ-9B6daaioQp5JGNEnEs0F-s4ase72-5KC6nyNKDX4404S-_erHbUp4ZAdF72NBSv_2VwMcPenp3I_x5242hZfnpY0T_mon2QEPK-VfI08l3gFRds7l5-Ck7oF</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0466509,47.7987135,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11. Gasthof Goldgasse Restaurant</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/iF297xHJRJPKanBJ0E4fbNdJHnx5bzlaZZJRBTto_5EE-F3glJMzDzgEoCynSRaDv6tUiC4wIKQZ9PQQS7UHMTr-GCpUAFPpZvGtNt7oE-gxIeiBX0ZwOsmaW-pK0Y8AnDqNDvNk39E0CBzEvSWDRJLFq3SJE3ZrwTqx-bJnblLdHAKMPKeH-DFmTuwS_gJt1qlIcobSVyY1D8He" height="200" width="auto" /><br><br>description: Narrow alley is named after the goldsmiths that once lined it and now has an excellent restaurant themed like an Alpine lodge<br>Built In: <br>Address: <br>Hours and Cost: Restaurant open Noon-11pm<br>Website: Hotel http://www.hotelgoldgasse.at/en.html<br>Restaurant http://www.gasthofgoldgasse.at/en.html<br><br><br><img src="https://lh4.googleusercontent.com/proxy/_o-Z24-kqoQcRZrLRO8fPD-9Sj1JgJwRP37weJfyaGkguqQu5hxuJiJH2EziVUgIosbyZE3KFh1dlmYQ6JDUlloQBOwMRjixzZUy-Mjskc0Gy7mQLcSDqvoyyNgbEB5jAMm3o3-0sIRUhRtqObJp7pSCmBsrKwLcG2jEJ5OounaKsnqzyYa7RG9NjQyomvjYctJ_yBrZX0GqE6n3DYM" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1085</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Narrow alley is named after the goldsmiths that once lined it and now has an excellent restaurant themed like an Alpine lodge</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Restaurant open Noon-11pm</value>
+        </Data>
+        <Data name="Website">
+          <value>Hotel http://www.hotelgoldgasse.at/en.html
+Restaurant http://www.gasthofgoldgasse.at/en.html
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/iF297xHJRJPKanBJ0E4fbNdJHnx5bzlaZZJRBTto_5EE-F3glJMzDzgEoCynSRaDv6tUiC4wIKQZ9PQQS7UHMTr-GCpUAFPpZvGtNt7oE-gxIeiBX0ZwOsmaW-pK0Y8AnDqNDvNk39E0CBzEvSWDRJLFq3SJE3ZrwTqx-bJnblLdHAKMPKeH-DFmTuwS_gJt1qlIcobSVyY1D8He https://lh4.googleusercontent.com/proxy/_o-Z24-kqoQcRZrLRO8fPD-9Sj1JgJwRP37weJfyaGkguqQu5hxuJiJH2EziVUgIosbyZE3KFh1dlmYQ6JDUlloQBOwMRjixzZUy-Mjskc0Gy7mQLcSDqvoyyNgbEB5jAMm3o3-0sIRUhRtqObJp7pSCmBsrKwLcG2jEJ5OounaKsnqzyYa7RG9NjQyomvjYctJ_yBrZX0GqE6n3DYM</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0459723,47.799393,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12. Old Town Hall (Alter Rathaus)</name>
+      <description><![CDATA[description: Built in the  1300s as a Citizen's Hall, the city bought the building to  use as the Town Hall in 1407 and added the bell/clock tower.  The tower served as the lookout for the nightwatchman in Medieval Times and its clock also has a moon dial.  In 1618 the marble statue of Justitian was added above the door to represent the justice of the court inside.  The town hall was given a Rocco-style facade in 1772 and the government offices later moved to Mirabell Palace in 1947.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Built in the  1300s as a Citizen's Hall, the city bought the building to  use as the Town Hall in 1407 and added the bell/clock tower.  The tower served as the lookout for the nightwatchman in Medieval Times and its clock also has a moon dial.  In 1618 the marble statue of Justitian was added above the door to represent the justice of the court inside.  The town hall was given a Rocco-style facade in 1772 and the government offices later moved to Mirabell Palace in 1947.]]></value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0448002,47.8000615,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12. Old Market (Alter Markt)</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/FrocWo0kI4RbogYlMUqCrJH0c2CR680ho_subIjkh07g-Dr6Jz29uBjjSEi3nfxLAqd4lmb1zRLV-PTeff2ZggbHJ3unx_Pzb_OuN4CnVvgf3V4TS5YowJ1rsm8WZysKvttW_IR2b0N0PwpmuxIiMpNwz9Abj_VrQNthYSGYMrEsItZt1J-sUvH1brJsUOs" height="200" width="auto" /><br><br>description: Old market square from Medieval times which has old home, shops, and a pharmacy called Hofapotheke which opened in 1760.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh3.googleusercontent.com/proxy/WVngGJvS26BQ9011BagTElWTpm4axtntsCrzFPu3KAfTYg2whi_va-Nl3j232KI5cmSnzSTPria-2cuJgfw1Rc3Tnf-u1j8sQBeBFinzc5rumN_CiCinfGEJ4dTgbMyd5r0Hi9H6jILZ1m_ounUAxUDUF4hQM9pQPZ-8bgSRe1HZ4RuI4fi1uLgtTsQxX6b-EA" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/proxy/W5dda3aOie6H2I7jwes4IOqYzcXyAXXFhssddwXkEk5QX4g5gAgo_fjtDvAAwtX_Iu8RSmJDafpbv06pQ_BmSL7GsUpA3GD3EX5YEpV4QVn_RiiOw0v1DtVuYM-HbMHT1YZT2_nHi8m8iQ3_sFDTTLOHc7G9Y25J_7ykm4Vh_NteqskFi3wBOCth_W_r4ESJrg" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Old market square from Medieval times which has old home, shops, and a pharmacy called Hofapotheke which opened in 1760.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/FrocWo0kI4RbogYlMUqCrJH0c2CR680ho_subIjkh07g-Dr6Jz29uBjjSEi3nfxLAqd4lmb1zRLV-PTeff2ZggbHJ3unx_Pzb_OuN4CnVvgf3V4TS5YowJ1rsm8WZysKvttW_IR2b0N0PwpmuxIiMpNwz9Abj_VrQNthYSGYMrEsItZt1J-sUvH1brJsUOs https://lh3.googleusercontent.com/proxy/WVngGJvS26BQ9011BagTElWTpm4axtntsCrzFPu3KAfTYg2whi_va-Nl3j232KI5cmSnzSTPria-2cuJgfw1Rc3Tnf-u1j8sQBeBFinzc5rumN_CiCinfGEJ4dTgbMyd5r0Hi9H6jILZ1m_ounUAxUDUF4hQM9pQPZ-8bgSRe1HZ4RuI4fi1uLgtTsQxX6b-EA https://lh5.googleusercontent.com/proxy/W5dda3aOie6H2I7jwes4IOqYzcXyAXXFhssddwXkEk5QX4g5gAgo_fjtDvAAwtX_Iu8RSmJDafpbv06pQ_BmSL7GsUpA3GD3EX5YEpV4QVn_RiiOw0v1DtVuYM-HbMHT1YZT2_nHi8m8iQ3_sFDTTLOHc7G9Y25J_7ykm4Vh_NteqskFi3wBOCth_W_r4ESJrg</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0451904,47.7993966,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13. Old Residenz Palace</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/mYzusioYMo49nQd0GNTUhH76EEb_Nz_P1IuaPONX3PwWDfbkb3MPe2Lw8FN_KkkbzAslpAU_-rnCiTdv4vV-ry5sIDCFuPTS4MFKrx45qT_c8YERBSWQ0GLvHri57YF7y9RQRMevKbJMNjC1byMQnQAbQFrrwzb8Bzbcr2ebwScK37VpSaUnwYUCuFg8-lXB" height="200" width="auto" /><br><br>description: Former Royal palace is home to a classic art gallery and 15 elegant staterooms.. <br>Built In: <br>Address: <br>Hours and Cost: Wednesday-Monday 10am-5pm; Closed Tuesdays.<br>Website: http://www.salzburg-burgen.at/en/residenz/residenz-salzburg/index.htm<br><br><img src="https://lh3.googleusercontent.com/proxy/4ytdpAQkT8CwGyvYShhxr4C2fYywqd-bJsRsUT7xYsbz9wiL40w8T1S-keZTddk0CSdVZyv791VrbmUoBi-uKabbZyyafuVngakb4HDDh36IK3NlyDnX698oL8XPJViMzQOuq26ibKvMxG-cduYRO5eyMZdl_71zFDwVtQOEfGVSaf8NALKaNmu78gr6ZfhPGto" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Former Royal palace is home to a classic art gallery and 15 elegant staterooms.. </value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Wednesday-Monday 10am-5pm; Closed Tuesdays.</value>
+        </Data>
+        <Data name="Website">
+          <value>http://www.salzburg-burgen.at/en/residenz/residenz-salzburg/index.htm</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/mYzusioYMo49nQd0GNTUhH76EEb_Nz_P1IuaPONX3PwWDfbkb3MPe2Lw8FN_KkkbzAslpAU_-rnCiTdv4vV-ry5sIDCFuPTS4MFKrx45qT_c8YERBSWQ0GLvHri57YF7y9RQRMevKbJMNjC1byMQnQAbQFrrwzb8Bzbcr2ebwScK37VpSaUnwYUCuFg8-lXB https://lh3.googleusercontent.com/proxy/4ytdpAQkT8CwGyvYShhxr4C2fYywqd-bJsRsUT7xYsbz9wiL40w8T1S-keZTddk0CSdVZyv791VrbmUoBi-uKabbZyyafuVngakb4HDDh36IK3NlyDnX698oL8XPJViMzQOuq26ibKvMxG-cduYRO5eyMZdl_71zFDwVtQOEfGVSaf8NALKaNmu78gr6ZfhPGto</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0455721,47.7985554,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14. Salzburg Cathedral (Salzburger Dom)</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/bVZtO1xiRrSBGqVMbWW9qOP0za6wIEHkzyRiiBIGQCyQan_DNJV-3maHfzUsCo22AN5sjmiUQ-Q1wzSUwqQx_7FbmWYoUFnBtGP_PF8CwY6h3KiJ2cBLBaQEYTxv2YzlrPhpsfK33gvcsULuZ_6Cs3y8d1Hi2MECX77CCDdst6je4DHa_yN4jLEuDJk" height="200" width="auto" /><br><br>description: Baroque Salzburg Cathedral or Dom, was finished in 1628 with a 233 foot tall dome.  Before entering the church that Mozart was baptized in, it is hard to miss the beautiful Virgin Mary (Madonna) Statue lying in the center of the square. While it appears odd that the statue is looking away from the church, further inspection reviles that the statue is actually interacting with the Church’s facade.<br>Hours: May-Oct Mon-Sat 9am-630pm & Sun 1pm-630pm; Nov-April Mon-Sat 10am-5pm & Sun 1pm-5pm Cost: Free however donations requested Mass: Sun 10am Organ Performance: June-Sept Wed & Sat 1115am for one hour Museum: Open Mid May-Oct & Dec only, Mon-Sat 10am-5pm & Sun 11am-6pm, Cost is €5<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh6.googleusercontent.com/proxy/FeZmB7cEBkhoab1bSglGHRXKEW0od5dsEYiCW7vAal0T0KnHpq72p0KFcgdcHFheROVnLNa4QEXfOjCY6oPHPjuWNld4PaE4csbOf7NtkuXWZ4Wz-ph3xQ6mPEBIxUD3mdJfTCcyRkQU1UAKl36QS2OJnAeKXc5r8Z7p2dZzwV90rzgIercgN0AYi7ezxw" height="200" width="auto" /><br><br><img src="https://lh4.googleusercontent.com/proxy/YvYiohJpMBnAxwa6_og0gaOMkp0sTSBqW1UuJfUYCbPt_5yV1FgGOYqJKg-XV2MoJIRXJjTnHrgFizY66TQjE5WjwYGB8BQjByDohA3a24-dY249chPochmXft6cqs7I4qtNq_jXNsM0uySDXFYKv99-k5PI9gCxPQ1WQHOq0m3prspKiDZ4w298MAo9Kw" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Baroque Salzburg Cathedral or Dom, was finished in 1628 with a 233 foot tall dome.  Before entering the church that Mozart was baptized in, it is hard to miss the beautiful Virgin Mary (Madonna) Statue lying in the center of the square. While it appears odd that the statue is looking away from the church, further inspection reviles that the statue is actually interacting with the Church’s facade.
+Hours: May-Oct Mon-Sat 9am-630pm & Sun 1pm-630pm; Nov-April Mon-Sat 10am-5pm & Sun 1pm-5pm Cost: Free however donations requested Mass: Sun 10am Organ Performance: June-Sept Wed & Sat 1115am for one hour Museum: Open Mid May-Oct & Dec only, Mon-Sat 10am-5pm & Sun 11am-6pm, Cost is €5]]></value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/bVZtO1xiRrSBGqVMbWW9qOP0za6wIEHkzyRiiBIGQCyQan_DNJV-3maHfzUsCo22AN5sjmiUQ-Q1wzSUwqQx_7FbmWYoUFnBtGP_PF8CwY6h3KiJ2cBLBaQEYTxv2YzlrPhpsfK33gvcsULuZ_6Cs3y8d1Hi2MECX77CCDdst6je4DHa_yN4jLEuDJk https://lh6.googleusercontent.com/proxy/FeZmB7cEBkhoab1bSglGHRXKEW0od5dsEYiCW7vAal0T0KnHpq72p0KFcgdcHFheROVnLNa4QEXfOjCY6oPHPjuWNld4PaE4csbOf7NtkuXWZ4Wz-ph3xQ6mPEBIxUD3mdJfTCcyRkQU1UAKl36QS2OJnAeKXc5r8Z7p2dZzwV90rzgIercgN0AYi7ezxw https://lh4.googleusercontent.com/proxy/YvYiohJpMBnAxwa6_og0gaOMkp0sTSBqW1UuJfUYCbPt_5yV1FgGOYqJKg-XV2MoJIRXJjTnHrgFizY66TQjE5WjwYGB8BQjByDohA3a24-dY249chPochmXft6cqs7I4qtNq_jXNsM0uySDXFYKv99-k5PI9gCxPQ1WQHOq0m3prspKiDZ4w298MAo9Kw</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.046093,47.7979032,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15. Chapter Square (Kapitelplatz)</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/dwgeV0PFYMH1u2wC3X0mWgYeo-5ANAjmvdH5DEdcgHWrBCUz5iGVWt_uUQk4V1xQ2oO13ga10tnMP4-edDoh7oVXElin6xppYOam9bDWMdjQ6OOdB-itw-jgbikHb-L_20hBdsMs06aCY4bynf5sEy-at3ngaOE3OSAn09Q04UMpEkklvfyGHAHFYVPIdjwKwusADuZi" height="200" width="auto" /><br><br>description: Large festive square with great views of the Cathedral and the High Fortress above you.  You'll fin a large over-sized chess board, icon golden sphere sculpture, and Horse Bath Fountain from which has been used since Medieval times.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh3.googleusercontent.com/proxy/jjDC5wPV5FPMJFxcGmwxwOUl3m4heWhcnnZwNejS_LRneqGJ7WKkUfyC-nNK0dgnmbLIXnK7gMkvSeeSrti8gNeEtGQjcxMbnYvpoR6MbmoY3TE0GX4Cebimj1K4yoTO1k6YoZ2b0daAln49kx0qwLTlXT89eeyyl2gI-nQJvdzTLAWmyAf1kg8" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Large festive square with great views of the Cathedral and the High Fortress above you.  You'll fin a large over-sized chess board, icon golden sphere sculpture, and Horse Bath Fountain from which has been used since Medieval times.]]></value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/dwgeV0PFYMH1u2wC3X0mWgYeo-5ANAjmvdH5DEdcgHWrBCUz5iGVWt_uUQk4V1xQ2oO13ga10tnMP4-edDoh7oVXElin6xppYOam9bDWMdjQ6OOdB-itw-jgbikHb-L_20hBdsMs06aCY4bynf5sEy-at3ngaOE3OSAn09Q04UMpEkklvfyGHAHFYVPIdjwKwusADuZi https://lh3.googleusercontent.com/proxy/jjDC5wPV5FPMJFxcGmwxwOUl3m4heWhcnnZwNejS_LRneqGJ7WKkUfyC-nNK0dgnmbLIXnK7gMkvSeeSrti8gNeEtGQjcxMbnYvpoR6MbmoY3TE0GX4Cebimj1K4yoTO1k6YoZ2b0daAln49kx0qwLTlXT89eeyyl2gI-nQJvdzTLAWmyAf1kg8</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0466509,47.7972218,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[16. StieglKeller Beer Hall & Restaurant]]></name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/6-9Mo7o_jh5ygxlxjHPYs7P-XSVB1KwgeNUFP9aZEFh_0xvKNmvbC3gXKwaw1HEHTJrLczNqFqD1CXBp5nLifjY-UtHO08KSt1NcOaqVw6zxUUxJjKMHY0XH8C2Q1vpqFt8U3uGiiYfTgME0ejZHb-Mpvr9FkGh9_VR_WgOC_vmkqCFQ5x3f6Zs38qjG7hh3WnpfaL_kIg" height="200" width="auto" /><br><br>description: Stiegl has been brewing beer in Salzburg since 1492, so it’s surprising that this local hotspot is overlooked by tourists.  <br>Built In: <br>Address: <br>Hours and Cost: Daily 11am-10pm; open until 11pm in Summer<br>Website: http://www.restaurant-stieglkeller.at/en<br><br><img src="https://lh3.googleusercontent.com/proxy/b16NVvIjnYXNotBkRkuGCVIUnG_aa99YjSK-UkCRqCqaJ72vWutFlUymx358Vy1RXQ2kdhBLEQojIKAgzTeTbXej9bkvmaDkHZWeOAR_sY24ki2oG8R2JYV_XVhL9NBuKMwJBC8N1oGHCROknVOBlyL-5mfTjWUs5guNAKoYICxA4W3e8BDHQJtHGmUaOyfIBudFwmAuMrI0" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/proxy/pn--HWWlkvGFnY1nHTH12IPgPmvW1ho3AvBQ5zEjTAX5sOXCuiTNH-tCqhKY4n0nVmdUZGd8b5vB8jnByqfZDlBABdGEBcCtYM149IKFNudxwyd2FOltqP9wArf7U_dxb4esh0917zu296eaZ7SJV2a5KrA68XjNTyhrAa515-vMkl0aZhPTk0Or5TTtQFVjCbEPd_pscaRO" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/proxy/Mjn1kDrg93-OkZjlrL4ctbzE76mz8H0B59s4TmyDSJmh8qC0qH3q43DbNe_-wzg9fXbgIUHtYWW4qFxsudaNpMFORCzmfubcQW8euq7edvREJ0kv56mdrBakUbCwQc5UNmjtKBrqLxiEAkhnZJhxl8599hWNRSNItbhwSm5FSAHSn6SEYFLqUqTx1qRZ3BbeHDOa1B4XdTQ2" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Stiegl has been brewing beer in Salzburg since 1492, so it’s surprising that this local hotspot is overlooked by tourists.  </value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Daily 11am-10pm; open until 11pm in Summer</value>
+        </Data>
+        <Data name="Website">
+          <value>http://www.restaurant-stieglkeller.at/en</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/6-9Mo7o_jh5ygxlxjHPYs7P-XSVB1KwgeNUFP9aZEFh_0xvKNmvbC3gXKwaw1HEHTJrLczNqFqD1CXBp5nLifjY-UtHO08KSt1NcOaqVw6zxUUxJjKMHY0XH8C2Q1vpqFt8U3uGiiYfTgME0ejZHb-Mpvr9FkGh9_VR_WgOC_vmkqCFQ5x3f6Zs38qjG7hh3WnpfaL_kIg https://lh3.googleusercontent.com/proxy/b16NVvIjnYXNotBkRkuGCVIUnG_aa99YjSK-UkCRqCqaJ72vWutFlUymx358Vy1RXQ2kdhBLEQojIKAgzTeTbXej9bkvmaDkHZWeOAR_sY24ki2oG8R2JYV_XVhL9NBuKMwJBC8N1oGHCROknVOBlyL-5mfTjWUs5guNAKoYICxA4W3e8BDHQJtHGmUaOyfIBudFwmAuMrI0 https://lh3.googleusercontent.com/proxy/pn--HWWlkvGFnY1nHTH12IPgPmvW1ho3AvBQ5zEjTAX5sOXCuiTNH-tCqhKY4n0nVmdUZGd8b5vB8jnByqfZDlBABdGEBcCtYM149IKFNudxwyd2FOltqP9wArf7U_dxb4esh0917zu296eaZ7SJV2a5KrA68XjNTyhrAa515-vMkl0aZhPTk0Or5TTtQFVjCbEPd_pscaRO https://lh3.googleusercontent.com/proxy/Mjn1kDrg93-OkZjlrL4ctbzE76mz8H0B59s4TmyDSJmh8qC0qH3q43DbNe_-wzg9fXbgIUHtYWW4qFxsudaNpMFORCzmfubcQW8euq7edvREJ0kv56mdrBakUbCwQc5UNmjtKBrqLxiEAkhnZJhxl8599hWNRSNItbhwSm5FSAHSn6SEYFLqUqTx1qRZ3BbeHDOa1B4XdTQ2</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0472891,47.7962127,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17. Fortress Funicular (Festungsbahn)</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/BM90181k3x69ZzMNnKkjTCq6QTORMKgdI-DgUD0BSM-SfaEaYUEgYZz1tuf_2cUXQ5TN4jKy8CcDRxbnMq-5FM5SVhYCAev3cCxf0I3AT5utn_LTmlSY6KutAEbuQUfOKah6a04CBy4QqZeo0jTiEDXgswS5B56WdInpPHLZgmKF5si1hLqKfejMyIRvaGCC6MogiFwI" height="200" width="auto" /><br><br>description: Easiest way to get up Monchsberg Hill to the High Fortress.  There has been a lift here since 1515 and the current funicular has been running since 1892 and the modern cars only take 54 seconds to reach to top.  It carries 55 people per trip and 1.7 million visitors a year.<br><br>Built In: 1892 (Lift since 1515)<br>Address: <br>Hours and Cost: Hours: Varies but usually 8am-Midnight Cost: 2-4€. <br>Website: https://www.salzburg-ag.at/verkehr/festungsbahn/<br><br><img src="https://lh4.googleusercontent.com/proxy/YzeHOc2LwkzhYfDi1JP2H58CrENnk12uvlw7EJlQlkb2UF7RBIEkeW2wK1OfeUqpOVMwOmiYI_4uKH_cB7dXmaqUBvvTKRyb6G3opza1qbrCFyuvYch3YGQ6A50OCujhAUem00RCqq0fG_HpcQFS_jng-3nvx2Nsai2AFoeehIB-8UfhFBDBeqf__PBEvpKFvYYX2B4XM7U" height="200" width="auto" /><br><br><img src="https://lh4.googleusercontent.com/proxy/qrOlb99wOf_zUD9wppEdSjAEvF4NpQ8fRI41RZAay4tTPVzRpotjPbv2TL4DKJZ4imCoRRaGK7SG1hU3IGO1OSFq9txfTQ5MZSnMQ7SIsYwE7fhqg_OFWmSpAC2WZpWUUvqNeUiRDqYaUM57k-PPagMIlNor3F1a-tf5CRQKjn_JDyqVG9_BJDKbiJe1JFBWkhDBvzF3ePk" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Easiest way to get up Monchsberg Hill to the High Fortress.  There has been a lift here since 1515 and the current funicular has been running since 1892 and the modern cars only take 54 seconds to reach to top.  It carries 55 people per trip and 1.7 million visitors a year.
+</value>
+        </Data>
+        <Data name="Built In">
+          <value>1892 (Lift since 1515)</value>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Hours: Varies but usually 8am-Midnight Cost: 2-4€. </value>
+        </Data>
+        <Data name="Website">
+          <value>https://www.salzburg-ag.at/verkehr/festungsbahn/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/BM90181k3x69ZzMNnKkjTCq6QTORMKgdI-DgUD0BSM-SfaEaYUEgYZz1tuf_2cUXQ5TN4jKy8CcDRxbnMq-5FM5SVhYCAev3cCxf0I3AT5utn_LTmlSY6KutAEbuQUfOKah6a04CBy4QqZeo0jTiEDXgswS5B56WdInpPHLZgmKF5si1hLqKfejMyIRvaGCC6MogiFwI https://lh4.googleusercontent.com/proxy/YzeHOc2LwkzhYfDi1JP2H58CrENnk12uvlw7EJlQlkb2UF7RBIEkeW2wK1OfeUqpOVMwOmiYI_4uKH_cB7dXmaqUBvvTKRyb6G3opza1qbrCFyuvYch3YGQ6A50OCujhAUem00RCqq0fG_HpcQFS_jng-3nvx2Nsai2AFoeehIB-8UfhFBDBeqf__PBEvpKFvYYX2B4XM7U https://lh4.googleusercontent.com/proxy/qrOlb99wOf_zUD9wppEdSjAEvF4NpQ8fRI41RZAay4tTPVzRpotjPbv2TL4DKJZ4imCoRRaGK7SG1hU3IGO1OSFq9txfTQ5MZSnMQ7SIsYwE7fhqg_OFWmSpAC2WZpWUUvqNeUiRDqYaUM57k-PPagMIlNor3F1a-tf5CRQKjn_JDyqVG9_BJDKbiJe1JFBWkhDBvzF3ePk</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0461575,47.7958602,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18. Salzburg High Fortress (Hohensalzburg)</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/1WzQwXdp-b6tknxESr2K-3q_kXgq_HebgHZh5nx3USSh2o3IjLu11t0X0rDmnhSBqeQntyJC-Vzps7dqfcwXQAymK6-DADrJnAWCkaDvjQbFu7ZAisFMK2IMA8q20eE4Y5RPg_Rpk63KvYVNjhPvbwnPLXsBDuV9W-2KM1YmjkzQheWn7hmC15_8moD2YvFj37jsgl-g0_fw" height="200" width="auto" /><br><br>description: Since 1077 AD, this castle-like High Salzburg Fortress has been towering over Salzburg from Mönchstein Hill offering an ever steady sense of protection. Hohensalzburg is one of the largest fortifications in Europe and one of the only ones never over taken.  Touring the apartments, states rooms, and taking in the amazing views are great!<br>Built In: <br>Address: <br>Hours and Cost: May-September 9am-7pm; October-April 9:30am-5pm; last addmission 30 minutes before close.<br>With Staterooms and funicular Adults are 15.50€ and Kids 8.70€. You can save a couple euros by hiking up and a couple more by visiting by 10am during peak season.<br><br>Website: http://www.salzburg-burgen.at/en/hohensalzburg/index.htm<br><br><img src="https://lh3.googleusercontent.com/proxy/fsM9uGs6ZDKXBVAo12PCXGYypkBUBXNby2oHS0-eC83CCWMkFm_JW7ey3ysO4P0o3OXtd-oBPMbENV9FfTGmg4P65esNKlObGYDSUnDkjjP-MfAd-GG_TxmJ0XNYbrEsnQlNyy7Iv_G8795rAh84FeESk57RYq5Qs9J1SVepmM56DhZo-9sREAbcVD4Gft9sqvNrf8j4Uy6sPoQ" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/proxy/FYF50h2DoUauSRf6lkMLIAOvKZ7r39UcNHEb9mPGEJtM1B4bjPBD2IS7pRFpLUH99vn685rB1NOYxygZpOofxMg3b1iAVjqkaIEJK1I87CghCYYBzA1K2tH-ASZEPg6-6X3JENcmbo6i35kpEAVSZt6xwwtC5DvmZ4PzBxPypy-Yqtx-V1xMKefM1d1EUt57npswJUc4T9SkY-M" height="200" width="auto" /><br><br><img src="https://lh4.googleusercontent.com/proxy/4UbkmrBSpB4QNTCHfArS1cDqbf0eJFPJyoQ2a-X_pjDnkB1Q_kT74PeCtqYto15BUDltwsXIbpiJAuobFi2kTYs5NsNYRzqj4cJ0Jks96DyKTaWphHYvEJ3R9hQzOxwmjv42OHscwN7O0gQqjPScbwgQyL84kRKxgRIj5zWU1b1lWkBFXay_oCa_tDv7UNZxvtimUkGPKGp50zY" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Since 1077 AD, this castle-like High Salzburg Fortress has been towering over Salzburg from Mönchstein Hill offering an ever steady sense of protection. Hohensalzburg is one of the largest fortifications in Europe and one of the only ones never over taken.  Touring the apartments, states rooms, and taking in the amazing views are great!</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>May-September 9am-7pm; October-April 9:30am-5pm; last addmission 30 minutes before close.
+With Staterooms and funicular Adults are 15.50€ and Kids 8.70€. You can save a couple euros by hiking up and a couple more by visiting by 10am during peak season.
+</value>
+        </Data>
+        <Data name="Website">
+          <value>http://www.salzburg-burgen.at/en/hohensalzburg/index.htm</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/1WzQwXdp-b6tknxESr2K-3q_kXgq_HebgHZh5nx3USSh2o3IjLu11t0X0rDmnhSBqeQntyJC-Vzps7dqfcwXQAymK6-DADrJnAWCkaDvjQbFu7ZAisFMK2IMA8q20eE4Y5RPg_Rpk63KvYVNjhPvbwnPLXsBDuV9W-2KM1YmjkzQheWn7hmC15_8moD2YvFj37jsgl-g0_fw https://lh3.googleusercontent.com/proxy/fsM9uGs6ZDKXBVAo12PCXGYypkBUBXNby2oHS0-eC83CCWMkFm_JW7ey3ysO4P0o3OXtd-oBPMbENV9FfTGmg4P65esNKlObGYDSUnDkjjP-MfAd-GG_TxmJ0XNYbrEsnQlNyy7Iv_G8795rAh84FeESk57RYq5Qs9J1SVepmM56DhZo-9sREAbcVD4Gft9sqvNrf8j4Uy6sPoQ https://lh6.googleusercontent.com/proxy/FYF50h2DoUauSRf6lkMLIAOvKZ7r39UcNHEb9mPGEJtM1B4bjPBD2IS7pRFpLUH99vn685rB1NOYxygZpOofxMg3b1iAVjqkaIEJK1I87CghCYYBzA1K2tH-ASZEPg6-6X3JENcmbo6i35kpEAVSZt6xwwtC5DvmZ4PzBxPypy-Yqtx-V1xMKefM1d1EUt57npswJUc4T9SkY-M https://lh4.googleusercontent.com/proxy/4UbkmrBSpB4QNTCHfArS1cDqbf0eJFPJyoQ2a-X_pjDnkB1Q_kT74PeCtqYto15BUDltwsXIbpiJAuobFi2kTYs5NsNYRzqj4cJ0Jks96DyKTaWphHYvEJ3R9hQzOxwmjv42OHscwN7O0gQqjPScbwgQyL84kRKxgRIj5zWU1b1lWkBFXay_oCa_tDv7UNZxvtimUkGPKGp50zY</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.047219,47.7949593,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nonnberg Abbey</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/4VhwBmbLcP8ciV-jR8V6X8f-ZAv7ttstPM5mL6S-IxStCoX8e0QUHf9kPywXFHaMhxZ38aWToSZJACZV6LHVgyRKbQ72yi4o1Q_p07vI3iLlyQNOZCCLYfahDjCa3a8IRs-FWVgHiyENGAgxF7ZM9U6sLiW7jFIxqcXYwaXNLgV4plMJQMkE_WWVE9q1Ln6A3lKW8aPFZES5Air1yQo7NkES6A" height="200" width="auto" /><br><br>description: Sound of Music fans will love a stop by the courtyard of the Nonnberg Abbey.  It was featured in the movie and was where there real life Maria lived with the nuns.  Many visitors to Salzburg take not of the red spire on top of the Abbey from afar instead of hiking to it.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: http://www.benediktinerinnen.de/index.php/adressen/2-uncategorised/26-nonnberg<br><br><img src="https://lh6.googleusercontent.com/proxy/GtnXHDac-icSGaHRrMIup82einFNTf3YAPBxBpmzSRnDqMLmGL42h-ltKYpu-alXHh6umKRU7etK5Xi1Mfvs5ZoVtpGpIgUl1yvXRdyjW57dM8ZNFbkEW6XYO93VTZny9gxWdbcBl5hhS0kekFKG9v9qqGjk0su_KXxAtCW42eQMxGIxQMuNCdhOSmNNQRrhw-jHnwddTd-FAG91d7FfwmhcQGgL" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Sound of Music fans will love a stop by the courtyard of the Nonnberg Abbey.  It was featured in the movie and was where there real life Maria lived with the nuns.  Many visitors to Salzburg take not of the red spire on top of the Abbey from afar instead of hiking to it.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value>http://www.benediktinerinnen.de/index.php/adressen/2-uncategorised/26-nonnberg</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/4VhwBmbLcP8ciV-jR8V6X8f-ZAv7ttstPM5mL6S-IxStCoX8e0QUHf9kPywXFHaMhxZ38aWToSZJACZV6LHVgyRKbQ72yi4o1Q_p07vI3iLlyQNOZCCLYfahDjCa3a8IRs-FWVgHiyENGAgxF7ZM9U6sLiW7jFIxqcXYwaXNLgV4plMJQMkE_WWVE9q1Ln6A3lKW8aPFZES5Air1yQo7NkES6A https://lh6.googleusercontent.com/proxy/GtnXHDac-icSGaHRrMIup82einFNTf3YAPBxBpmzSRnDqMLmGL42h-ltKYpu-alXHh6umKRU7etK5Xi1Mfvs5ZoVtpGpIgUl1yvXRdyjW57dM8ZNFbkEW6XYO93VTZny9gxWdbcBl5hhS0kekFKG9v9qqGjk0su_KXxAtCW42eQMxGIxQMuNCdhOSmNNQRrhw-jHnwddTd-FAG91d7FfwmhcQGgL</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0513958,47.7958955,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19. Saint Peter’s Cemetery</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/YrjjvtfSDjlkHY6tzwkwVEM1tdhL-yWc3yCeesZB7_lEWxHJYGHU_OuiGZOXEFJBg--0HBKnQsfIyvlBFaweGHiLTic98rLr3kDXy-k7fjd9zuENQS8EhkEkl6aYuz-SmGjhc3AmWhOeF0fkW9OdBL9MEBp4YtVjlJQX7eK0uy7e2In5bUo7yhYwsA" height="200" width="auto" /><br><br>description: St. Peter’s Cemetery serene, pansy-filled grounds may just be the most peaceful stop on this walking tour. This unique cemetery is said to be from 700 AD, still holds a headstone from 1288 AD, Mozart’s sister Maria Anna is buried here, and it has its own waterfall,  The beautiful Cemetery is where the Von Trapps hid from Nazis in movie The Sound of Music although the actually scene was filmed in Hollywood.<br><br>Built In: <br>Address: <br>Hours and Cost: Cemetery Hours: April-Sept 6:30am-7pm; October-March 6:30am-5:30pm. <br>Catacomb Hours: May-September Daily 10am-6pm; October-April Daily 10am-5pm; <br><br>Cost: Cemetery free; Catacombs 2€ Adults, 1.50€ for kids.<br><br>Website: <br><br><img src="https://lh3.googleusercontent.com/proxy/5tZts-6KI6ojAF_UJ-cxHgZMcVz_dewgENl8wY1lbfb11nUEu_uCJ2CQ8Ksv6bLhqhVU2atC7UuQ_I09Oa6lmp10_uhKzaOKtfnQBPHznk0kATMBR1omQo6obzu6keowcyGsADtfcTOQ3f7MR24gSPeyoANP2I12qju_UZs0De3job6MoXRJ4KyXi_CKN7DTy6HWgQWV" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>St. Peter’s Cemetery serene, pansy-filled grounds may just be the most peaceful stop on this walking tour. This unique cemetery is said to be from 700 AD, still holds a headstone from 1288 AD, Mozart’s sister Maria Anna is buried here, and it has its own waterfall,  The beautiful Cemetery is where the Von Trapps hid from Nazis in movie The Sound of Music although the actually scene was filmed in Hollywood.
+</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Cemetery Hours: April-Sept 6:30am-7pm; October-March 6:30am-5:30pm. 
+Catacomb Hours: May-September Daily 10am-6pm; October-April Daily 10am-5pm; 
+
+Cost: Cemetery free; Catacombs 2€ Adults, 1.50€ for kids.
+</value>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/YrjjvtfSDjlkHY6tzwkwVEM1tdhL-yWc3yCeesZB7_lEWxHJYGHU_OuiGZOXEFJBg--0HBKnQsfIyvlBFaweGHiLTic98rLr3kDXy-k7fjd9zuENQS8EhkEkl6aYuz-SmGjhc3AmWhOeF0fkW9OdBL9MEBp4YtVjlJQX7eK0uy7e2In5bUo7yhYwsA https://lh3.googleusercontent.com/proxy/5tZts-6KI6ojAF_UJ-cxHgZMcVz_dewgENl8wY1lbfb11nUEu_uCJ2CQ8Ksv6bLhqhVU2atC7UuQ_I09Oa6lmp10_uhKzaOKtfnQBPHznk0kATMBR1omQo6obzu6keowcyGsADtfcTOQ3f7MR24gSPeyoANP2I12qju_UZs0De3job6MoXRJ4KyXi_CKN7DTy6HWgQWV</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.045557,47.79684,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>20. Saint Peter’s Abbey</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/6FWNPl6n4SFbaQAg2UG6cBkMcBZ5nhNtTwaNJTq0WZjjTZj5j671ZlTt7AeN4thIvIrwJR0j6Uwl1pzjm8yDVx5Uid6Nf0L11wRUGCbQFFjj-CtDynfD54Fy7zNx_p-7OvcRyRhPYm-sSdLNMiY-Z608MEWhDr67-kbq1qP68PSd1KLcMM2_H32E9pma_5o" height="200" width="auto" /><br><br>description: Beautiful painting-filled church is home to nightly Mozart concerts, the Stiftskeller Restaurant which is widely considered Europe’s oldest restaurant. Charlemagne himself even ate here back in 803 AD.<br><br>Built In: <br>Address: <br>Hours and Cost: Abbey Daily 8 am-noon and 2:30 pm-6:30 pm.<br>Restaurant Daily 11:30am-11pm.  Average meal 20 euros, the 8pm Mozart dinner is 45 euros.<br>Website: <br><br><img src="https://lh5.googleusercontent.com/proxy/FBvrc9A_jc7dpf_6po_6RJW7jiJCfgCpTcIsMPhD2hopI0O3WHagLMKK54EYgvsrfqb-70KfDoY5OEC1HZu7bzufhZvUuZDlX9aMTSkZTnyhzPl-LFLR5lrv5tDiGcZgpT-_EGlzlHtkG4ffLyfm5gfNcX1JCOy7bAIhXGSvGjopN1k3-tRAyueX68pSsy4g2Q" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/proxy/w11G3hGMgREleHyTK1mCKOMYAK4Yk-MRPGN1mXiNoyrJTzVG-nW4DrmIm5WP66JZU7wByePR69YyLq6pBufUi-MGVSOoCnK_n2tQNienInp91zghJCafTIVM7yiHohYDQ9gYF0cAJB6dy10mO0gAr8voqH4bvRBGuGq1Cb1_vTDXrOPsHhof2SnNoosulFCaGwVKc3gT2Ge-Fco0sg" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/proxy/z8GAdvbcNfbEkeJE9O6RAWgfHNpVp38szRJH4n6QbDwPnXmRIQpxWuyBbC3HNyVDRGtkz8groW56F2xs_A0ySFK9sjt1Qp3c38JlcDh56GIbjE5YqxEPjIecqA7f5xHPUIFn8kgqhhOMMvlUJVCbE52VsefG_mdld0VozBBGTEoxc8C6t-NRhMZ6OEDlOvY67LYHdRaEHziVEp0" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Beautiful painting-filled church is home to nightly Mozart concerts, the Stiftskeller Restaurant which is widely considered Europe’s oldest restaurant. Charlemagne himself even ate here back in 803 AD.
+</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Abbey Daily 8 am-noon and 2:30 pm-6:30 pm.
+Restaurant Daily 11:30am-11pm.  Average meal 20 euros, the 8pm Mozart dinner is 45 euros.</value>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/6FWNPl6n4SFbaQAg2UG6cBkMcBZ5nhNtTwaNJTq0WZjjTZj5j671ZlTt7AeN4thIvIrwJR0j6Uwl1pzjm8yDVx5Uid6Nf0L11wRUGCbQFFjj-CtDynfD54Fy7zNx_p-7OvcRyRhPYm-sSdLNMiY-Z608MEWhDr67-kbq1qP68PSd1KLcMM2_H32E9pma_5o https://lh5.googleusercontent.com/proxy/FBvrc9A_jc7dpf_6po_6RJW7jiJCfgCpTcIsMPhD2hopI0O3WHagLMKK54EYgvsrfqb-70KfDoY5OEC1HZu7bzufhZvUuZDlX9aMTSkZTnyhzPl-LFLR5lrv5tDiGcZgpT-_EGlzlHtkG4ffLyfm5gfNcX1JCOy7bAIhXGSvGjopN1k3-tRAyueX68pSsy4g2Q https://lh3.googleusercontent.com/proxy/w11G3hGMgREleHyTK1mCKOMYAK4Yk-MRPGN1mXiNoyrJTzVG-nW4DrmIm5WP66JZU7wByePR69YyLq6pBufUi-MGVSOoCnK_n2tQNienInp91zghJCafTIVM7yiHohYDQ9gYF0cAJB6dy10mO0gAr8voqH4bvRBGuGq1Cb1_vTDXrOPsHhof2SnNoosulFCaGwVKc3gT2Ge-Fco0sg https://lh6.googleusercontent.com/proxy/z8GAdvbcNfbEkeJE9O6RAWgfHNpVp38szRJH4n6QbDwPnXmRIQpxWuyBbC3HNyVDRGtkz8groW56F2xs_A0ySFK9sjt1Qp3c38JlcDh56GIbjE5YqxEPjIecqA7f5xHPUIFn8kgqhhOMMvlUJVCbE52VsefG_mdld0VozBBGTEoxc8C6t-NRhMZ6OEDlOvY67LYHdRaEHziVEp0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0443499,47.7971388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21. Fransican Church</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/cIOwBdBz06CAd2hWRogSmqQalPwEIyZ8N29KqXbrM30nWMJCnwy3VO0CMCLkOjlDeqBhzh_4N8NIuXu5hJOlHO8GdJIMYrtwc1K8n0ZmzN1tMtewTCc_tJp4vVeA2UemotaIfgX7uldsbIevquQSKV8t87phZn1ajoTrcywyEAjUNKtXrKp6-ajlOURD" height="200" width="auto" /><br><br>description: You’ll enjoy trying to wrap your head around the scale of the forest of columns holding up the uniquely designed canopy of a ceiling.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh6.googleusercontent.com/proxy/_shPZ6N6TalGhtY94oHgUJj20L1p35iKKQ85lFFZRVy7axGkcXkRxJeJ1qGpU4h3Fn0B99SOqWiQkpUsX-cxZ39GnKFdny-le6m8tXgNTdOPMWWjFbfoJFY2M7XMSCtsOusUlsNsfbQsjz-HYoZYP9TjNFr_3vkPimzpY2Tp1GoZFwIpsdU-zLUgZ-NL_hU" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/proxy/8VAtLxCswgZRVNVIlOMWkBlNl_izQaixgfNjhTdwNc3Pnd0Q1BaBTQGbqB0HzmRa-ktYiXNsK0VauVcFR9kBQmN1tmI7r6q3IaKuN7nNP00mph2_a93X8WLwtFSZaEC62LP5M09qixSW0phEw9ZxCQtwiVGBHg49Ja7wehIIOrz_xo7souLQHNZN0nnfE3KcjA" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>You’ll enjoy trying to wrap your head around the scale of the forest of columns holding up the uniquely designed canopy of a ceiling.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/cIOwBdBz06CAd2hWRogSmqQalPwEIyZ8N29KqXbrM30nWMJCnwy3VO0CMCLkOjlDeqBhzh_4N8NIuXu5hJOlHO8GdJIMYrtwc1K8n0ZmzN1tMtewTCc_tJp4vVeA2UemotaIfgX7uldsbIevquQSKV8t87phZn1ajoTrcywyEAjUNKtXrKp6-ajlOURD https://lh6.googleusercontent.com/proxy/_shPZ6N6TalGhtY94oHgUJj20L1p35iKKQ85lFFZRVy7axGkcXkRxJeJ1qGpU4h3Fn0B99SOqWiQkpUsX-cxZ39GnKFdny-le6m8tXgNTdOPMWWjFbfoJFY2M7XMSCtsOusUlsNsfbQsjz-HYoZYP9TjNFr_3vkPimzpY2Tp1GoZFwIpsdU-zLUgZ-NL_hU https://lh5.googleusercontent.com/proxy/8VAtLxCswgZRVNVIlOMWkBlNl_izQaixgfNjhTdwNc3Pnd0Q1BaBTQGbqB0HzmRa-ktYiXNsK0VauVcFR9kBQmN1tmI7r6q3IaKuN7nNP00mph2_a93X8WLwtFSZaEC62LP5M09qixSW0phEw9ZxCQtwiVGBHg49Ja7wehIIOrz_xo7souLQHNZN0nnfE3KcjA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0438726,47.7981555,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22. Festival Hall Complex </name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/WFG576jlYTTCGadNLD9oHo3AGsNjKK5Xkk_NyST3H9FAXv4xDpaxOIj_SRmiubbENmk9vs21-_he6-m7Ov9TqekzP28P8eopavBAYhR9-odiU5Pbs-Ml_bAGcGcYHHlRMxxb7-YpfJ_RwxsqCVLdUu3h8pAZ_gHwZUr4yuU67HuXlR-B0smADU9VYQdYNVyKXe_a5AQe0g" height="200" width="auto" /><br><br>description: Most well know today as the place where the Von Trapps performed ‘So Long, Farewell’ prior to escaping the Nazis in The Sound of Music.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh5.googleusercontent.com/proxy/8edPo9yMGAN59g1rhbFX3ldATEnNyZmIWiP_PsygiTJD2ptZ9t_X5jo1oysbJG0fx0HWesWC_9ttcpN1pS-XGR6MoKisZwNNG84dTJhPrl7LobHExDBR4IDcqC0fMFJFggbj23fDtt08TCy8DSCXnN_IPdvsSTraoRA8FzhCdCHHyUQ1ie-SfpHZHHRMC6nvFCXvgNXlT_pC" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/proxy/8r2xMtjrgFy82U2E9Ge8-lulAfcxD7KqOyp-2koAsJYEP6xjhXmQ4LbYdTTYRG8E91GzpRYnOpRkCwGPrqEBY4VuADGNnrBGDVY8Ik7jjBdpgW9B1_dIFGxqRhkefihEuGWWSmRUGxXGRz8685Usy3K_0H6wzZ5z83pr3MMNzoiKJw" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Most well know today as the place where the Von Trapps performed ‘So Long, Farewell’ prior to escaping the Nazis in The Sound of Music.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/WFG576jlYTTCGadNLD9oHo3AGsNjKK5Xkk_NyST3H9FAXv4xDpaxOIj_SRmiubbENmk9vs21-_he6-m7Ov9TqekzP28P8eopavBAYhR9-odiU5Pbs-Ml_bAGcGcYHHlRMxxb7-YpfJ_RwxsqCVLdUu3h8pAZ_gHwZUr4yuU67HuXlR-B0smADU9VYQdYNVyKXe_a5AQe0g https://lh5.googleusercontent.com/proxy/8edPo9yMGAN59g1rhbFX3ldATEnNyZmIWiP_PsygiTJD2ptZ9t_X5jo1oysbJG0fx0HWesWC_9ttcpN1pS-XGR6MoKisZwNNG84dTJhPrl7LobHExDBR4IDcqC0fMFJFggbj23fDtt08TCy8DSCXnN_IPdvsSTraoRA8FzhCdCHHyUQ1ie-SfpHZHHRMC6nvFCXvgNXlT_pC https://lh5.googleusercontent.com/proxy/8r2xMtjrgFy82U2E9Ge8-lulAfcxD7KqOyp-2koAsJYEP6xjhXmQ4LbYdTTYRG8E91GzpRYnOpRkCwGPrqEBY4VuADGNnrBGDVY8Ik7jjBdpgW9B1_dIFGxqRhkefihEuGWWSmRUGxXGRz8685Usy3K_0H6wzZ5z83pr3MMNzoiKJw</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0423885,47.7982849,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[23. Collegiate Church & University Square]]></name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/8ExT9TyScq82gt6t_Zrs05gFPfs-JeVjJ6TFixOpDtqINc-bd8XJoe1xcGayXnwN_kg70A-19hIQId1FAtswM7M_jnUDiCxtwECne_Nu_xBziY_7Q_eZz5P6W2oKlt5SKR_xIrgLarkXGAx6sgVXuq8eJcIkUuydjNQj6HoBu74wNwF6sm7dUqSSR-bde5nMisZvG-x6SuM" height="200" width="auto" /><br><br>description: Collegiate Church (Kollegienkirche) domainates the square below which has a popular morning market<br>Built In: Started in 1694<br>Address: <br>Hours and Cost: Market on the mornings Monday-Saturday<br>Website: <br><br><img src="https://lh3.googleusercontent.com/proxy/QQyoTfQKO-QbO2hRduiFNZPhbo2_FsO4p1IxaCRHqDgnLGE_aJkTShUNbqpT29-Kmuy_2nVsATMsVEb7Nfkj2BZV2w_vAcwNuaRAOCyRCResbr5HUX9YN22HD1NqqBr9hQBnp8B08kOKQIP5t3PywwNdwrXXXdrJCazp372P4-rgtzs90MO9q6jae06GBPUtQo7jPT8fDYuCXY76rtlb" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Collegiate Church (Kollegienkirche) domainates the square below which has a popular morning market</value>
+        </Data>
+        <Data name="Built In">
+          <value>Started in 1694</value>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Market on the mornings Monday-Saturday</value>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/8ExT9TyScq82gt6t_Zrs05gFPfs-JeVjJ6TFixOpDtqINc-bd8XJoe1xcGayXnwN_kg70A-19hIQId1FAtswM7M_jnUDiCxtwECne_Nu_xBziY_7Q_eZz5P6W2oKlt5SKR_xIrgLarkXGAx6sgVXuq8eJcIkUuydjNQj6HoBu74wNwF6sm7dUqSSR-bde5nMisZvG-x6SuM https://lh3.googleusercontent.com/proxy/QQyoTfQKO-QbO2hRduiFNZPhbo2_FsO4p1IxaCRHqDgnLGE_aJkTShUNbqpT29-Kmuy_2nVsATMsVEb7Nfkj2BZV2w_vAcwNuaRAOCyRCResbr5HUX9YN22HD1NqqBr9hQBnp8B08kOKQIP5t3PywwNdwrXXXdrJCazp372P4-rgtzs90MO9q6jae06GBPUtQo7jPT8fDYuCXY76rtlb</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0431803,47.7991971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Durchaus Alleys</name>
+      <description><![CDATA[description: Between University Square and Grain Lane (Getreidegasse) are a number of narrow Medieval alleyways connecting the two streets called Durchaus meaning Through House.  There are more than a ten covered alleyways, filled with shops but our favorite is Roittner-Passage a #7.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Between University Square and Grain Lane (Getreidegasse) are a number of narrow Medieval alleyways connecting the two streets called Durchaus meaning Through House.  There are more than a ten covered alleyways, filled with shops but our favorite is Roittner-Passage a #7.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0435301,47.7996336,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>24. Mozart’s Birth Place (Geburtshaus)</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/0mtq8MP1JEpprwMXIY6984zK5HfhlClzo_PgnHO8M_YwyBrHnCB0PMNUWHFvzIYmBF9WlwluW0uZNAUtWGgC91AMRgdTDDOuLXd47st2DbhHigtw6KcYa7pzqudtRnEv9KkGkbpNbpfTLcdn5S3l0tox_MdUTTdWg-tBN89l0CC6ffbr62Xb-931V2xBwQI" height="200" width="auto" /><br><br>description: Historic home where Mozart was born is now a great multi-level museum.<br>Hours: Daily 9am-6pm, in July & August it stays open until 7pm. Cost: 10€ for Adults; 3.50€ for kids; 21€ for a family ticket.<br>Built In: <br>Address: <br>Hours and Cost: Hours: Daily 9am-5:30pm; in July & August open until 7pm; last entry 30 minutes before closing.<br>Cost: 10€ for Adults; 3.50€ for kids; 21€ for a family ticket. Combo ticket available with his adult home.<br><br>Website: http://www.mozarteum.at/en/museums/mozarts-birthplace.html<br><br><img src="https://lh3.googleusercontent.com/proxy/W05R0jx3LR2494sHnoz6OApLflqLM2IQvsDLf0sWSqSXSNi_D8znHrwcHA1A6J9A5UYecE-pyvMRyAx7aozhfs0hohj8bDCqmxzPJ0dVagla3FI0roWmaG8NSRxpijyhdu_t_3S86-2t6jlh5-FYgqcY0q8zwNcE-Anqskz_PCQ8fAQBLXtqHC-pDL-3j5q7SQ" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value><![CDATA[Historic home where Mozart was born is now a great multi-level museum.
+Hours: Daily 9am-6pm, in July & August it stays open until 7pm. Cost: 10€ for Adults; 3.50€ for kids; 21€ for a family ticket.]]></value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value><![CDATA[Hours: Daily 9am-5:30pm; in July & August open until 7pm; last entry 30 minutes before closing.
+Cost: 10€ for Adults; 3.50€ for kids; 21€ for a family ticket. Combo ticket available with his adult home.
+]]></value>
+        </Data>
+        <Data name="Website">
+          <value>http://www.mozarteum.at/en/museums/mozarts-birthplace.html</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/0mtq8MP1JEpprwMXIY6984zK5HfhlClzo_PgnHO8M_YwyBrHnCB0PMNUWHFvzIYmBF9WlwluW0uZNAUtWGgC91AMRgdTDDOuLXd47st2DbhHigtw6KcYa7pzqudtRnEv9KkGkbpNbpfTLcdn5S3l0tox_MdUTTdWg-tBN89l0CC6ffbr62Xb-931V2xBwQI https://lh3.googleusercontent.com/proxy/W05R0jx3LR2494sHnoz6OApLflqLM2IQvsDLf0sWSqSXSNi_D8znHrwcHA1A6J9A5UYecE-pyvMRyAx7aozhfs0hohj8bDCqmxzPJ0dVagla3FI0roWmaG8NSRxpijyhdu_t_3S86-2t6jlh5-FYgqcY0q8zwNcE-Anqskz_PCQ8fAQBLXtqHC-pDL-3j5q7SQ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.043518,47.800047,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25. Sternbrau Beer Hall</name>
+      <description><![CDATA[description: Great beer garden which has been open since 1542.  Accessible from Getreidegasse at the alley at #38<br>Built In: 1542<br>Address: <br>Hours and Cost: <br>Website: http://www.sternbrau.com/en/]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Great beer garden which has been open since 1542.  Accessible from Getreidegasse at the alley at #38</value>
+        </Data>
+        <Data name="Built In">
+          <value>1542</value>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value>http://www.sternbrau.com/en/</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0412838,47.8005264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25. Grain Lane (Getreidegasse)</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/vh952YSKIzyMWYP-M6USlYgb4yCEONaU0Mf1SCAvzmQjqN7V7zIBEwC8CDD_JfID3_AAKn3Us47sHMGkgnoQte-AnqN2azGWEnNyqa7Gj3pUcAEaGQ559Aqr8MkE5Ffmij7dsW-BAJWETBENxkujbTcC1aOFmwqG2AMrQfSs0m7TYryvrMEHKhs1MN0uDwiVzKc" height="200" width="auto" /><br><br>description: Amazing Medieval shopping street. Make sure to stop by the blacksmith and Sporer Schnapps Pit Stop. <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh3.googleusercontent.com/proxy/gnV9UjdxtaG4Oeon-X0D6vHZZAaLxMS7-NDMrf_1qcp_OrchKH57-M39hbPCpJHZ5zuGAkfoT0eO5lDtpgm5ATc8JtlFD8r_yL0PJU00-MTkGU1NzGKuTw9urB_VESvFa68ccPiJnh46B7H74kiiuyaiBg5F_uhylEBaEYaLOeKkviDdrdcxaRx9dGVvuHSqLY98c_34fjHz" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Amazing Medieval shopping street. Make sure to stop by the blacksmith and Sporer Schnapps Pit Stop. </value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/vh952YSKIzyMWYP-M6USlYgb4yCEONaU0Mf1SCAvzmQjqN7V7zIBEwC8CDD_JfID3_AAKn3Us47sHMGkgnoQte-AnqN2azGWEnNyqa7Gj3pUcAEaGQ559Aqr8MkE5Ffmij7dsW-BAJWETBENxkujbTcC1aOFmwqG2AMrQfSs0m7TYryvrMEHKhs1MN0uDwiVzKc https://lh3.googleusercontent.com/proxy/gnV9UjdxtaG4Oeon-X0D6vHZZAaLxMS7-NDMrf_1qcp_OrchKH57-M39hbPCpJHZ5zuGAkfoT0eO5lDtpgm5ATc8JtlFD8r_yL0PJU00-MTkGU1NzGKuTw9urB_VESvFa68ccPiJnh46B7H74kiiuyaiBg5F_uhylEBaEYaLOeKkviDdrdcxaRx9dGVvuHSqLY98c_34fjHz</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0419566,47.800047,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>26. Horse Bath (Pferdeschwemme)</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/nje0AudHcxKQEP12MDcdA_YaKYrTBtJ6kaqbhdCNxteJhHX2WWgPsqmY9IfRYMOShOsaRb2vZs7KntcKg_tQdyZ_DmF1VuOJ4-aQc8ITqFH8AIcWZLbbU1fv9rff3LOeosdUnxNkzw_iKvO57wzgWcDR2FiATdNBhkIeC6LOwWBXXRJNHdDnITiW2B_xXDs" height="200" width="auto" /><br><br>description: This very large Horse Bath from the 1700’s once served as a drinking troth and medieval car wash of sorts for the horses of Salzburg.  Featured during ‘My Favorite Things’ in the Sound of Music. <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: <br><br><img src="https://lh6.googleusercontent.com/proxy/6NYwfx2ux74f6D28ZQeQE8NXzT4PSNONK7VbFMNat5A2YRve9SUEAOR9bBb-qurXcK_Y7_SZvr5bNT_Jx8uXUPdUFVvTmtY3UMVZ83DePKYFXS8OQu6PhjUXSRAH3Bw0JcMwOTCa9rXplXW6G3W-08RMszVSfCAnHtV_DboTdj9pMMEeqgHiq0bTulXhAJ62_g" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>This very large Horse Bath from the 1700’s once served as a drinking troth and medieval car wash of sorts for the horses of Salzburg.  Featured during ‘My Favorite Things’ in the Sound of Music. </value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/nje0AudHcxKQEP12MDcdA_YaKYrTBtJ6kaqbhdCNxteJhHX2WWgPsqmY9IfRYMOShOsaRb2vZs7KntcKg_tQdyZ_DmF1VuOJ4-aQc8ITqFH8AIcWZLbbU1fv9rff3LOeosdUnxNkzw_iKvO57wzgWcDR2FiATdNBhkIeC6LOwWBXXRJNHdDnITiW2B_xXDs https://lh6.googleusercontent.com/proxy/6NYwfx2ux74f6D28ZQeQE8NXzT4PSNONK7VbFMNat5A2YRve9SUEAOR9bBb-qurXcK_Y7_SZvr5bNT_Jx8uXUPdUFVvTmtY3UMVZ83DePKYFXS8OQu6PhjUXSRAH3Bw0JcMwOTCa9rXplXW6G3W-08RMszVSfCAnHtV_DboTdj9pMMEeqgHiq0bTulXhAJ62_g</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.040471,47.799406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Salzach River Cruises Boat Landing</name>
+      <description><![CDATA[description: <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-1433</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0417824,47.8014959,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Blasius Church</name>
+      <description><![CDATA[description: vine covered Gothic church from 1330 which vaulted ceilings, not as cool as the other churches on this tour, but worth a peak.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>vine covered Gothic church from 1330 which vaulted ceilings, not as cool as the other churches on this tour, but worth a peak.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.039881,47.8001299,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mönchsberg Elevator</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/FLxQAFnyejA5pPSs1nPm5t9b9EpoQDnJJRd2Ff7yunsh-uMsXM2QFqVVrK7fxqEiNRF1_lCQuofxU-sk5sbGVwZgqwKEmLg4NXW4NQR3TnDrt7kP7J8jhkuXXkQFnSRhvIXdkY4ACRJoVUulp2OvtrGOV8fmz3jlR5yvNvOf0u8" height="200" width="auto" /><br><br>description: Mönchsberg elevator which brings you up or down the cliff to Winkler Terrace. Runs until 7 or 9pm daily depending on the season.<br>Built In: <br>Address: Tuesday-Sunday 8am-9pm; Monday 8am-7pm.  July & August Daily 8am-11pm.<br>Hours and Cost: <br>Website: https://www.salzburg-ag.at/verkehr/moenchsbergaufzug/]]></description>
+      <styleUrl>#icon-191</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Mönchsberg elevator which brings you up or down the cliff to Winkler Terrace. Runs until 7 or 9pm daily depending on the season.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value><![CDATA[Tuesday-Sunday 8am-9pm; Monday 8am-7pm.  July & August Daily 8am-11pm.]]></value>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value>https://www.salzburg-ag.at/verkehr/moenchsbergaufzug/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/FLxQAFnyejA5pPSs1nPm5t9b9EpoQDnJJRd2Ff7yunsh-uMsXM2QFqVVrK7fxqEiNRF1_lCQuofxU-sk5sbGVwZgqwKEmLg4NXW4NQR3TnDrt7kP7J8jhkuXXkQFnSRhvIXdkY4ACRJoVUulp2OvtrGOV8fmz3jlR5yvNvOf0u8</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.039398,47.800033,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Modern Art Museum</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/qXzMlDxlSSpZqYrtzkvwkrS-aAYYOigdOwuUTlR1H1qimL-pK9ReR061qY6wE2VgcJxOl3-pOWojVgr23-QrEwgM0Jcr2VI0Ri4uYE9QWJHE2j17hqABbWmpusjtnE-zJs1-PKOy8ATYFgJXkXGVl19PmFZvItanJ7MRj409_xswYxak5fxHAsoyR-Rlew" height="200" width="auto" /><br><br>description: Café has the best views in town.<br>Modern Art Museum Hours: Tuesday-Sunday 10am-6pm; Wednesday 10am-8pm; Closed Mondays. Museum Cost: 8€.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Café has the best views in town.
+Modern Art Museum Hours: Tuesday-Sunday 10am-6pm; Wednesday 10am-8pm; Closed Mondays. Museum Cost: 8€.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/qXzMlDxlSSpZqYrtzkvwkrS-aAYYOigdOwuUTlR1H1qimL-pK9ReR061qY6wE2VgcJxOl3-pOWojVgr23-QrEwgM0Jcr2VI0Ri4uYE9QWJHE2j17hqABbWmpusjtnE-zJs1-PKOy8ATYFgJXkXGVl19PmFZvItanJ7MRj409_xswYxak5fxHAsoyR-Rlew</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0386792,47.8008038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Johannesschlössl</name>
+      <description><![CDATA[description: <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.033218,47.802043,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[27. Winkler Terrace & Burgerwehr Wall]]></name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/dFuRcrGe9XLUjHlp1TLXOMWm6LlNkq3LVsVZyxv769Xe2FlDBCF2Hqp5dVKWFmC-zWSq-UGPOf-WJwHp3DlvZkSQep4gN1SMCbUiO1PPuD4Up7QeDVh3toNvrHJGJyhbIJLP-bbrbgTsGSifkyD4xUprJzcSgXWfyrWPb4aRwPNUwfQTF1bBCK4K5VmZjsI" height="200" width="auto" /><br><br>description: Best views of the city and an amazing fortified wall built in 1477.  Terrace is where Do Re Mi begins in The Sound of Music.  There is also a great cafe called Stadtalm right next to the elevator.<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: http://www.stadtalm.at/en<br><br><img src="https://lh4.googleusercontent.com/proxy/4v2ztvRXn-Q1FeVKBjv3KA37AUWaema67sIWpYtoG1axkb75XQYMEvNKwAXHYKyXdAaxgukXiZOwVoOgvEOikzUWoV3PX91evbsRZgoLew97BbqYhf3Uf5hodeBm3RdQyM5L830blMKJ_pR4DLZRlLE3QQK6hM_qe3oRSk9KlFSZU24c6Me0Nodq5EE" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/proxy/qXzMlDxlSSpZqYrtzkvwkrS-aAYYOigdOwuUTlR1H1qimL-pK9ReR061qY6wE2VgcJxOl3-pOWojVgr23-QrEwgM0Jcr2VI0Ri4uYE9QWJHE2j17hqABbWmpusjtnE-zJs1-PKOy8ATYFgJXkXGVl19PmFZvItanJ7MRj409_xswYxak5fxHAsoyR-Rlew" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Best views of the city and an amazing fortified wall built in 1477.  Terrace is where Do Re Mi begins in The Sound of Music.  There is also a great cafe called Stadtalm right next to the elevator.</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value>http://www.stadtalm.at/en</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/dFuRcrGe9XLUjHlp1TLXOMWm6LlNkq3LVsVZyxv769Xe2FlDBCF2Hqp5dVKWFmC-zWSq-UGPOf-WJwHp3DlvZkSQep4gN1SMCbUiO1PPuD4Up7QeDVh3toNvrHJGJyhbIJLP-bbrbgTsGSifkyD4xUprJzcSgXWfyrWPb4aRwPNUwfQTF1bBCK4K5VmZjsI https://lh4.googleusercontent.com/proxy/4v2ztvRXn-Q1FeVKBjv3KA37AUWaema67sIWpYtoG1axkb75XQYMEvNKwAXHYKyXdAaxgukXiZOwVoOgvEOikzUWoV3PX91evbsRZgoLew97BbqYhf3Uf5hodeBm3RdQyM5L830blMKJ_pR4DLZRlLE3QQK6hM_qe3oRSk9KlFSZU24c6Me0Nodq5EE https://lh3.googleusercontent.com/proxy/qXzMlDxlSSpZqYrtzkvwkrS-aAYYOigdOwuUTlR1H1qimL-pK9ReR061qY6wE2VgcJxOl3-pOWojVgr23-QrEwgM0Jcr2VI0Ri4uYE9QWJHE2j17hqABbWmpusjtnE-zJs1-PKOy8ATYFgJXkXGVl19PmFZvItanJ7MRj409_xswYxak5fxHAsoyR-Rlew</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0391242,47.7994489,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28. Castle Mönchstein Hotel (Schloss Mönchstein)</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Ley2SO29kJ-d1S4q0L73KqESTmXvk_WSFvWvnE_HypYF6VG7blmX2HO5ASOWuREd0e4JUJxHqzHUKtzbQM47F44AUOQYLWGO6-a-QPc6yBXkG2yu9oIu3dcvZYp-mOIaE2JPyb7zJcVaNjdbH-hvtdf6VkA0J1pIp58d4KtTjv33xgXsQWG7V7BYJ9rQ" height="200" width="auto" /><br><br>description: First documented 1350 AD, the castle was nicknamed the Professors castle when it was run by monks.  Now serves as a award winning hotel.<br>Built In: 1350<br>Address: Mönchsberg 26<br>Hours and Cost: <br>Website: http://www.monchstein.at/en/<br><br><img src="https://lh3.googleusercontent.com/proxy/1Mdoz2L4qqGcRWvg0ii30PxsxpBPSEP77m5XwV-kpxXJdzZl3r_993IUgE2Fyt1XiI5M8MNL200fDLTioxJoNtjm8DjoaarCf97SA7XMLlFYIP1-STUMwlw-YlAlXoS-IP6Td5ALbD8xdJORh5I6egSgqBp_DT4PGV3eymmiIdK3TbOcED1H3B0KiwoY7Ac" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/proxy/SI7cOH94rx_zJK60rYoX_JUP5wj-lgnSX0uKh6gE-Gc64CgCnt_v9525y8P7s_RebIs6OlvVotzLlVhXlUx9CR3x5aJNAFPPFr8pr5WLYRThn2SF8KZ_38YOYXZqyunLWBpXIB2jewmSkys8e_uOReHuYHSAhNsDvTcH7SLDOXjR4_76uYr6GbY4yvmNuxk" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>First documented 1350 AD, the castle was nicknamed the Professors castle when it was run by monks.  Now serves as a award winning hotel.</value>
+        </Data>
+        <Data name="Built In">
+          <value>1350</value>
+        </Data>
+        <Data name="Address">
+          <value>Mönchsberg 26</value>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value>http://www.monchstein.at/en/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/Ley2SO29kJ-d1S4q0L73KqESTmXvk_WSFvWvnE_HypYF6VG7blmX2HO5ASOWuREd0e4JUJxHqzHUKtzbQM47F44AUOQYLWGO6-a-QPc6yBXkG2yu9oIu3dcvZYp-mOIaE2JPyb7zJcVaNjdbH-hvtdf6VkA0J1pIp58d4KtTjv33xgXsQWG7V7BYJ9rQ https://lh3.googleusercontent.com/proxy/1Mdoz2L4qqGcRWvg0ii30PxsxpBPSEP77m5XwV-kpxXJdzZl3r_993IUgE2Fyt1XiI5M8MNL200fDLTioxJoNtjm8DjoaarCf97SA7XMLlFYIP1-STUMwlw-YlAlXoS-IP6Td5ALbD8xdJORh5I6egSgqBp_DT4PGV3eymmiIdK3TbOcED1H3B0KiwoY7Ac https://lh5.googleusercontent.com/proxy/SI7cOH94rx_zJK60rYoX_JUP5wj-lgnSX0uKh6gE-Gc64CgCnt_v9525y8P7s_RebIs6OlvVotzLlVhXlUx9CR3x5aJNAFPPFr8pr5WLYRThn2SF8KZ_38YOYXZqyunLWBpXIB2jewmSkys8e_uOReHuYHSAhNsDvTcH7SLDOXjR4_76uYr6GbY4yvmNuxk</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.03596,47.803946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mülleggertor   </name>
+      <description><![CDATA[description: Old city wall gate, has been one here since 1280<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Old city wall gate, has been one here since 1280</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.035273,47.804396,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>29. Augustiner Bräustübl Beer Garden</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/BGYededLV8ruvNuVx6fy7rjtlDh5WUaCMAda7_6x-QSgKrak0MRiMqmk7sLdwzlRhaPlkVOBlFWEbB_C1p1F_OPSacynbFOZR6IXSByhA-H_NkqEQEXiCL0QpUw66Fiw7HlqBI-iDoSE1aWkcTRGaQ6XyfYEEA8_dKZBZERHOuYeQMuC8WZo8sOHk3Hzv_UG" height="200" width="auto" /><br><br>description: Beer hall opened by Monks in 1621.  Serves Augustiner beer which started in Munich in 1328.<br><br>Built In: 1621<br>Address: Lindhofstraße 7<br>Hours and Cost: Hours: Monday-Friday 3-11pm; Saturdays-Sundays and public holidays 2:30-11pm.<br>Website: http://www.augustinerbier.at/index.php?id=braeustuebl&L=1<br><br><img src="https://lh6.googleusercontent.com/proxy/DOv1TvwxaBl7qasz8eCrh6M4janPmhyhlyb-Lc0Ys4NjzS0c_uZtGe2297upy4DPLPOCxysCeuo17tBqKkZUOAQpeyTT3CyXxjy3CnwmOn_rQyNk4mx6cYUnpe5AcO2lRyuD8s9wp1GsEXKQ9EaxRU7iL9rODl6r9FYbKjhkQKDQJNQmU9HBZRO2Xnp0RFPPJlrvM9dU" height="200" width="auto" /><br><br><img src="https://lh4.googleusercontent.com/proxy/NcP6gPfD2AyjbihAosoWpe5sp3ITzwY6KeS7rhbq1i7kkAkO2zFmBA2b7iIdNVeT8Glg-_2tSRWaPdQf2kxYT0zplJo_aPc5r_Byt1NP62bdXX9tcEpBj6cQucmeRnqHruC_SQrbyOyESinGDsFKL-K-b34ERfhJpYhUMRKzV8xzBugr2X_mjNLBm5XX3miGJ3w" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/proxy/KeNHgvHe1vh1GwXh7flsF402MKM-BCU1xOGTABDRLGIttSJE6oDyza41zxfzieBc91ZXcguL7dr02VcU452sgZSuZSVQXkIxOu6YTsJuG6tVzinJo2bZzY3JteyGgaN6GFXx24OpTWFAAYCYBWDAb2IsajuTHRAXuEB9f6Ypuo4XGnpl5PH7hUfv4NdaMpkF4zc" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Beer hall opened by Monks in 1621.  Serves Augustiner beer which started in Munich in 1328.
+</value>
+        </Data>
+        <Data name="Built In">
+          <value>1621</value>
+        </Data>
+        <Data name="Address">
+          <value>Lindhofstraße 7</value>
+        </Data>
+        <Data name="Hours and Cost">
+          <value>Hours: Monday-Friday 3-11pm; Saturdays-Sundays and public holidays 2:30-11pm.</value>
+        </Data>
+        <Data name="Website">
+          <value><![CDATA[http://www.augustinerbier.at/index.php?id=braeustuebl&L=1]]></value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/BGYededLV8ruvNuVx6fy7rjtlDh5WUaCMAda7_6x-QSgKrak0MRiMqmk7sLdwzlRhaPlkVOBlFWEbB_C1p1F_OPSacynbFOZR6IXSByhA-H_NkqEQEXiCL0QpUw66Fiw7HlqBI-iDoSE1aWkcTRGaQ6XyfYEEA8_dKZBZERHOuYeQMuC8WZo8sOHk3Hzv_UG https://lh6.googleusercontent.com/proxy/DOv1TvwxaBl7qasz8eCrh6M4janPmhyhlyb-Lc0Ys4NjzS0c_uZtGe2297upy4DPLPOCxysCeuo17tBqKkZUOAQpeyTT3CyXxjy3CnwmOn_rQyNk4mx6cYUnpe5AcO2lRyuD8s9wp1GsEXKQ9EaxRU7iL9rODl6r9FYbKjhkQKDQJNQmU9HBZRO2Xnp0RFPPJlrvM9dU https://lh4.googleusercontent.com/proxy/NcP6gPfD2AyjbihAosoWpe5sp3ITzwY6KeS7rhbq1i7kkAkO2zFmBA2b7iIdNVeT8Glg-_2tSRWaPdQf2kxYT0zplJo_aPc5r_Byt1NP62bdXX9tcEpBj6cQucmeRnqHruC_SQrbyOyESinGDsFKL-K-b34ERfhJpYhUMRKzV8xzBugr2X_mjNLBm5XX3miGJ3w https://lh6.googleusercontent.com/proxy/KeNHgvHe1vh1GwXh7flsF402MKM-BCU1xOGTABDRLGIttSJE6oDyza41zxfzieBc91ZXcguL7dr02VcU452sgZSuZSVQXkIxOu6YTsJuG6tVzinJo2bZzY3JteyGgaN6GFXx24OpTWFAAYCYBWDAb2IsajuTHRAXuEB9f6Ypuo4XGnpl5PH7hUfv4NdaMpkF4zc</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0335509,47.8053614,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Shamrock & O'Malley's Irish Pubs]]></name>
+      <description><![CDATA[description: <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.045793,47.800069,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Franziskischlössl</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/cEl1cFoZRCO0td7S4itEXBsIKc6S7UeQJX5XXZ4kNS9aF0wcqyHhliIbZXJRFgBkA0UUgtzdZpO-0ddfKKXkHI6aQH_6OfBvb39tZh38cvSS7hE_QLp9gk9wpkt5r8o7btYi-jdhJvRn4u1vTeUlSqMf7cX8T6Ews8rTmrL5dfHZdKFxec6cuj5Iy8MS" height="200" width="auto" /><br><br>description: It is a bout a 3/4 mile uphill hike from the monastery. Built as a watch tower for the city wall in the 1600s<br><br>Built In: <br>Address: <br>Hours and Cost: <br>Website: http://www.franziskischloessl.at/]]></description>
+      <styleUrl>#icon-24</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>It is a bout a 3/4 mile uphill hike from the monastery. Built as a watch tower for the city wall in the 1600s
+</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value>http://www.franziskischloessl.at/</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/cEl1cFoZRCO0td7S4itEXBsIKc6S7UeQJX5XXZ4kNS9aF0wcqyHhliIbZXJRFgBkA0UUgtzdZpO-0ddfKKXkHI6aQH_6OfBvb39tZh38cvSS7hE_QLp9gk9wpkt5r8o7btYi-jdhJvRn4u1vTeUlSqMf7cX8T6Ews8rTmrL5dfHZdKFxec6cuj5Iy8MS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.058935,47.804991,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Path from Fortress to Abbey</name>
+      <description><![CDATA[description: steep path connecting the Fortress and the Abbey. You can also reach the Abbey courtyard by walking around the East side of the hill near the River and following the signs up<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#line-0000FF-2744</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>steep path connecting the Fortress and the Abbey. You can also reach the Abbey courtyard by walking around the East side of the hill near the River and following the signs up</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          13.0422628,47.7974453,0
+          13.0426048,47.7971598,0
+          13.0435027,47.7968341,0
+          13.0439257,47.7965077,0
+          13.0441341,47.7960659,0
+          13.0442459,47.7955088,0
+          13.0445722,47.7952976,0
+          13.0452357,47.7951853,0
+          13.0458992,47.7952026,0
+          13.0461658,47.7954362,0
+          13.0462776,47.7956106,0
+          13.0463894,47.7956841,0
+          13.0474375,47.7958846,0
+          13.0479401,47.7960713,0
+          13.0488718,47.796258,0
+          13.0491883,47.7963156,0
+          13.0494189,47.7962868,0
+          13.0496442,47.7962525,0
+          13.050009,47.7962634,0
+          13.0509424,47.7963769,0
+          13.0516452,47.7963282,0
+          13.0518302,47.7962561,0
+          13.0519241,47.7961156,0
+          13.0519241,47.7959246,0
+          13.051511,47.7958237,0
+          13.0517685,47.7957588,0
+          13.0514359,47.7956507,0
+          13.05076,47.7954273,0
+          13.0502343,47.7953769,0
+          13.0487055,47.7952579,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Path from Monastery to 
+Franziskischlössl</name>
+      <description><![CDATA[description: distance is 0.8 miles<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#line-3F5BA9-3131</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>distance is 0.8 miles</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          13.0586243,47.804969,0
+          13.0583882,47.804969,0
+          13.0579162,47.8046952,0
+          13.0576801,47.8044214,0
+          13.0574012,47.8041187,0
+          13.0573583,47.8037728,0
+          13.0570579,47.8035134,0
+          13.0579162,47.8026342,0
+          13.058002,47.8022595,0
+          13.0576587,47.801928,0
+          13.0561137,47.8020145,0
+          13.054719,47.8022739,0
+          13.0534315,47.8027063,0
+          13.051672,47.8027063,0
+          13.0512857,47.8029081,0
+          13.0506207,47.8028073,0
+          13.0499126,47.8031244,0
+          13.0493975,47.8033693,0
+          13.048625,47.8031963,0
+          13.0485606,47.8027639,0
+          13.0486679,47.8025045,0
+          13.0486679,47.8022018,0
+          13.0481744,47.8020577,0
+          13.0476379,47.8020721,0
+          13.0472302,47.8020433,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Path to Abbey from Old Town</name>
+      <description><![CDATA[description: <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#line-0000FF-2170</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          13.05076,47.7954273,0
+          13.0504489,47.7951678,0
+          13.0501699,47.7944471,0
+          13.0499795,47.7940759,0
+          13.0500466,47.7938849,0
+          13.0505696,47.794148,0
+          13.0508137,47.7943894,0
+          13.0509505,47.7945029,0
+          13.0513448,47.7950489,0
+          13.0520369,47.795514,0
+          13.0528307,47.7958165,0
+          13.0532169,47.7957444,0
+          13.0535817,47.7960327,0
+          13.0535603,47.7965372,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Hiking Trail</name>
+      <description><![CDATA[description: 10 minutes from the Festival Hall steps to Winkler Terrece<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#line-0000FF-1780</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>10 minutes from the Festival Hall steps to Winkler Terrece</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          13.0393231,47.7996363,0
+          13.0392158,47.7994417,0
+          13.0393124,47.7989444,0
+          13.0395806,47.7987714,0
+          13.0399883,47.7984543,0
+          13.0406213,47.7979426,0
+          13.040911,47.7977192,0
+          13.0415869,47.7975895,0
+          13.0422628,47.7974453,0
+          13.0423594,47.7975174,0
+          13.0426919,47.7975751,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 48</name>
+      <description><![CDATA[description: <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#line-0000FF-2938</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          13.0474475,47.7962724,0
+          13.0478016,47.7963138,0
+          13.0480108,47.7963066,0
+          13.0483139,47.7962976,0
+          13.048633,47.7962435,0
+          13.048684,47.7962237,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Salzburg Train & Bus Station]]></name>
+      <description><![CDATA[description: <br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#icon-1459</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.0448484,47.8131545,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sternbrau Durchaus </name>
+      <description><![CDATA[description: alleyway going to the beer hall at #38<br>Built In: <br>Address: <br>Hours and Cost: <br>Website: ]]></description>
+      <styleUrl>#line-0000FF-2755</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>alleyway going to the beer hall at #38</value>
+        </Data>
+        <Data name="Built In">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value/>
+        </Data>
+        <Data name="Hours and Cost">
+          <value/>
+        </Data>
+        <Data name="Website">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          13.0413857,47.8000308,0
+          13.0413669,47.8005371,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

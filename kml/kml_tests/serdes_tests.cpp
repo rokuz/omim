@@ -3,11 +3,16 @@
 #include "kml/serdes.hpp"
 #include "kml/serdes_binary.hpp"
 
+#include "coding/file_name_utils.hpp"
 #include "coding/file_reader.hpp"
 #include "coding/file_writer.hpp"
 #include "coding/reader.hpp"
 #include "coding/writer.hpp"
+#include "coding/zip_reader.hpp"
 
+#include "base/scope_guard.hpp"
+
+#include <chrono>
 #include <cstring>
 #include <memory>
 #include <vector>
@@ -149,12 +154,12 @@ UNIT_TEST(Kml_Deserialization)
   TEST_EQUAL(data, data2, ());
 }
 
-UNIT_TEST(Kml_File_Deserialization)
+/*UNIT_TEST(Kml_File_Deserialization)
 {
   kml::CategoryData data;
   try
   {
-    KmlFileDeserializer des("/Users/romankuznetsov/Dev/Projects/omim/data/big_test.kml");
+    KmlFileDeserializer des("/Users/romankuznetsov/Dev/Projects/omim/data/world.kml");
     des(data);
   }
   catch (KmlMemoryDeserializer::DeserializeException &exc)
@@ -171,7 +176,7 @@ UNIT_TEST(Kml_File_Deserialization)
   }
 
   {
-    FileWriter file("/Users/romankuznetsov/Dev/Projects/omim/data/big_test.kmb");
+    FileWriter file("/Users/romankuznetsov/Dev/Projects/omim/data/world.kmb");
     file.Write(buffer.data(), buffer.size());
   }
 
@@ -190,7 +195,7 @@ UNIT_TEST(Kml_Speed_Text)
   kml::CategoryData data;
   try
   {
-    KmlFileDeserializer des("/Users/romankuznetsov/Dev/Projects/omim/data/big_test.kml");
+    KmlFileDeserializer des("/Users/romankuznetsov/Dev/Projects/omim/data/world.kml");
     des(data);
   }
   catch (KmlMemoryDeserializer::DeserializeException &exc)
@@ -202,7 +207,231 @@ UNIT_TEST(Kml_Speed_Text)
 UNIT_TEST(Kml_Speed_Bin)
 {
   kml::CategoryData data;
-  FileReader reader("/Users/romankuznetsov/Dev/Projects/omim/data/big_test.kmb");
+  FileReader reader("/Users/romankuznetsov/Dev/Projects/omim/data/world.kmb");
   kml::binary::DeserializerKml des(data, {});
   des.Deserialize(reader);
+}*/
+
+/*UNIT_TEST(Kmb_Generator)
+{
+  std::string const dir = "/Users/romankuznetsov/Dev/Projects/omim/data/kml";
+  Platform::FilesList files;
+  Platform::GetFilesByExt(dir, ".kml", files);
+  for (auto & f : files)
+  {
+    auto const filePath = dir + "/" + f;
+    std::string name = f;
+    my::GetNameWithoutExt(name);
+    auto const binFilePath = dir + "/" + name + ".kmb";
+
+    kml::CategoryData data;
+    try
+    {
+      KmlFileDeserializer des(filePath);
+      des(data);
+    }
+    catch (KmlFileDeserializer::DeserializeException & exc)
+    {
+      FileWriter::DeleteFileX(filePath);
+      continue;
+    }
+
+    std::vector<uint8_t> buffer;
+    {
+      using Sink = MemWriter<decltype(buffer)>;
+      Sink sink(buffer);
+      kml::binary::SerializerKml ser(data, {});
+      ser.Serialize(sink);
+    }
+
+    {
+      FileWriter file(binFilePath);
+      file.Write(buffer.data(), buffer.size());
+    }
+
+    kml::CategoryData data2;
+    {
+      MemReader reader(buffer.data(), buffer.size());
+      kml::binary::DeserializerKml des(data2, {});
+      des.Deserialize(reader);
+    }
+
+    TEST_EQUAL(data, data2, ());
+  }
+}*/
+
+struct SpeedTestStat
+{
+  size_t bookmarksCount = 0;
+  long long int d1 = 0;
+  long long int d2 = 0;
+};
+
+std::pair<double, size_t> CalculateAvgCoef(std::vector<SpeedTestStat> const & stats,
+                                           std::function<bool(SpeedTestStat const &)> && filter)
+{
+  double avg = 0.0;
+  size_t cnt = 0;
+  for (auto const & s : stats)
+  {
+    if (filter && !filter(s))
+      continue;
+    avg += (static_cast<double>(s.d1) / static_cast<double>(s.d2));
+    cnt++;
+  }
+  if (cnt != 0)
+    avg /= cnt;
+  return std::make_pair(avg, cnt);
+}
+
+/*UNIT_TEST(Kmb_Complex_Speed_Test)
+{
+  std::string const dir = "/Users/romankuznetsov/Dev/Projects/omim/data/kml";
+  Platform::FilesList files;
+  Platform::GetFilesByExt(dir, ".kml", files);
+
+  std::vector<SpeedTestStat> stats;
+  stats.reserve(files.size());
+
+  double avg = 0.0;
+  for (auto & f : files)
+  {
+    auto const filePath = dir + "/" + f;
+    std::string name = f;
+    my::GetNameWithoutExt(name);
+    auto const binFilePath = dir + "/" + name + ".kmb";
+
+    // Text.
+    auto ts1 = std::chrono::steady_clock::now();
+    {
+      kml::CategoryData data;
+      try
+      {
+        KmlFileDeserializer des(filePath);
+        des(data);
+      }
+      catch (KmlFileDeserializer::DeserializeException &exc)
+      {
+        TEST(false, ("Exception raised", exc.what()));
+      }
+    }
+
+    // Binary.
+    auto ts2 = std::chrono::steady_clock::now();
+    kml::CategoryData data;
+    {
+      FileReader reader(binFilePath);
+      kml::binary::DeserializerKml des(data, {});
+      des.Deserialize(reader);
+    }
+    auto ts3 = std::chrono::steady_clock::now();
+
+    auto d1 = std::chrono::duration_cast<std::chrono::nanoseconds>(ts2 - ts1).count();
+    auto d2 = std::chrono::duration_cast<std::chrono::nanoseconds>(ts3 - ts2).count();
+    avg += (static_cast<double>(d1) / static_cast<double>(d2));
+
+    SpeedTestStat st;
+    st.bookmarksCount = data.m_bookmarksData.size() + data.m_tracksData.size();
+    st.d1 = d1;
+    st.d2 = d2;
+    stats.push_back(st);
+  }
+  avg /= files.size();
+
+  LOG(LINFO, ("Avg speed coef =", avg));
+
+  auto const v1 = CalculateAvgCoef(stats, [](SpeedTestStat const & s) { return s.bookmarksCount < 100; });
+  auto const v2 = CalculateAvgCoef(stats, [](SpeedTestStat const & s) { return s.bookmarksCount >= 100 && s.bookmarksCount < 1000; });
+  auto const v3 = CalculateAvgCoef(stats, [](SpeedTestStat const & s) { return s.bookmarksCount >= 1000; });
+
+  LOG(LINFO, ("Small: ", v1.second, "Avg speed coef =", v1.first));
+  LOG(LINFO, ("Medium: ", v2.second, "Avg speed coef =", v2.first));
+  LOG(LINFO, ("Large: ", v3.second, "Avg speed coef =", v3.first));
+}*/
+
+UNIT_TEST(Kmb_Complex_Speed_Test_Kmz)
+{
+  std::string const dir = "/Users/romankuznetsov/Dev/Projects/omim/data/kml";
+  Platform::FilesList files;
+  Platform::GetFilesByExt(dir, ".kmz", files);
+
+  std::vector<SpeedTestStat> stats;
+  stats.reserve(files.size());
+
+  double avg = 0.0;
+  for (auto & f : files)
+  {
+    auto const filePath = dir + "/" + f;
+    std::string name = f;
+    my::GetNameWithoutExt(name);
+    auto const binFilePath = dir + "/" + name + ".kmb";
+
+    // Text.
+    auto ts1 = std::chrono::steady_clock::now();
+    {
+      ZipFileReader::FileListT filesInZip;
+      ZipFileReader::FilesList(filePath, filesInZip);
+
+      bool isKMLinZip = false;
+      for (size_t i = 0; i < filesInZip.size(); ++i)
+      {
+        if (filesInZip[i].first == "doc.kml")
+        {
+          isKMLinZip = true;
+          break;
+        }
+      }
+      if (!isKMLinZip)
+      {
+        FileWriter::DeleteFileX(filePath);
+        continue;
+      }
+
+      string const kmlFile = dir + "/tmp.kml";
+      MY_SCOPE_GUARD(fileGuard, bind(&FileWriter::DeleteFileX, kmlFile));
+      ZipFileReader::UnzipFile(filePath, "doc.kml", kmlFile);
+
+      kml::CategoryData data;
+      try
+      {
+        KmlFileDeserializer des(kmlFile);
+        des(data);
+      }
+      catch (KmlFileDeserializer::DeserializeException &exc)
+      {
+        TEST(false, ("Exception raised", exc.what()));
+      }
+    }
+
+    // Binary.
+    auto ts2 = std::chrono::steady_clock::now();
+    kml::CategoryData data;
+    {
+      FileReader reader(binFilePath);
+      kml::binary::DeserializerKml des(data, {});
+      des.Deserialize(reader);
+    }
+    auto ts3 = std::chrono::steady_clock::now();
+
+    auto d1 = std::chrono::duration_cast<std::chrono::nanoseconds>(ts2 - ts1).count();
+    auto d2 = std::chrono::duration_cast<std::chrono::nanoseconds>(ts3 - ts2).count();
+    avg += (static_cast<double>(d1) / static_cast<double>(d2));
+
+    SpeedTestStat st;
+    st.bookmarksCount = data.m_bookmarksData.size() + data.m_tracksData.size();
+    st.d1 = d1;
+    st.d2 = d2;
+    stats.push_back(st);
+  }
+  avg /= files.size();
+
+  LOG(LINFO, ("Avg speed coef =", avg));
+
+  auto const v1 = CalculateAvgCoef(stats, [](SpeedTestStat const & s) { return s.bookmarksCount < 100; });
+  auto const v2 = CalculateAvgCoef(stats, [](SpeedTestStat const & s) { return s.bookmarksCount >= 100 && s.bookmarksCount < 1000; });
+  auto const v3 = CalculateAvgCoef(stats, [](SpeedTestStat const & s) { return s.bookmarksCount >= 1000; });
+
+  LOG(LINFO, ("Small: ", v1.second, "Avg speed coef =", v1.first));
+  LOG(LINFO, ("Medium: ", v2.second, "Avg speed coef =", v2.first));
+  LOG(LINFO, ("Large: ", v3.second, "Avg speed coef =", v3.first));
 }

@@ -16,6 +16,7 @@ omim_link_libraries(
   base
   expat
   oauthcpp
+  minizip
   stats_client
   ${LIBZ}
 )

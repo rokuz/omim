@@ -3959,7 +3959,7 @@
 				ORGANIZATIONNAME = MapsWithMe;
 				TargetAttributes = {
 					6741A93D1BF340DE002C974C = {
-						DevelopmentTeam = 3T6FSDE8C7;
+						DevelopmentTeam = E7Z8K6TT6Y;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -4784,7 +4784,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "maps.me dbg.entitlements";
-				DEVELOPMENT_TEAM = 3T6FSDE8C7;
+				DEVELOPMENT_TEAM = E7Z8K6TT6Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3party/MoPubSDK/AdNetworkSupport/Facebook/SDK",
@@ -4792,6 +4792,7 @@
 					"$(PROJECT_DIR)/3party/MoPubSDK/AdNetworkSupport/AdMob/SDK",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = my.mapsme.debug;
 			};
 			name = Debug;
 		};
@@ -4799,7 +4800,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "maps.me dbg.entitlements";
-				DEVELOPMENT_TEAM = 3T6FSDE8C7;
+				DEVELOPMENT_TEAM = E7Z8K6TT6Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3party/MoPubSDK/AdNetworkSupport/Facebook/SDK",
@@ -4807,6 +4808,7 @@
 					"$(PROJECT_DIR)/3party/MoPubSDK/AdNetworkSupport/AdMob/SDK",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = my.mapsme.debug;
 			};
 			name = Release;
 		};
@@ -4814,7 +4816,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "maps.me dbg.entitlements";
-				DEVELOPMENT_TEAM = 3T6FSDE8C7;
+				DEVELOPMENT_TEAM = E7Z8K6TT6Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3party/MoPubSDK/AdNetworkSupport/Facebook/SDK",
@@ -4822,6 +4824,7 @@
 					"$(PROJECT_DIR)/3party/MoPubSDK/AdNetworkSupport/AdMob/SDK",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = my.mapsme.debug;
 			};
 			name = "Production Full";
 		};
