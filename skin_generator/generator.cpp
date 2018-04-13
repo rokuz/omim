@@ -94,10 +94,10 @@ SkinGenerator::SkinGenerator(bool needColorCorrection)
 
 void SkinGenerator::ProcessSymbols(std::string const & svgDataDir,
                                    std::string const & skinName,
-                                   std::vector<QSize> const & symbolSizes,
+                                   std::vector<double> const & symbolScales,
                                    std::vector<std::string> const & suffixes)
 {
-  for (size_t j = 0; j < symbolSizes.size(); ++j)
+  for (size_t j = 0; j < symbolScales.size(); ++j)
   {
     QDir dir(QString(svgDataDir.c_str()));
     QStringList fileNames = dir.entryList(QDir::Files);
@@ -123,25 +123,7 @@ void SkinGenerator::ProcessSymbols(std::string const & svgDataDir,
         if (m_svgRenderer.load(fullFileName))
         {
           QSize defaultSize = m_svgRenderer.defaultSize();
-
-          QSize symbolSize = symbolSizes[j];
-          QSize size = defaultSize * (symbolSize.width() / 24.0);
-
-          // Fitting symbol into symbolSize, saving aspect ratio.
-          if (size.width() > symbolSize.width())
-          {
-            auto const h = static_cast<float>(size.height()) * symbolSize.width() / size.width();
-            size.setHeight(static_cast<int>(h));
-            size.setWidth(symbolSize.width());
-          }
-
-          if (size.height() > symbolSize.height())
-          {
-            auto const w = static_cast<float>(size.width()) * symbolSize.height() / size.height();
-            size.setWidth(static_cast<int>(w));
-            size.setHeight(symbolSize.height());
-          }
-
+          QSize size = defaultSize * symbolScales[j];
           page.m_symbols.emplace_back(size + QSize(4, 4), fullFileName, symbolID);
         }
       }

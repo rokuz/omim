@@ -57,7 +57,7 @@ public:
   explicit SkinGenerator(bool needColorCorrection);
 
   void ProcessSymbols(std::string const & symbolsDir, std::string const & skinName,
-                      std::vector<QSize> const & symbolSizes,
+                      std::vector<double> const & symbolScales,
                       std::vector<std::string> const & suffix);
   bool RenderPages(uint32_t maxSize);
   bool WriteToFileNewStyle(std::string const & skinName);

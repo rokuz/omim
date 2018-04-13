@@ -18,6 +18,7 @@ DEFINE_string(symbolsFile, "../../data/results.unicode", "file with 2bytes symbo
 DEFINE_string(symbolsDir, "../../data/styles/symbols", "directory with svg symbol files");
 DEFINE_int32(symbolWidth, 24, "width of the rendered symbol");
 DEFINE_int32(symbolHeight, 24, "height of the rendered symbol");
+DEFINE_double(symbolScale, 1.0, "scale of the rendered symbol");
 DEFINE_string(skinName, "../../data/basic", "prefix for the skin and skinImage file name");
 DEFINE_string(skinSuffix, "mdpi", "suffix for skinName<suffix>.skn and symbols<suffix>.png");
 DEFINE_string(searchIconsOutPath, "../../data/search-icons/png", "output path for search category icons");
@@ -43,13 +44,13 @@ int main(int argc, char *argv[])
 
     tools::SkinGenerator gen(FLAGS_colorCorrection);
 
-    std::vector<QSize> symbolSizes;
-    symbolSizes.emplace_back(QSize(FLAGS_symbolWidth, FLAGS_symbolHeight));
+    std::vector<double> symbolScales;
+    symbolScales.emplace_back(FLAGS_symbolScale);
 
     std::vector<std::string> suffixes;
     suffixes.push_back(FLAGS_skinSuffix);
 
-    gen.ProcessSymbols(FLAGS_symbolsDir, FLAGS_skinName, symbolSizes, suffixes);
+    gen.ProcessSymbols(FLAGS_symbolsDir, FLAGS_skinName, symbolScales, suffixes);
 
     if (!gen.RenderPages(FLAGS_maxSize))
     {
