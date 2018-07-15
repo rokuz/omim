@@ -35,7 +35,7 @@ public:
 
     GLFunctions::glClear(gl_const::GLColorBit);
 
-    BindTexture(m_textureId, prg, "u_colorTex", 0 /* slotIndex */,
+    BindTexture(m_textureId, prg, "u_baseTex", 0 /* slotIndex */,
                 gl_const::GLLinear, gl_const::GLClampToEdge);
     ApplyParameters(mng, prg);
 
@@ -66,7 +66,7 @@ public:
 
     GLFunctions::glClear(gl_const::GLColorBit);
 
-    BindTexture(m_edgesTextureId, prg, "u_colorTex", 0 /* slotIndex */,
+    BindTexture(m_edgesTextureId, prg, "u_baseTex", 0 /* slotIndex */,
                 gl_const::GLLinear, gl_const::GLClampToEdge);
     BindTexture(m_areaTextureId, prg, "u_smaaArea", 1 /* slotIndex */,
                 gl_const::GLLinear, gl_const::GLClampToEdge);
@@ -112,7 +112,7 @@ public:
 
     GLFunctions::glClear(gl_const::GLColorBit);
 
-    BindTexture(m_colorTextureId, prg, "u_colorTex", 0 /* slotIndex */,
+    BindTexture(m_colorTextureId, prg, "u_baseTex", 0 /* slotIndex */,
                 gl_const::GLLinear, gl_const::GLClampToEdge);
     BindTexture(m_blendingWeightTextureId, prg, "u_blendingWeightTex", 1 /* slotIndex */,
                 gl_const::GLLinear, gl_const::GLClampToEdge);
@@ -154,7 +154,7 @@ public:
   {
     auto prg = mng->GetProgram(GetGpuProgram());
 
-    BindTexture(m_textureId, prg, "u_colorTex", 0 /* slotIndex */,
+    BindTexture(m_textureId, prg, "u_baseTex", 0 /* slotIndex */,
                 gl_const::GLLinear, gl_const::GLClampToEdge);
 
     mng->GetParamsSetter()->Apply(prg, m_params);

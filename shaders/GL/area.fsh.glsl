@@ -8,5 +8,7 @@ uniform float u_opacity;
 
 void main()
 {
-  gl_FragColor = samsungGoogleNexusWorkaround(vec4(v_color.rgb, u_opacity));
+  LOW_P vec4 finalColor = v_color;
+  finalColor.a *= u_opacity;
+  gl_FragColor = samsungGoogleNexusWorkaround(finalColor);
 }

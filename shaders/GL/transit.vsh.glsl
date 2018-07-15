@@ -8,7 +8,7 @@ uniform mat4 u_pivotTransform;
 
 uniform float u_lineHalfWidth;
 
-varying vec4 v_color;
+varying LOW_P vec4 v_color;
 
 void main()
 {

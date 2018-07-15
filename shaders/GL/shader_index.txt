@@ -7,10 +7,10 @@ TextOutlined text_outlined.vsh.glsl text.fsh.glsl
 Text text.vsh.glsl text.fsh.glsl
 TextFixed text.vsh.glsl text_fixed.fsh.glsl
 TextOutlinedGui text_outlined_gui.vsh.glsl text.fsh.glsl
-Area area.vsh.glsl solid_color.fsh.glsl
-AreaOutline area.vsh.glsl solid_color.fsh.glsl
-Area3d area3d.vsh.glsl texturing3d.fsh.glsl
-Area3dOutline area3d_outline.vsh.glsl solid_color.fsh.glsl
+Area area.vsh.glsl area.fsh.glsl
+AreaOutline area.vsh.glsl area.fsh.glsl
+Area3d area3d.vsh.glsl area3d.fsh.glsl
+Area3dOutline area3d_outline.vsh.glsl area.fsh.glsl
 Line line.vsh.glsl line.fsh.glsl
 CapJoin circle.vsh.glsl circle.fsh.glsl
 TransitCircle transit_circle.vsh.glsl transit_circle.fsh.glsl

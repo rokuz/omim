@@ -1,8 +1,7 @@
-varying vec2 v_colorTexCoord;
+varying LOW_P vec4 v_color;
 varying vec2 v_maskTexCoord;
 varying float v_halfLength;
 
-uniform sampler2D u_colorTex;
 uniform sampler2D u_maskTex;
 uniform float u_opacity;
 uniform float u_outline;
@@ -20,7 +19,7 @@ const float kMaskOpacity = 0.7;
 
 void main()
 {
-  vec4 color = texture2D(u_colorTex, v_colorTexCoord);
+  vec4 color = v_color;
   float alphaCode = color.a;
   vec4 mask = texture2D(u_maskTex, v_maskTexCoord);
   color.a = u_opacity * (1.0 - smoothstep(kAntialiasingThreshold, 1.0, abs(v_halfLength)));

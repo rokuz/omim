@@ -73,7 +73,7 @@ drape_ptr<ShapeRenderer> ChoosePositionMark::Draw(ref_ptr<dp::TextureManager> te
   posDecl.m_stride = sizeof(ChoosePositionMarkVertex);
 
   dp::BindingDecl & texDecl = info.GetBindingDecl(1);
-  texDecl.m_attributeName = "a_colorTexCoords";
+  texDecl.m_attributeName = "a_texCoords";
   texDecl.m_componentCount = 2;
   texDecl.m_componentType = gl_const::GLFloatType;
   texDecl.m_offset = sizeof(glsl::vec2);

@@ -6,7 +6,7 @@ varying vec3 v_radius;
 varying vec4 v_color;
 
 #ifdef SAMSUNG_GOOGLE_NEXUS
-uniform sampler2D u_colorTex;
+uniform sampler2D u_baseTex;
 #endif
 
 const float aaPixelsCount = 2.5;

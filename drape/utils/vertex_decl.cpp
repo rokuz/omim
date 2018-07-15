@@ -33,11 +33,11 @@ typedef dp::BindingInfo (*TInitFunction)();
 dp::BindingInfo AreaBindingInit()
 {
   static_assert(sizeof(AreaVertex) == (sizeof(AreaVertex::TPosition) +
-                                       sizeof(AreaVertex::TTexCoord)), "");
+                                       sizeof(AreaVertex::TPackedColor)), "");
 
   dp::BindingFiller<AreaVertex> filler(2);
   filler.FillDecl<AreaVertex::TPosition>("a_position");
-  filler.FillDecl<AreaVertex::TTexCoord>("a_colorTexCoords");
+  filler.FillDecl<AreaVertex::TPackedColor>("a_packedColor");
 
   return filler.m_info;
 }
@@ -46,12 +46,12 @@ dp::BindingInfo Area3dBindingInit()
 {
   static_assert(sizeof(Area3dVertex) == (sizeof(Area3dVertex::TPosition) +
                                          sizeof(Area3dVertex::TNormal3d) +
-                                         sizeof(Area3dVertex::TTexCoord)), "");
+                                         sizeof(Area3dVertex::TPackedColor)), "");
 
   dp::BindingFiller<Area3dVertex> filler(3);
   filler.FillDecl<Area3dVertex::TPosition>("a_position");
   filler.FillDecl<Area3dVertex::TNormal3d>("a_normal");
-  filler.FillDecl<Area3dVertex::TTexCoord>("a_colorTexCoords");
+  filler.FillDecl<Area3dVertex::TPackedColor>("a_packedColor");
 
   return filler.m_info;
 }
@@ -59,12 +59,12 @@ dp::BindingInfo Area3dBindingInit()
 dp::BindingInfo HatchingAreaBindingInit()
 {
   static_assert(sizeof(HatchingAreaVertex) == (sizeof(HatchingAreaVertex::TPosition) +
-                                               sizeof(HatchingAreaVertex::TTexCoord) +
+                                               sizeof(HatchingAreaVertex::TPackedColor) +
                                                sizeof(HatchingAreaVertex::TMaskTexCoord)), "");
 
   dp::BindingFiller<HatchingAreaVertex> filler(3);
   filler.FillDecl<HatchingAreaVertex::TPosition>("a_position");
-  filler.FillDecl<HatchingAreaVertex::TNormal>("a_colorTexCoords");
+  filler.FillDecl<HatchingAreaVertex::TPackedColor>("a_packedColor");
   filler.FillDecl<HatchingAreaVertex::TMaskTexCoord>("a_maskTexCoords");
   return filler.m_info;
 }
@@ -78,7 +78,7 @@ dp::BindingInfo SolidTexturingBindingInit()
   dp::BindingFiller<SolidTexturingVertex> filler(3);
   filler.FillDecl<SolidTexturingVertex::TPosition3d>("a_position");
   filler.FillDecl<SolidTexturingVertex::TNormal>("a_normal");
-  filler.FillDecl<SolidTexturingVertex::TTexCoord>("a_colorTexCoords");
+  filler.FillDecl<SolidTexturingVertex::TTexCoord>("a_texCoords");
 
   return filler.m_info;
 }
@@ -88,23 +88,24 @@ dp::BindingInfo MaskedTexturingBindingInit()
   static_assert(sizeof(MaskedTexturingVertex) == (sizeof(MaskedTexturingVertex::TPosition3d) +
                                                   sizeof(MaskedTexturingVertex::TNormal) +
                                                   sizeof(MaskedTexturingVertex::TTexCoord) +
-                                                  sizeof(MaskedTexturingVertex::TTexCoord)), "");
+                                                  sizeof(MaskedTexturingVertex::TPackedColor)), "");
 
   dp::BindingFiller<MaskedTexturingVertex> filler(4);
-  filler.FillDecl<SolidTexturingVertex::TPosition3d>("a_position");
-  filler.FillDecl<SolidTexturingVertex::TNormal>("a_normal");
-  filler.FillDecl<SolidTexturingVertex::TTexCoord>("a_colorTexCoords");
-  filler.FillDecl<SolidTexturingVertex::TTexCoord>("a_maskTexCoords");
+  filler.FillDecl<MaskedTexturingVertex::TPosition3d>("a_position");
+  filler.FillDecl<MaskedTexturingVertex::TNormal>("a_normal");
+  filler.FillDecl<MaskedTexturingVertex::TTexCoord>("a_texCoords");
+  filler.FillDecl<MaskedTexturingVertex::TPackedColor>("a_packedColor");
 
   return filler.m_info;
 }
 
 dp::BindingInfo TextStaticBindingInit()
 {
-  static_assert(sizeof(TextStaticVertex) == (2 * sizeof(TextStaticVertex::TTexCoord)), "");
+  static_assert(sizeof(TextStaticVertex) == (sizeof(TextStaticVertex::TPackedColor) +
+                                             sizeof(TextStaticVertex::TTexCoord)), "");
 
   dp::BindingFiller<TextStaticVertex> filler(2);
-  filler.FillDecl<TextStaticVertex::TTexCoord>("a_colorTexCoord");
+  filler.FillDecl<TextStaticVertex::TPackedColor>("a_packedColor");
   filler.FillDecl<TextStaticVertex::TTexCoord>("a_maskTexCoord");
 
   return filler.m_info;
@@ -112,11 +113,12 @@ dp::BindingInfo TextStaticBindingInit()
 
 dp::BindingInfo TextOutlinedStaticBindingInit()
 {
-  static_assert(sizeof(TextOutlinedStaticVertex) == (3 * sizeof(TextOutlinedStaticVertex::TTexCoord)), "");
+  static_assert(sizeof(TextOutlinedStaticVertex) == (2 * sizeof(TextStaticVertex::TPackedColor) +
+                                                     sizeof(TextOutlinedStaticVertex::TTexCoord)), "");
 
   dp::BindingFiller<TextOutlinedStaticVertex> filler(3);
-  filler.FillDecl<TextOutlinedStaticVertex::TTexCoord>("a_colorTexCoord");
-  filler.FillDecl<TextOutlinedStaticVertex::TTexCoord>("a_outlineColorTexCoord");
+  filler.FillDecl<TextOutlinedStaticVertex::TPackedColor>("a_packedColor");
+  filler.FillDecl<TextOutlinedStaticVertex::TPackedColor>("a_packedOutlineColor");
   filler.FillDecl<TextOutlinedStaticVertex::TTexCoord>("a_maskTexCoord");
 
   return filler.m_info;
@@ -138,11 +140,11 @@ dp::BindingInfo LineBindingInit()
 {
   static_assert(sizeof(LineVertex) == sizeof(LineVertex::TPosition) +
                                       sizeof(LineVertex::TNormal) +
-                                      sizeof(LineVertex::TTexCoord), "");
+                                      sizeof(LineVertex::TPackedColor), "");
   dp::BindingFiller<LineVertex> filler(3);
   filler.FillDecl<LineVertex::TPosition>("a_position");
   filler.FillDecl<LineVertex::TNormal>("a_normal");
-  filler.FillDecl<LineVertex::TTexCoord>("a_colorTexCoord");
+  filler.FillDecl<LineVertex::TPackedColor>("a_packedColor");
 
   return filler.m_info;
 }
@@ -151,13 +153,13 @@ dp::BindingInfo DashedLineBindingInit()
 {
   static_assert(sizeof(DashedLineVertex) == sizeof(DashedLineVertex::TPosition) +
                                             sizeof(DashedLineVertex::TNormal) +
-                                            sizeof(DashedLineVertex::TTexCoord) +
+                                            sizeof(DashedLineVertex::TPackedColor) +
                                             sizeof(DashedLineVertex::TMaskTexCoord), "");
 
   dp::BindingFiller<DashedLineVertex> filler(4);
   filler.FillDecl<DashedLineVertex::TPosition>("a_position");
   filler.FillDecl<DashedLineVertex::TNormal>("a_normal");
-  filler.FillDecl<DashedLineVertex::TTexCoord>("a_colorTexCoord");
+  filler.FillDecl<DashedLineVertex::TPackedColor>("a_packedColor");
   filler.FillDecl<DashedLineVertex::TMaskTexCoord>("a_maskTexCoord");
 
   return filler.m_info;
@@ -197,12 +199,14 @@ dp::BindingInfo ColoredSymbolBindingInit()
 {
   static_assert(sizeof(ColoredSymbolVertex) == sizeof(ColoredSymbolVertex::TPosition) +
                                                sizeof(ColoredSymbolVertex::TNormal) +
-                                               sizeof(ColoredSymbolVertex::TTexCoord), "");
+                                               sizeof(ColoredSymbolVertex::TPackedColor) +
+                                               sizeof(ColoredSymbolVertex::TOffset), "");
 
-  dp::BindingFiller<ColoredSymbolVertex> filler(3);
+  dp::BindingFiller<ColoredSymbolVertex> filler(4);
   filler.FillDecl<ColoredSymbolVertex::TPosition>("a_position");
   filler.FillDecl<ColoredSymbolVertex::TNormal>("a_normal");
-  filler.FillDecl<ColoredSymbolVertex::TTexCoord>("a_colorTexCoords");
+  filler.FillDecl<ColoredSymbolVertex::TPackedColor>("a_packedColor");
+  filler.FillDecl<ColoredSymbolVertex::TOffset>("a_offset");
 
   return filler.m_info;
 }
@@ -240,12 +244,12 @@ dp::BindingInfo const & GetBinding(VertexType type)
 
 AreaVertex::AreaVertex()
   : m_position(0.0, 0.0, 0.0)
-  , m_colorTexCoord(0.0, 0.0)
+  , m_packedColor(0.0, 0.0)
 {}
 
-AreaVertex::AreaVertex(TPosition const & position, TTexCoord const & colorTexCoord)
+AreaVertex::AreaVertex(TPosition const & position, TPackedColor const & packedColor)
   : m_position(position)
-  , m_colorTexCoord(colorTexCoord)
+  , m_packedColor(packedColor)
 {}
 
 dp::BindingInfo const & AreaVertex::GetBindingInfo()
@@ -256,14 +260,14 @@ dp::BindingInfo const & AreaVertex::GetBindingInfo()
 Area3dVertex::Area3dVertex()
   : m_position(0.0, 0.0, 0.0)
   , m_normal(0.0, 0.0, 0.0)
-  , m_colorTexCoord(0.0, 0.0)
+  , m_packedColor(0.0, 0.0)
 {}
 
-Area3dVertex::Area3dVertex(TPosition const & position, TPosition const & normal,
-                           TTexCoord const & colorTexCoord)
+Area3dVertex::Area3dVertex(TPosition const & position, const TPosition & normal,
+                           TPackedColor const & packedColor)
   : m_position(position)
   , m_normal(normal)
-  , m_colorTexCoord(colorTexCoord)
+  , m_packedColor(packedColor)
 {}
 
 dp::BindingInfo const & Area3dVertex::GetBindingInfo()
@@ -273,14 +277,14 @@ dp::BindingInfo const & Area3dVertex::GetBindingInfo()
 
 HatchingAreaVertex::HatchingAreaVertex()
   : m_position(0.0, 0.0, 0.0)
-  , m_colorTexCoord(0.0, 0.0)
+  , m_packedColor(0.0, 0.0)
   , m_maskTexCoord(0.0, 0.0)
 {}
 
-HatchingAreaVertex::HatchingAreaVertex(TPosition const & position, TTexCoord const & colorTexCoord,
+HatchingAreaVertex::HatchingAreaVertex(TPosition const & position, TPackedColor const & packedColor,
                                        TMaskTexCoord const & maskTexCoord)
   : m_position(position)
-  , m_colorTexCoord(colorTexCoord)
+  , m_packedColor(packedColor)
   , m_maskTexCoord(maskTexCoord)
 {}
 
@@ -292,14 +296,14 @@ dp::BindingInfo const & HatchingAreaVertex::GetBindingInfo()
 SolidTexturingVertex::SolidTexturingVertex()
   : m_position(0.0, 0.0, 0.0, 0.0)
   , m_normal(0.0, 0.0)
-  , m_colorTexCoord(0.0, 0.0)
+  , m_texCoord(0.0, 0.0)
 {}
 
 SolidTexturingVertex::SolidTexturingVertex(TPosition3d const & position, TNormal const & normal,
-                                           TTexCoord const & colorTexCoord)
+                                           TTexCoord const & texCoord)
   : m_position(position)
   , m_normal(normal)
-  , m_colorTexCoord(colorTexCoord)
+  , m_texCoord(texCoord)
 {}
 
 dp::BindingInfo const & SolidTexturingVertex::GetBindingInfo()
@@ -310,16 +314,16 @@ dp::BindingInfo const & SolidTexturingVertex::GetBindingInfo()
 MaskedTexturingVertex::MaskedTexturingVertex()
   : m_position(0.0, 0.0, 0.0, 0.0)
   , m_normal(0.0, 0.0)
-  , m_colorTexCoord(0.0, 0.0)
-  , m_maskTexCoord(0.0, 0.0)
+  , m_texCoord(0.0, 0.0)
+  , m_maskColor(0.0, 0.0)
 {}
 
 MaskedTexturingVertex::MaskedTexturingVertex(TPosition3d const & position, TNormal const & normal,
-                                             TTexCoord const & colorTexCoord, TTexCoord const & maskTexCoord)
+                                             TTexCoord const & texCoord, TPackedColor const & maskColor)
   : m_position(position)
   , m_normal(normal)
-  , m_colorTexCoord(colorTexCoord)
-  , m_maskTexCoord(maskTexCoord)
+  , m_texCoord(texCoord)
+  , m_maskColor(maskColor)
 {}
 
 dp::BindingInfo const & MaskedTexturingVertex::GetBindingInfo()
@@ -328,16 +332,16 @@ dp::BindingInfo const & MaskedTexturingVertex::GetBindingInfo()
 }
 
 TextOutlinedStaticVertex::TextOutlinedStaticVertex()
-  : m_colorTexCoord(0.0, 0.0)
-  , m_outlineTexCoord(0.0, 0.0)
+  : m_packedColor(0.0, 0.0)
+  , m_packedOutlineColor(0.0, 0.0)
   , m_maskTexCoord(0.0, 0.0)
 {}
 
-TextOutlinedStaticVertex::TextOutlinedStaticVertex(TTexCoord const & colorTexCoord,
-                                                   TTexCoord const & outlineTexCoord,
-                                                   TTexCoord const & maskTexCoord)
-  : m_colorTexCoord(colorTexCoord)
-  , m_outlineTexCoord(outlineTexCoord)
+  TextOutlinedStaticVertex::TextOutlinedStaticVertex(TPackedColor const & packedColor,
+                                                     TPackedColor const & packedOutlineColor,
+                                                     TTexCoord const & maskTexCoord)
+  : m_packedColor(packedColor)
+  , m_packedOutlineColor(packedOutlineColor)
   , m_maskTexCoord(maskTexCoord)
 {}
 
@@ -369,13 +373,14 @@ uint32_t TextDynamicVertex::GetDynamicStreamID()
 LineVertex::LineVertex()
   : m_position(0.0, 0.0, 0.0)
   , m_normal(0.0, 0.0, 0.0)
-  , m_colorTexCoord(0.0, 0.0)
+  , m_packedColor(0.0, 0.0)
 {}
 
-LineVertex::LineVertex(TPosition const & position, TNormal const & normal, TTexCoord const & color)
+LineVertex::LineVertex(TPosition const & position, TNormal const & normal,
+                       TPackedColor const & color)
   : m_position(position)
   , m_normal(normal)
-  , m_colorTexCoord(color)
+  , m_packedColor(color)
 {}
 
 dp::BindingInfo const & LineVertex::GetBindingInfo()
@@ -384,14 +389,17 @@ dp::BindingInfo const & LineVertex::GetBindingInfo()
 }
 
 DashedLineVertex::DashedLineVertex()
-  : m_maskTexCoord(0.0, 0.0, 0.0, 0.0)
+  : m_position(0.0f, 0.0f, 0.0f)
+  , m_normal(0.0f, 0.0f, 0.0f)
+  , m_packedColor(0.0f, 0.0f)
+  , m_maskTexCoord(0.0f, 0.0f, 0.0f, 0.0f)
 {}
 
 DashedLineVertex::DashedLineVertex(TPosition const & position, TNormal const & normal,
-                                   TTexCoord const & color, TMaskTexCoord const & mask)
+                                   TPackedColor const & color, TMaskTexCoord const & mask)
   : m_position(position)
   , m_normal(normal)
-  , m_colorTexCoord(color)
+  , m_packedColor(color)
   , m_maskTexCoord(mask)
 {}
 
@@ -439,12 +447,12 @@ dp::BindingInfo const & RouteMarkerVertex::GetBindingInfo()
 }
 
 TextStaticVertex::TextStaticVertex()
-  : m_colorTexCoord(0.0, 0.0)
+  : m_packedColor(0.0, 0.0)
   , m_maskTexCoord(0.0, 0.0)
 {}
 
-TextStaticVertex::TextStaticVertex(TTexCoord const & colorTexCoord, TTexCoord const & maskTexCoord)
-  : m_colorTexCoord(colorTexCoord)
+TextStaticVertex::TextStaticVertex(TPackedColor const & packedColor, TTexCoord const & maskTexCoord)
+  : m_packedColor(packedColor)
   , m_maskTexCoord(maskTexCoord)
 {}
 
@@ -456,14 +464,16 @@ dp::BindingInfo const & TextStaticVertex::GetBindingInfo()
 ColoredSymbolVertex::ColoredSymbolVertex()
   : m_position(0.0, 0.0, 0.0)
   , m_normal(0.0, 0.0, 0.0, 0.0)
-  , m_colorTexCoord(0.0, 0.0, 0.0, 0.0)
+  , m_packedColor(0.0, 0.0)
+  , m_offset(0.0, 0.0)
 {}
 
 ColoredSymbolVertex::ColoredSymbolVertex(TPosition const & position, TNormal const & normal,
-                                         TTexCoord const & colorTexCoord)
+                                         TPackedColor const & packedColor, TOffset const & offset)
   : m_position(position)
   , m_normal(normal)
-  , m_colorTexCoord(colorTexCoord)
+  , m_packedColor(packedColor)
+  , m_offset(offset)
 {}
 
 dp::BindingInfo const & ColoredSymbolVertex::GetBindingInfo()

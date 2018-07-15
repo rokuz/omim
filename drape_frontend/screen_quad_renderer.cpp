@@ -23,7 +23,7 @@ public:
   {
     auto prg = mng->GetProgram(GetGpuProgram());
 
-    BindTexture(m_textureId, prg, "u_colorTex", 0 /* slotIndex */,
+    BindTexture(m_textureId, prg, "u_baseTex", 0 /* slotIndex */,
                 gl_const::GLLinear, gl_const::GLClampToEdge);
 
     mng->GetParamsSetter()->Apply(prg, m_params);

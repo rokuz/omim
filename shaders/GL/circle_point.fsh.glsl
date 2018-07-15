@@ -1,5 +1,5 @@
 #ifdef SAMSUNG_GOOGLE_NEXUS
-uniform sampler2D u_colorTex;
+uniform sampler2D u_baseTex;
 #endif
 
 uniform float u_opacity;

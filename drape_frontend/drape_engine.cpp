@@ -12,7 +12,7 @@
 #include "platform/settings.hpp"
 
 using namespace std::placeholders;
-
+#include "drape/glsl_func.hpp"
 namespace df
 {
 DrapeEngine::DrapeEngine(Params && params)

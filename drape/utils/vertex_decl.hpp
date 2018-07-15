@@ -7,7 +7,6 @@
 
 namespace gpu
 {
-
 struct BaseVertex
 {
   using TPosition = glsl::vec3;
@@ -15,15 +14,16 @@ struct BaseVertex
   using TNormal = glsl::vec2;
   using TNormal3d = glsl::vec3;
   using TTexCoord = glsl::vec2;
+  using TPackedColor = glsl::vec2;
 };
 
 struct AreaVertex : BaseVertex
 {
   AreaVertex();
-  AreaVertex(TPosition const & position, TTexCoord const & colorTexCoord);
+  AreaVertex(TPosition const & position, TPackedColor const & packedColor);
 
   TPosition m_position;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
 
   static dp::BindingInfo const & GetBindingInfo();
 };
@@ -31,11 +31,11 @@ struct AreaVertex : BaseVertex
 struct Area3dVertex : BaseVertex
 {
   Area3dVertex();
-  Area3dVertex(TPosition const & position, const TPosition & normal, TTexCoord const & colorTexCoord);
+  Area3dVertex(TPosition const & position, const TPosition & normal, TPackedColor const & packedColor);
 
   TPosition m_position;
   TNormal3d m_normal;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
 
   static dp::BindingInfo const & GetBindingInfo();
 };
@@ -45,11 +45,11 @@ struct HatchingAreaVertex : BaseVertex
   using TMaskTexCoord = glsl::vec2;
 
   HatchingAreaVertex();
-  HatchingAreaVertex(TPosition const & position, TTexCoord const & colorTexCoord,
+  HatchingAreaVertex(TPosition const & position, TPackedColor const & packedColor,
                      TMaskTexCoord const & maskTexCoord);
 
   TPosition m_position;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
   TMaskTexCoord m_maskTexCoord;
 
   static dp::BindingInfo const & GetBindingInfo();
@@ -58,11 +58,11 @@ struct HatchingAreaVertex : BaseVertex
 struct SolidTexturingVertex : BaseVertex
 {
   SolidTexturingVertex();
-  SolidTexturingVertex(TPosition3d const & position, TNormal const & normal, TTexCoord const & colorTexCoord);
+  SolidTexturingVertex(TPosition3d const & position, TNormal const & normal, TTexCoord const & texCoord);
 
   TPosition3d m_position;
   TNormal m_normal;
-  TTexCoord m_colorTexCoord;
+  TTexCoord m_texCoord;
 
   static dp::BindingInfo const & GetBindingInfo();
 };
@@ -73,11 +73,11 @@ struct MaskedTexturingVertex : BaseVertex
 {
   MaskedTexturingVertex();
   MaskedTexturingVertex(TPosition3d const & position, TNormal const & normal,
-                        TTexCoord const & colorTexCoord, TTexCoord const & maskTexCoord);
+                        TTexCoord const & texCoord, TPackedColor const & maskColor);
   TPosition3d m_position;
   TNormal m_normal;
-  TTexCoord m_colorTexCoord;
-  TTexCoord m_maskTexCoord;
+  TTexCoord m_texCoord;
+  TPackedColor m_maskColor;
 
   static dp::BindingInfo const & GetBindingInfo();
 };
@@ -85,9 +85,9 @@ struct MaskedTexturingVertex : BaseVertex
 struct TextStaticVertex : BaseVertex
 {
   TextStaticVertex();
-  TextStaticVertex(TTexCoord const & colorTexCoord, TTexCoord const & maskTexCoord);
+  TextStaticVertex(TPackedColor const & packedColor, TTexCoord const & maskTexCoord);
 
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
   TTexCoord m_maskTexCoord;
 
   static dp::BindingInfo const & GetBindingInfo();
@@ -99,11 +99,11 @@ struct TextOutlinedStaticVertex : BaseVertex
 {
 public:
   TextOutlinedStaticVertex();
-  TextOutlinedStaticVertex(TTexCoord const & colorTexCoord, TTexCoord const & outlineTexCoord,
+  TextOutlinedStaticVertex(TPackedColor const & packedColor, TPackedColor const & packedOutlineColor,
                            TTexCoord const & maskTexCoord);
 
-  TTexCoord m_colorTexCoord;
-  TTexCoord m_outlineTexCoord;
+  TPackedColor m_packedColor;
+  TPackedColor m_packedOutlineColor;
   TTexCoord m_maskTexCoord;
 
   static dp::BindingInfo const & GetBindingInfo();
@@ -130,11 +130,11 @@ struct LineVertex : BaseVertex
   using TNormal = glsl::vec3;
 
   LineVertex();
-  LineVertex(TPosition const & position, TNormal const & normal, TTexCoord const & color);
+  LineVertex(TPosition const & position, TNormal const & normal, TPackedColor const & color);
 
   TPosition m_position;
   TNormal m_normal;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
 
   static dp::BindingInfo const & GetBindingInfo();
 };
@@ -146,11 +146,11 @@ struct DashedLineVertex : BaseVertex
 
   DashedLineVertex();
   DashedLineVertex(TPosition const & position, TNormal const & normal,
-                   TTexCoord const & color, TMaskTexCoord const & mask);
+                   TPackedColor const & color, TMaskTexCoord const & mask);
 
   TPosition m_position;
   TNormal m_normal;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
   TMaskTexCoord m_maskTexCoord;
 
   static dp::BindingInfo const & GetBindingInfo();
@@ -193,17 +193,17 @@ struct RouteMarkerVertex : BaseVertex
 struct ColoredSymbolVertex : BaseVertex
 {
   using TNormal = glsl::vec4;
-  using TTexCoord = glsl::vec4;
+  using TOffset = glsl::vec2;
 
   ColoredSymbolVertex();
   ColoredSymbolVertex(TPosition const & position, TNormal const & normal,
-                      TTexCoord const & colorTexCoord);
+                      TPackedColor const & packedColor, TOffset const & offset);
 
   TPosition m_position;
   TNormal m_normal;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
+  TOffset m_offset;
 
   static dp::BindingInfo const & GetBindingInfo();
 };
-
-} // namespace gpu
+}  // namespace gpu

@@ -1,23 +1,13 @@
-uniform float u_opacity;
-
 varying vec4 v_normal;
-#ifdef ENABLE_VTF
 varying LOW_P vec4 v_color;
-#else
-uniform sampler2D u_colorTex;
-varying vec2 v_colorTexCoords;
-#endif
+
+uniform float u_opacity;
 
 const float aaPixelsCount = 2.5;
 
 void main()
 {
-#ifdef ENABLE_VTF
   LOW_P vec4 color = v_color;
-#else
-  LOW_P vec4 color = texture2D(u_colorTex, v_colorTexCoords);
-#endif
-
   float r1 = (v_normal.z - aaPixelsCount) * (v_normal.z - aaPixelsCount);
   float r2 = v_normal.x * v_normal.x + v_normal.y * v_normal.y;
   float r3 = v_normal.z * v_normal.z;

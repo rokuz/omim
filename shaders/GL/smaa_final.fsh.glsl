@@ -1,6 +1,6 @@
 // Implementation of Subpixel Morphological Antialiasing (SMAA) is based on https://github.com/iryoku/smaa
 
-uniform sampler2D u_colorTex;
+uniform sampler2D u_baseTex;
 uniform sampler2D u_blendingWeightTex;
 
 uniform vec4 u_framebufferMetrics;
@@ -25,7 +25,7 @@ void main()
   // Is there any blending weight with a value greater than 0.0?
   if (dot(a, vec4(1.0, 1.0, 1.0, 1.0)) < 1e-5)
   {
-    gl_FragColor = texture2D(u_colorTex, v_colorTexCoords);
+    gl_FragColor = texture2D(u_baseTex, v_colorTexCoords);
   }
   else
   {
@@ -44,8 +44,8 @@ void main()
     bc += v_colorTexCoords.xyxy;
 
     // We exploit bilinear filtering to mix current pixel with the chosen neighbor.
-    vec4 color = blendingWeight.x * SMAASampleLevelZero(u_colorTex, bc.xy);
-    color += blendingWeight.y * SMAASampleLevelZero(u_colorTex, bc.zw);
+    vec4 color = blendingWeight.x * SMAASampleLevelZero(u_baseTex, bc.xy);
+    color += blendingWeight.y * SMAASampleLevelZero(u_baseTex, bc.zw);
     gl_FragColor = color;
   }
 }

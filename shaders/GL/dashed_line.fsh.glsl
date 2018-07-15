@@ -1,8 +1,8 @@
 varying vec2 v_colorTexCoord;
 varying vec2 v_halfLength;
 varying vec2 v_maskTexCoord;
+varying LOW_P vec4 v_color;
 
-uniform sampler2D u_colorTex;
 uniform sampler2D u_maskTex;
 uniform float u_opacity;
 
@@ -10,7 +10,7 @@ const float aaPixelsCount = 2.5;
 
 void main()
 {
-  vec4 color = texture2D(u_colorTex, v_colorTexCoord);
+  vec4 color = v_color;
 #ifdef GLES3
   float mask = texture2D(u_maskTex, v_maskTexCoord).r;
 #else

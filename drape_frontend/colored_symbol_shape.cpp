@@ -95,18 +95,10 @@ ColoredSymbolShape::ColoredSymbolShape(m2::PointD const & mercatorPt, ColoredSym
 void ColoredSymbolShape::Draw(ref_ptr<dp::Batcher> batcher,
                               ref_ptr<dp::TextureManager> textures) const
 {
-  dp::TextureManager::ColorRegion colorRegion;
-  textures->GetColorRegion(m_params.m_color, colorRegion);
-  m2::PointF const & colorUv = colorRegion.GetTexRect().Center();
-
-  dp::TextureManager::ColorRegion outlineColorRegion;
-  textures->GetColorRegion(m_params.m_outlineColor, outlineColorRegion);
-  m2::PointF const & outlineUv = outlineColorRegion.GetTexRect().Center();
+  auto const packedColor = glsl::PackColor(m_params.m_color);
+  auto const packedOutlineColor = glsl::PackColor(m_params.m_outlineColor);
 
   using V = gpu::ColoredSymbolVertex;
-  V::TTexCoord const uv(colorUv.x, colorUv.y, 0.0f, 0.0f);
-  V::TTexCoord const uvOutline(outlineUv.x, outlineUv.y, 0.0f, 0.0f);
-
   glsl::vec2 const pt = glsl::ToVec2(ConvertToLocal(m_point, m_params.m_tileCenter,
                                                     kShapeCoordScalar));
   glsl::vec3 const position = glsl::vec3(pt, m_params.m_depth);
@@ -127,22 +119,22 @@ void ColoredSymbolShape::Draw(ref_ptr<dp::Batcher> batcher,
     static float const kSqrt3 = static_cast<float>(sqrt(3.0f));
     float r = m_params.m_radiusInPixels - m_params.m_outlineWidth;
 
-    V::TTexCoord uv2(uv.x, uv.y, norm(0.0, 0.0));
-    buffer.push_back(V(position, V::TNormal(-r * kSqrt3, -r, r, 1.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(r * kSqrt3, -r, r, 1.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(0.0f, 2.0f * r, r, 1.0f), uv2));
+    V::TOffset const offset = norm(0.0, 0.0);
+    buffer.push_back(V(position, V::TNormal(-r * kSqrt3, -r, r, 1.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(r * kSqrt3, -r, r, 1.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(0.0f, 2.0f * r, r, 1.0f), packedColor, offset));
 
     if (m_params.m_outlineWidth >= 1e-5)
     {
       r = m_params.m_radiusInPixels;
-      V::TTexCoord uvOutline2(uvOutline.x, uvOutline.y, norm(0.0, 0.0));
-      buffer.push_back(V(position, V::TNormal(-r * kSqrt3, -r, r, 1.0f), uvOutline2));
-      buffer.push_back(V(position, V::TNormal(r * kSqrt3, -r, r, 1.0f), uvOutline2));
-      buffer.push_back(V(position, V::TNormal(0.0f, 2.0f * r, r, 1.0f), uvOutline2));
+      buffer.push_back(V(position, V::TNormal(-r * kSqrt3, -r, r, 1.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(r * kSqrt3, -r, r, 1.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(0.0f, 2.0f * r, r, 1.0f), packedOutlineColor, offset));
     }
   }
   else if (m_params.m_shape == ColoredSymbolViewParams::Shape::Rectangle)
   {
+    V::TOffset const offset = V::TOffset(0.0, 0.0);
     pixelSize = m2::PointU(static_cast<uint32_t>(m_params.m_sizeInPixels.x),
                            static_cast<uint32_t>(m_params.m_sizeInPixels.y));
     float const halfWidth = 0.5f * m_params.m_sizeInPixels.x;
@@ -151,25 +143,26 @@ void ColoredSymbolShape::Draw(ref_ptr<dp::Batcher> batcher,
     float const halfWidthInside = halfWidth - m_params.m_outlineWidth;
     float const halfHeightInside = halfHeight - m_params.m_outlineWidth;
 
-    buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, halfHeightInside), v, 0.0f), uv));
-    buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, -halfHeightInside), v, 0.0f), uv));
-    buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, halfHeightInside), v, 0.0f), uv));
-    buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, halfHeightInside), v, 0.0f), uv));
-    buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, -halfHeightInside), v, 0.0f), uv));
-    buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, -halfHeightInside), v, 0.0f), uv));
+    buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, halfHeightInside), v, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, -halfHeightInside), v, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, halfHeightInside), v, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, halfHeightInside), v, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, -halfHeightInside), v, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, -halfHeightInside), v, 0.0f), packedColor, offset));
 
     if (m_params.m_outlineWidth >= 1e-5)
     {
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidth, halfHeight), v, 0.0f), uvOutline));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidth, -halfHeight), v, 0.0f), uvOutline));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidth, halfHeight), v, 0.0f), uvOutline));
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidth, halfHeight), v, 0.0f), uvOutline));
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidth, -halfHeight), v, 0.0f), uvOutline));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidth, -halfHeight), v, 0.0f), uvOutline));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidth, halfHeight), v, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidth, -halfHeight), v, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidth, halfHeight), v, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidth, halfHeight), v, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidth, -halfHeight), v, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidth, -halfHeight), v, 0.0f), packedOutlineColor, offset));
     }
   }
   else if (m_params.m_shape == ColoredSymbolViewParams::Shape::RoundedRectangle)
   {
+    V::TOffset offset = V::TOffset(0.0, 0.0);
     pixelSize = m2::PointU(static_cast<uint32_t>(m_params.m_sizeInPixels.x),
                            static_cast<uint32_t>(m_params.m_sizeInPixels.y));
     float const halfWidth = 0.5f * m_params.m_sizeInPixels.x;
@@ -182,89 +175,90 @@ void ColoredSymbolShape::Draw(ref_ptr<dp::Batcher> batcher,
 
     if (halfWidthBody > 0.0f && halfHeightInside > 0.0f)
     {
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, halfHeightInside), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, -halfHeightInside), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, halfHeightInside), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, halfHeightInside), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, -halfHeightInside), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, -halfHeightInside), v, 0.0f), uv));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, halfHeightInside), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, -halfHeightInside), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, halfHeightInside), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, halfHeightInside), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, -halfHeightInside), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, -halfHeightInside), v, 0.0f), packedColor, offset));
     }
 
     if (halfWidthInside > 0.0f && halfHeightBody > 0.0f)
     {
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, halfHeightBody), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, -halfHeightBody), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, halfHeightBody), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, halfHeightBody), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, -halfHeightBody), v, 0.0f), uv));
-      buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, -halfHeightBody), v, 0.0f), uv));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, halfHeightBody), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, -halfHeightBody), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, halfHeightBody), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, halfHeightBody), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(-halfWidthInside, -halfHeightBody), v, 0.0f), packedColor, offset));
+      buffer.push_back(V(position, V::TNormal(norm(halfWidthInside, -halfHeightBody), v, 0.0f), packedColor, offset));
     }
 
     // Here we use an right triangle to render a quarter of circle.
     static float const kSqrt2 = static_cast<float>(sqrt(2.0f));
     float r = m_params.m_radiusInPixels - m_params.m_outlineWidth;
-    V::TTexCoord uv2(uv.x, uv.y, norm(-halfWidthBody, halfHeightBody));
-    buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(0.0, r * kSqrt2, r, 0.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(-r * kSqrt2, 0.0, r, 0.0f), uv2));
+    offset = norm(-halfWidthBody, halfHeightBody);
+    buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(0.0, r * kSqrt2, r, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(-r * kSqrt2, 0.0, r, 0.0f), packedColor, offset));
 
-    uv2 = V::TTexCoord(uv.x, uv.y, norm(halfWidthBody, halfHeightBody));
-    buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(r * kSqrt2, 0.0, r, 0.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(0.0, r * kSqrt2, r, 0.0f), uv2));
+    offset = norm(halfWidthBody, halfHeightBody);
+    buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(r * kSqrt2, 0.0, r, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(0.0, r * kSqrt2, r, 0.0f), packedColor, offset));
 
-    uv2 = V::TTexCoord(uv.x, uv.y, norm(halfWidthBody, -halfHeightBody));
-    buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(0.0, -r * kSqrt2, r, 0.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(r * kSqrt2, 0.0, r, 0.0f), uv2));
+    offset = norm(halfWidthBody, -halfHeightBody);
+    buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(0.0, -r * kSqrt2, r, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(r * kSqrt2, 0.0, r, 0.0f), packedColor, offset));
 
-    uv2 = V::TTexCoord(uv.x, uv.y, norm(-halfWidthBody, -halfHeightBody));
-    buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(-r * kSqrt2, 0.0, r, 0.0f), uv2));
-    buffer.push_back(V(position, V::TNormal(0.0, -r * kSqrt2, r, 0.0f), uv2));
+    offset = norm(-halfWidthBody, -halfHeightBody);
+    buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(-r * kSqrt2, 0.0, r, 0.0f), packedColor, offset));
+    buffer.push_back(V(position, V::TNormal(0.0, -r * kSqrt2, r, 0.0f), packedColor, offset));
 
     if (m_params.m_outlineWidth >= 1e-5)
     {
+      offset = V::TOffset(0.0, 0.0);
       if (halfWidthBody > 0.0f && halfHeight > 0.0f)
       {
-        buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, halfHeight), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, -halfHeight), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, halfHeight), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, halfHeight), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, -halfHeight), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, -halfHeight), v, 0.0f), uvOutline));
+        buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, halfHeight), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, -halfHeight), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, halfHeight), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, halfHeight), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(-halfWidthBody, -halfHeight), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(halfWidthBody, -halfHeight), v, 0.0f), packedOutlineColor, offset));
       }
 
       if (halfWidth > 0.0f && halfHeightBody > 0.0f)
       {
-        buffer.push_back(V(position, V::TNormal(norm(-halfWidth, halfHeightBody), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(halfWidth, -halfHeightBody), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(halfWidth, halfHeightBody), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(-halfWidth, halfHeightBody), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(-halfWidth, -halfHeightBody), v, 0.0f), uvOutline));
-        buffer.push_back(V(position, V::TNormal(norm(halfWidth, -halfHeightBody), v, 0.0f), uvOutline));
+        buffer.push_back(V(position, V::TNormal(norm(-halfWidth, halfHeightBody), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(halfWidth, -halfHeightBody), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(halfWidth, halfHeightBody), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(-halfWidth, halfHeightBody), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(-halfWidth, -halfHeightBody), v, 0.0f), packedOutlineColor, offset));
+        buffer.push_back(V(position, V::TNormal(norm(halfWidth, -halfHeightBody), v, 0.0f), packedOutlineColor, offset));
       }
 
       r = m_params.m_radiusInPixels;
-      V::TTexCoord const uvOutline2(outlineUv.x, outlineUv.y, norm(-halfWidthBody, halfHeightBody));
-      buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), uvOutline2));
-      buffer.push_back(V(position, V::TNormal(0.0, r * kSqrt2, r, 0.0f), uvOutline2));
-      buffer.push_back(V(position, V::TNormal(-r * kSqrt2, 0.0, r, 0.0f), uvOutline2));
+      offset = norm(-halfWidthBody, halfHeightBody);
+      buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(0.0, r * kSqrt2, r, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(-r * kSqrt2, 0.0, r, 0.0f), packedOutlineColor, offset));
 
-      uv2 = V::TTexCoord(outlineUv.x, outlineUv.y, norm(halfWidthBody, halfHeightBody));
-      buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), uv2));
-      buffer.push_back(V(position, V::TNormal(r * kSqrt2, 0.0, r, 0.0f), uv2));
-      buffer.push_back(V(position, V::TNormal(0.0, r * kSqrt2, r, 0.0f), uv2));
+      offset = norm(halfWidthBody, halfHeightBody);
+      buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(r * kSqrt2, 0.0, r, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(0.0, r * kSqrt2, r, 0.0f), packedOutlineColor, offset));
 
-      uv2 = V::TTexCoord(outlineUv.x, outlineUv.y, norm(halfWidthBody, -halfHeightBody));
-      buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), uv2));
-      buffer.push_back(V(position, V::TNormal(0.0, -r * kSqrt2, r, 0.0f), uv2));
-      buffer.push_back(V(position, V::TNormal(r * kSqrt2, 0.0, r, 0.0f), uv2));
+      offset = norm(halfWidthBody, -halfHeightBody);
+      buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(0.0, -r * kSqrt2, r, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(r * kSqrt2, 0.0, r, 0.0f), packedOutlineColor, offset));
 
-      uv2 = V::TTexCoord(outlineUv.x, outlineUv.y, norm(-halfWidthBody, -halfHeightBody));
-      buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), uv2));
-      buffer.push_back(V(position, V::TNormal(-r * kSqrt2, 0.0, r, 0.0f), uv2));
-      buffer.push_back(V(position, V::TNormal(0.0, -r * kSqrt2, r, 0.0f), uv2));
+      offset = norm(-halfWidthBody, -halfHeightBody);
+      buffer.push_back(V(position, V::TNormal(0.0, 0.0, r, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(-r * kSqrt2, 0.0, r, 0.0f), packedOutlineColor, offset));
+      buffer.push_back(V(position, V::TNormal(0.0, -r * kSqrt2, r, 0.0f), packedOutlineColor, offset));
     }
   }
 
@@ -300,7 +294,6 @@ void ColoredSymbolShape::Draw(ref_ptr<dp::Batcher> batcher,
   }
   auto state = CreateGLState(gpu::Program::ColoredSymbol, m_params.m_depthLayer);
   state.SetProgram3d(gpu::Program::ColoredSymbolBillboard);
-  state.SetColorTexture(colorRegion.GetTexture());
   state.SetDepthFunction(gl_const::GLLess);
 
   dp::AttributeProvider provider(1, static_cast<uint32_t>(buffer.size()));

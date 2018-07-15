@@ -5,6 +5,14 @@
 // system.
 const float kShapeCoordScalar = 1000.0;
 
+vec4 unpackColor(vec2 packedColor)
+{
+  return vec4(floor(packedColor.x) / 255.0f,
+              fract(packedColor.x) * 1000.0f / 255.0f,
+              floor(packedColor.y) / 255.0f,
+              fract(packedColor.y) * 1000.0f / 255.0f);
+}
+
 // VS (DO NOT modify this comment, it marks up block of vertex shader functions).
 
 // This function applies a 2D->3D transformation matrix |pivotTransform| to |pivot|.
@@ -45,7 +53,7 @@ vec4 samsungGoogleNexusWorkaround(vec4 color)
 {
 #ifdef SAMSUNG_GOOGLE_NEXUS
   const float kFakeColorScalar = 0.0;
-  return color + texture2D(u_colorTex, vec2(0.0, 0.0)) * kFakeColorScalar;
+  return color + texture2D(u_baseTex, vec2(0.0, 0.0)) * kFakeColorScalar;
 #else
   return color;
 #endif

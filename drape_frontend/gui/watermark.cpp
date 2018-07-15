@@ -96,7 +96,7 @@ drape_ptr<ShapeRenderer> Watermark::Draw(m2::PointF & size, ref_ptr<dp::TextureM
   posDecl.m_stride = sizeof(WatermarkVertex);
 
   dp::BindingDecl & texDecl = info.GetBindingDecl(1);
-  texDecl.m_attributeName = "a_colorTexCoords";
+  texDecl.m_attributeName = "a_texCoords";
   texDecl.m_componentCount = 2;
   texDecl.m_componentType = gl_const::GLFloatType;
   texDecl.m_offset = sizeof(glsl::vec2);

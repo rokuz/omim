@@ -192,7 +192,7 @@ public:
       dp::BindingFiller<CapVertex> filler(3);
       filler.FillDecl<CapVertex::TPosition>("a_position");
       filler.FillDecl<CapVertex::TNormal>("a_normal");
-      filler.FillDecl<CapVertex::TTexCoord>("a_colorTexCoords");
+      filler.FillDecl<CapVertex::TTexCoord>("a_packedColor");
 
       s_capInfo.reset(new dp::BindingInfo(filler.m_info));
     }

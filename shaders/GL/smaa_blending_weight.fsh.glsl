@@ -1,6 +1,6 @@
 // Implementation of Subpixel Morphological Antialiasing (SMAA) is based on https://github.com/iryoku/smaa
 
-uniform sampler2D u_colorTex;
+uniform sampler2D u_baseTex;
 uniform sampler2D u_smaaArea;
 uniform sampler2D u_smaaSearch;
 
@@ -64,7 +64,7 @@ float SMAASearchXLeft(vec2 texcoord, float end)
 {
   vec2 e = vec2(0.0, 1.0);
   SMAALoopBegin(texcoord.x > end && e.g > kActivationThreshold && e.r == 0.0)
-    e = SMAASampleLevelZero(u_colorTex, texcoord).rg;
+    e = SMAASampleLevelZero(u_baseTex, texcoord).rg;
     texcoord = vec2(-2.0, 0.0) * u_framebufferMetrics.xy + texcoord;
   SMAALoopEnd
   float offset = 3.25 - (255.0 / 127.0) * SMAASearchLength(e, 0.0);
@@ -75,7 +75,7 @@ float SMAASearchXRight(vec2 texcoord, float end)
 {
   vec2 e = vec2(0.0, 1.0);
   SMAALoopBegin(texcoord.x < end && e.g > kActivationThreshold && e.r == 0.0)
-    e = SMAASampleLevelZero(u_colorTex, texcoord).rg;
+    e = SMAASampleLevelZero(u_baseTex, texcoord).rg;
     texcoord = vec2(2.0, 0.0) * u_framebufferMetrics.xy + texcoord;
   SMAALoopEnd
   float offset = 3.25 - (255.0 / 127.0) * SMAASearchLength(e, 0.5);
@@ -86,7 +86,7 @@ float SMAASearchYUp(vec2 texcoord, float end)
 {
   vec2 e = vec2(1.0, 0.0);
   SMAALoopBegin(texcoord.y > end && e.r > kActivationThreshold && e.g == 0.0)
-    e = SMAASampleLevelZero(u_colorTex, texcoord).rg;
+    e = SMAASampleLevelZero(u_baseTex, texcoord).rg;
     texcoord = vec2(0.0, -2.0) * u_framebufferMetrics.xy + texcoord;
   SMAALoopEnd
   float offset = 3.25 - (255.0 / 127.0) * SMAASearchLength(e.gr, 0.0);
@@ -97,7 +97,7 @@ float SMAASearchYDown(vec2 texcoord, float end)
 {
   vec2 e = vec2(1.0, 0.0);
   SMAALoopBegin(texcoord.y < end && e.r > kActivationThreshold && e.g == 0.0)
-    e = SMAASampleLevelZero(u_colorTex, texcoord).rg;
+    e = SMAASampleLevelZero(u_baseTex, texcoord).rg;
     texcoord = vec2(0.0, 2.0) * u_framebufferMetrics.xy + texcoord;
   SMAALoopEnd
   float offset = 3.25 - (255.0 / 127.0) * SMAASearchLength(e.gr, 0.5);
@@ -118,7 +118,7 @@ vec2 SMAAArea(vec2 dist, float e1, float e2)
 void main()
 {
   vec4 weights = vec4(0.0, 0.0, 0.0, 0.0);
-  vec2 e = texture2D(u_colorTex, v_coords.xy).rg;
+  vec2 e = texture2D(u_baseTex, v_coords.xy).rg;
 
   if (e.g > 0.0) // Edge at north
   {
@@ -132,7 +132,7 @@ void main()
 
     // Now fetch the left crossing edges, two at a time using bilinear
     // filtering. Sampling at -0.25 enables to discern what value each edge has.
-    float e1 = SMAASampleLevelZero(u_colorTex, coords.xy).r;
+    float e1 = SMAASampleLevelZero(u_baseTex, coords.xy).r;
 
     // Find the distance to the right.
     coords.z = SMAASearchXRight(v_offset0.zw, v_offset2.y);
@@ -147,7 +147,7 @@ void main()
     vec2 sqrt_d = sqrt(d);
 
     // Fetch the right crossing edges.
-    float e2 = SMAASampleLevelZeroOffset(u_colorTex, coords.zy, SMAAOffset(1, 0)).r;
+    float e2 = SMAASampleLevelZeroOffset(u_baseTex, coords.zy, SMAAOffset(1, 0)).r;
 
     // Here we know how this pattern looks like, now it is time for getting
     // the actual area.
@@ -165,7 +165,7 @@ void main()
     d.x = coords.y;
 
     // Fetch the top crossing edges.
-    float e1 = SMAASampleLevelZero(u_colorTex, coords.xy).g;
+    float e1 = SMAASampleLevelZero(u_baseTex, coords.xy).g;
 
     // Find the distance to the bottom.
     coords.z = SMAASearchYDown(v_offset1.zw, v_offset2.w);
@@ -179,7 +179,7 @@ void main()
     vec2 sqrt_d = sqrt(d);
 
     // Fetch the bottom crossing edges.
-    float e2 = SMAASampleLevelZeroOffset(u_colorTex, coords.xz, SMAAOffset(0, 1)).g;
+    float e2 = SMAASampleLevelZeroOffset(u_baseTex, coords.xz, SMAAOffset(0, 1)).g;
 
     // Get the area for this direction.
     weights.ba = SMAAArea(sqrt_d, e1, e2);

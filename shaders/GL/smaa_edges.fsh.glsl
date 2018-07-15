@@ -1,6 +1,6 @@
 // Implementation of Subpixel Morphological Antialiasing (SMAA) is based on https://github.com/iryoku/smaa
 
-uniform sampler2D u_colorTex;
+uniform sampler2D u_baseTex;
 
 varying vec2 v_colorTexCoords;
 varying vec4 v_offset0;
@@ -30,9 +30,9 @@ const vec3 kWeights = vec3(0.2126, 0.7152, 0.0722);
 void main()
 {
   // Calculate lumas.
-  float L = dot(texture2D(u_colorTex, v_colorTexCoords).rgb, kWeights);
-  float Lleft = dot(texture2D(u_colorTex, v_offset0.xy).rgb, kWeights);
-  float Ltop = dot(texture2D(u_colorTex, v_offset0.zw).rgb, kWeights);
+  float L = dot(texture2D(u_baseTex, v_colorTexCoords).rgb, kWeights);
+  float Lleft = dot(texture2D(u_baseTex, v_offset0.xy).rgb, kWeights);
+  float Ltop = dot(texture2D(u_baseTex, v_offset0.zw).rgb, kWeights);
 
   // We do the usual threshold.
   vec4 delta;
@@ -42,16 +42,16 @@ void main()
       discard;
 
   // Calculate right and bottom deltas.
-  float Lright = dot(texture2D(u_colorTex, v_offset1.xy).rgb, kWeights);
-  float Lbottom  = dot(texture2D(u_colorTex, v_offset1.zw).rgb, kWeights);
+  float Lright = dot(texture2D(u_baseTex, v_offset1.xy).rgb, kWeights);
+  float Lbottom  = dot(texture2D(u_baseTex, v_offset1.zw).rgb, kWeights);
   delta.zw = abs(L - vec2(Lright, Lbottom));
 
   // Calculate the maximum delta in the direct neighborhood.
   vec2 maxDelta = max(delta.xy, delta.zw);
 
   // Calculate left-left and top-top deltas.
-  float Lleftleft = dot(texture2D(u_colorTex, v_offset2.xy).rgb, kWeights);
-  float Ltoptop = dot(texture2D(u_colorTex, v_offset2.zw).rgb, kWeights);
+  float Lleftleft = dot(texture2D(u_baseTex, v_offset2.xy).rgb, kWeights);
+  float Ltoptop = dot(texture2D(u_baseTex, v_offset2.zw).rgb, kWeights);
   delta.zw = abs(vec2(Lleft, Ltop) - vec2(Lleftleft, Ltoptop));
 
   // Calculate the final maximum delta.

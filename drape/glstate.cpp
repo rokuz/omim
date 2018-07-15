@@ -124,7 +124,7 @@ void TextureState::ApplyTextures(GLState const & state, ref_ptr<GpuProgram> prog
 
   ref_ptr<Texture> tex = state.GetColorTexture();
   int8_t colorTexLoc = -1;
-  if (tex != nullptr && (colorTexLoc = program->GetUniformLocation("u_colorTex")) >= 0)
+  if (tex != nullptr && (colorTexLoc = program->GetUniformLocation("u_baseTex")) >= 0)
   {
     GLFunctions::glActiveTexture(gl_const::GLTexture0);
     tex->Bind();

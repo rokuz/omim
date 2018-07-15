@@ -120,7 +120,7 @@ drape_ptr<ShapeRenderer> Compass::Draw(m2::PointF & compassSize, ref_ptr<dp::Tex
   posDecl.m_stride = sizeof(CompassVertex);
 
   dp::BindingDecl & texDecl = info.GetBindingDecl(1);
-  texDecl.m_attributeName = "a_colorTexCoords";
+  texDecl.m_attributeName = "a_texCoords";
   texDecl.m_componentCount = 2;
   texDecl.m_componentType = gl_const::GLFloatType;
   texDecl.m_offset = sizeof(glsl::vec2);

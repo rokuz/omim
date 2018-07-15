@@ -3264,6 +3264,7 @@ search::ProductInfo Framework::GetProductInfo(search::Result const & result) con
 
   auto const ugc = m_ugcApi->GetLoader().GetUGC(result.GetFeatureID());
   productInfo.m_ugcRating = ugc.m_totalRating;
+  LOG(LINFO, ("AAAA!!!!", result.GetString(), ugc.m_totalRating, ugc.m_basedOn, ugc.m_reviews));
 
   return productInfo;
 }

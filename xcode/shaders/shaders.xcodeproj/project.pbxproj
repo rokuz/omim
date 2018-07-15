@@ -79,7 +79,6 @@
 		4566609F20E256490085E8C1 /* text_fixed.fsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = text_fixed.fsh.glsl; path = ../GL/text_fixed.fsh.glsl; sourceTree = "<group>"; };
 		456660A020E256490085E8C1 /* transit_marker.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = transit_marker.vsh.glsl; path = ../GL/transit_marker.vsh.glsl; sourceTree = "<group>"; };
 		456660A120E256490085E8C1 /* position_accuracy3d.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = position_accuracy3d.vsh.glsl; path = ../GL/position_accuracy3d.vsh.glsl; sourceTree = "<group>"; };
-		456660A220E256490085E8C1 /* solid_color.fsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = solid_color.fsh.glsl; path = ../GL/solid_color.fsh.glsl; sourceTree = "<group>"; };
 		456660A320E256490085E8C1 /* route.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = route.vsh.glsl; path = ../GL/route.vsh.glsl; sourceTree = "<group>"; };
 		456660A420E256490085E8C1 /* user_mark.fsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = user_mark.fsh.glsl; path = ../GL/user_mark.fsh.glsl; sourceTree = "<group>"; };
 		456660A520E2564A0085E8C1 /* route_arrow.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = route_arrow.vsh.glsl; path = ../GL/route_arrow.vsh.glsl; sourceTree = "<group>"; };
@@ -110,7 +109,6 @@
 		456660BE20E2564F0085E8C1 /* arrow3d.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = arrow3d.vsh.glsl; path = ../GL/arrow3d.vsh.glsl; sourceTree = "<group>"; };
 		456660BF20E2564F0085E8C1 /* colored_symbol_billboard.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = colored_symbol_billboard.vsh.glsl; path = ../GL/colored_symbol_billboard.vsh.glsl; sourceTree = "<group>"; };
 		456660C020E2564F0085E8C1 /* circle_point.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = circle_point.vsh.glsl; path = ../GL/circle_point.vsh.glsl; sourceTree = "<group>"; };
-		456660C120E2564F0085E8C1 /* texturing3d.fsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = texturing3d.fsh.glsl; path = ../GL/texturing3d.fsh.glsl; sourceTree = "<group>"; };
 		456660C220E2564F0085E8C1 /* smaa_edges.fsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = smaa_edges.fsh.glsl; path = ../GL/smaa_edges.fsh.glsl; sourceTree = "<group>"; };
 		456660C320E256500085E8C1 /* text.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = text.vsh.glsl; path = ../GL/text.vsh.glsl; sourceTree = "<group>"; };
 		456660C420E256500085E8C1 /* shaders_lib.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = shaders_lib.glsl; path = ../GL/shaders_lib.glsl; sourceTree = "<group>"; };
@@ -146,6 +144,10 @@
 		4566610620E25F560085E8C1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4566610820E25F790085E8C1 /* test_main_loop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = test_main_loop.hpp; path = ../../qt_tstfrm/test_main_loop.hpp; sourceTree = "<group>"; };
 		4566610920E25F790085E8C1 /* test_main_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_main_loop.cpp; path = ../../qt_tstfrm/test_main_loop.cpp; sourceTree = "<group>"; };
+		EB61B04C20FBA68500633D6D /* area3d.fsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area3d.fsh.glsl; sourceTree = "<group>"; };
+		EB61B04D20FBA68600633D6D /* transit_circle.vsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transit_circle.vsh.glsl; sourceTree = "<group>"; };
+		EB61B04E20FBA68600633D6D /* transit_circle.fsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transit_circle.fsh.glsl; sourceTree = "<group>"; };
+		EB61B04F20FBA68600633D6D /* area.fsh.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.fsh.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,8 +225,10 @@
 		4566608E20E2562C0085E8C1 /* GL */ = {
 			isa = PBXGroup;
 			children = (
+				EB61B04F20FBA68600633D6D /* area.fsh.glsl */,
 				456660AB20E2564B0085E8C1 /* area.vsh.glsl */,
 				456660CF20E256520085E8C1 /* area3d_outline.vsh.glsl */,
+				EB61B04C20FBA68500633D6D /* area3d.fsh.glsl */,
 				456660D420E256530085E8C1 /* area3d.vsh.glsl */,
 				4566609020E256470085E8C1 /* arrow3d_outline.fsh.glsl */,
 				456660B520E2564D0085E8C1 /* arrow3d_shadow.fsh.glsl */,
@@ -269,7 +273,6 @@
 				4566609920E256480085E8C1 /* smaa_edges.vsh.glsl */,
 				456660CE20E256520085E8C1 /* smaa_final.fsh.glsl */,
 				456660BD20E2564E0085E8C1 /* smaa_final.vsh.glsl */,
-				456660A220E256490085E8C1 /* solid_color.fsh.glsl */,
 				4566609420E256470085E8C1 /* text_billboard.vsh.glsl */,
 				4566609F20E256490085E8C1 /* text_fixed.fsh.glsl */,
 				456660C920E256510085E8C1 /* text_outlined_billboard.vsh.glsl */,
@@ -281,11 +284,12 @@
 				456660CB20E256510085E8C1 /* texturing_gui.vsh.glsl */,
 				456660CC20E256510085E8C1 /* texturing.fsh.glsl */,
 				456660D320E256530085E8C1 /* texturing.vsh.glsl */,
-				456660C120E2564F0085E8C1 /* texturing3d.fsh.glsl */,
 				456660B120E2564C0085E8C1 /* traffic_line.fsh.glsl */,
 				4566609520E256470085E8C1 /* traffic_line.vsh.glsl */,
 				4566608F20E256470085E8C1 /* traffic.fsh.glsl */,
 				456660BB20E2564E0085E8C1 /* traffic.vsh.glsl */,
+				EB61B04E20FBA68600633D6D /* transit_circle.fsh.glsl */,
+				EB61B04D20FBA68600633D6D /* transit_circle.vsh.glsl */,
 				4566609720E256480085E8C1 /* transit_marker.fsh.glsl */,
 				456660A020E256490085E8C1 /* transit_marker.vsh.glsl */,
 				4566609A20E256480085E8C1 /* transit.fsh.glsl */,

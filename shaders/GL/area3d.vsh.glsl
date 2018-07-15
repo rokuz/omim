@@ -1,13 +1,13 @@
 attribute vec3 a_position;
 attribute vec3 a_normal;
-attribute vec2 a_colorTexCoords;
+attribute vec2 a_packedColor;
 
 uniform mat4 u_modelView;
 uniform mat4 u_projection;
 uniform mat4 u_pivotTransform;
 uniform float u_zScale;
 
-varying vec2 v_colorTexCoords;
+varying LOW_P vec4 v_color;
 varying float v_intensity;
 
 const vec4 kNormalizedLightDir = vec4(0.3162, 0.0, 0.9486, 0.0);
@@ -30,5 +30,5 @@ void main()
     v_intensity = 0.0;
 
   gl_Position = u_pivotTransform * pos;
-  v_colorTexCoords = a_colorTexCoords;
+  v_color = unpackColor(a_packedColor);
 }
