@@ -1,6 +1,10 @@
 varying vec4 v_normal;
 varying LOW_P vec4 v_color;
 
+#ifdef SAMSUNG_GOOGLE_NEXUS
+uniform sampler2D u_baseTex;
+#endif
+
 uniform float u_opacity;
 
 const float aaPixelsCount = 2.5;
@@ -18,5 +22,5 @@ void main()
   if (finalColor.a == 0.0)
     discard;
 
-  gl_FragColor = finalColor;
+  gl_FragColor = samsungGoogleNexusWorkaround(finalColor);
 }

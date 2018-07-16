@@ -1,6 +1,7 @@
 attribute vec3 a_position;
 attribute vec4 a_normal;
-attribute vec4 a_colorTexCoord;
+attribute vec2 a_packedColor;
+attribute vec2 a_offset;
 
 uniform mat4 u_modelView;
 uniform mat4 u_projection;
@@ -8,7 +9,7 @@ uniform mat4 u_pivotTransform;
 
 uniform vec4 u_trafficParams;
 
-varying vec2 v_colorTexCoord;
+varying LOW_P vec4 v_color;
 varying vec2 v_maskTexCoord;
 varying float v_halfLength;
 
@@ -28,10 +29,10 @@ void main()
   }
 
   float uOffset = length(vec4(kShapeCoordScalar, 0, 0, 0) * u_modelView) * a_normal.w;
-  v_colorTexCoord = a_colorTexCoord.xy;
-  float v = mix(a_colorTexCoord.z, a_colorTexCoord.z + kArrowVSize, 0.5 * a_normal.z + 0.5);
+  v_color = unpackColor(a_packedColor);
+  float v = mix(a_offset.x, a_offset.x + kArrowVSize, 0.5 * a_normal.z + 0.5);
   v_maskTexCoord = vec2(uOffset * u_trafficParams.z, v) * u_trafficParams.w;
-  v_maskTexCoord.x *= step(a_colorTexCoord.w, v_maskTexCoord.x);
+  v_maskTexCoord.x *= step(a_offset.y, v_maskTexCoord.x);
   v_halfLength = a_normal.z;
   vec4 pos = vec4(transformedAxisPos, a_position.z, 1.0) * u_projection;
   gl_Position = applyPivotTransform(pos, u_pivotTransform, 0.0);

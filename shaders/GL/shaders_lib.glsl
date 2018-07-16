@@ -4,13 +4,12 @@
 // Scale factor in shape's coordinates transformation from tile's coordinate
 // system.
 const float kShapeCoordScalar = 1000.0;
+const vec4 kColorUnpackScalar = vec4(1.0/255.0, 1000.0/255.0, 1.0/255.0, 1000.0/255.0);
 
 vec4 unpackColor(vec2 packedColor)
 {
-  return vec4(floor(packedColor.x) / 255.0f,
-              fract(packedColor.x) * 1000.0f / 255.0f,
-              floor(packedColor.y) / 255.0f,
-              fract(packedColor.y) * 1000.0f / 255.0f);
+  return vec4(floor(packedColor.x), fract(packedColor.x),
+              floor(packedColor.y), fract(packedColor.y)) * kColorUnpackScalar;
 }
 
 // VS (DO NOT modify this comment, it marks up block of vertex shader functions).

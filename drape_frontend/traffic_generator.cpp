@@ -59,7 +59,7 @@ dp::BindingInfo const & GetTrafficStaticBindingInfo()
     dp::BindingFiller<TrafficStaticVertex> filler(3);
     filler.FillDecl<TrafficStaticVertex::TPosition>("a_position");
     filler.FillDecl<TrafficStaticVertex::TNormal>("a_normal");
-    filler.FillDecl<TrafficStaticVertex::TTexCoord>("a_colorTexCoord");
+    filler.FillDecl<TrafficStaticVertex::TTexCoord>("a_texCoord");
     s_info = std::make_unique<dp::BindingInfo>(filler.m_info);
   }
   return *s_info;
@@ -72,7 +72,7 @@ dp::BindingInfo const & GetTrafficLineStaticBindingInfo()
   {
     dp::BindingFiller<TrafficLineStaticVertex> filler(2);
     filler.FillDecl<TrafficLineStaticVertex::TPosition>("a_position");
-    filler.FillDecl<TrafficLineStaticVertex::TTexCoord>("a_colorTexCoord");
+    filler.FillDecl<TrafficLineStaticVertex::TTexCoord>("a_texCoord");
     s_info = std::make_unique<dp::BindingInfo>(filler.m_info);
   }
   return *s_info;
@@ -86,7 +86,7 @@ dp::BindingInfo const & GetTrafficCircleStaticBindingInfo()
     dp::BindingFiller<TrafficCircleStaticVertex> filler(3);
     filler.FillDecl<TrafficCircleStaticVertex::TPosition>("a_position");
     filler.FillDecl<TrafficCircleStaticVertex::TNormal>("a_normal");
-    filler.FillDecl<TrafficCircleStaticVertex::TTexCoord>("a_colorTexCoord");
+    filler.FillDecl<TrafficCircleStaticVertex::TTexCoord>("a_texCoord");
     s_info = std::make_unique<dp::BindingInfo>(filler.m_info);
   }
   return *s_info;

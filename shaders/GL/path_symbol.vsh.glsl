@@ -1,12 +1,12 @@
 attribute vec4 a_position;
 attribute vec2 a_normal;
-attribute vec2 a_colorTexCoords;
+attribute vec2 a_texCoords;
 
 uniform mat4 u_modelView;
 uniform mat4 u_projection;
 uniform mat4 u_pivotTransform;
 
-varying vec2 v_colorTexCoords;
+varying vec2 v_texCoords;
 
 void main()
 {
@@ -20,5 +20,5 @@ void main()
 
   vec4 shiftedPos = norm + pos;
   gl_Position = applyPivotTransform(shiftedPos * u_projection, u_pivotTransform, 0.0);
-  v_colorTexCoords = a_colorTexCoords;
+  v_texCoords = a_texCoords;
 }

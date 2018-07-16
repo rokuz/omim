@@ -65,12 +65,12 @@ void FillNormalDecl(dp::BindingDecl & decl, uint8_t stride, uint8_t offset)
 
 void FillColorDecl(dp::BindingDecl & decl, uint8_t stride, uint8_t offset)
 {
-  FillCommonDecl(decl, "a_colorTexCoord", 2, stride, offset);
+  FillCommonDecl(decl, "a_packedColor", 2, stride, offset);
 }
 
 void FillOutlineDecl(dp::BindingDecl & decl, uint8_t stride, uint8_t offset)
 {
-  FillCommonDecl(decl, "a_outlineColorTexCoord", 2, stride, offset);
+  FillCommonDecl(decl, "a_packedOutlineColor", 2, stride, offset);
 }
 
 void FillMaskDecl(dp::BindingDecl & decl, uint8_t stride, uint8_t offset)

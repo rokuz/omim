@@ -5,14 +5,14 @@ attribute vec2 a_tcoord;
 
 uniform vec4 u_framebufferMetrics;
 
-varying vec2 v_colorTexCoords;
+varying vec2 v_texCoords;
 varying vec4 v_offset0;
 varying vec4 v_offset1;
 varying vec4 v_offset2;
 
 void main()
 {
-  v_colorTexCoords = a_tcoord;
+  v_texCoords = a_tcoord;
   v_offset0 = u_framebufferMetrics.xyxy * vec4(-1.0, 0.0, 0.0, -1.0) + a_tcoord.xyxy;
   v_offset1 = u_framebufferMetrics.xyxy * vec4( 1.0, 0.0, 0.0,  1.0) + a_tcoord.xyxy;
   v_offset2 = u_framebufferMetrics.xyxy * vec4(-2.0, 0.0, 0.0, -2.0) + a_tcoord.xyxy;

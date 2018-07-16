@@ -1,5 +1,5 @@
 attribute vec2 a_normal;
-attribute vec2 a_colorTexCoords;
+attribute vec2 a_texCoords;
 
 uniform vec3 u_position;
 uniform float u_accuracy;
@@ -9,7 +9,7 @@ uniform mat4 u_projection;
 uniform mat4 u_pivotTransform;
 uniform float u_zScale;
 
-varying vec2 v_colorTexCoords;
+varying vec2 v_texCoords;
 
 void main()
 {
@@ -20,5 +20,5 @@ void main()
   position = (position + normal) * u_projection;
   gl_Position = applyPivotTransform(position, u_pivotTransform, u_position.z * u_zScale);
 
-  v_colorTexCoords = a_colorTexCoords;
+  v_texCoords = a_texCoords;
 }

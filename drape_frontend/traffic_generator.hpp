@@ -99,53 +99,56 @@ struct TrafficStaticVertex
 {
   using TPosition = glsl::vec3;
   using TNormal = glsl::vec4;
-  using TTexCoord = glsl::vec4;
+  using TPackedColor = glsl::vec2;
+  using TOffset = glsl::vec2;
 
   TrafficStaticVertex() = default;
   TrafficStaticVertex(TPosition const & position, TNormal const & normal,
-                      TTexCoord const & colorTexCoord)
+                      TPackedColor const & packedColor, TOffset const & offset)
     : m_position(position)
     , m_normal(normal)
-    , m_colorTexCoord(colorTexCoord)
+    , m_packedColor(packedColor)
+    , m_offset(offset)
   {}
 
   TPosition m_position;
   TNormal m_normal;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
+  TOffset m_offset;
 };
 
 struct TrafficLineStaticVertex
 {
   using TPosition = glsl::vec3;
-  using TTexCoord = glsl::vec2;
+  using TPackedColor = glsl::vec2;
 
   TrafficLineStaticVertex() = default;
-  TrafficLineStaticVertex(TPosition const & position, TTexCoord const & colorTexCoord)
+  TrafficLineStaticVertex(TPosition const & position, TPackedColor const & packedColor)
     : m_position(position)
-    , m_colorTexCoord(colorTexCoord)
+    , m_packedColor(packedColor)
   {}
 
   TPosition m_position;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
 };
 
 struct TrafficCircleStaticVertex
 {
   using TPosition = glsl::vec4;
   using TNormal = glsl::vec4;
-  using TTexCoord = glsl::vec2;
+  using TPackedColor = glsl::vec2;
 
   TrafficCircleStaticVertex() = default;
   TrafficCircleStaticVertex(TPosition const & position, TNormal const & normal,
-                            TTexCoord const & colorTexCoord)
+                            TPackedColor const & packedColor)
     : m_position(position)
     , m_normal(normal)
-    , m_colorTexCoord(colorTexCoord)
+    , m_packedColor(packedColor)
   {}
 
   TPosition m_position;
   TNormal m_normal;
-  TTexCoord m_colorTexCoord;
+  TPackedColor m_packedColor;
 };
 
 using TrafficTexCoords = std::unordered_map<size_t, glsl::vec2>;

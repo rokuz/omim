@@ -2,6 +2,10 @@ varying LOW_P vec4 v_color;
 varying vec2 v_maskTexCoord;
 varying float v_halfLength;
 
+#ifdef SAMSUNG_GOOGLE_NEXUS
+uniform sampler2D u_baseTex;
+#endif
+
 uniform sampler2D u_maskTex;
 uniform float u_opacity;
 uniform float u_outline;
@@ -29,5 +33,5 @@ void main()
     color.rgb = mix(color.rgb, u_outlineColor, step(kOutlineThreshold1, abs(v_halfLength)));
     color.rgb = mix(color.rgb, u_outlineColor, smoothstep(kOutlineThreshold2, kOutlineThreshold1, abs(v_halfLength)));
   }
-  gl_FragColor = color;
+  gl_FragColor = samsungGoogleNexusWorkaround(color);
 }

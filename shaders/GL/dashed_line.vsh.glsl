@@ -1,13 +1,13 @@
 attribute vec3 a_position;
 attribute vec3 a_normal;
-attribute vec2 a_colorTexCoord;
+attribute vec2 a_packedColor;
 attribute vec4 a_maskTexCoord;
 
 uniform mat4 u_modelView;
 uniform mat4 u_projection;
 uniform mat4 u_pivotTransform;
 
-varying vec2 v_colorTexCoord;
+varying LOW_P vec4 v_color;
 varying vec2 v_maskTexCoord;
 varying vec2 v_halfLength;
 
@@ -23,7 +23,7 @@ void main()
   }
 
   float uOffset = min(length(vec4(kShapeCoordScalar, 0, 0, 0) * u_modelView) * a_maskTexCoord.x, 1.0);
-  v_colorTexCoord = a_colorTexCoord;
+  v_color = unpackColor(a_packedColor);
   v_maskTexCoord = vec2(a_maskTexCoord.y + uOffset * a_maskTexCoord.z, a_maskTexCoord.w);
   v_halfLength = vec2(sign(a_normal.z) * halfWidth, abs(a_normal.z));
   vec4 pos = vec4(transformedAxisPos, a_position.z, 1.0) * u_projection;

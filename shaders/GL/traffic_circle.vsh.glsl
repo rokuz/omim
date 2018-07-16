@@ -1,6 +1,6 @@
 attribute vec4 a_position;
 attribute vec4 a_normal;
-attribute vec2 a_colorTexCoord;
+attribute vec2 a_packedColor;
 
 uniform mat4 u_modelView;
 uniform mat4 u_projection;
@@ -9,7 +9,7 @@ uniform mat4 u_pivotTransform;
 uniform vec3 u_lightArrowColor; // Here we store left sizes by road classes.
 uniform vec3 u_darkArrowColor; // Here we store right sizes by road classes.
 
-varying vec2 v_colorTexCoord;
+varying LOW_P vec4 v_color;
 varying vec3 v_radius;
 
 void main()
@@ -30,7 +30,7 @@ void main()
   v_radius = vec3(a_normal.zw, 1.0) * 0.5 * (leftSize + rightSize);
 
   vec2 finalPos = transformedAxisPos + v_radius.xy;
-  v_colorTexCoord = a_colorTexCoord;
+  v_color = unpackColor(a_packedColor);
   vec4 pos = vec4(finalPos, a_position.z, 1.0) * u_projection;
   gl_Position = applyPivotTransform(pos, u_pivotTransform, 0.0);
 }

@@ -43,7 +43,7 @@ dp::BindingInfo GetBindingInfo()
   normal.m_stride = sizeof(Vertex);
 
   dp::BindingDecl & texCoord = info.GetBindingDecl(1);
-  texCoord.m_attributeName = "a_colorTexCoords";
+  texCoord.m_attributeName = "a_texCoords";
   texCoord.m_componentCount = 2;
   texCoord.m_componentType = gl_const::GLFloatType;
   texCoord.m_offset = sizeof(glsl::vec2);

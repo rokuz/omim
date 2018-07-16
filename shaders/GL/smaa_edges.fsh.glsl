@@ -2,7 +2,7 @@
 
 uniform sampler2D u_baseTex;
 
-varying vec2 v_colorTexCoords;
+varying vec2 v_texCoords;
 varying vec4 v_offset0;
 varying vec4 v_offset1;
 varying vec4 v_offset2;
@@ -30,7 +30,7 @@ const vec3 kWeights = vec3(0.2126, 0.7152, 0.0722);
 void main()
 {
   // Calculate lumas.
-  float L = dot(texture2D(u_baseTex, v_colorTexCoords).rgb, kWeights);
+  float L = dot(texture2D(u_baseTex, v_texCoords).rgb, kWeights);
   float Lleft = dot(texture2D(u_baseTex, v_offset0.xy).rgb, kWeights);
   float Ltop = dot(texture2D(u_baseTex, v_offset0.zw).rgb, kWeights);
 
