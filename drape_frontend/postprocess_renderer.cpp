@@ -252,8 +252,8 @@ void PostprocessRenderer::SetStaticTextures(drape_ptr<PostprocessStaticTextures>
 bool PostprocessRenderer::IsEnabled() const
 {
   // Do not use post processing in routing following mode by energy-saving reasons.
-  if (m_isRouteFollowingActive)
-    return false;
+  //if (m_isRouteFollowingActive)
+  //  return false;
 
   return IsSupported(m_mainFramebuffer);
 }
@@ -462,23 +462,23 @@ bool PostprocessRenderer::OnFramebufferFallback()
 
 void PostprocessRenderer::OnChangedRouteFollowingMode(bool isRouteFollowingActive)
 {
-  if (m_isRouteFollowingActive == isRouteFollowingActive)
-    return;
-
-  m_isRouteFollowingActive = isRouteFollowingActive;
-  if (m_isRouteFollowingActive)
-  {
-    if (m_width != 0 && m_height != 0)
-      UpdateFramebuffers(m_width, m_height);
-  }
-  else
-  {
-    m_isMainFramebufferRendered = false;
-    m_isSmaaFramebufferRendered = false;
-    m_edgesFramebuffer.reset();
-    m_blendingWeightFramebuffer.reset();
-    m_smaaFramebuffer.reset();
-  }
+//  if (m_isRouteFollowingActive == isRouteFollowingActive)
+//    return;
+//
+//  m_isRouteFollowingActive = isRouteFollowingActive;
+//  if (m_isRouteFollowingActive)
+//  {
+//    if (m_width != 0 && m_height != 0)
+//      UpdateFramebuffers(m_width, m_height);
+//  }
+//  else
+//  {
+//    m_isMainFramebufferRendered = false;
+//    m_isSmaaFramebufferRendered = false;
+//    m_edgesFramebuffer.reset();
+//    m_blendingWeightFramebuffer.reset();
+//    m_smaaFramebuffer.reset();
+//  }
 }
 
 StencilWriterGuard::StencilWriterGuard(ref_ptr<PostprocessRenderer> renderer)
