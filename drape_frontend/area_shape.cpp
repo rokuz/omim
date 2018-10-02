@@ -169,10 +169,21 @@ void AreaShape::DrawArea3D(ref_ptr<dp::GraphicsContext> context, ref_ptr<dp::Bat
     vertexes.emplace_back(gpu::Area3dVertex(glsl::vec3(pt, -m_params.m_posZ), normal, uv));
   }
 
+  auto const apiVersion = context->GetApiVersion();
+
   auto state = CreateRenderState(gpu::Program::Area3d, DepthLayer::Geometry3dLayer);
   state.SetDepthTestEnabled(m_params.m_depthTestEnabled);
   state.SetColorTexture(texture);
-  state.SetBlending(dp::Blending(false /* isEnabled */));
+  if (apiVersion == dp::ApiVersion::Metal)
+  {
+    state.SetProgramDepth(gpu::Program::Area3dDepth);
+    state.SetBlending(dp::Blending(true /* isEnabled */));
+    state.SetDepthFunction(dp::TestFunction::Equal);
+  }
+  else
+  {
+    state.SetBlending(dp::Blending(false /* isEnabled */));
+  }
 
   dp::AttributeProvider provider(1, static_cast<uint32_t>(vertexes.size()));
   provider.InitStream(0, gpu::Area3dVertex::GetBindingInfo(), make_ref(vertexes.data()));
@@ -186,8 +197,17 @@ void AreaShape::DrawArea3D(ref_ptr<dp::GraphicsContext> context, ref_ptr<dp::Bat
     auto outlineState = CreateRenderState(gpu::Program::Area3dOutline, DepthLayer::Geometry3dLayer);
     outlineState.SetDepthTestEnabled(m_params.m_depthTestEnabled);
     outlineState.SetColorTexture(texture);
-    outlineState.SetBlending(dp::Blending(false /* isEnabled */));
     outlineState.SetDrawAsLine(true);
+    if (apiVersion == dp::ApiVersion::Metal)
+    {
+      outlineState.SetProgramDepth(gpu::Program::Area3dOutlineDepth);
+      outlineState.SetBlending(dp::Blending(true /* isEnabled */));
+      outlineState.SetDepthFunction(dp::TestFunction::Equal);
+    }
+    else
+    {
+      outlineState.SetBlending(dp::Blending(false /* isEnabled */));
+    }
 
     std::vector<gpu::AreaVertex> vertices;
     vertices.reserve(m_buildingOutline.m_vertices.size());

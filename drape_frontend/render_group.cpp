@@ -18,7 +18,12 @@ namespace df
 {
 void BaseRenderGroup::UpdateAnimation()
 {
-  m_params.m_opacity = 1.0f;
+  m_params.m_opacity = m_baseOpacity;
+}
+
+void BaseRenderGroup::SetBaseOpacity(float baseOpacity)
+{
+  m_baseOpacity = baseOpacity;
 }
 
 RenderGroup::RenderGroup(dp::RenderState const & state, df::TileKey const & tileKey)
@@ -128,6 +133,34 @@ void RenderGroup::Render(ref_ptr<dp::GraphicsContext> context, ref_ptr<gpu::Prog
 
   for(auto const & renderBucket : m_renderBuckets)
     renderBucket->RenderDebug(context, screen, debugRectRenderer);
+}
+
+void RenderGroup::RenderDepth(ref_ptr<dp::GraphicsContext> context, ref_ptr<gpu::ProgramManager> mng,
+                              ScreenBase const & screen, FrameValues const & frameValues)
+{
+  auto state = m_state;
+  state.SetDepthFunction(dp::TestFunction::LessOrEqual);
+
+  auto programPtr = mng->GetProgram(state.GetProgramDepth<gpu::Program>());
+  ASSERT(programPtr != nullptr, ());
+  programPtr->Bind();
+  dp::ApplyState(context, programPtr, state);
+
+  for(auto & renderBucket : m_renderBuckets)
+    renderBucket->GetBuffer()->Build(context, programPtr);
+
+  // Set frame values to group's params.
+  frameValues.SetTo(m_params);
+
+  // Set tile-based model-view matrix.
+  {
+    math::Matrix<float, 4, 4> mv = GetTileKey().GetTileBasedModelView(screen);
+    m_params.m_modelView = glsl::make_mat4(mv.m_data);
+  }
+
+  mng->GetParamsSetter()->Apply(context, programPtr, m_params);
+  for(drape_ptr<dp::RenderBucket> & renderBucket : m_renderBuckets)
+    renderBucket->Render(context, state.GetDrawAsLine());
 }
 
 void RenderGroup::AddBucket(drape_ptr<dp::RenderBucket> && bucket)

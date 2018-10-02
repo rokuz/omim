@@ -164,6 +164,8 @@ bool RenderState::operator<(RenderState const & other) const
     return m_gpuProgram < other.m_gpuProgram;
   if (m_gpuProgram3d != other.m_gpuProgram3d)
     return m_gpuProgram3d < other.m_gpuProgram3d;
+  if (m_gpuProgramDepth != other.m_gpuProgramDepth)
+    return m_gpuProgramDepth < other.m_gpuProgramDepth;
   if (m_depthFunction != other.m_depthFunction)
     return m_depthFunction < other.m_depthFunction;
   if (m_textures != other.m_textures)
@@ -181,6 +183,7 @@ bool RenderState::operator==(RenderState const & other) const
   return m_renderStateExtension->Equal(other.m_renderStateExtension) &&
          m_gpuProgram == other.m_gpuProgram &&
          m_gpuProgram3d == other.m_gpuProgram3d &&
+         m_gpuProgramDepth == other.m_gpuProgramDepth &&
          m_blending == other.m_blending &&
          m_textures == other.m_textures &&
          m_textureFilter == other.m_textureFilter &&

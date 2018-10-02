@@ -35,10 +35,14 @@ public:
 
   dp::RenderState const & GetState() const { return m_state; }
   TileKey const & GetTileKey() const { return m_tileKey; }
+  void SetBaseOpacity(float baseOpacity);
 
   virtual void UpdateAnimation();
-  virtual void Render(ref_ptr<dp::GraphicsContext> context, ref_ptr<gpu::ProgramManager> mng, ScreenBase const & screen,
-                      FrameValues const & frameValues, ref_ptr<DebugRectRenderer> debugRectRenderer) = 0;
+  virtual void Render(ref_ptr<dp::GraphicsContext> context, ref_ptr<gpu::ProgramManager> mng,
+                      ScreenBase const & screen, FrameValues const & frameValues,
+                      ref_ptr<DebugRectRenderer> debugRectRenderer) = 0;
+  virtual void RenderDepth(ref_ptr<dp::GraphicsContext> context, ref_ptr<gpu::ProgramManager> mng,
+                           ScreenBase const & screen, FrameValues const & frameValues) = 0;
 
 protected:
   dp::RenderState m_state;
@@ -46,6 +50,7 @@ protected:
 
 private:
   TileKey m_tileKey;
+  float m_baseOpacity = 1.0f;
 };
 
 class RenderGroup : public BaseRenderGroup
@@ -62,6 +67,8 @@ public:
   void SetOverlayVisibility(bool isVisible);
   void Render(ref_ptr<dp::GraphicsContext> context, ref_ptr<gpu::ProgramManager> mng, ScreenBase const & screen,
               FrameValues const & frameValues, ref_ptr<DebugRectRenderer> debugRectRenderer) override;
+  void RenderDepth(ref_ptr<dp::GraphicsContext> context, ref_ptr<gpu::ProgramManager> mng,
+                   ScreenBase const & screen, FrameValues const & frameValues) override;
 
   void AddBucket(drape_ptr<dp::RenderBucket> && bucket);
 

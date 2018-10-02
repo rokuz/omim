@@ -1057,7 +1057,8 @@ void FrontendRenderer::OnResize(ScreenBase const & screen)
   {
     CHECK(m_context != nullptr, ());
     m_context->Resize(sx, sy);
-    m_buildingsFramebuffer->SetSize(m_context, sx, sy);
+    if (m_buildingsFramebuffer)
+      m_buildingsFramebuffer->SetSize(m_context, sx, sy);
     m_postprocessRenderer->Resize(m_context, sx, sy);
     m_needRestoreSize = false;
   }
@@ -1252,7 +1253,7 @@ void FrontendRenderer::RenderScene(ScreenBase const & modelView, bool activeFram
     Render2dLayer(modelView);
     RenderUserMarksLayer(modelView, DepthLayer::UserLineLayer);
 
-    if (m_buildingsFramebuffer->IsSupported())
+    if (m_apiVersion == dp::ApiVersion::Metal || m_buildingsFramebuffer->IsSupported())
     {
       RenderTrafficLayer(modelView);
       if (!HasTransitRouteData())
@@ -1357,6 +1358,25 @@ void FrontendRenderer::Render3dLayer(ScreenBase const & modelView, bool useFrame
 
   CHECK(m_context != nullptr, ());
   float const kOpacity = 0.7f;
+
+  if (m_apiVersion == dp::ApiVersion::Metal)
+  {
+    m_context->Clear(dp::ClearBits::DepthBit);
+
+    layer.Sort(make_ref(m_overlayTree));
+
+    for (auto const & group : layer.m_renderGroups)
+      group->RenderDepth(m_context, make_ref(m_gpuProgramManager), modelView, m_frameValues);
+
+    for (auto & group : layer.m_renderGroups)
+    {
+      group->SetBaseOpacity(kOpacity);
+      RenderSingleGroup(m_context, modelView, make_ref(group));
+    }
+
+    return;
+  }
+
   if (useFramebuffer)
   {
     ASSERT(m_buildingsFramebuffer->IsSupported(), ());
@@ -1372,7 +1392,7 @@ void FrontendRenderer::Render3dLayer(ScreenBase const & modelView, bool useFrame
   }
 
   layer.Sort(make_ref(m_overlayTree));
-  for (drape_ptr<RenderGroup> const & group : layer.m_renderGroups)
+  for (auto const & group : layer.m_renderGroups)
     RenderSingleGroup(m_context, modelView, make_ref(group));
 
   if (useFramebuffer)
@@ -2085,13 +2105,16 @@ void FrontendRenderer::OnContextCreate()
     m_postprocessRenderer->SetEffectEnabled(m_context, PostprocessRenderer::Antialiasing, true);
 #endif
 
-  m_buildingsFramebuffer = make_unique_dp<dp::Framebuffer>(dp::TextureFormat::RGBA8,
-                                                           true /* depthEnabled */,
-                                                           false /* stencilEnabled */);
-  m_buildingsFramebuffer->SetFramebufferFallback([this]()
+  if (m_apiVersion == dp::ApiVersion::OpenGLES2 || m_apiVersion == dp::ApiVersion::OpenGLES3)
   {
-    return m_postprocessRenderer->OnFramebufferFallback(m_context);
-  });
+    m_buildingsFramebuffer = make_unique_dp<dp::Framebuffer>(dp::TextureFormat::RGBA8,
+                                                             true /* depthEnabled */,
+                                                             false /* stencilEnabled */);
+    m_buildingsFramebuffer->SetFramebufferFallback([this]()
+    {
+      return m_postprocessRenderer->OnFramebufferFallback(m_context);
+    });
+  }
 
   m_transitBackground = make_unique_dp<ScreenQuadRenderer>(m_context);
 }

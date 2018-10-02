@@ -150,7 +150,7 @@ fragment RouteArrowFragment_Output fsRouteArrow(const RouteArrowFragment_T in [[
   RouteArrowFragment_Output output;
   float4 color = u_colorTex.sample(u_colorTexSampler, in.texCoords);
   color.a *= uniforms.u_opacity;
-  output.depth = in.position.z;
+  output.depth = in.position.z * in.position.w;
   if (color.a < 0.001)
     output.depth = 1.0;
   output.color = float4(mix(color.rgb, uniforms.u_maskColor.rgb, uniforms.u_maskColor.a), color.a);
@@ -215,7 +215,7 @@ fragment RouteMarkerFragment_Output fsRouteMarker(const RouteMarkerFragment_T in
                                dot(in.radius.xy, in.radius.xy));
   color.a = color.a * uniforms.u_opacity * (1.0 - stepValue);
   
-  output.depth = in.position.z;
+  output.depth = in.position.z * in.position.w;
   if (color.a < 0.001)
     output.depth = 1.0;
   output.color = float4(mix(color.rgb, uniforms.u_maskColor.rgb, uniforms.u_maskColor.a), color.a);

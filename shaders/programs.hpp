@@ -23,6 +23,8 @@ enum class Program
   AreaOutline,
   Area3d,
   Area3dOutline,
+  Area3dDepth,
+  Area3dOutlineDepth,
   Line,
   CapJoin,
   TransitCircle,
@@ -81,6 +83,8 @@ inline std::string DebugPrint(Program p)
   case Program::AreaOutline: return "AreaOutline";
   case Program::Area3d: return "Area3d";
   case Program::Area3dOutline: return "Area3dOutline";
+  case Program::Area3dDepth: return "Area3dDepth";
+  case Program::Area3dOutlineDepth: return "Area3dOutlineDepth";
   case Program::Line: return "Line";
   case Program::CapJoin: return "CapJoin";
   case Program::TransitCircle: return "TransitCircle";

@@ -45,6 +45,7 @@ public:
     : m_renderStateExtension(std::move(renderStateExtension))
     , m_gpuProgram(static_cast<size_t>(gpuProgram))
     , m_gpuProgram3d(static_cast<size_t>(gpuProgram))
+    , m_gpuProgramDepth(static_cast<size_t>(gpuProgram))
   {
     ASSERT(m_renderStateExtension != nullptr, ());
   }
@@ -76,7 +77,13 @@ public:
   void SetProgram3d(ProgramType gpuProgram3d) { m_gpuProgram3d = static_cast<size_t>(gpuProgram3d); }
 
   template<typename ProgramType>
+  void SetProgramDepth(ProgramType gpuProgramDepth) { m_gpuProgramDepth = static_cast<size_t>(gpuProgramDepth); }
+
+  template<typename ProgramType>
   ProgramType GetProgram3d() const { return static_cast<ProgramType>(m_gpuProgram3d); }
+
+  template<typename ProgramType>
+  ProgramType GetProgramDepth() const { return static_cast<ProgramType>(m_gpuProgramDepth); }
 
   TestFunction GetDepthFunction() const;
   void SetDepthFunction(TestFunction depthFunction);
@@ -100,6 +107,7 @@ private:
   ref_ptr<BaseRenderStateExtension> m_renderStateExtension;
   size_t m_gpuProgram;
   size_t m_gpuProgram3d;
+  size_t m_gpuProgramDepth;
   Blending m_blending;
 
   bool m_depthTestEnabled = true;

@@ -128,6 +128,42 @@ vertex AreaFragment_T vsArea3dOutline(const Area3dOutlineVertex_T in [[stage_in]
   return out;
 }
 
+// Area3dDepth/Area3dOutlineDepth
+
+typedef struct
+{
+  float4 position [[position]];
+} Area3dDepthFragment_T;
+
+vertex Area3dDepthFragment_T vsArea3dDepth(const Area3dVertex_T in [[stage_in]],
+                                           constant Uniforms_T & uniforms [[buffer(1)]])
+{
+  Area3dDepthFragment_T out;
+  
+  float4 pos = float4(in.a_position, 1.0) * uniforms.u_modelView;
+  pos.xyw = (pos * uniforms.u_projection).xyw;
+  pos.z = in.a_position.z * uniforms.u_zScale;
+  out.position = uniforms.u_pivotTransform * pos;
+  return out;
+}
+
+vertex Area3dDepthFragment_T vsArea3dOutlineDepth(const Area3dOutlineVertex_T in [[stage_in]],
+                                                  constant Uniforms_T & uniforms [[buffer(1)]])
+{
+  Area3dDepthFragment_T out;
+  
+  float4 pos = float4(in.a_position, 1.0) * uniforms.u_modelView;
+  pos.xyw = (pos * uniforms.u_projection).xyw;
+  pos.z = in.a_position.z * uniforms.u_zScale;
+  out.position = uniforms.u_pivotTransform * pos;
+  return out;
+}
+
+fragment half4 fsArea3dDepth(const Area3dDepthFragment_T in [[stage_in]])
+{
+  return half4(0.0, 0.0, 0.0, 0.0);
+}
+
 // HatchingArea
 
 typedef struct
@@ -384,7 +420,7 @@ fragment CapJoinFragment_Output fsCapJoin(const CapJoinFragment_T in [[stage_in]
   if (out.color.a < 0.001)
     out.depth = 1.0;
   else
-    out.depth = in.position.z;
+    out.depth = in.position.z * in.position.w;
   
   return out;
 }
@@ -638,7 +674,7 @@ fragment ColoredSymbolOut_T fsColoredSymbol(const ColoredSymbolFragment_T in [[s
   if (finalColor.a == 0.0)
     out.depth = 1.0;
   else
-    out.depth = in.position.z;
+    out.depth = in.position.z * in.position.w;
   
   out.color = finalColor;
   return out;
@@ -828,7 +864,7 @@ fragment UserMarkOut_T fsUserMark(const UserMarkFragment_T in [[stage_in]],
   if (finalColor.a < 0.001)
     out.depth = 1.0;
   else
-    out.depth = in.position.z;
+    out.depth = in.position.z * in.position.w;
   out.color = finalColor;
   return out;
 }

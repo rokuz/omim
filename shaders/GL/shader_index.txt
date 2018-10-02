@@ -12,6 +12,8 @@ Area area.vsh.glsl solid_color.fsh.glsl
 AreaOutline area.vsh.glsl solid_color.fsh.glsl
 Area3d area3d.vsh.glsl texturing3d.fsh.glsl
 Area3dOutline area3d_outline.vsh.glsl solid_color.fsh.glsl
+Area3dDepth area3d.vsh.glsl texturing3d.fsh.glsl
+Area3dOutlineDepth area3d_outline.vsh.glsl solid_color.fsh.glsl
 Line line.vsh.glsl line.fsh.glsl
 CapJoin circle.vsh.glsl circle.fsh.glsl
 TransitCircle transit_circle.vsh.glsl transit_circle.fsh.glsl
