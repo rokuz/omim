@@ -53,8 +53,10 @@ namespace dp
 extern void RenderFrameMediator(std::function<void()> && renderFrameFunction);
 }  // namespace dp
 #define RENDER_FRAME(renderFunction) dp::RenderFrameMediator([this]{ renderFunction; });
+#define RENDER_FRAME_MEDIATOR(renderFrameMediator) dp::RenderFrameMediator(renderFrameMediator);
 #else
 #define RENDER_FRAME(renderFunction) renderFunction;
+#define RENDER_FRAME_MEDIATOR(renderFrameMediator) renderFrameMediator();
 #endif
 
 namespace df
@@ -191,6 +193,9 @@ FrontendRenderer::FrontendRenderer(Params && params)
 #ifdef DEBUG
   m_isTeardowned = false;
 #endif
+
+  if (m_apiVersion == dp::ApiVersion::Metal)
+    m_additionalRenderThread = make_unique_dp<base::WorkerThread>();
 
   ASSERT(m_tapEventInfoFn, ());
   ASSERT(m_userPositionChangedFn, ());
@@ -1372,6 +1377,13 @@ void FrontendRenderer::RenderScene(ScreenBase const & modelView, bool activeFram
 
     for (auto const & arrow : m_overlayTree->GetDisplacementInfo())
       m_debugRectRenderer->DrawArrow(m_context, modelView, arrow);
+    
+    if (m_additionalRenderThread)
+    {
+      std::unique_lock<std::mutex> lock(m_additionalRenderThreadMutex);
+      if (!m_additionalRenderThreadFinished)
+        m_additionalRenderThreadCondition.wait(lock, [this] { return m_additionalRenderThreadFinished; });
+    }
   }
 
   if (!m_postprocessRenderer->EndFrame(m_context, make_ref(m_gpuProgramManager), m_viewport))
@@ -1391,11 +1403,40 @@ void FrontendRenderer::Render2dLayer(ScreenBase const & modelView)
 {
   RenderLayer & layer2d = m_layers[static_cast<size_t>(DepthLayer::GeometryLayer)];
   layer2d.Sort(make_ref(m_overlayTree));
+  if (layer2d.m_renderGroups.empty())
+    return;
 
   CHECK(m_context != nullptr, ());
-  DEBUG_LABEL(m_context, "2D Layer");
-  for (drape_ptr<RenderGroup> const & group : layer2d.m_renderGroups)
-    RenderSingleGroup(m_context, modelView, make_ref(group));
+  if (m_additionalRenderThread)
+  {
+    auto parallelContext = m_context->GetParallelContext();
+    CHECK(parallelContext != nullptr, ());
+
+    // Render 2D Layer in additional thread if it's possible.
+    m_additionalRenderThreadFinished = false;
+    m_additionalRenderThread->Push([this, parallelContext, &layer2d, modelView]
+    {
+      auto renderMediator = [this, parallelContext, &layer2d, modelView](){ Render2dLayerForContext(parallelContext, layer2d, modelView); };
+      RENDER_FRAME_MEDIATOR(renderMediator);
+
+      std::lock_guard<std::mutex> lock(m_additionalRenderThreadMutex);
+      m_additionalRenderThreadFinished = true;
+      m_additionalRenderThreadCondition.notify_one();
+    });
+  }
+  else
+  {
+    Render2dLayerForContext(m_context, layer2d, modelView);
+  }
+}
+
+void FrontendRenderer::Render2dLayerForContext(ref_ptr<dp::GraphicsContext> context,
+                                               RenderLayer & layer,
+                                               ScreenBase const & modelView)
+{
+  DEBUG_LABEL(context, "2D Layer");
+  for (drape_ptr<RenderGroup> const & group : layer.m_renderGroups)
+    RenderSingleGroup(context, modelView, make_ref(group));
 }
 
 void FrontendRenderer::PreRender3dLayer(ScreenBase const & modelView)

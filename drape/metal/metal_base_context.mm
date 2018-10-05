@@ -15,10 +15,135 @@ namespace dp
 {
 namespace metal
 {
+class ParallelMetalBaseContext : public MetalBaseContext
+{
+public:
+  explicit ParallelMetalBaseContext(ref_ptr<MetalBaseContext> context)
+    : m_mainContext(context)
+  {}
+  
+  void Present() override
+  {
+    CHECK(false, ("Prohibited to call from parallel context."));
+  }
+  
+  void Resize(int w, int h) override
+  {
+    CHECK(false, ("Prohibited to call from parallel context."));
+  }
+  
+  void SetFramebuffer(ref_ptr<dp::BaseFramebuffer> framebuffer) override
+  {
+    CHECK(false, ("Prohibited to call from parallel context."));
+  }
+  
+  void ApplyFramebuffer(bool enableParallel, std::string const & framebufferLabel) override
+  {
+    CHECK(false, ("Prohibited to call from parallel context."));
+  }
+  
+  void Init(ApiVersion apiVersion) override
+  {
+    CHECK(false, ("Prohibited to call from parallel context."));
+  }
+  
+  ApiVersion GetApiVersion() const override { return m_mainContext->GetApiVersion(); }
+  std::string GetRendererName() const override { return m_mainContext->GetRendererName(); }
+  std::string GetRendererVersion() const override { return m_mainContext->GetRendererVersion(); }
+  ref_ptr<dp::GraphicsContext> GetParallelContext() const override { return m_mainContext->GetParallelContext(); }
+  
+  void PushDebugLabel(std::string const & label) override { m_mainContext->PushDebugLabel(label); }
+  void PopDebugLabel() override { m_mainContext->PopDebugLabel(); }
+  
+  void SetClearColor(Color const & color) override
+  {
+    CHECK(false, ("Prohibited to call from parallel context."));
+  }
+  
+  void Clear(uint32_t clearBits, uint32_t storeBits) override
+  {
+    CHECK(GetCommandEncoder() != nil, ());
+    m_mainContext->Clear(clearBits, storeBits);
+  }
+  
+  void SetViewport(uint32_t x, uint32_t y, uint32_t w, uint32_t h) override
+  {
+    CHECK(false, ("Prohibited to call from parallel context."));
+  }
+  
+  void SetDepthTestEnabled(bool enabled) override
+  {
+    m_parallelDepthStencilKey.m_depthEnabled = enabled;
+  }
+  
+  void SetDepthTestFunction(dp::TestFunction depthFunction) override
+  {
+    m_parallelDepthStencilKey.m_depthFunction = depthFunction;
+  }
+  
+  void SetStencilTestEnabled(bool enabled) override
+  {
+    CHECK(false, ("Unsuppored in parallel context."));
+  }
+  
+  void SetStencilFunction(StencilFace face, TestFunction stencilFunction) override
+  {
+    CHECK(false, ("Unsuppored in parallel context."));
+  }
+  
+  void SetStencilActions(StencilFace face, StencilAction stencilFailAction,
+                         StencilAction depthFailAction, StencilAction passAction) override
+  {
+    CHECK(false, ("Unsuppored in parallel context."));
+  }
+  
+  void SetStencilReferenceValue(uint32_t stencilReferenceValue) override
+  {
+    CHECK(false, ("Unsuppored in parallel context."));
+  }
+  
+  id<MTLDevice> GetMetalDevice() const override { return m_mainContext->GetMetalDevice(); }
+  
+  id<MTLRenderCommandEncoder> GetCommandEncoder() const override
+  {
+    id<MTLRenderCommandEncoder> encoder = m_mainContext->GetAdditionalCommandEncoder();
+    CHECK(encoder != nil, ("Probably encoding commands were called before ApplyFramebuffer or not from parallel context."));
+    return encoder;
+  }
+  
+  id<MTLDepthStencilState> GetDepthStencilState() override
+  {
+    return m_mainContext->GetDepthStencilState(m_parallelDepthStencilKey);
+  }
+  
+  id<MTLRenderPipelineState> GetPipelineState(ref_ptr<GpuProgram> program, bool blendingEnabled) override
+  {
+    return m_mainContext->GetPipelineState(program, blendingEnabled);
+  }
+  
+  id<MTLSamplerState> GetSamplerState(TextureFilter filter, TextureWrapping wrapSMode,
+                                      TextureWrapping wrapTMode) override
+  {
+    return m_mainContext->GetSamplerState(filter, wrapSMode, wrapTMode);
+  }
+  
+  void SetSystemPrograms(drape_ptr<GpuProgram> && programClearColor,
+                         drape_ptr<GpuProgram> && programClearDepth,
+                         drape_ptr<GpuProgram> && programClearColorAndDepth) override
+  {
+    CHECK(false, ("Prohibited to call from parallel context."));
+  }
+  
+protected:
+  ref_ptr<MetalBaseContext> m_mainContext;
+  MetalStates::DepthStencilKey m_parallelDepthStencilKey;
+};
+
 MetalBaseContext::MetalBaseContext(id<MTLDevice> device, m2::PointU const & screenSize,
                                    DrawableRequest && drawableRequest)
   : m_device(device)
   , m_drawableRequest(std::move(drawableRequest))
+  , m_parallelContext(make_unique_dp<ParallelMetalBaseContext>(this))
 {
   m_renderPassDescriptor = [MTLRenderPassDescriptor renderPassDescriptor];
   m_renderPassDescriptor.colorAttachments[0].loadAction = MTLLoadActionClear;
@@ -112,6 +237,11 @@ std::string MetalBaseContext::GetRendererVersion() const
   return "Unknown";
 }
   
+ref_ptr<dp::GraphicsContext> MetalBaseContext::GetParallelContext() const
+{
+  return make_ref(m_parallelContext);
+}
+  
 void MetalBaseContext::PushDebugLabel(std::string const & label)
 {
   id<MTLRenderCommandEncoder> encoder = GetCommandEncoder();
@@ -197,7 +327,7 @@ void MetalBaseContext::ApplyFramebuffer(bool enableParallel, std::string const &
     InitEncoder(m_additionalCommandEncoder, framebufferLabel + " Additional");
     
     m_currentCommandEncoder = [m_currentParallelCommandEncoder renderCommandEncoder];
-    InitEncoder(m_additionalCommandEncoder, framebufferLabel + " Main");
+    InitEncoder(m_currentCommandEncoder, framebufferLabel + " Main");
   }
   else
   {
@@ -320,13 +450,17 @@ id<MTLDevice> MetalBaseContext::GetMetalDevice() const
   
 id<MTLRenderCommandEncoder> MetalBaseContext::GetCommandEncoder() const
 {
-  CHECK(m_currentCommandEncoder != nil, ("Probably encoding commands were called before ApplyFramebuffer."));
   return m_currentCommandEncoder;
 }
   
 id<MTLDepthStencilState> MetalBaseContext::GetDepthStencilState()
 {
-  return m_metalStates.GetDepthStencilState(m_device, m_currentDepthStencilKey);
+  return GetDepthStencilState(m_currentDepthStencilKey);
+}
+  
+id<MTLDepthStencilState> MetalBaseContext::GetDepthStencilState(MetalStates::DepthStencilKey const & key)
+{
+  return m_metalStates.GetDepthStencilState(m_device, key);
 }
   
 id<MTLRenderPipelineState> MetalBaseContext::GetPipelineState(ref_ptr<GpuProgram> program, bool blendingEnabled)

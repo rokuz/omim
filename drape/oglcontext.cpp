@@ -1,6 +1,7 @@
 #include "drape/oglcontext.hpp"
 #include "drape/gl_functions.hpp"
 
+#include "base/assert.hpp"
 #include "base/macros.hpp"
 
 namespace dp
@@ -80,6 +81,12 @@ std::string OGLContext::GetRendererName() const
 std::string OGLContext::GetRendererVersion() const
 {
   return GLFunctions::glGetString(gl_const::GLVersion);
+}
+  
+ref_ptr<dp::GraphicsContext> OGLContext::GetParallelContext() const
+{
+  CHECK(false, ("Unsupported in OpenGL."));
+  return nullptr;
 }
 
 void OGLContext::SetClearColor(dp::Color const & color)

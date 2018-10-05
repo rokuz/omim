@@ -62,11 +62,12 @@ public:
   virtual void SetRenderingEnabled(bool /* enabled */) {}
   virtual void SetPresentAvailable(bool /* available */) {}
   virtual bool Validate() { return true; }
-
+  
   virtual void Init(ApiVersion apiVersion) = 0;
   virtual ApiVersion GetApiVersion() const = 0;
   virtual std::string GetRendererName() const = 0;
   virtual std::string GetRendererVersion() const = 0;
+  virtual ref_ptr<dp::GraphicsContext> GetParallelContext() const = 0;
   
   virtual void PushDebugLabel(std::string const & label) = 0;
   virtual void PopDebugLabel() = 0;

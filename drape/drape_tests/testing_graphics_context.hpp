@@ -18,6 +18,7 @@ public:
   dp::ApiVersion GetApiVersion() const override { return m_apiVersion; }
   std::string GetRendererName() const override { return {}; }
   std::string GetRendererVersion() const override { return {}; }
+  virtual ref_ptr<dp::GraphicsContext> GetParallelContext() const { return nullptr; }
 
   void PushDebugLabel(std::string const & label) override {}
   void PopDebugLabel() override {}

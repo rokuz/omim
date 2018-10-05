@@ -104,6 +104,7 @@ bool IsStencilFormat(MTLPixelFormat format)
 
 id<MTLDepthStencilState> MetalStates::GetDepthStencilState(id<MTLDevice> device, DepthStencilKey const & key)
 {
+  std::lock_guard<std::mutex> lock(m_mutex);
   auto const it = m_depthStencilCache.find(key);
   if (it != m_depthStencilCache.end())
     return it->second;
@@ -116,6 +117,7 @@ id<MTLDepthStencilState> MetalStates::GetDepthStencilState(id<MTLDevice> device,
   
 id<MTLRenderPipelineState> MetalStates::GetPipelineState(id<MTLDevice> device, PipelineKey const & key)
 {
+  std::lock_guard<std::mutex> lock(m_mutex);
   auto const it = m_pipelineCache.find(key);
   if (it != m_pipelineCache.end())
     return it->second;
@@ -134,6 +136,7 @@ id<MTLRenderPipelineState> MetalStates::GetPipelineState(id<MTLDevice> device, P
   
 id<MTLSamplerState> MetalStates::GetSamplerState(id<MTLDevice> device, SamplerKey const & key)
 {
+  std::lock_guard<std::mutex> lock(m_mutex);
   auto const it = m_samplerCache.find(key);
   if (it != m_samplerCache.end())
     return it->second;

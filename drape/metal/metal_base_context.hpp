@@ -23,6 +23,7 @@ class MetalBaseContext : public dp::GraphicsContext
 public:
   using DrawableRequest = std::function<id<CAMetalDrawable>()>;
   
+  MetalBaseContext() = default;
   MetalBaseContext(id<MTLDevice> device, m2::PointU const & screenSize,
                    DrawableRequest && drawableRequest);
   
@@ -37,6 +38,7 @@ public:
   ApiVersion GetApiVersion() const override;
   std::string GetRendererName() const override;
   std::string GetRendererVersion() const override;
+  ref_ptr<dp::GraphicsContext> GetParallelContext() const override;
   
   void PushDebugLabel(std::string const & label) override;
   void PopDebugLabel() override;
@@ -53,18 +55,20 @@ public:
                          StencilAction depthFailAction, StencilAction passAction) override;
   void SetStencilReferenceValue(uint32_t stencilReferenceValue) override { m_stencilReferenceValue = stencilReferenceValue; }
   
-  id<MTLDevice> GetMetalDevice() const;
-  
+  virtual id<MTLDevice> GetMetalDevice() const;
   virtual id<MTLRenderCommandEncoder> GetCommandEncoder() const;
+  virtual id<MTLDepthStencilState> GetDepthStencilState();
+  id<MTLDepthStencilState> GetDepthStencilState(MetalStates::DepthStencilKey const & key);
+  virtual id<MTLRenderPipelineState> GetPipelineState(ref_ptr<GpuProgram> program, bool blendingEnabled);
+  virtual id<MTLSamplerState> GetSamplerState(TextureFilter filter, TextureWrapping wrapSMode,
+                                              TextureWrapping wrapTMode);
   
-  id<MTLDepthStencilState> GetDepthStencilState();
-  id<MTLRenderPipelineState> GetPipelineState(ref_ptr<GpuProgram> program, bool blendingEnabled);
-  id<MTLSamplerState> GetSamplerState(TextureFilter filter, TextureWrapping wrapSMode,
-                                      TextureWrapping wrapTMode);
+  virtual void SetSystemPrograms(drape_ptr<GpuProgram> && programClearColor,
+                                 drape_ptr<GpuProgram> && programClearDepth,
+                                 drape_ptr<GpuProgram> && programClearColorAndDepth);
   
-  void SetSystemPrograms(drape_ptr<GpuProgram> && programClearColor,
-                         drape_ptr<GpuProgram> && programClearDepth,
-                         drape_ptr<GpuProgram> && programClearColorAndDepth);
+  // Do not call this method, it's only for internal purposes. Use GetCommandEncoder() instead.
+  id<MTLRenderCommandEncoder> GetAdditionalCommandEncoder() const { return m_additionalCommandEncoder; }
   
 protected:
   void RecreateDepthTexture(m2::PointU const & screenSize);
@@ -75,10 +79,13 @@ protected:
 
   id<MTLDevice> m_device;
   DrawableRequest m_drawableRequest;
+  drape_ptr<dp::GraphicsContext> m_parallelContext;
+  
   drape_ptr<MetalTexture> m_depthTexture;
   MTLRenderPassDescriptor * m_renderPassDescriptor;
   id<MTLCommandQueue> m_commandQueue;
   ref_ptr<dp::BaseFramebuffer> m_currentFramebuffer;
+  
   MetalStates::DepthStencilKey m_currentDepthStencilKey;
   MetalStates m_metalStates;
   

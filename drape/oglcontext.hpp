@@ -12,6 +12,7 @@ public:
   std::string GetRendererName() const override;
   std::string GetRendererVersion() const override;
   void ApplyFramebuffer(bool enableParallel, std::string const & framebufferLabel) override {}
+  ref_ptr<dp::GraphicsContext> GetParallelContext() const override;
   
   void PushDebugLabel(std::string const & label) override {}
   void PopDebugLabel() override {}

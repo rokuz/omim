@@ -1,7 +1,5 @@
 #pragma once
 
-#include "base/thread.hpp"
-
 #include "drape_frontend/gui/layer_render.hpp"
 
 #include "drape_frontend/backend_renderer.hpp"
@@ -34,8 +32,13 @@
 #include "geometry/screenbase.hpp"
 #include "geometry/triangle2d.hpp"
 
+#include "base/thread.hpp"
+#include "base/worker_thread.hpp"
+
 #include <array>
+#include <condition_variable>
 #include <functional>
+#include <mutex>
 #include <unordered_set>
 #include <vector>
 
@@ -161,6 +164,8 @@ private:
   };
   // Render part of scene
   void Render2dLayer(ScreenBase const & modelView);
+  void Render2dLayerForContext(ref_ptr<dp::GraphicsContext> context, RenderLayer & layer,
+                               ScreenBase const & modelView);
   void PreRender3dLayer(ScreenBase const & modelView);
   void Render3dLayer(ScreenBase const & modelView);
   void RenderOverlayLayer(ScreenBase const & modelView);
@@ -366,6 +371,11 @@ private:
     static uint32_t constexpr kMaxInactiveFrames = 2;
   };
   FrameData m_frameData;
+
+  drape_ptr<base::WorkerThread> m_additionalRenderThread;
+  bool m_additionalRenderThreadFinished = true;
+  std::condition_variable m_additionalRenderThreadCondition;
+  std::mutex m_additionalRenderThreadMutex;
 
 #ifdef DEBUG
   bool m_isTeardowned;
