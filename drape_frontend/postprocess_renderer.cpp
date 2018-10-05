@@ -291,7 +291,7 @@ bool PostprocessRenderer::EndFrame(ref_ptr<dp::GraphicsContext> context,
       context->SetStencilActions(dp::StencilFace::FrontAndBack, dp::StencilAction::Zero,
                                  dp::StencilAction::Zero, dp::StencilAction::Replace);
       context->SetStencilReferenceValue(1);
-      context->ApplyFramebuffer("SMAA edges");
+      context->ApplyFramebuffer(false /* enableParallel */, "SMAA edges");
       viewport.Apply(context);
 
       EdgesRenderParams params;
@@ -309,7 +309,7 @@ bool PostprocessRenderer::EndFrame(ref_ptr<dp::GraphicsContext> context,
       context->SetStencilFunction(dp::StencilFace::FrontAndBack, dp::TestFunction::Equal);
       context->SetStencilActions(dp::StencilFace::FrontAndBack, dp::StencilAction::Keep,
                                  dp::StencilAction::Keep, dp::StencilAction::Keep);
-      context->ApplyFramebuffer("SMAA blending");
+      context->ApplyFramebuffer(false /* enableParallel */, "SMAA blending");
       viewport.Apply(context);
 
       BlendingWeightRenderParams params;
@@ -328,7 +328,7 @@ bool PostprocessRenderer::EndFrame(ref_ptr<dp::GraphicsContext> context,
     {
       context->SetFramebuffer(make_ref(m_smaaFramebuffer));
       context->Clear(dp::ClearBits::ColorBit, dp::ClearBits::ColorBit /* storeBits */);
-      context->ApplyFramebuffer("SMAA final");
+      context->ApplyFramebuffer(false /* enableParallel */, "SMAA final");
       viewport.Apply(context);
 
       SMAAFinalRenderParams params;
@@ -355,7 +355,7 @@ bool PostprocessRenderer::EndFrame(ref_ptr<dp::GraphicsContext> context,
   if (m_framebufferFallback())
   {
     context->Clear(dp::ClearBits::ColorBit, dp::ClearBits::ColorBit /* storeBits */);
-    context->ApplyFramebuffer("Dynamic frame");
+    context->ApplyFramebuffer(false /* enableParallel */, "Dynamic frame");
     viewport.Apply(context);
     
     DefaultScreenQuadRenderParams params;

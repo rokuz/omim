@@ -1298,7 +1298,7 @@ void FrontendRenderer::RenderScene(ScreenBase const & modelView, bool activeFram
     }
 
     m_context->Clear(clearBits, storeBits);
-    m_context->ApplyFramebuffer("Static frame");
+    m_context->ApplyFramebuffer(m_apiVersion == dp::ApiVersion::Metal /* enableParallel */, "Static frame");
     m_viewport.Apply(m_context);
 
     Render2dLayer(modelView);
@@ -1410,7 +1410,7 @@ void FrontendRenderer::PreRender3dLayer(ScreenBase const & modelView)
   m_context->SetFramebuffer(make_ref(m_buildingsFramebuffer));
   m_context->SetClearColor(dp::Color::Transparent());
   m_context->Clear(dp::ClearBits::ColorBit | dp::ClearBits::DepthBit, dp::ClearBits::ColorBit /* storeBits */);
-  m_context->ApplyFramebuffer("Buildings");
+  m_context->ApplyFramebuffer(false /* enableParallel */, "Buildings");
   m_viewport.Apply(m_context);
   
   layer.Sort(make_ref(m_overlayTree));
@@ -1574,7 +1574,7 @@ void FrontendRenderer::RenderEmptyFrame()
   auto const c = dp::Extract(drule::rules().GetBgColor(1 /* scale */), 255);
   m_context->SetClearColor(c);
   m_context->Clear(dp::ClearBits::ColorBit, dp::ClearBits::ColorBit /* storeBits */);
-  m_context->ApplyFramebuffer("Empty frame");
+  m_context->ApplyFramebuffer(false /* enableParallel */, "Empty frame");
   m_viewport.Apply(m_context);
 
   m_context->Present();

@@ -32,7 +32,7 @@ public:
   bool Validate() override { return true; }
   void Resize(int w, int h) override;
   void SetFramebuffer(ref_ptr<dp::BaseFramebuffer> framebuffer) override;
-  void ApplyFramebuffer(std::string const & framebufferLabel) override;
+  void ApplyFramebuffer(bool enableParallel, std::string const & framebufferLabel) override;
   void Init(ApiVersion apiVersion) override;
   ApiVersion GetApiVersion() const override;
   std::string GetRendererName() const override;
@@ -54,7 +54,9 @@ public:
   void SetStencilReferenceValue(uint32_t stencilReferenceValue) override { m_stencilReferenceValue = stencilReferenceValue; }
   
   id<MTLDevice> GetMetalDevice() const;
-  id<MTLRenderCommandEncoder> GetCommandEncoder() const;
+  
+  virtual id<MTLRenderCommandEncoder> GetCommandEncoder() const;
+  
   id<MTLDepthStencilState> GetDepthStencilState();
   id<MTLRenderPipelineState> GetPipelineState(ref_ptr<GpuProgram> program, bool blendingEnabled);
   id<MTLSamplerState> GetSamplerState(TextureFilter filter, TextureWrapping wrapSMode,
@@ -68,6 +70,7 @@ protected:
   void RecreateDepthTexture(m2::PointU const & screenSize);
   void RequestFrameDrawable();
   void ResetFrameDrawable();
+  void InitEncoder(id<MTLRenderCommandEncoder> encoder, std::string const & label);
   void FinishCurrentEncoding();
 
   id<MTLDevice> m_device;
@@ -83,6 +86,9 @@ protected:
   id<CAMetalDrawable> m_frameDrawable;
   id<MTLCommandBuffer> m_frameCommandBuffer;
   id<MTLRenderCommandEncoder> m_currentCommandEncoder;
+  
+  id<MTLParallelRenderCommandEncoder> m_currentParallelCommandEncoder;
+  id<MTLRenderCommandEncoder> m_additionalCommandEncoder;
   
   MetalCleaner m_cleaner;
   

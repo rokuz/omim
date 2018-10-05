@@ -12,7 +12,7 @@ public:
   void Present() override {}
   void MakeCurrent() override {}
   void SetFramebuffer(ref_ptr<dp::BaseFramebuffer> framebuffer) override {}
-  void ApplyFramebuffer(std::string const & framebufferLabel) override {}
+  void ApplyFramebuffer(bool enableParallel, std::string const & framebufferLabel) override {}
 
   void Init(dp::ApiVersion apiVersion) override {}
   dp::ApiVersion GetApiVersion() const override { return m_apiVersion; }

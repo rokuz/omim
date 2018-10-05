@@ -8,6 +8,7 @@
 
 #include <cstdint>
 #include <map>
+#include <mutex>
 
 namespace dp
 {
@@ -72,6 +73,8 @@ private:
   
   using SamplerCache = std::map<SamplerKey, id<MTLSamplerState>>;
   SamplerCache m_samplerCache;
+  
+  std::mutex 
 };
 }  // namespace metal
 }  // namespace dp

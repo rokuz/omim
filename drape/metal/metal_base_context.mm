@@ -114,16 +114,18 @@ std::string MetalBaseContext::GetRendererVersion() const
   
 void MetalBaseContext::PushDebugLabel(std::string const & label)
 {
-  if (m_currentCommandEncoder == nil)
+  id<MTLRenderCommandEncoder> encoder = GetCommandEncoder();
+  if (encoder == nil)
     return;
-  [m_currentCommandEncoder pushDebugGroup:@(label.c_str())];
+  [encoder pushDebugGroup:@(label.c_str())];
 }
   
 void MetalBaseContext::PopDebugLabel()
 {
-  if (m_currentCommandEncoder == nil)
+  id<MTLRenderCommandEncoder> encoder = GetCommandEncoder();
+  if (encoder == nil)
     return;
-  [m_currentCommandEncoder popDebugGroup];
+  [encoder popDebugGroup];
 }
   
 void MetalBaseContext::Resize(int w, int h)
@@ -140,7 +142,7 @@ void MetalBaseContext::SetFramebuffer(ref_ptr<dp::BaseFramebuffer> framebuffer)
   m_currentFramebuffer = framebuffer;
 }
 
-void MetalBaseContext::ApplyFramebuffer(std::string const & framebufferLabel)
+void MetalBaseContext::ApplyFramebuffer(bool enableParallel, std::string const & framebufferLabel)
 {
   // Initialize frame command buffer if there is no one.
   if (!m_frameCommandBuffer)
@@ -184,14 +186,35 @@ void MetalBaseContext::ApplyFramebuffer(std::string const & framebufferLabel)
   }
   
   CHECK(m_currentCommandEncoder == nil, ("Current command encoder was not finished."));
-  m_currentCommandEncoder = [m_frameCommandBuffer renderCommandEncoderWithDescriptor:m_renderPassDescriptor];
-  m_currentCommandEncoder.label = @(framebufferLabel.c_str());
-  [m_currentCommandEncoder pushDebugGroup:@(framebufferLabel.c_str())];
+  
+  if (enableParallel)
+  {
+    m_currentParallelCommandEncoder = [m_frameCommandBuffer parallelRenderCommandEncoderWithDescriptor:m_renderPassDescriptor];
+    m_currentCommandEncoder.label = @((framebufferLabel + " Parallel").c_str());
+    
+    // Additional encoder here is before the main one. It means it will be "renderer early".
+    m_additionalCommandEncoder = [m_currentParallelCommandEncoder renderCommandEncoder];
+    InitEncoder(m_additionalCommandEncoder, framebufferLabel + " Additional");
+    
+    m_currentCommandEncoder = [m_currentParallelCommandEncoder renderCommandEncoder];
+    InitEncoder(m_additionalCommandEncoder, framebufferLabel + " Main");
+  }
+  else
+  {
+    m_currentCommandEncoder = [m_frameCommandBuffer renderCommandEncoderWithDescriptor:m_renderPassDescriptor];
+    InitEncoder(m_currentCommandEncoder, framebufferLabel);
+  }
+}
+  
+void MetalBaseContext::InitEncoder(id<MTLRenderCommandEncoder> encoder, std::string const & label)
+{
+  encoder.label = @(label.c_str());
+  [encoder pushDebugGroup:@(label.c_str())];
   
   // Default rendering options.
-  [m_currentCommandEncoder setFrontFacingWinding:MTLWindingClockwise];
-  [m_currentCommandEncoder setCullMode:MTLCullModeBack];
-  [m_currentCommandEncoder setStencilReferenceValue:m_stencilReferenceValue];
+  [encoder setFrontFacingWinding:MTLWindingClockwise];
+  [encoder setCullMode:MTLCullModeBack];
+  [encoder setStencilReferenceValue:m_stencilReferenceValue];
 }
 
 void MetalBaseContext::SetClearColor(dp::Color const & color)
@@ -203,14 +226,15 @@ void MetalBaseContext::SetClearColor(dp::Color const & color)
   
 void MetalBaseContext::Clear(uint32_t clearBits, uint32_t storeBits)
 {
-  if (m_currentCommandEncoder != nil)
+  id<MTLRenderCommandEncoder> encoder = GetCommandEncoder();
+  if (encoder != nil)
   {
     if ((clearBits & ClearBits::ColorBit) && (clearBits & ClearBits::DepthBit))
-      m_cleaner.ClearColorAndDepth(make_ref(this), m_currentCommandEncoder);
+      m_cleaner.ClearColorAndDepth(make_ref(this), encoder);
     else if (clearBits & ClearBits::ColorBit)
-      m_cleaner.ClearColor(make_ref(this), m_currentCommandEncoder);
+      m_cleaner.ClearColor(make_ref(this), encoder);
     else if (clearBits & ClearBits::DepthBit)
-      m_cleaner.ClearDepth(make_ref(this), m_currentCommandEncoder);
+      m_cleaner.ClearDepth(make_ref(this), encoder);
     
     if (clearBits & ClearBits::StencilBit)
       CHECK(false, ("Stencil clearing is not implemented"));
@@ -307,7 +331,7 @@ id<MTLDepthStencilState> MetalBaseContext::GetDepthStencilState()
   
 id<MTLRenderPipelineState> MetalBaseContext::GetPipelineState(ref_ptr<GpuProgram> program, bool blendingEnabled)
 {
-  CHECK(m_currentCommandEncoder != nil, ("Probably encoding commands were called before ApplyFramebuffer."));
+  CHECK(GetCommandEncoder() != nil, ("Probably encoding commands were called before ApplyFramebuffer."));
   
   id<MTLTexture> colorTexture = m_renderPassDescriptor.colorAttachments[0].texture;
   CHECK(colorTexture != nil, ());
@@ -360,9 +384,17 @@ void MetalBaseContext::ResetFrameDrawable()
 
 void MetalBaseContext::FinishCurrentEncoding()
 {
+  [m_additionalCommandEncoder popDebugGroup];
+  [m_additionalCommandEncoder endEncoding];
+  
   [m_currentCommandEncoder popDebugGroup];
   [m_currentCommandEncoder endEncoding];
+  
+  [m_currentParallelCommandEncoder endEncoding];
+  
   m_currentCommandEncoder = nil;
+  m_additionalCommandEncoder = nil;
+  m_currentParallelCommandEncoder = nil;
 }
   
 void MetalBaseContext::SetSystemPrograms(drape_ptr<GpuProgram> && programClearColor,

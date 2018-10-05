@@ -11,7 +11,7 @@ public:
   ApiVersion GetApiVersion() const override;
   std::string GetRendererName() const override;
   std::string GetRendererVersion() const override;
-  void ApplyFramebuffer(std::string const & framebufferLabel) override {}
+  void ApplyFramebuffer(bool enableParallel, std::string const & framebufferLabel) override {}
   
   void PushDebugLabel(std::string const & label) override {}
   void PopDebugLabel() override {}
