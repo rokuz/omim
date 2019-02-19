@@ -81,6 +81,15 @@ public:
     m_geometryBuffers.clear();
   }
 
+  void ResetCache(dp::RenderState const & state) override
+  {
+    if (state.GetColorTexture() != m_lastColorTexture)
+    {
+      m_lastColorTexture == state.GetColorTexture();
+      ResetDescriptorSetGroup();
+    }
+  }
+
   void UpdateBuffer(ref_ptr<dp::GraphicsContext> context, uint32_t bufferInd) override
   {
     CHECK_LESS(bufferInd, static_cast<uint32_t>(m_geometryBuffers.size()), ());
@@ -188,6 +197,7 @@ private:
   std::vector<VulkanObject> m_geometryBuffers;
   std::vector<dp::BindingInfo> m_bindingInfo;
   DescriptorSetGroup m_descriptorSetGroup;
+  ref_ptr<dp::Texture> m_lastColorTexture;
 };
 }  // namespace vulkan
 
