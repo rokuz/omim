@@ -85,7 +85,7 @@ public:
   {
     if (state.GetColorTexture() != m_lastColorTexture)
     {
-      m_lastColorTexture == state.GetColorTexture();
+      m_lastColorTexture = state.GetColorTexture();
       ResetDescriptorSetGroup();
     }
   }
