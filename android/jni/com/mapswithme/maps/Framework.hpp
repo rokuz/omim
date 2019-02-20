@@ -97,7 +97,7 @@ namespace android
     bool CreateDrapeEngine(JNIEnv * env, jobject jSurface, int densityDpi, bool firstLaunch,
                            bool launchByDeepLink, int appVersionCode);
     bool IsDrapeEngineCreated();
-
+    bool DestroyContextOnSurfaceDetach();
     void DetachSurface(bool destroyContext);
     bool AttachSurface(JNIEnv * env, jobject jSurface);
     void PauseSurfaceRendering();
@@ -117,7 +117,7 @@ namespace android
       return m_work.GetRoutingManager().GetLastUsedRouter();
     }
 
-    void Resize(int w, int h);
+    void Resize(JNIEnv * env, jobject jSurface, int w, int h);
 
     struct Finger
     {

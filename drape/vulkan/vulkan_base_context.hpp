@@ -5,6 +5,7 @@
 #include "drape/vulkan/vulkan_gpu_program.hpp"
 #include "drape/vulkan/vulkan_object_manager.hpp"
 #include "drape/vulkan/vulkan_pipeline.hpp"
+#include "drape/vulkan/vulkan_texture.hpp"
 #include "drape/vulkan/vulkan_utils.hpp"
 
 #include "geometry/point2d.hpp"
@@ -40,7 +41,7 @@ public:
   void Present() override;
   void MakeCurrent() override {};
   void DoneCurrent() override {};
-  bool Validate() override;
+  bool Validate() override { return true; }
   void Resize(int w, int h) override;
   void SetFramebuffer(ref_ptr<dp::BaseFramebuffer> framebuffer) override;
   void ApplyFramebuffer(std::string const & framebufferLabel) override;
@@ -74,8 +75,8 @@ public:
   void ClearParamDescriptors();
 
   void SetSurface(VkSurfaceKHR surface, VkSurfaceFormatKHR surfaceFormat,
-                  VkSurfaceCapabilitiesKHR surfaceCapabilities, int width, int height);
-  void ResetSurface();
+                  VkSurfaceCapabilitiesKHR const & surfaceCapabilities);
+  void ResetSurface(bool allowPipelineDump);
 
   VkPhysicalDevice const GetPhysicalDevice() const { return m_gpu; }
   VkDevice GetDevice() const { return m_device; }
@@ -117,16 +118,31 @@ protected:
   void CreateCommandBuffers();
   void DestroyCommandBuffers();
 
-  void CreateDepthTexture();
-  void DestroyDepthTexture();
+  void CreateSyncPrimitives();
+  void DestroySyncPrimitives();
 
-  VkRenderPass CreateRenderPass(uint32_t attachmentsCount, VkFormat colorFormat,
-                                VkAttachmentLoadOp loadOp, VkAttachmentStoreOp storeOp,
-                                VkImageLayout initLayout, VkImageLayout finalLayout,
-                                VkFormat depthFormat, VkAttachmentLoadOp depthLoadOp,
-                                VkAttachmentStoreOp depthStoreOp, VkAttachmentLoadOp stencilLoadOp,
-                                VkAttachmentStoreOp stencilStoreOp, VkImageLayout depthInitLayout,
-                                VkImageLayout depthFinalLayout);
+  void DestroyFramebuffers();
+
+  void RecreateDepthTexture();
+
+  struct AttachmentOp
+  {
+    VkAttachmentLoadOp m_loadOp = VK_ATTACHMENT_LOAD_OP_DONT_CARE;
+    VkAttachmentStoreOp m_storeOp = VK_ATTACHMENT_STORE_OP_DONT_CARE;
+  };
+
+  struct AttachmentsOperations
+  {
+    AttachmentOp m_color;
+    AttachmentOp m_depth;
+    AttachmentOp m_stencil;
+  };
+
+  AttachmentsOperations GetAttachmensOperations();
+
+  VkRenderPass CreateRenderPass(uint32_t attachmentsCount, AttachmentsOperations const & attachmentsOp,
+                                VkFormat colorFormat, VkImageLayout initLayout, VkImageLayout finalLayout,
+                                VkFormat depthFormat, VkImageLayout depthInitLayout, VkImageLayout depthFinalLayout);
 
   VkInstance const m_vulkanInstance;
   VkPhysicalDevice const m_gpu;
@@ -159,7 +175,7 @@ protected:
   std::vector<VkImage> m_swapchainImages;
   uint32_t m_imageIndex = 0;
 
-  VulkanObject m_depthStencil;
+  drape_ptr<VulkanTexture> m_depthTexture;
 
   uint32_t m_clearBits;
   uint32_t m_storeBits;
