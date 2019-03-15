@@ -188,7 +188,8 @@ void Platform::GetFontNames(FilesList & res) const
     "04_padauk.ttf",
     "05_khmeros.ttf",
     "06_code2000.ttf",
-    "07_roboto_medium.ttf"
+    "07_roboto_medium.ttf",
+    "08_abhaya_libre_regular.ttf"
   };
   res.insert(res.end(), arrDef, arrDef + ARRAY_SIZE(arrDef));
 

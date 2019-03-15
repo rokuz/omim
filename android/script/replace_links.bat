@@ -56,6 +56,7 @@ cp ../data/04_padauk.ttf flavors/mwm-ttf-assets/
 cp ../data/05_khmeros.ttf flavors/mwm-ttf-assets/
 cp ../data/06_code2000.ttf flavors/mwm-ttf-assets/
 cp ../data/07_roboto_medium.ttf flavors/mwm-ttf-assets/
+cp ../data/08_abhaya_libre_regular.ttf flavors/mwm-ttf-assets/
 cp ../data/World.mwm flavors/mwm-ttf-assets/
 cp ../data/WorldCoasts.mwm flavors/mwm-ttf-assets/
 cp ../data/WorldCoasts_obsolete.mwm flavors/mwm-ttf-assets/

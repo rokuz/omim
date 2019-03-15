@@ -8,3 +8,4 @@ World.mwm 33670966
 05_khmeros.ttf 265552
 06_code2000.ttf 3155104
 07_roboto_medium.ttf 162588
+08_abhaya_libre_regular.ttf 555376
